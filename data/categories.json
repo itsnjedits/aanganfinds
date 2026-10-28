@@ -1,0 +1,27 @@
+[
+  {
+    "id": "all",
+    "label": "Everything",
+    "symbol": "✦"
+  },
+  {
+    "id": "jewellery-sets",
+    "label": "Jewellery Sets",
+    "symbol": "✧"
+  },
+  {
+    "id": "necklaces",
+    "label": "Necklaces",
+    "symbol": "⌁"
+  },
+  {
+    "id": "gift-sets",
+    "label": "Gift Sets",
+    "symbol": "♡"
+  },
+  {
+    "id": "home-decor",
+    "label": "Home Decor",
+    "symbol": "✺"
+  }
+]

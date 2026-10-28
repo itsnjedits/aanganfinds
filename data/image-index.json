@@ -1,0 +1,418 @@
+{
+  "count": 59,
+  "images": [
+    {
+      "productId": "AF-JW-001",
+      "productName": "Ridhi Sidhi Collection Brass White Jewel Set",
+      "imageId": "AF-JW-001-1",
+      "imagePath": "./product_images/AF-JW-001-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-002",
+      "productName": "Savarajewels Brass and Alloy Multicolour White Jewel Set",
+      "imageId": "AF-JW-002-1",
+      "imagePath": "./product_images/AF-JW-002-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-002",
+      "productName": "Savarajewels Brass and Alloy Multicolour White Jewel Set",
+      "imageId": "AF-JW-002-2",
+      "imagePath": "./product_images/AF-JW-002-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-003",
+      "productName": "Sanchi Alloy Multicolour Jewel Set (Pack of 5)",
+      "imageId": "AF-JW-003-1",
+      "imagePath": "./product_images/AF-JW-003-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-004",
+      "productName": "Sanchi Alloy Gold Jewel Set (Pack of 3)",
+      "imageId": "AF-JW-004-1",
+      "imagePath": "./product_images/AF-JW-004-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-004",
+      "productName": "Sanchi Alloy Gold Jewel Set (Pack of 3)",
+      "imageId": "AF-JW-004-2",
+      "imagePath": "./product_images/AF-JW-004-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-005",
+      "productName": "Zestylo Gold-plated Gold and Green Jewel Set",
+      "imageId": "AF-JW-005-1",
+      "imagePath": "./product_images/AF-JW-005-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-005",
+      "productName": "Zestylo Gold-plated Gold and Green Jewel Set",
+      "imageId": "AF-JW-005-2",
+      "imagePath": "./product_images/AF-JW-005-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-006",
+      "productName": "Visitart Jewellery Gold-plated Gold Jewel Set (Pack of 2)",
+      "imageId": "AF-JW-006-1",
+      "imagePath": "./product_images/AF-JW-006-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-006",
+      "productName": "Visitart Jewellery Gold-plated Gold Jewel Set (Pack of 2)",
+      "imageId": "AF-JW-006-2",
+      "imagePath": "./product_images/AF-JW-006-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-007",
+      "productName": "TheSanga Brass Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-007-1",
+      "imagePath": "./product_images/AF-JW-007-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-007",
+      "productName": "TheSanga Brass Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-007-2",
+      "imagePath": "./product_images/AF-JW-007-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-008",
+      "productName": "TheSanga Brass Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-008-1",
+      "imagePath": "./product_images/AF-JW-008-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-008",
+      "productName": "TheSanga Brass Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-008-2",
+      "imagePath": "./product_images/AF-JW-008-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-009",
+      "productName": "YASHCollection Brass Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-009-1",
+      "imagePath": "./product_images/AF-JW-009-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-009",
+      "productName": "YASHCollection Brass Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-009-2",
+      "imagePath": "./product_images/AF-JW-009-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-010",
+      "productName": "Bulsenk Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-010-1",
+      "imagePath": "./product_images/AF-JW-010-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-010",
+      "productName": "Bulsenk Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-010-2",
+      "imagePath": "./product_images/AF-JW-010-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-011",
+      "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-011-1",
+      "imagePath": "./product_images/AF-JW-011-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-012",
+      "productName": "SVENTS Alloy Gold and White Jewel Set (Pack of 2)",
+      "imageId": "AF-JW-012-1",
+      "imagePath": "./product_images/AF-JW-012-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-012",
+      "productName": "SVENTS Alloy Gold and White Jewel Set (Pack of 2)",
+      "imageId": "AF-JW-012-2",
+      "imagePath": "./product_images/AF-JW-012-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-013",
+      "productName": "Flaring Brass Gold-plated Gold Jewel Set (Pack of 2)",
+      "imageId": "AF-JW-013-1",
+      "imagePath": "./product_images/AF-JW-013-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-013",
+      "productName": "Flaring Brass Gold-plated Gold Jewel Set (Pack of 2)",
+      "imageId": "AF-JW-013-2",
+      "imagePath": "./product_images/AF-JW-013-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-014",
+      "productName": "BOGHRA SALES Brass, Metal and Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-014-1",
+      "imagePath": "./product_images/AF-JW-014-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-014",
+      "productName": "BOGHRA SALES Brass, Metal and Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-014-2",
+      "imagePath": "./product_images/AF-JW-014-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-015",
+      "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-015-1",
+      "imagePath": "./product_images/AF-JW-015-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-015",
+      "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-015-2",
+      "imagePath": "./product_images/AF-JW-015-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-016",
+      "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-016-1",
+      "imagePath": "./product_images/AF-JW-016-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-016",
+      "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-016-2",
+      "imagePath": "./product_images/AF-JW-016-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-017",
+      "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-017-1",
+      "imagePath": "./product_images/AF-JW-017-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-017",
+      "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-017-2",
+      "imagePath": "./product_images/AF-JW-017-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-018",
+      "productName": "Jewel WORLD Brass and Alloy Gold-plated Gold Jewel Set",
+      "imageId": "AF-JW-018-1",
+      "imagePath": "./product_images/AF-JW-018-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-019",
+      "productName": "ENTAN Liyer Chain, Silver-plated Metal Layered Necklace with Stones",
+      "imageId": "AF-JW-019-1",
+      "imagePath": "./product_images/AF-JW-019-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-019",
+      "productName": "ENTAN Liyer Chain, Silver-plated Metal Layered Necklace with Stones",
+      "imageId": "AF-JW-019-2",
+      "imagePath": "./product_images/AF-JW-019-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-020",
+      "productName": "MoonPearl Gold-plated Stainless Steel Necklace",
+      "imageId": "AF-JW-020-1",
+      "imagePath": "./product_images/AF-JW-020-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-020",
+      "productName": "MoonPearl Gold-plated Stainless Steel Necklace",
+      "imageId": "AF-JW-020-2",
+      "imagePath": "./product_images/AF-JW-020-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-021",
+      "productName": "Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set",
+      "imageId": "AF-JW-021-1",
+      "imagePath": "./product_images/AF-JW-021-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-021",
+      "productName": "Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set",
+      "imageId": "AF-JW-021-2",
+      "imagePath": "./product_images/AF-JW-021-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-022",
+      "productName": "Alucia Bracelet, Jewellery, Keychain and Gift Box Set",
+      "imageId": "AF-JW-022-1",
+      "imagePath": "./product_images/AF-JW-022-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-022",
+      "productName": "Alucia Bracelet, Jewellery, Keychain and Gift Box Set",
+      "imageId": "AF-JW-022-2",
+      "imagePath": "./product_images/AF-JW-022-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-023",
+      "productName": "STARLIVEN Jewellery Gift Set",
+      "imageId": "AF-JW-023-1",
+      "imagePath": "./product_images/AF-JW-023-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-023",
+      "productName": "STARLIVEN Jewellery Gift Set",
+      "imageId": "AF-JW-023-2",
+      "imagePath": "./product_images/AF-JW-023-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-024",
+      "productName": "STARLIVEN Jewellery Gift Set",
+      "imageId": "AF-JW-024-1",
+      "imagePath": "./product_images/AF-JW-024-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-025",
+      "productName": "STARLIVEN Jewellery Gift Set",
+      "imageId": "AF-JW-025-1",
+      "imagePath": "./product_images/AF-JW-025-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-025",
+      "productName": "STARLIVEN Jewellery Gift Set",
+      "imageId": "AF-JW-025-2",
+      "imagePath": "./product_images/AF-JW-025-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-026",
+      "productName": "Dear 90 Gift Box Gift Set",
+      "imageId": "AF-JW-026-1",
+      "imagePath": "./product_images/AF-JW-026-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-026",
+      "productName": "Dear 90 Gift Box Gift Set",
+      "imageId": "AF-JW-026-2",
+      "imagePath": "./product_images/AF-JW-026-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-027",
+      "productName": "PurePendant Jewellery Gift Box Gift Set",
+      "imageId": "AF-JW-027-1",
+      "imagePath": "./product_images/AF-JW-027-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-027",
+      "productName": "PurePendant Jewellery Gift Box Gift Set",
+      "imageId": "AF-JW-027-2",
+      "imagePath": "./product_images/AF-JW-027-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-028",
+      "productName": "Alucia Bracelet, Gift Box, Keychain and Jewellery Set",
+      "imageId": "AF-JW-028-1",
+      "imagePath": "./product_images/AF-JW-028-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-028",
+      "productName": "Alucia Bracelet, Gift Box, Keychain and Jewellery Set",
+      "imageId": "AF-JW-028-2",
+      "imagePath": "./product_images/AF-JW-028-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-029",
+      "productName": "Alucia Bracelet, Jewellery, Keychain and Gift Box Set",
+      "imageId": "AF-JW-029-1",
+      "imagePath": "./product_images/AF-JW-029-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-030",
+      "productName": "STARLIVEN Jewellery Gift Set",
+      "imageId": "AF-JW-030-1",
+      "imagePath": "./product_images/AF-JW-030-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-031",
+      "productName": "Mohmit Mart Jewellery and Gift Box Gift Set",
+      "imageId": "AF-JW-031-1",
+      "imagePath": "./product_images/AF-JW-031-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-032",
+      "productName": "Alucia Bracelet, Jewellery, Keychain and Gift Box Set",
+      "imageId": "AF-JW-032-1",
+      "imagePath": "./product_images/AF-JW-032-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-032",
+      "productName": "Alucia Bracelet, Jewellery, Keychain and Gift Box Set",
+      "imageId": "AF-JW-032-2",
+      "imagePath": "./product_images/AF-JW-032-2.jpg",
+      "imageOrder": 2
+    },
+    {
+      "productId": "AF-JW-033",
+      "productName": "Ji Shri Jewellery, Keychain and Bracelet Gift Set",
+      "imageId": "AF-JW-033-1",
+      "imagePath": "./product_images/AF-JW-033-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-034",
+      "productName": "Mycraftcrazy Showpiece Gift Set",
+      "imageId": "AF-JW-034-1",
+      "imagePath": "./product_images/AF-JW-034-1.jpg",
+      "imageOrder": 1
+    },
+    {
+      "productId": "AF-JW-034",
+      "productName": "Mycraftcrazy Showpiece Gift Set",
+      "imageId": "AF-JW-034-2",
+      "imagePath": "./product_images/AF-JW-034-2.jpg",
+      "imageOrder": 2
+    }
+  ]
+}

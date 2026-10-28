@@ -1,0 +1,25 @@
+{
+  "id": "AF-JW-035",
+  "slug": "new-product-name",
+  "name": "Product name",
+  "category": "jewellery-sets",
+  "categoryLabel": "Jewellery Sets",
+  "description": "Add only product details you have verified.",
+  "shortDescription": "Jewellery set · details available on enquiry",
+  "price": 0,
+  "currency": "INR",
+  "images": [
+    "./product_images/AF-JW-035-1.jpg"
+  ],
+  "imageIds": [
+    "AF-JW-035-1"
+  ],
+  "badge": "Jewellery set",
+  "featured": false,
+  "active": false,
+  "tags": [
+    "jewellery",
+    "gift"
+  ],
+  "specifications": {}
+}

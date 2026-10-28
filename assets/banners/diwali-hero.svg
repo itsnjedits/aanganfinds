@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 850" fill="none">
+ <defs>
+  <linearGradient id="bg" x1="85" y1="30" x2="740" y2="820" gradientUnits="userSpaceOnUse"><stop stop-color="#FCE8C9"/><stop offset=".55" stop-color="#F4C98E"/><stop offset="1" stop-color="#D98853"/></linearGradient>
+  <linearGradient id="arch" x1="400" y1="90" x2="400" y2="700" gradientUnits="userSpaceOnUse"><stop stop-color="#672B3A"/><stop offset="1" stop-color="#38151F"/></linearGradient>
+  <linearGradient id="floor" x1="400" y1="600" x2="400" y2="810" gradientUnits="userSpaceOnUse"><stop stop-color="#A94F3A"/><stop offset="1" stop-color="#6C2A31"/></linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 205 -205 0 410 575)" gradientUnits="userSpaceOnUse"><stop stop-color="#FFD68A" stop-opacity=".85"/><stop offset="1" stop-color="#F3B15C" stop-opacity="0"/></radialGradient>
+  <linearGradient id="diya" x1="315" y1="575" x2="500" y2="693" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE0A2"/><stop offset=".38" stop-color="#D68A38"/><stop offset="1" stop-color="#893729"/></linearGradient>
+  <filter id="shadow" x="220" y="522" width="390" height="240" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="15"/></filter>
+  <pattern id="speckles" width="70" height="70" patternUnits="userSpaceOnUse"><circle cx="6" cy="7" r="1.7" fill="#FFF4D9" opacity=".5"/><circle cx="48" cy="32" r="1.2" fill="#6E2E37" opacity=".22"/><circle cx="28" cy="59" r="1" fill="#FFF5DD" opacity=".45"/></pattern>
+ </defs>
+ <rect width="800" height="850" rx="24" fill="url(#bg)"/>
+ <rect width="800" height="850" rx="24" fill="url(#speckles)"/>
+ <circle cx="112" cy="160" r="58" fill="#FFF2D7" opacity=".2"/><circle cx="692" cy="247" r="83" fill="#FFF0CF" opacity=".15"/>
+ <!-- festive arch -->
+ <path d="M94 690V335C94 167 218 63 401 63s305 104 305 272v355H94Z" fill="#B86245" opacity=".26"/>
+ <path d="M132 685V337C132 188 236 97 400 97s268 91 268 240v348H132Z" fill="url(#arch)" stroke="#F7D39C" stroke-width="4"/>
+ <path d="M160 680V339c0-133 90-214 240-214s240 81 240 214v341" stroke="#D79857" stroke-width="2" opacity=".8"/>
+ <path d="M193 679V341c0-112 75-180 207-180s207 68 207 180v338" stroke="#F1BC6A" stroke-width="1.5" opacity=".35"/>
+ <circle cx="400" cy="320" r="160" fill="#E9A64F" opacity=".08"/><circle cx="400" cy="320" r="118" stroke="#E8BC7F" stroke-width="1.5" opacity=".35"/>
+ <!-- floral star rangoli -->
+ <g transform="translate(400 320)" opacity=".78">
+  <circle r="85" stroke="#E6B873" stroke-width="1.4"/>
+  <circle r="70" stroke="#F3D7A4" stroke-width="1"/>
+  <g fill="#D89A4B"><ellipse cy="-57" rx="9" ry="23"/><ellipse cy="57" rx="9" ry="23"/><ellipse cx="-57" rx="23" ry="9"/><ellipse cx="57" rx="23" ry="9"/><ellipse transform="rotate(45)" cy="-57" rx="9" ry="23"/><ellipse transform="rotate(45)" cy="57" rx="9" ry="23"/><ellipse transform="rotate(-45)" cy="-57" rx="9" ry="23"/><ellipse transform="rotate(-45)" cy="57" rx="9" ry="23"/></g>
+  <circle r="17" fill="#F9D995"/><circle r="7" fill="#F7E7C9"/>
+ </g>
+ <!-- small stars -->
+ <g fill="#F5D49B"><path d="M236 221l5 12 12 5-12 5-5 12-5-12-12-5 12-5 5-12Z"/><path d="M560 370l4 10 10 4-10 4-4 10-4-10-10-4 10-4 4-10Z"/><path d="M250 431l3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7Z"/><circle cx="553" cy="230" r="3"/><circle cx="239" cy="361" r="2.5"/><circle cx="532" cy="462" r="2"/></g>
+ <!-- table surface -->
+ <path d="M0 612c148-35 251-21 400-6 176 18 279-18 400-5v249H0V612Z" fill="url(#floor)"/>
+ <path d="M0 651c151-24 274-4 405 9 157 16 289-16 395-2" stroke="#D88C57" stroke-width="2" opacity=".5"/>
+ <ellipse cx="410" cy="636" rx="170" ry="91" fill="#FFCE75" opacity=".12"/>
+ <ellipse cx="410" cy="644" rx="165" ry="79" fill="url(#glow)"/>
+ <!-- diya shadow -->
+ <ellipse cx="415" cy="674" rx="165" ry="32" fill="#2F101B" opacity=".22" filter="url(#shadow)"/>
+ <!-- flame -->
+ <path d="M412 438c35 47 45 79 29 117-8 19-20 31-31 39-16-13-30-33-33-57-6-39 11-68 35-99Z" fill="#F5A842"/><path d="M412 469c17 29 22 49 14 70-3 9-8 16-14 22-8-8-13-18-14-31-2-22 6-42 14-61Z" fill="#FFF0BB"/>
+ <!-- diya bowl -->
+ <path d="M262 604c29 70 82 111 151 113 74 2 137-41 163-113-82 25-226 24-314 0Z" fill="url(#diya)" stroke="#F8D18A" stroke-width="4"/>
+ <path d="M277 610c75 21 217 22 284 0" stroke="#FFF0C5" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+ <ellipse cx="420" cy="605" rx="160" ry="20" fill="#F7D997"/>
+ <ellipse cx="420" cy="605" rx="135" ry="11" fill="#9B4C36"/>
+ <path d="M315 659c35 30 65 41 101 43M508 659c-28 27-56 37-87 43" stroke="#F9D48F" stroke-width="4" stroke-linecap="round" opacity=".62"/>
+ <!-- marigold flowers left -->
+ <g transform="translate(178 649)"><circle r="24" fill="#B94E31"/><g fill="#E78B2C"><ellipse cy="-15" rx="8" ry="15"/><ellipse cy="15" rx="8" ry="15"/><ellipse cx="-15" rx="15" ry="8"/><ellipse cx="15" rx="15" ry="8"/><ellipse transform="rotate(45)" cy="-14" rx="7" ry="14"/><ellipse transform="rotate(45)" cy="14" rx="7" ry="14"/><ellipse transform="rotate(-45)" cy="-14" rx="7" ry="14"/><ellipse transform="rotate(-45)" cy="14" rx="7" ry="14"/></g><circle r="8" fill="#FFD270"/></g>
+ <g transform="translate(617 694) scale(.85)"><circle r="26" fill="#C55835"/><g fill="#F4A33B"><ellipse cy="-16" rx="8" ry="16"/><ellipse cy="16" rx="8" ry="16"/><ellipse cx="-16" rx="16" ry="8"/><ellipse cx="16" rx="16" ry="8"/><ellipse transform="rotate(45)" cy="-15" rx="7" ry="15"/><ellipse transform="rotate(45)" cy="15" rx="7" ry="15"/><ellipse transform="rotate(-45)" cy="-15" rx="7" ry="15"/><ellipse transform="rotate(-45)" cy="15" rx="7" ry="15"/></g><circle r="8" fill="#FFD578"/></g>
+ <path d="M95 742c29-40 45-53 66-61M703 748c-24-40-42-55-67-67" stroke="#65734A" stroke-width="5" stroke-linecap="round"/><ellipse cx="129" cy="692" rx="12" ry="26" transform="rotate(39 129 692)" fill="#6F7B4F"/><ellipse cx="677" cy="696" rx="12" ry="27" transform="rotate(-38 677 696)" fill="#6F7B4F"/>
+ <path d="M44 790c109-37 205-23 304-7s213 24 408-3" stroke="#F3C27E" stroke-width="1.5" opacity=".4"/>
+</svg>

@@ -3,148 +3,103 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#401a25" id="themeColorMeta">
-  <meta name="description" content="Aangan Finds — jewellery sets, necklaces and gift sets, thoughtfully collected.">
+  <meta name="theme-color" content="#780a2d" id="themeColorMeta">
+  <meta name="description" content="GharSansar — हर घर की पसंद. Curated jewellery, gifts, home and festive finds.">
   <meta name="color-scheme" content="light dark">
-  <title>Aangan Finds — Achhi cheezein, chun kar.</title>
-  <script>
-    // Restore the visitor's chosen theme before styles render to avoid a flash.
-    try {
-      document.documentElement.dataset.theme = localStorage.getItem('aangan-finds:theme') === 'dark' ? 'dark' : 'light';
-    } catch (_) { document.documentElement.dataset.theme = 'light'; }
-  </script>
+  <title>GharSansar — हर घर की पसंद</title>
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('gharsansar:v2:theme')==='dark'?'dark':'light'}catch(_){document.documentElement.dataset.theme='light'}</script>
   <link rel="icon" type="image/svg+xml" href="./assets/brand/logo.svg">
   <link rel="apple-touch-icon" href="./assets/brand/icons/icon-192.png">
   <link rel="manifest" href="./manifest.webmanifest">
-  <!-- Tailwind Play CDN keeps this starter build-step-free. See README for production guidance. -->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body class="min-h-screen antialiased">
+<body>
   <a class="skip-link" href="#main">Skip to content</a>
-
-  <div class="announcement-bar">
-    <span class="announcement-sparkle" aria-hidden="true">✦</span>
-    THE FESTIVE EDIT <span class="announcement-dot">·</span> jewellery, gifts & little finds
-    <span class="announcement-sparkle" aria-hidden="true">✦</span>
-  </div>
+  <div class="announcement-bar"><span>✦</span><span>CURATED FINDS FOR EVERY HOME</span><i></i><span>Easy product enquiries on WhatsApp</span><i></i><span class="announcement-script">Shop Smart · Live Beautifully</span><span>✦</span></div>
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="brand" href="#top" aria-label="Aangan Finds home">
-        <img src="./assets/brand/logo.svg" alt="" width="46" height="46">
-        <span class="brand-copy"><strong>Aangan Finds</strong><small>Achhi cheezein, chun kar.</small></span>
+      <a class="brand" href="#top" aria-label="GharSansar home">
+        <img src="./assets/brand/logo.svg" alt="" width="72" height="72">
+        <span class="brand-copy"><strong>GharSansar</strong><small lang="hi">हर घर की पसंद</small></span>
       </a>
-
       <form id="searchForm" class="header-search" role="search">
+        <label for="searchInput" class="sr-only">Search products</label>
         <span class="search-mark" aria-hidden="true">⌕</span>
-        <label for="searchInput" class="sr-only">Search products</label><span id="searchHint" class="sr-only">Live fuzzy search. Results update as you type and can match small spelling mistakes.</span>
-        <input id="searchInput" type="search" placeholder="Find something lovely…" autocomplete="off" spellcheck="false" aria-describedby="searchHint">
-        <kbd>↵</kbd>
+        <input id="searchInput" type="search" placeholder="Search products, jewellery, gifts and more…" autocomplete="off" spellcheck="false" aria-describedby="searchHint">
+        <span id="searchHint" class="sr-only">Live fuzzy search. Results update as you type and can match small spelling mistakes.</span>
+        <button type="submit" class="search-submit" aria-label="Search">⌕</button>
       </form>
-
       <div class="header-actions">
-        <button class="icon-action theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode" aria-pressed="false"><span class="theme-toggle-glyph" id="themeToggleGlyph" aria-hidden="true">☾</span></button>
-        <button class="icon-action saved-header" id="savedButton" type="button" aria-label="Open saved products" title="Saved products">
-          <span class="icon-heart" aria-hidden="true">♡</span><span class="action-label">Saved</span><span class="count-badge" id="savedCount">0</span>
-        </button>
-        <button class="icon-action bag-header" id="cartButton" type="button" aria-label="Open shopping bag" title="Shopping bag">
-          <span class="bag-glyph" aria-hidden="true">♧</span><span class="action-label">Bag</span><span class="count-badge" id="cartCount">0</span>
-        </button>
+        <button class="icon-action theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode" aria-pressed="false"><span class="theme-toggle-glyph" id="themeToggleGlyph" aria-hidden="true">☾</span><span class="action-label">Theme</span></button>
+        <button class="icon-action saved-header" id="savedButton" type="button" aria-label="Open wishlist" title="Wishlist"><span class="action-icon" aria-hidden="true">♡</span><span class="action-label">Wishlist</span><span class="count-badge" id="savedCount">0</span></button>
+        <button class="icon-action bag-header" id="cartButton" type="button" aria-label="Open cart" title="Cart"><span class="action-icon" aria-hidden="true">🛒</span><span class="action-label">Cart</span><span class="count-badge" id="cartCount">0</span></button>
       </div>
     </div>
+    <nav class="primary-nav" id="primaryNav" aria-label="Main categories">
+      <a href="#top" class="nav-home">⌂ <span>Home</span></a>
+      <button type="button" data-category="home-living">Home &amp; Living</button>
+      <button type="button" data-category="artificial-jewellery">Artificial Jewellery</button>
+      <button type="button" data-category="gifts-hampers">Gifts &amp; Hampers</button>
+      <button type="button" data-category="festive-decor">Festive Decor</button>
+      <button type="button" data-category="all">All Products <span class="nav-arrow">⌄</span></button>
+    </nav>
   </header>
 
   <main id="main">
-    <section class="hero-section page-shell" id="top" aria-labelledby="heroTitle">
-      <div class="hero-copy">
-        <div class="eyebrow"><span class="eyebrow-line"></span> A LITTLE FESTIVE MAGIC <span class="eyebrow-line"></span></div>
-        <h1 id="heroTitle">Make room for<br><em>little joys.</em></h1>
-        <p class="hero-description">Jewellery sets, layered necklaces and thoughtful gift sets — lovely little finds for celebrations, gifting and everyday style.</p>
-        <div class="hero-ctas">
-          <a class="button button-primary" href="#catalogue">Explore the edit <span aria-hidden="true">↗</span></a>
-          <span class="hero-note"><span class="tiny-sun" aria-hidden="true">✺</span> Picked with a little extra pyaar</span>
+    <section class="hero-section" id="top" aria-labelledby="heroTitle">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow"><span>✦</span> THE GHARSANSAR EDIT <span>✦</span></p>
+          <h1 id="heroTitle"><span class="brand-serif">GharSansar</span><span class="hero-hindi" lang="hi">हर घर की पसंद</span></h1>
+          <p class="hero-description" lang="hi">घर की ज़रूरतें, सुंदरता का साथ,<br>और हर दिन कुछ ख़ास…</p>
+          <p class="hero-support">Jewellery, thoughtful gifts, festive décor and little finds for everyday living.</p>
+          <a class="button button-primary" href="#catalogue">Shop Now <span aria-hidden="true">→</span></a>
         </div>
-        <div class="hero-microcopy"><span aria-hidden="true">✦</span> A small store with a big heart.</div>
+        <div class="hero-art-wrap" aria-hidden="true"><img class="hero-art" src="./assets/banners/gharsansar-hero.svg" alt=""></div>
+        <span class="hero-side-note">Beauty · Home · Jewellery<br><em>&amp; More…</em></span>
       </div>
-      <div class="hero-art-wrap">
-        <div class="hero-art-frame">
-          <img class="hero-art" src="./assets/banners/diwali-hero.svg" alt="Illustration of glowing diyas, marigolds and a festive rangoli">
-          <div class="hero-art-stamp"><span>THE</span><strong>FESTIVE<br>EDIT</strong><span>2026 ✦</span></div>
-        </div>
-        <div class="floating-note note-top"><span>✦</span> Little things, lovely homes</div>
-        <div class="floating-note note-bottom"><span class="note-dot"></span> Curated, not crowded.</div>
-      </div>
-      <div class="hero-bottom-ornament" aria-hidden="true">✦　❋　✦</div>
-    </section>
-
-    <section class="promise-strip page-shell" aria-label="Store highlights">
-      <div class="promise-item"><span class="promise-icon">✳</span><span><strong>Thoughtfully picked</strong><small>Finds worth a second look</small></span></div>
-      <div class="promise-divider" aria-hidden="true"></div>
-      <div class="promise-item"><span class="promise-icon">♡</span><span><strong>Your kind of lovely</strong><small>Save what speaks to you</small></span></div>
-      <div class="promise-divider" aria-hidden="true"></div>
-      <div class="promise-item"><span class="promise-icon">↗</span><span><strong>Easy WhatsApp ordering</strong><small>Talk to us, human to human</small></span></div>
     </section>
 
     <section class="category-section page-shell" aria-labelledby="categoryTitle">
-      <div class="section-heading compact-heading">
-        <div><p class="eyebrow left-eyebrow">JEWELLERY, GIFTS & LITTLE TREASURES</p><h2 id="categoryTitle">Browse by <em>mood.</em></h2></div>
-        <span class="heading-aside">Good things live here <span aria-hidden="true">↘</span></span>
+      <div class="section-heading category-main-heading"><div class="category-heading-line"></div><h2 id="categoryTitle"><span>❧</span> Shop by Category <span>❧</span></h2><div class="category-heading-line"></div></div>
+      <p class="category-subline" lang="hi">हर अंदाज़ के लिए कुछ ख़ास</p>
+      <div id="categoryTiles" class="category-tiles">
+        <button type="button" class="category-tile tile-home" data-category="home-living"><img src="./assets/categories/home-living.svg" alt="" loading="lazy"><span class="tile-icon">⌂</span><strong>Home &amp; Living</strong><small lang="hi">घर को बनाएं और भी खास</small><span class="tile-cta">Explore →</span></button>
+        <button type="button" class="category-tile tile-jewellery" data-category="artificial-jewellery"><img src="./assets/categories/artificial-jewellery.svg" alt="" loading="lazy"><span class="tile-icon">◇</span><strong>Artificial Jewellery</strong><small lang="hi">हर अंदाज़ में आपकी पहचान</small><span class="tile-cta">Explore →</span></button>
+        <button type="button" class="category-tile tile-gifts" data-category="gifts-hampers"><img src="./assets/categories/gifts-hampers.svg" alt="" loading="lazy"><span class="tile-icon">♡</span><strong>Gifts &amp; Hampers</strong><small lang="hi">अपनों के लिए कुछ ख़ास</small><span class="tile-cta">Explore →</span></button>
+        <button type="button" class="category-tile tile-festive" data-category="festive-decor"><img src="./assets/categories/festive-decor.svg" alt="" loading="lazy"><span class="tile-icon">✺</span><strong>Festive Decor</strong><small lang="hi">रोशनी और रंग हर घर में</small><span class="tile-cta">Explore →</span></button>
       </div>
-      <div id="categoryBar" class="category-bar" aria-label="Product categories">
-        <button class="category-chip active" type="button" data-category="all">Everything <span>✦</span></button>
-      </div>
+    </section>
+
+    <section class="promise-strip" aria-label="Shopping features">
+      <div class="promise-item"><span class="promise-icon">♧</span><span><strong>Curated Finds</strong><small>Thoughtfully selected</small></span></div>
+      <div class="promise-divider" aria-hidden="true"></div>
+      <div class="promise-item"><span class="promise-icon">♡</span><span><strong>Save Your Favourites</strong><small>Keep them close</small></span></div>
+      <div class="promise-divider" aria-hidden="true"></div>
+      <div class="promise-item"><span class="promise-icon">☏</span><span><strong>WhatsApp Ordering</strong><small>Ask before you order</small></span></div>
+      <div class="promise-divider" aria-hidden="true"></div>
+      <div class="promise-item"><span class="promise-icon">✦</span><span><strong>Home, Gifts &amp; More</strong><small>Little things, lovely living</small></span></div>
     </section>
 
     <section class="catalogue-section page-shell" id="catalogue" aria-labelledby="catalogueTitle">
-      <div class="section-heading catalogue-heading">
-        <div><p class="eyebrow left-eyebrow">THE GOOD STUFF</p><h2 id="catalogueTitle">Mummy's <em>picks.</em></h2><p class="section-subtitle">A few lovely things that caught our eye. Your next favourite might be here.</p></div>
-        <div class="catalogue-controls"><span id="resultCount" class="result-count">8 little finds</span><label class="sort-label" for="sortSelect">Sort <select id="sortSelect"><option value="featured">Catalogue order</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="name">Name A–Z</option></select></label></div>
-      </div>
-      <div id="productGrid" class="product-grid" aria-live="polite" aria-busy="true">
-        <div class="loading-card"><span class="loading-sun">✺</span><span>Finding lovely things…</span></div>
-      </div>
-      <div id="emptyState" class="empty-state hidden">
-        <span class="empty-icon">⌕</span><h3>No little finds here… yet.</h3><p>Try another word or browse everything.</p><button id="resetFilters" class="button button-outline" type="button">Show everything</button>
-      </div>
-      <p class="catalogue-footnote"><span aria-hidden="true">✦</span> Product photos are cropped from the product screenshots supplied for this catalogue. Prices shown are our listed prices; availability and delivery are confirmed on WhatsApp.</p>
+      <div class="section-heading catalogue-heading"><div><p class="eyebrow left-eyebrow">A LITTLE SOMETHING FOR EVERYONE</p><h2 id="catalogueTitle">Explore our <em>collection.</em></h2><p class="section-subtitle">Browse the latest picks. Save a favourite, or ask us about a product on WhatsApp.</p></div><div class="catalogue-controls"><span id="resultCount" class="result-count">Loading products…</span><label class="sort-label" for="sortSelect">Sort <select id="sortSelect"><option value="featured">Catalogue order</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option><option value="name">Name A–Z</option></select></label></div></div>
+      <div id="categoryBar" class="category-bar" aria-label="Filter product categories"><!-- Loaded from categories.json --></div>
+      <div id="productGrid" class="product-grid" aria-live="polite" aria-busy="true"><div class="loading-card"><span class="loading-sun">✺</span><span>Loading GharSansar products…</span></div></div>
+      <div id="emptyState" class="empty-state hidden"><span class="empty-icon">⌕</span><h3>No products found</h3><p>Try a different spelling or choose another category.</p><button id="resetFilters" class="button button-outline" type="button">Show all products</button></div>
+      <p class="catalogue-footnote"><span aria-hidden="true">✦</span> Product details are based on the supplied catalogue. Please ask on WhatsApp to confirm availability, variants and delivery before placing an order.</p>
     </section>
 
-    <section class="last-call page-shell" aria-labelledby="lastCallTitle">
-      <div class="last-call-pattern" aria-hidden="true">✦　❋　✦</div>
-      <div class="last-call-content"><p class="eyebrow">A NOTE FROM OUR AANGAN</p><h2 id="lastCallTitle">The best finds<br>feel like <em>they found you.</em></h2><p>Save what you love. Ask us what you're curious about. When you're ready, we'll take it from there.</p><a href="#catalogue" class="text-link">Find your little joy <span aria-hidden="true">↗</span></a></div>
-      <img class="last-call-art" src="./assets/banners/mini-diya.svg" alt="A small glowing diya illustration" width="240" height="240">
-    </section>
+    <section class="last-call page-shell" aria-labelledby="lastCallTitle"><div class="last-call-pattern" aria-hidden="true">✦　❋　✦</div><div class="last-call-content"><p class="eyebrow">A NOTE FROM GHARSANSAR</p><h2 id="lastCallTitle">A little something<br>for <em>your kind of home.</em></h2><p>Not sure about a product? Send us an enquiry. We'll help you check the details before you order.</p><a href="https://wa.me/917568443870?text=Namaste%20GharSansar!%20I%20have%20a%20product%20enquiry." target="_blank" rel="noopener" class="text-link">Chat with us on WhatsApp <span aria-hidden="true">↗</span></a></div><img class="last-call-art" src="./assets/banners/mini-diya.svg" alt="Decorative diya illustration" width="180" height="180" loading="lazy"></section>
   </main>
 
-  <footer class="site-footer page-shell">
-    <div class="footer-brand"><img src="./assets/brand/logo.svg" alt="" width="42" height="42"><span><strong>Aangan Finds</strong><small>Achhi cheezein, chun kar.</small></span></div>
-    <p class="footer-line">Jewellery, gifts & little treasures — chosen with care.</p>
-    <div class="footer-bottom"><span>© <span id="currentYear">2026</span> Aangan Finds</span><button id="installButton" class="install-button hidden" type="button">＋ Install the app</button><a href="#top">Back to top ↑</a></div>
-    <p class="footer-disclaimer">Product availability, delivery charges and final order details are confirmed on WhatsApp before an order is accepted.</p>
-  </footer>
+  <footer class="site-footer page-shell"><div class="footer-brand"><img src="./assets/brand/logo.svg" alt="" width="48" height="48"><span><strong>GharSansar</strong><small lang="hi">हर घर की पसंद</small></span></div><p class="footer-line">Beauty · Home · Jewellery · Gifts &amp; More</p><div class="footer-bottom"><span>© <span id="currentYear">2026</span> GharSansar · Version 2</span><button id="installButton" class="install-button hidden" type="button">＋ Install the app</button><a href="#top">Back to top ↑</a></div><p class="footer-disclaimer">Orders are requests until product availability, delivery charges and final details are confirmed on WhatsApp. This website does not process online payments.</p></footer>
 
-  <nav class="mobile-bottom-nav" aria-label="Quick navigation">
-    <a href="#top" class="bottom-nav-item active"><span aria-hidden="true">⌂</span><small>Home</small></a>
-    <button type="button" id="mobileSearchButton" class="bottom-nav-item"><span aria-hidden="true">⌕</span><small>Search</small></button>
-    <button type="button" id="mobileSavedButton" class="bottom-nav-item"><span aria-hidden="true">♡</span><small>Saved</small><b id="mobileSavedCount">0</b></button>
-    <button type="button" id="mobileCartButton" class="bottom-nav-item"><span aria-hidden="true">♧</span><small>Bag</small><b id="mobileCartCount">0</b></button>
-  </nav>
+  <nav class="mobile-bottom-nav" aria-label="Quick navigation"><a href="#top" class="bottom-nav-item active"><span aria-hidden="true">⌂</span><small>Home</small></a><button type="button" id="mobileSearchButton" class="bottom-nav-item"><span aria-hidden="true">⌕</span><small>Search</small></button><button type="button" id="mobileSavedButton" class="bottom-nav-item"><span aria-hidden="true">♡</span><small>Wishlist</small><b id="mobileSavedCount">0</b></button><button type="button" id="mobileCartButton" class="bottom-nav-item"><span aria-hidden="true">🛒</span><small>Cart</small><b id="mobileCartCount">0</b></button></nav>
 
-  <div id="drawerOverlay" class="drawer-overlay hidden" aria-hidden="true">
-    <section id="drawerPanel" class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
-      <div class="drawer-header"><div><p class="eyebrow left-eyebrow" id="drawerEyebrow">YOUR LITTLE COLLECTION</p><h2 id="drawerTitle">Your bag</h2></div><button id="closeDrawer" class="close-button" type="button" aria-label="Close panel">×</button></div>
-      <div id="drawerContent" class="drawer-content"></div>
-    </section>
-  </div>
-
-  <div id="productModalOverlay" class="modal-overlay hidden" aria-hidden="true">
-    <section id="productModal" class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalProductName">
-      <button id="closeProductModal" class="close-button modal-close" type="button" aria-label="Close product details">×</button>
-      <div id="productModalContent"></div>
-    </section>
-  </div>
-
+  <div id="drawerOverlay" class="drawer-overlay hidden" aria-hidden="true"><section id="drawerPanel" class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle"><div class="drawer-header"><div><p class="eyebrow left-eyebrow" id="drawerEyebrow">YOUR GHARSANSAR COLLECTION</p><h2 id="drawerTitle">Your cart</h2></div><button id="closeDrawer" class="close-button" type="button" aria-label="Close panel">×</button></div><div id="drawerContent" class="drawer-content"></div></section></div>
+  <div id="productModalOverlay" class="modal-overlay hidden" aria-hidden="true"><section id="productModal" class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalProductName"><button id="closeProductModal" class="close-button modal-close" type="button" aria-label="Close product details">×</button><div id="productModalContent"></div></section></div>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="./js/app.js" defer></script>
 </body>

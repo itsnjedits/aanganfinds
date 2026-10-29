@@ -1,8 +1,8 @@
-/* Aangan Finds — front-end only starter store.
+/* GharSansar — front-end only starter store.
  * Change WHATSAPP_NUMBER to country code + number, with no +, spaces or dashes.
  */
 const WHATSAPP_NUMBER = '917568443870';
-const STORAGE_KEYS = { wishlist: 'aangan-finds:wishlist:v1', cart: 'aangan-finds:cart:v1', theme: 'aangan-finds:theme' };
+const STORAGE_KEYS = { wishlist: 'gharsansar:v2:wishlist', cart: 'gharsansar:v2:cart', theme: 'gharsansar:v2:theme' };
 
 const state = {
   products: [],
@@ -38,8 +38,14 @@ function escapeHtml(value = '') {
   return String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[char]));
 }
 function money(value) {
+  if (value === null || value === undefined || value === '') return 'Price on enquiry';
   return new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(Number(value) || 0);
 }
+function productPriceText(product) {
+  if (product.price === null || product.price === undefined || product.price === '') return 'Price on enquiry';
+  return `${money(product.price)}${product.priceUnit === 'pair' ? ' / pair' : ''}`;
+}
+function hasPrice(product) { return product.price !== null && product.price !== undefined && product.price !== '' && Number.isFinite(Number(product.price)); }
 function getProduct(id) { return state.products.find(product => product.id === id); }
 function activeProducts() { return state.products.filter(product => product.active !== false); }
 function cartCount() { return Object.values(state.cart).reduce((sum, quantity) => sum + Math.max(0, Number(quantity) || 0), 0); }
@@ -101,6 +107,7 @@ function renderCategories() {
     const active = category.id === state.activeCategory ? ' active' : '';
     return `<button class="category-chip${active}" type="button" data-category="${escapeHtml(category.id)}">${escapeHtml(category.label)} <span aria-hidden="true">${escapeHtml(category.symbol || '✦')}</span></button>`;
   }).join('');
+  els('[data-category]').forEach(button => button.classList.toggle('active', button.dataset.category === state.activeCategory));
 }
 
 function normalizeSearchText(value = '') {
@@ -202,8 +209,8 @@ function scoreProduct(product, normalizedQuery) {
 }
 
 function sortProducts(products) {
-  if (state.sort === 'price-low') return products.sort((a, b) => a.price - b.price);
-  if (state.sort === 'price-high') return products.sort((a, b) => b.price - a.price);
+  if (state.sort === 'price-low') return products.sort((a, b) => (hasPrice(a) ? a.price : Infinity) - (hasPrice(b) ? b.price : Infinity));
+  if (state.sort === 'price-high') return products.sort((a, b) => (hasPrice(b) ? b.price : -Infinity) - (hasPrice(a) ? a.price : -Infinity));
   if (state.sort === 'name') return products.sort((a, b) => a.name.localeCompare(b.name));
   return products.sort((a, b) => Number(b.featured) - Number(a.featured) || a.id.localeCompare(b.id));
 }
@@ -237,7 +244,7 @@ function filteredProducts() {
 function renderProducts() {
   const products = filteredProducts();
   const grid = el('#productGrid');
-  el('#resultCount').textContent = state.query.trim() ? `${products.length} ${products.length === 1 ? 'match' : 'matches'}` : `${products.length} ${products.length === 1 ? 'little find' : 'little finds'}`;
+  el('#resultCount').textContent = state.query.trim() ? `${products.length} ${products.length === 1 ? 'match' : 'matches'}` : `${products.length} ${products.length === 1 ? 'product' : 'products'}`;
   el('#emptyState').classList.toggle('hidden', products.length > 0);
   grid.classList.toggle('hidden', products.length === 0);
   if (!products.length) { grid.innerHTML = ''; return; }
@@ -248,28 +255,28 @@ function renderProducts() {
 function productCard(product) {
   const wished = state.wishlist.has(product.id);
   const qty = Math.max(1, Number(state.cardQty[product.id]) || 1);
-  const src = product.images?.[0] || './assets/brand/logo.svg';
+  const src = product.images?.[0] || './assets/brand/product-placeholder.svg';
+  const priceNote = !hasPrice(product) ? 'Confirm on WhatsApp' : (product.priceUnit === 'pair' ? '' : 'per item');
   return `<article class="product-card" data-product-card="${escapeHtml(product.id)}">
     <div class="product-visual" data-action="details" data-id="${escapeHtml(product.id)}" tabindex="0" role="button" aria-label="View details for ${escapeHtml(product.name)}">
-      <img src="${escapeHtml(src)}" alt="Product photo for ${escapeHtml(product.name)}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='./assets/brand/logo.svg'">
-      <span class="product-badge">${escapeHtml(product.badge || 'A little find')}</span>
+      <img src="${escapeHtml(src)}" alt="${escapeHtml(product.name)}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='./assets/brand/product-placeholder.svg';this.closest('.product-visual')?.classList.add('image-missing')">
+      <span class="product-badge">${escapeHtml(product.badge || product.categoryLabel || 'GharSansar Find')}</span>
       <div class="product-quick-actions">
-        <button class="round-action${wished ? ' is-active' : ''}" type="button" data-action="wishlist" data-id="${escapeHtml(product.id)}" aria-label="${wished ? 'Remove from' : 'Save to'} wishlist" aria-pressed="${wished}">${wished ? '♥' : '♡'}</button>
-        <button class="round-action" type="button" data-action="add-bag" data-id="${escapeHtml(product.id)}" aria-label="Add ${escapeHtml(product.name)} to bag" title="Add to bag">＋</button>
+        <button class="round-action${wished ? ' is-active' : ''}" type="button" data-action="wishlist" data-id="${escapeHtml(product.id)}" aria-label="${wished ? 'Remove from' : 'Save to'} wishlist" aria-pressed="${wished}"> ${wished ? '♥' : '♡'} </button>
+        <button class="round-action" type="button" data-action="add-bag" data-id="${escapeHtml(product.id)}" aria-label="Add ${escapeHtml(product.name)} to cart" title="Add to cart">＋</button>
       </div>
     </div>
     <div class="product-info">
-      <p class="product-category">${escapeHtml(product.categoryLabel || 'Aangan Finds')}</p>
+      <p class="product-category">${escapeHtml(product.categoryLabel || 'GharSansar')}</p>
       <h3 class="product-name" data-action="details" data-id="${escapeHtml(product.id)}" tabindex="0">${escapeHtml(product.name)}</h3>
-      <p class="product-description-short">${escapeHtml(product.shortDescription || '')}</p>
-      <div class="price-row"><span class="product-price">${money(product.price)}</span><span class="price-note">per item</span></div>
-      <div class="quantity-line"><span class="quantity-label">Choose quantity</span><div class="qty-stepper" aria-label="Quantity for ${escapeHtml(product.name)}"><button type="button" data-action="card-qty" data-id="${escapeHtml(product.id)}" data-delta="-1" aria-label="Decrease quantity">−</button><output data-qty-value="${escapeHtml(product.id)}">${qty}</output><button type="button" data-action="card-qty" data-id="${escapeHtml(product.id)}" data-delta="1" aria-label="Increase quantity">+</button></div></div>
+      <p class="product-description-short">${escapeHtml(product.shortDescription || 'Ask us for product details')}</p>
+      <div class="price-row"><span class="product-price${hasPrice(product) ? '' : ' price-pending'}">${escapeHtml(productPriceText(product))}</span>${priceNote ? `<span class="price-note">${escapeHtml(priceNote)}</span>` : ''}</div>
+      <div class="quantity-line"><span class="quantity-label">Quantity</span><div class="qty-stepper" aria-label="Quantity for ${escapeHtml(product.name)}"><button type="button" data-action="card-qty" data-id="${escapeHtml(product.id)}" data-delta="-1" aria-label="Decrease quantity">−</button><output data-qty-value="${escapeHtml(product.id)}">${qty}</output><button type="button" data-action="card-qty" data-id="${escapeHtml(product.id)}" data-delta="1" aria-label="Increase quantity">+</button></div></div>
       <div class="product-actions"><button type="button" class="product-order" data-action="order" data-id="${escapeHtml(product.id)}">↗ Order</button><button type="button" class="product-enquire" data-action="enquire" data-id="${escapeHtml(product.id)}">Ask us</button></div>
-      <div class="product-bottom-line"><button type="button" class="detail-link" data-action="details" data-id="${escapeHtml(product.id)}">Details & specs ↗</button><button type="button" class="add-bag-link" data-action="add-bag" data-id="${escapeHtml(product.id)}">+ Add to bag</button></div>
+      <div class="product-bottom-line"><button type="button" class="detail-link" data-action="details" data-id="${escapeHtml(product.id)}">Product details ↗</button><button type="button" class="add-bag-link" data-action="add-bag" data-id="${escapeHtml(product.id)}">+ Add to cart</button></div>
     </div>
   </article>`;
 }
-
 function updateCounts() {
   const total = cartCount();
   el('#cartCount').textContent = total ? total : '';
@@ -317,16 +324,22 @@ function openWhatsApp(message) {
   else window.location.href = url;
 }
 function orderMessage(items) {
-  const lines = items.map(({ product, qty }) => `• ${product.name} (ID: ${product.id})\n  Qty: ${qty} × ${money(product.price)} = ${money(product.price * qty)}`);
-  const total = items.reduce((sum, item) => sum + item.product.price * item.qty, 0);
-  return `Namaste! I would like to place an order from Aangan Finds.\n\n${lines.join('\n\n')}\n\nSubtotal: ${money(total)}\nPlease confirm availability, delivery charges, and the final payable amount before confirming my order. Thank you!`;
+  const lines = items.map(({ product, qty }) => {
+    if (!hasPrice(product)) return `• ${product.name} (ID: ${product.id})\n  Qty: ${qty}\n  Price: Please confirm on WhatsApp`;
+    return `• ${product.name} (ID: ${product.id})\n  Qty: ${qty} × ${productPriceText(product)} = ${money(product.price * qty)}`;
+  });
+  const knownSubtotal = items.reduce((sum, item) => sum + (hasPrice(item.product) ? Number(item.product.price) * item.qty : 0), 0);
+  const needsPriceCheck = items.some(item => !hasPrice(item.product));
+  const hasKnownTotal = items.some(item => hasPrice(item.product));
+  const subtotalLine = needsPriceCheck ? (hasKnownTotal ? `Subtotal of priced items: ${money(knownSubtotal)}\nSome items need price confirmation.` : 'Subtotal: price to be confirmed on WhatsApp.') : `Subtotal: ${money(knownSubtotal)}`;
+  return `Namaste! I would like to place an order from GharSansar.\n\n${lines.join('\n\n')}\n\n${subtotalLine}\nPlease confirm availability, delivery charges, and the final payable amount before confirming my order. Thank you!`;
 }
 function orderSingle(id, qty) {
   const product = getProduct(id); if (!product) return;
   openWhatsApp(orderMessage([{ product, qty: Math.max(1, Number(qty) || 1) }]));
 }
 function enquiryMessage(product) {
-  return `Namaste! I would like to enquire about this product on Aangan Finds.\n\nProduct: ${product.name}\nProduct ID: ${product.id}\nDisplayed price: ${money(product.price)}\n\nCould you please share more details and confirm current availability? Thank you!`;
+  return `Namaste! I would like to enquire about this product on GharSansar.\n\nProduct: ${product.name}\nProduct ID: ${product.id}\nDisplayed price: ${productPriceText(product)}\n\nCould you please share more details and confirm current availability? Thank you!`;
 }
 function enquireSingle(id) { const product = getProduct(id); if (product) openWhatsApp(enquiryMessage(product)); }
 function orderCart() {
@@ -351,8 +364,8 @@ function closeDrawer() {
 function renderDrawer(mode) {
   state.drawerMode = mode;
   const isSaved = mode === 'saved';
-  el('#drawerEyebrow').textContent = isSaved ? 'THE THINGS YOU LOVED' : 'YOUR LITTLE COLLECTION';
-  el('#drawerTitle').textContent = isSaved ? 'Saved finds' : 'Your bag';
+  el('#drawerEyebrow').textContent = isSaved ? 'YOUR SAVED GHARSANSAR FINDS' : 'YOUR GHARSANSAR CART';
+  el('#drawerTitle').textContent = isSaved ? 'Wishlist' : 'Your cart';
   const content = el('#drawerContent');
   if (isSaved) {
     const products = [...state.wishlist].map(getProduct).filter(Boolean);
@@ -368,22 +381,26 @@ function renderDrawer(mode) {
     content.innerHTML = `<div class="drawer-empty"><div class="empty-illustration">✦</div><h3>Your bag feels a little light.</h3><p>When something catches your eye, add it here. You can adjust quantities before sending your order on WhatsApp.</p><button class="button button-primary" type="button" data-action="close-drawer-shop">Explore the finds ↗</button></div>`;
     return;
   }
-  const subtotal = items.reduce((sum, item) => sum + item.product.price * item.qty, 0);
-  content.innerHTML = `<div class="cart-item-list">${items.map(item => drawerItem(item.product, item.qty, false)).join('')}</div><div class="drawer-footer"><div class="drawer-total"><span>Estimated subtotal</span><strong>${money(subtotal)}</strong></div><p class="drawer-small-note">Delivery charges and availability are confirmed over WhatsApp. This is not a payment or confirmed order yet.</p><button class="drawer-checkout" type="button" data-action="order-cart">↗ Continue on WhatsApp</button><button class="drawer-secondary" type="button" data-action="close-drawer-shop">Keep browsing</button></div>`;
+  const hasUnknown = items.some(item => !hasPrice(item.product));
+  const subtotal = items.reduce((sum, item) => sum + (hasPrice(item.product) ? Number(item.product.price) * item.qty : 0), 0);
+  const hasKnownPrice = items.some(item => hasPrice(item.product));
+  const subtotalText = hasUnknown ? (hasKnownPrice ? `${money(subtotal)} + price confirmation` : 'Price to be confirmed') : money(subtotal);
+  content.innerHTML = `<div class="cart-item-list">${items.map(item => drawerItem(item.product, item.qty, false)).join('')}</div><div class="drawer-footer"><div class="drawer-total"><span>Estimated subtotal</span><strong>${subtotalText}</strong></div><p class="drawer-small-note">Delivery charges, prices marked for confirmation and availability are checked over WhatsApp. This is not a payment or confirmed order yet.</p><button class="drawer-checkout" type="button" data-action="order-cart">↗ Continue on WhatsApp</button><button class="drawer-secondary" type="button" data-action="close-drawer-shop">Keep browsing</button></div>`;
+
 }
 function drawerItem(product, qty, saved) {
-  const image = product.images?.[0] || './assets/brand/logo.svg';
-  return `<div class="drawer-item" data-drawer-id="${escapeHtml(product.id)}"><img src="${escapeHtml(image)}" alt="" loading="lazy"><div><p class="product-category">${escapeHtml(product.categoryLabel || '')}</p><h3>${escapeHtml(product.name)}</h3><div class="drawer-item-price">${money(product.price)}${saved ? '' : ` <span style="font-weight:400;color:#a58f84">each</span>`}</div>${saved ? `<div class="drawer-item-controls"><button class="remove-text" type="button" data-action="unsave" data-id="${escapeHtml(product.id)}">Remove saved</button><button class="remove-text" type="button" data-action="details" data-id="${escapeHtml(product.id)}">Details</button></div>` : `<div class="drawer-item-controls"><div class="qty-stepper"><button type="button" data-action="cart-qty" data-id="${escapeHtml(product.id)}" data-delta="-1" aria-label="Decrease quantity">−</button><output>${qty}</output><button type="button" data-action="cart-qty" data-id="${escapeHtml(product.id)}" data-delta="1" aria-label="Increase quantity">+</button></div><button class="remove-text" type="button" data-action="remove-cart" data-id="${escapeHtml(product.id)}">Remove</button></div>`}</div><button class="remove-item" type="button" data-action="${saved ? 'unsave' : 'remove-cart'}" data-id="${escapeHtml(product.id)}" aria-label="${saved ? 'Remove saved item' : 'Remove from bag'}">×</button></div>`;
+  const image = product.images?.[0] || './assets/brand/product-placeholder.svg';
+  return `<div class="drawer-item" data-drawer-id="${escapeHtml(product.id)}"><img src="${escapeHtml(image)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='./assets/brand/product-placeholder.svg'"><div><p class="product-category">${escapeHtml(product.categoryLabel || '')}</p><h3>${escapeHtml(product.name)}</h3><div class="drawer-item-price">${escapeHtml(productPriceText(product))}${saved ? '' : ` <span class="each-note">each</span>`}</div>${saved ? `<div class="drawer-item-controls"><button class="remove-text" type="button" data-action="unsave" data-id="${escapeHtml(product.id)}">Remove saved</button><button class="remove-text" type="button" data-action="details" data-id="${escapeHtml(product.id)}">Details</button></div>` : `<div class="drawer-item-controls"><div class="qty-stepper"><button type="button" data-action="cart-qty" data-id="${escapeHtml(product.id)}" data-delta="-1" aria-label="Decrease quantity">−</button><output>${qty}</output><button type="button" data-action="cart-qty" data-id="${escapeHtml(product.id)}" data-delta="1" aria-label="Increase quantity">+</button></div><button class="remove-text" type="button" data-action="remove-cart" data-id="${escapeHtml(product.id)}">Remove</button></div>`}</div><button class="remove-item" type="button" data-action="${saved ? 'unsave' : 'remove-cart'}" data-id="${escapeHtml(product.id)}" aria-label="${saved ? 'Remove saved item' : 'Remove from cart'}">×</button></div>`;
 }
-
 function openProductModal(id) {
   const product = getProduct(id); if (!product) return;
   state.modalQty = Math.max(1, Number(state.cardQty[id]) || 1);
-  const images = Array.isArray(product.images) && product.images.length ? product.images : ['./assets/brand/logo.svg'];
+  const images = Array.isArray(product.images) && product.images.length ? product.images : ['./assets/brand/product-placeholder.svg'];
   const image = images[0];
   const specs = Object.entries(product.specifications || {}).map(([key, value]) => `<div class="spec-row"><span>${escapeHtml(key)}</span><span>${escapeHtml(value)}</span></div>`).join('');
-  const gallery = images.length > 1 ? `<div class="modal-gallery-thumbs" aria-label="More product photos">${images.map((src, index) => `<button type="button" class="modal-gallery-thumb${index === 0 ? ' active' : ''}" data-action="modal-image" data-id="${escapeHtml(product.id)}" data-index="${index}" aria-label="View photo ${index + 1}" aria-pressed="${index === 0}"><img src="${escapeHtml(src)}" alt="" loading="lazy"></button>`).join('')}</div>` : '';
-  el('#productModalContent').innerHTML = `<div class="modal-product-layout"><div class="modal-gallery"><div class="modal-product-image"><img id="modalMainImage" src="${escapeHtml(image)}" alt="Product photo for ${escapeHtml(product.name)}" onerror="this.onerror=null;this.src='./assets/brand/logo.svg'"></div>${gallery}</div><div class="modal-product-info"><p class="product-category">${escapeHtml(product.categoryLabel || '')}</p><h2 id="modalProductName">${escapeHtml(product.name)}</h2><div class="modal-price">${money(product.price)}</div><p class="modal-description">${escapeHtml(product.description || '')}</p>${specs ? `<div class="spec-list">${specs}</div>` : ''}<div class="modal-quantity-row"><label for="modalQtyOutput">Choose quantity</label><div class="qty-stepper"><button type="button" data-action="modal-qty" data-delta="-1" aria-label="Decrease quantity">−</button><output id="modalQtyOutput">${state.modalQty}</output><button type="button" data-action="modal-qty" data-delta="1" aria-label="Increase quantity">+</button></div></div><div class="modal-actions"><button class="modal-order" type="button" data-action="modal-order" data-id="${escapeHtml(product.id)}">↗ Order on WhatsApp</button><button class="modal-add" type="button" data-action="modal-add" data-id="${escapeHtml(product.id)}">＋ Add quantity to bag</button><button class="modal-enquire" type="button" data-action="modal-enquire" data-id="${escapeHtml(product.id)}">Ask a question about this product</button></div></div></div>`;
+  const gallery = images.length > 1 ? `<div class="modal-gallery-thumbs" aria-label="More product photos">${images.map((src, index) => `<button type="button" class="modal-gallery-thumb${index === 0 ? ' active' : ''}" data-action="modal-image" data-id="${escapeHtml(product.id)}" data-index="${index}" aria-label="View photo ${index + 1}" aria-pressed="${index === 0}"><img src="${escapeHtml(src)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='./assets/brand/product-placeholder.svg'"></button>`).join('')}</div>` : '';
+  const priceText = productPriceText(product);
+  el('#productModalContent').innerHTML = `<div class="modal-product-layout"><div class="modal-gallery"><div class="modal-product-image"><img id="modalMainImage" src="${escapeHtml(image)}" alt="${escapeHtml(product.name)}" onerror="this.onerror=null;this.src='./assets/brand/product-placeholder.svg'"></div>${gallery}</div><div class="modal-product-info"><p class="product-category">${escapeHtml(product.categoryLabel || '')} · ${escapeHtml(product.id)}</p><h2 id="modalProductName">${escapeHtml(product.name)}</h2><div class="modal-price${hasPrice(product) ? '' : ' price-pending'}">${escapeHtml(priceText)}</div><p class="modal-description">${escapeHtml(product.description || 'Please ask us to confirm exact product details and availability.')}</p>${specs ? `<div class="spec-list">${specs}</div>` : '<p class="modal-description">Product specifications are not included in the supplied index. Please enquire for confirmation.</p>'}<div class="modal-quantity-row"><label for="modalQtyOutput">Choose quantity</label><div class="qty-stepper"><button type="button" data-action="modal-qty" data-delta="-1" aria-label="Decrease quantity">−</button><output id="modalQtyOutput">${state.modalQty}</output><button type="button" data-action="modal-qty" data-delta="1" aria-label="Increase quantity">+</button></div></div><div class="modal-actions"><button class="modal-order" type="button" data-action="modal-order" data-id="${escapeHtml(product.id)}">↗ Order on WhatsApp</button><button class="modal-add" type="button" data-action="modal-add" data-id="${escapeHtml(product.id)}">＋ Add to cart</button><button class="modal-enquire" type="button" data-action="modal-enquire" data-id="${escapeHtml(product.id)}">Ask about this product</button></div></div></div>`;
   el('#productModalOverlay').classList.remove('hidden');
   el('#productModalOverlay').setAttribute('aria-hidden', 'false');
   document.body.classList.add('no-scroll');
@@ -406,6 +423,7 @@ function bindEvents() {
   el('#searchInput').addEventListener('input', event => { state.query = event.target.value; renderProducts(); });
   el('#sortSelect').addEventListener('change', event => { state.sort = event.target.value; renderProducts(); });
   el('#categoryBar').addEventListener('click', event => { const button = event.target.closest('[data-category]'); if (button) selectCategory(button.dataset.category); });
+  ['#primaryNav', '#categoryTiles'].forEach(selector => { const root = el(selector); if (root) root.addEventListener('click', event => { const button = event.target.closest('[data-category]'); if (button) { selectCategory(button.dataset.category); el('#catalogue').scrollIntoView({ behavior: 'smooth', block: 'start' }); } }); });
   el('#resetFilters').addEventListener('click', () => { state.query = ''; state.activeCategory = 'all'; state.sort = 'featured'; el('#searchInput').value = ''; el('#sortSelect').value = 'featured'; renderCategories(); renderProducts(); });
   el('#productGrid').addEventListener('click', handleAction);
   el('#productGrid').addEventListener('keydown', event => { if ((event.key === 'Enter' || event.key === ' ') && event.target.matches('[data-action="details"][tabindex="0"]')) { event.preventDefault(); openProductModal(event.target.dataset.id); } });
@@ -426,7 +444,7 @@ function bindEvents() {
     state.installPrompt.prompt(); await state.installPrompt.userChoice; state.installPrompt = null; el('#installButton').classList.add('hidden');
   });
   window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); state.installPrompt = event; el('#installButton').classList.remove('hidden'); });
-  window.addEventListener('appinstalled', () => { el('#installButton').classList.add('hidden'); showToast('Aangan Finds is ready on your home screen.'); });
+  window.addEventListener('appinstalled', () => { el('#installButton').classList.add('hidden'); showToast('GharSansar is ready on your home screen.'); });
 }
 
 function handleAction(event) {

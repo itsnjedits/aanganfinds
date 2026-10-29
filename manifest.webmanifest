@@ -1,14 +1,14 @@
 {
   "id": "./",
-  "name": "Aangan Finds",
-  "short_name": "Aangan",
-  "description": "Jewellery sets, necklaces and gift sets, thoughtfully collected for celebrations and everyday style.",
+  "name": "GharSansar — Har Ghar Ki Pasand",
+  "short_name": "GharSansar",
+  "description": "Curated jewellery, gifts, home and festive finds.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#fff8ed",
-  "theme_color": "#401a25",
+  "background_color": "#fff9f0",
+  "theme_color": "#7d0c31",
   "icons": [
     {
       "src": "./assets/brand/icons/icon-192.png",

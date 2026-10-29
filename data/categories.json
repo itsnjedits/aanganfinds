@@ -1,18 +1,47 @@
 [
   {
-    "id": "jewellery",
-    "name": "Jewellery & Accessories"
+    "id": "all",
+    "label": "All Products",
+    "symbol": "✦"
   },
   {
-    "id": "gift-sets",
-    "name": "Gift Sets & Hampers"
+    "id": "home-living",
+    "label": "Home & Living",
+    "symbol": "⌂"
   },
   {
-    "id": "diwali-decor",
-    "name": "Diwali Decor & Lighting"
+    "id": "artificial-jewellery",
+    "label": "Artificial Jewellery",
+    "symbol": "◇"
   },
   {
-    "id": "storage-organisers",
-    "name": "Storage & Organisers"
+    "id": "gifts-hampers",
+    "label": "Gifts & Hampers",
+    "symbol": "♡"
+  },
+  {
+    "id": "festive-decor",
+    "label": "Festive Decor & Lights",
+    "symbol": "✺"
+  },
+  {
+    "id": "necklaces-chains",
+    "label": "Necklaces & Chains",
+    "symbol": "⌁"
+  },
+  {
+    "id": "earrings",
+    "label": "Earrings & Studs",
+    "symbol": "❋"
+  },
+  {
+    "id": "mangalsutras",
+    "label": "Mangalsutras",
+    "symbol": "✧"
+  },
+  {
+    "id": "accessories",
+    "label": "Accessories",
+    "symbol": "✦"
   }
 ]

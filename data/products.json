@@ -1,2571 +1,4651 @@
-{
-  "products": [
-    {
-      "id": "AF-P1-001",
-      "name": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 216,
-      "priceDisplay": "₹216",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-001-1.jpg",
-        "./product_images/AF-P1-001-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-001-1",
-        "AF-P1-001-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-002",
-      "name": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 228,
-      "priceDisplay": "₹228",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-002-1.jpg",
-        "./product_images/AF-P1-002-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-002-1",
-        "AF-P1-002-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-003",
-      "name": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 181,
-      "priceDisplay": "₹181",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-003-1.jpg",
-        "./product_images/AF-P1-003-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-003-1",
-        "AF-P1-003-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-004",
-      "name": "BOGHRA SALES Brass, Metal & Alloy Gold-plated Jewel Set",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 165,
-      "priceDisplay": "₹165",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-004-1.jpg",
-        "./product_images/AF-P1-004-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-004-1",
-        "AF-P1-004-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-005",
-      "name": "Flaring Brass Gold-plated Gold Jewel Set (Pack of 2)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 225,
-      "priceDisplay": "₹225",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-005-1.jpg",
-        "./product_images/AF-P1-005-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-005-1",
-        "AF-P1-005-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-006",
-      "name": "SVENTS Alloy Gold, White Jewel Set (Pack of 2)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 283,
-      "priceDisplay": "₹283",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-006-1.jpg",
-        "./product_images/AF-P1-006-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-006-1",
-        "AF-P1-006-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-007",
-      "name": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 183,
-      "priceDisplay": "₹183",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-007-1.jpg",
-        "./product_images/AF-P1-007-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-007-1",
-        "AF-P1-007-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-008",
-      "name": "Bulsenk Alloy Gold-plated Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 291,
-      "priceDisplay": "₹291",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-008-1.jpg",
-        "./product_images/AF-P1-008-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-008-1",
-        "AF-P1-008-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-009",
-      "name": "Yash Collection Brass Gold-plated Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 246,
-      "priceDisplay": "₹246",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-009-1.jpg",
-        "./product_images/AF-P1-009-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-009-1",
-        "AF-P1-009-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-010",
-      "name": "TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 265,
-      "priceDisplay": "₹265",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-010-1.jpg",
-        "./product_images/AF-P1-010-2.jpg",
-        "./product_images/AF-P1-010-3.jpg",
-        "./product_images/AF-P1-010-4.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-010-1",
-        "AF-P1-010-2",
-        "AF-P1-010-3",
-        "AF-P1-010-4"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-011",
-      "name": "VISITART JEWELLERY Alloy Gold-plated Gold Jewel Set",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 382,
-      "priceDisplay": "₹382",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-011-1.jpg",
-        "./product_images/AF-P1-011-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-011-1",
-        "AF-P1-011-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-012",
-      "name": "Zestylo Alloy Gold-plated Gold, Green Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 260,
-      "priceDisplay": "₹260",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-012-1.jpg",
-        "./product_images/AF-P1-012-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-012-1",
-        "AF-P1-012-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-013",
-      "name": "Sanchi Alloy Gold Jewel Set (Pack of 3)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 330,
-      "priceDisplay": "₹330",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-013-1.jpg",
-        "./product_images/AF-P1-013-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-013-1",
-        "AF-P1-013-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-014",
-      "name": "Sanchi Alloy Multicolor Jewel Set (Pack of 5)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": null,
-      "priceDisplay": "Price not visible",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-014-1.jpg",
-        "./product_images/AF-P1-014-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-014-1",
-        "AF-P1-014-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": false
-    },
-    {
-      "id": "AF-P1-015",
-      "name": "Savara Jewels Brass, Alloy Brass Multicolor, White Jewel Set",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 417,
-      "priceDisplay": "₹417",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-015-1.jpg",
-        "./product_images/AF-P1-015-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-015-1",
-        "AF-P1-015-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-016",
-      "name": "Ridhi Sidhi Collection Brass Brass White Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 266,
-      "priceDisplay": "₹266",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-016-1.jpg",
-        "./product_images/AF-P1-016-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-016-1",
-        "AF-P1-016-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-017",
-      "name": "Jewel World Brass & Alloy Gold-plated Gold Jewel Set",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": null,
-      "priceDisplay": "Price not visible",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-017-1.jpg",
-        "./product_images/AF-P1-017-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-017-1",
-        "AF-P1-017-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": false
-    },
-    {
-      "id": "AF-P1-018",
-      "name": "ENTAN Liyer Chain - Silver-plated Layered Necklace",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 123,
-      "priceDisplay": "₹123",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-018-1.jpg",
-        "./product_images/AF-P1-018-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-018-1",
-        "AF-P1-018-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-019",
-      "name": "MoonPearl Gold-plated Stainless Steel Necklace",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 237,
-      "priceDisplay": "₹237",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-019-1.jpg",
-        "./product_images/AF-P1-019-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-019-1",
-        "AF-P1-019-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-020",
-      "name": "Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 203,
-      "priceDisplay": "₹203",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-020-1.jpg",
-        "./product_images/AF-P1-020-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-020-1",
-        "AF-P1-020-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-021",
-      "name": "Yash Sales Brass Gold-plated Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 235,
-      "priceDisplay": "₹235",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-021-1.jpg",
-        "./product_images/AF-P1-021-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-021-1",
-        "AF-P1-021-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-022",
-      "name": "Raj And Deb Alloy Gold-plated Gold Jewel Set (Pack of 3)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 361,
-      "priceDisplay": "₹361",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-022-1.jpg",
-        "./product_images/AF-P1-022-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-022-1",
-        "AF-P1-022-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-023",
-      "name": "UDAMA Alloy Gold-plated Gold Jewel Set (Pack of 3)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 277,
-      "priceDisplay": "₹277",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-023-1.jpg",
-        "./product_images/AF-P1-023-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-023-1",
-        "AF-P1-023-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-024",
-      "name": "Anvi Store Alloy Gold-plated Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 248,
-      "priceDisplay": "₹248",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-024-1.jpg",
-        "./product_images/AF-P1-024-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-024-1",
-        "AF-P1-024-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-025",
-      "name": "Fakezak Brass Gold Jewel Set (Pack of 1)",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 237,
-      "priceDisplay": "₹237",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-025-1.jpg",
-        "./product_images/AF-P1-025-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-025-1",
-        "AF-P1-025-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-026",
-      "name": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 284,
-      "priceDisplay": "₹284",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-026-1.jpg",
-        "./product_images/AF-P1-026-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-026-1",
-        "AF-P1-026-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-027",
-      "name": "Starliven Jewellery Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 279,
-      "priceDisplay": "₹279",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-027-1.jpg",
-        "./product_images/AF-P1-027-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-027-1",
-        "AF-P1-027-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-028",
-      "name": "Starliven Jewellery Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 263,
-      "priceDisplay": "₹263",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-028-1.jpg",
-        "./product_images/AF-P1-028-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-028-1",
-        "AF-P1-028-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-029",
-      "name": "Starliven Jewellery Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 273,
-      "priceDisplay": "₹273",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-029-1.jpg",
-        "./product_images/AF-P1-029-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-029-1",
-        "AF-P1-029-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-030",
-      "name": "Dear 90 Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 339,
-      "priceDisplay": "₹339",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-030-1.jpg",
-        "./product_images/AF-P1-030-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-030-1",
-        "AF-P1-030-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-031",
-      "name": "PurePendant Jewellery Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 353,
-      "priceDisplay": "₹353",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-031-1.jpg",
-        "./product_images/AF-P1-031-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-031-1",
-        "AF-P1-031-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-032",
-      "name": "Alucia Bracelet, Gift Box, Keychain, Jewellery Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 321,
-      "priceDisplay": "₹321",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-032-1.jpg",
-        "./product_images/AF-P1-032-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-032-1",
-        "AF-P1-032-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-033",
-      "name": "Mohmit Mart Jewellery Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 290,
-      "priceDisplay": "₹290",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-033-1.jpg",
-        "./product_images/AF-P1-033-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-033-1",
-        "AF-P1-033-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-034",
-      "name": "Mohmit Mart Jewellery Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 265,
-      "priceDisplay": "₹265",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-034-1.jpg",
-        "./product_images/AF-P1-034-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-034-1",
-        "AF-P1-034-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-035",
-      "name": "Mohmit Mart Jewellery, Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 270,
-      "priceDisplay": "₹270",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-035-1.jpg",
-        "./product_images/AF-P1-035-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-035-1",
-        "AF-P1-035-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-036",
-      "name": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 301,
-      "priceDisplay": "₹301",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-036-1.jpg",
-        "./product_images/AF-P1-036-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-036-1",
-        "AF-P1-036-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-037",
-      "name": "Jewellery Gift Box Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 564,
-      "priceDisplay": "₹564",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-037-1.jpg",
-        "./product_images/AF-P1-037-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-037-1",
-        "AF-P1-037-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-038",
-      "name": "Floricraft Jewellery, Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 454,
-      "priceDisplay": "₹454",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-038-1.jpg",
-        "./product_images/AF-P1-038-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-038-1",
-        "AF-P1-038-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-039",
-      "name": "Floricraft Jewellery, Keychain, Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 280,
-      "priceDisplay": "₹280",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-039-1.jpg",
-        "./product_images/AF-P1-039-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-039-1",
-        "AF-P1-039-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-040",
-      "name": "Floricraft Greeting Card, Jewellery, Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 284,
-      "priceDisplay": "₹284",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-040-1.jpg",
-        "./product_images/AF-P1-040-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-040-1",
-        "AF-P1-040-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-041",
-      "name": "Starliven Jewellery Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 2099,
-      "priceDisplay": "₹2,099",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-041-1.jpg",
-        "./product_images/AF-P1-041-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-041-1",
-        "AF-P1-041-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-042",
-      "name": "Weddingcharm Jewellery & Accessories Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 629,
-      "priceDisplay": "₹629",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-042-1.jpg",
-        "./product_images/AF-P1-042-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-042-1",
-        "AF-P1-042-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-043",
-      "name": "Ji Shri Jewellery, Bracelet, Key Ring, Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 539,
-      "priceDisplay": "₹539",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-043-1.jpg",
-        "./product_images/AF-P1-043-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-043-1",
-        "AF-P1-043-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-044",
-      "name": "Glisha Jewellery, Bracelet, Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 490,
-      "priceDisplay": "₹490",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-044-1.jpg",
-        "./product_images/AF-P1-044-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-044-1",
-        "AF-P1-044-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-045",
-      "name": "SFEP Artificial Flower, Gift Box Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 189,
-      "priceDisplay": "₹189",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-045-1.jpg",
-        "./product_images/AF-P1-045-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-045-1",
-        "AF-P1-045-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-046",
-      "name": "Mycraftcrazy Showpiece Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 133,
-      "priceDisplay": "₹133",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-046-1.jpg",
-        "./product_images/AF-P1-046-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-046-1",
-        "AF-P1-046-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-047",
-      "name": "Mycraftcrazy Showpiece Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 129,
-      "priceDisplay": "₹129",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-047-1.jpg",
-        "./product_images/AF-P1-047-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-047-1",
-        "AF-P1-047-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-048",
-      "name": "Earnam Showpiece Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 122,
-      "priceDisplay": "₹122",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-048-1.jpg",
-        "./product_images/AF-P1-048-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-048-1",
-        "AF-P1-048-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-049",
-      "name": "Mycraftcrazy Showpiece Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": null,
-      "priceDisplay": "Price not visible",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-049-1.jpg",
-        "./product_images/AF-P1-049-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-049-1",
-        "AF-P1-049-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": false
-    },
-    {
-      "id": "AF-P1-050",
-      "name": "Mycraftcrazy Showpiece Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 123,
-      "priceDisplay": "₹123",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-050-1.jpg",
-        "./product_images/AF-P1-050-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-050-1",
-        "AF-P1-050-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-051",
-      "name": "Earnam Showpiece Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 123,
-      "priceDisplay": "₹123",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-051-1.jpg",
-        "./product_images/AF-P1-051-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-051-1",
-        "AF-P1-051-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-052",
-      "name": "Effete Gift Hamper with Ganesha Idol",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": 525,
-      "priceDisplay": "₹525",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-052-1.jpg",
-        "./product_images/AF-P1-052-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-052-1",
-        "AF-P1-052-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-053",
-      "name": "PUREHEART Dry Fruits Diwali Gift Hamper - Cashews, Cranberry & Nuts",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": 1001,
-      "priceDisplay": "₹1,001",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-053-1.jpg",
-        "./product_images/AF-P1-053-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-053-1",
-        "AF-P1-053-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-054",
-      "name": "International Gift Showpiece Gift Set",
-      "category": "gift-sets",
-      "categoryLabel": "Gift Sets & Hampers",
-      "price": 554,
-      "priceDisplay": "₹554",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-054-1.jpg",
-        "./product_images/AF-P1-054-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-054-1",
-        "AF-P1-054-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-055",
-      "name": "Yaara Enterprise 36-Grids Clear Plastic Storage Box",
-      "category": "storage-organisers",
-      "categoryLabel": "Storage & Organisers",
-      "price": 221,
-      "priceDisplay": "₹221",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-055-1.jpg",
-        "./product_images/AF-P1-055-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-055-1",
-        "AF-P1-055-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-056",
-      "name": "Collectible India Laxmi Ganesh Saraswati Idol Diya Oil Lamp",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": 745,
-      "priceDisplay": "₹745",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-056-1.jpg",
-        "./product_images/AF-P1-056-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-056-1",
-        "AF-P1-056-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-057",
-      "name": "FNF Creation Metal Decorative Flower-shaped Diya",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": null,
-      "priceDisplay": "Price not visible",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-057-1.jpg",
-        "./product_images/AF-P1-057-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-057-1",
-        "AF-P1-057-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": false
-    },
-    {
-      "id": "AF-P1-058",
-      "name": "FNF Creation Water Sensor Reusable LED Diyas",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": 256,
-      "priceDisplay": "₹256",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-058-1.jpg",
-        "./product_images/AF-P1-058-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-058-1",
-        "AF-P1-058-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-059",
-      "name": "AuraSip LED Tea Light Candles for Diwali & Pooja",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": 258,
-      "priceDisplay": "₹258",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-059-1.jpg",
-        "./product_images/AF-P1-059-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-059-1",
-        "AF-P1-059-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-060",
-      "name": "Viskri Multishape Multicolour 3D Reflection Diya Set",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": 179,
-      "priceDisplay": "₹179",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-060-1.jpg",
-        "./product_images/AF-P1-060-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-060-1",
-        "AF-P1-060-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-061",
-      "name": "Flashkitch 3D Reflection Diwali Diya Combo",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": 137,
-      "priceDisplay": "₹137",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-061-1.jpg",
-        "./product_images/AF-P1-061-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-061-1",
-        "AF-P1-061-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-062",
-      "name": "Swagata Store Water Sensor LED Electric Diyas",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": 210,
-      "priceDisplay": "₹210",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-062-1.jpg",
-        "./product_images/AF-P1-062-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-062-1",
-        "AF-P1-062-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P1-063",
-      "name": "Zunis Deepak Urli Decorative Showpiece",
-      "category": "diwali-decor",
-      "categoryLabel": "Diwali Decor & Lighting",
-      "price": 279,
-      "priceDisplay": "₹279",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P1-063-1.jpg",
-        "./product_images/AF-P1-063-2.jpg"
-      ],
-      "imageIds": [
-        "AF-P1-063-1",
-        "AF-P1-063-2"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-001",
-      "name": "Ruby Key Necklace",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 99,
-      "priceDisplay": "₹99",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-001-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-001-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-002",
-      "name": "Urban Loop Keychain",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 120,
-      "priceDisplay": "₹120",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-002-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-002-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-003",
-      "name": "Evil Eye Bead Necklace",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 120,
-      "priceDisplay": "₹120",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-003-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-003-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-004",
-      "name": "Metro Clip Keychain",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 120,
-      "priceDisplay": "₹120",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-004-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-004-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-005",
-      "name": "Ivory Blossom Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 50,
-      "priceDisplay": "₹50",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-005-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-005-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-006",
-      "name": "Pearl Dot Studs",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 15,
-      "priceDisplay": "₹15 / pair",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-006-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-006-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-007",
-      "name": "Square Crystal Studs",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 15,
-      "priceDisplay": "₹15 / pair",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-007-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-007-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-008",
-      "name": "Golden Bloom Studs",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 60,
-      "priceDisplay": "₹60",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-008-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-008-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-009",
-      "name": "Pearl Bow Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 50,
-      "priceDisplay": "₹50",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-009-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-009-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-010",
-      "name": "Celeste Pendant Set",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 250,
-      "priceDisplay": "₹250",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-010-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-010-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-011",
-      "name": "Golden Charm Necklace",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 99,
-      "priceDisplay": "₹99",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-011-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-011-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-012",
-      "name": "Classic Snake Chain",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 99,
-      "priceDisplay": "₹99",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-012-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-012-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-013",
-      "name": "Coin Charm Chain",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 60,
-      "priceDisplay": "₹60",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-013-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-013-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-014",
-      "name": "Coastal Shell Bracelet",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 60,
-      "priceDisplay": "₹60",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-014-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-014-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-015",
-      "name": "Cherry Drop Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 80,
-      "priceDisplay": "₹80",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-015-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-015-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-016",
-      "name": "Pearl Halo Studs",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 50,
-      "priceDisplay": "₹50",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-016-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-016-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-017",
-      "name": "Golden Crest Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 150,
-      "priceDisplay": "₹150",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-017-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-017-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-018",
-      "name": "Heartline Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 200,
-      "priceDisplay": "₹200",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-018-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-018-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-019",
-      "name": "Crystal Teardrop Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 250,
-      "priceDisplay": "₹250",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-019-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-019-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-020",
-      "name": "Square Radiance Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 150,
-      "priceDisplay": "₹150",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-020-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-020-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-021",
-      "name": "Floral Medallion Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 200,
-      "priceDisplay": "₹200",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-021-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-021-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-022",
-      "name": "Classic Crystal Pendant Set",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 300,
-      "priceDisplay": "₹300",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-022-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-022-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-023",
-      "name": "Ornate Circle Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 250,
-      "priceDisplay": "₹250",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-023-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-023-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-024",
-      "name": "Regal Crystal Jewellery Set",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 500,
-      "priceDisplay": "₹500",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-024-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-024-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-025",
-      "name": "Traditional Gold-Tone Jewellery Set",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 500,
-      "priceDisplay": "₹500",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-025-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-025-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-026",
-      "name": "Ruby Medallion Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 200,
-      "priceDisplay": "₹200",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-026-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-026-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-027",
-      "name": "Crystal Arc Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 220,
-      "priceDisplay": "₹220",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-027-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-027-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-028",
-      "name": "Minimal Bead Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 150,
-      "priceDisplay": "₹150",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-028-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-028-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-029",
-      "name": "Diamond Fan Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 200,
-      "priceDisplay": "₹200",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-029-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-029-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-030",
-      "name": "Graceful Curve Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 180,
-      "priceDisplay": "₹180",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-030-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-030-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-031",
-      "name": "Heritage Ruby Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 200,
-      "priceDisplay": "₹200",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-031-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-031-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-032",
-      "name": "Crystal Fan Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 200,
-      "priceDisplay": "₹200",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-032-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-032-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-033",
-      "name": "Butterfly Charm Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 250,
-      "priceDisplay": "₹250",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-033-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-033-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-034",
-      "name": "Bloom Curve Mangalsutra",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 220,
-      "priceDisplay": "₹220",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-034-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-034-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-035",
-      "name": "Heart Glow Studs",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 75,
-      "priceDisplay": "₹75",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-035-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-035-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-036",
-      "name": "Pearl Cascade Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 150,
-      "priceDisplay": "₹150",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-036-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-036-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-037",
-      "name": "Peacock Drop Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 120,
-      "priceDisplay": "₹120",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-037-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-037-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-038",
-      "name": "Petal Cascade Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 200,
-      "priceDisplay": "₹200",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-038-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-038-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-039",
-      "name": "Rose Gold Square Dangles",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 150,
-      "priceDisplay": "₹150",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-039-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-039-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-040",
-      "name": "Golden Frame Drop Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 150,
-      "priceDisplay": "₹150",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-040-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-040-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-041",
-      "name": "Starlight Bloom Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 150,
-      "priceDisplay": "₹150",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-041-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-041-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-042",
-      "name": "Regal Frame Drop Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 200,
-      "priceDisplay": "₹200",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-042-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-042-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-043",
-      "name": "Petal Glow Drop Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 160,
-      "priceDisplay": "₹160",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-043-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-043-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-044",
-      "name": "Triad Crystal Cascade Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 180,
-      "priceDisplay": "₹180",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-044-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-044-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-045",
-      "name": "Pearl Teardrop Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 150,
-      "priceDisplay": "₹150",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-045-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-045-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-046",
-      "name": "Golden Leaf Chain Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 100,
-      "priceDisplay": "₹100",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-046-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-046-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-047",
-      "name": "Lattice Bloom Studs",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 100,
-      "priceDisplay": "₹100",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-047-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-047-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-048",
-      "name": "Halo Petal Drop Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 180,
-      "priceDisplay": "₹180",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-048-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-048-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-049",
-      "name": "Crystal Frame Cascade Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 200,
-      "priceDisplay": "₹200",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-049-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-049-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-050",
-      "name": "Silver Bloom Dangle Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 120,
-      "priceDisplay": "₹120",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-050-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-050-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-051",
-      "name": "Geometric Bloom Studs",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 100,
-      "priceDisplay": "₹100",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-051-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-051-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-052",
-      "name": "Ruby Blossom Studs",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 90,
-      "priceDisplay": "₹90",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-052-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-052-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    },
-    {
-      "id": "AF-P2-053",
-      "name": "Rose Halo Cascade Earrings",
-      "category": "jewellery",
-      "categoryLabel": "Jewellery & Accessories",
-      "price": 120,
-      "priceDisplay": "₹120",
-      "currency": "INR",
-      "images": [
-        "./product_images/AF-P2-053-1.jpg"
-      ],
-      "imageIds": [
-        "AF-P2-053-1"
-      ],
-      "description": "",
-      "shortDescription": "",
-      "specifications": {},
-      "tags": [],
-      "featured": false,
-      "active": true
-    }
-  ],
-  "count": 116
-}
+[
+  {
+    "id": "AF-P1-001",
+    "slug": "boghra-sales-alloy-gold-plated-gold-jewel-set-pack-of-1-af-p1-001",
+    "name": "Boghra Sales Alloy Gold-plated Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Boghra Sales Alloy Gold-plated Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 216,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-001-1.jpg",
+      "./product_images/AF-P1-001-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-001-1",
+      "AF-P1-001-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "boghra",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "sales",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      1,
+      2
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-002",
+    "slug": "boghra-sales-alloy-gold-plated-gold-jewel-set-pack-of-1-af-p1-002",
+    "name": "Boghra Sales Alloy Gold-plated Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Boghra Sales Alloy Gold-plated Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 228,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-002-1.jpg",
+      "./product_images/AF-P1-002-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-002-1",
+      "AF-P1-002-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "boghra",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "sales",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      3,
+      4
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-003",
+    "slug": "boghra-sales-alloy-gold-plated-gold-jewel-set-pack-of-1-af-p1-003",
+    "name": "Boghra Sales Alloy Gold-plated Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Boghra Sales Alloy Gold-plated Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 181,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-003-1.jpg",
+      "./product_images/AF-P1-003-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-003-1",
+      "AF-P1-003-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "boghra",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "sales",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      5,
+      6
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-004",
+    "slug": "boghra-sales-brass-metal-alloy-gold-plated-jewel-set-af-p1-004",
+    "name": "Boghra Sales Brass, Metal & Alloy Gold-plated Jewel Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Boghra Sales Brass, Metal & Alloy Gold-plated Jewel Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 165,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-004-1.jpg",
+      "./product_images/AF-P1-004-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-004-1",
+      "AF-P1-004-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "boghra",
+      "brass",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "metal",
+      "plated",
+      "sales",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      7,
+      8
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-005",
+    "slug": "flaring-brass-gold-plated-gold-jewel-set-pack-of-2-af-p1-005",
+    "name": "Flaring Brass Gold-plated Gold Jewel Set (Pack of 2)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Flaring Brass Gold-plated Gold Jewel Set (Pack of 2). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 225,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-005-1.jpg",
+      "./product_images/AF-P1-005-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-005-1",
+      "AF-P1-005-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "brass",
+      "fashion accessories",
+      "flaring",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      9,
+      10
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-006",
+    "slug": "svents-alloy-gold-white-jewel-set-pack-of-2-af-p1-006",
+    "name": "SVENTS Alloy Gold, White Jewel Set (Pack of 2)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "SVENTS Alloy Gold, White Jewel Set (Pack of 2). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 283,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-006-1.jpg",
+      "./product_images/AF-P1-006-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-006-1",
+      "AF-P1-006-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "set",
+      "shopping",
+      "svents",
+      "white"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      11,
+      12
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-007",
+    "slug": "boghra-sales-alloy-gold-plated-gold-jewel-set-pack-of-1-af-p1-007",
+    "name": "Boghra Sales Alloy Gold-plated Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Boghra Sales Alloy Gold-plated Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 183,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-007-1.jpg",
+      "./product_images/AF-P1-007-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-007-1",
+      "AF-P1-007-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "boghra",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "sales",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      13,
+      14
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-008",
+    "slug": "bulsenk-alloy-gold-plated-gold-jewel-set-pack-of-1-af-p1-008",
+    "name": "Bulsenk Alloy Gold-plated Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Bulsenk Alloy Gold-plated Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 291,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-008-1.jpg",
+      "./product_images/AF-P1-008-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-008-1",
+      "AF-P1-008-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "bulsenk",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      15,
+      16
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-009",
+    "slug": "yash-collection-brass-gold-plated-gold-jewel-set-pack-of-1-af-p1-009",
+    "name": "Yash Collection Brass Gold-plated Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Yash Collection Brass Gold-plated Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 246,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-009-1.jpg",
+      "./product_images/AF-P1-009-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-009-1",
+      "AF-P1-009-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "brass",
+      "collection",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "set",
+      "shopping",
+      "yash"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      17,
+      18
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-010",
+    "slug": "thesanga-brass-gold-plated-gold-jewel-set-pack-of-1-af-p1-010",
+    "name": "TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 265,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-010-1.jpg",
+      "./product_images/AF-P1-010-2.jpg",
+      "./product_images/AF-P1-010-3.jpg",
+      "./product_images/AF-P1-010-4.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-010-1",
+      "AF-P1-010-2",
+      "AF-P1-010-3",
+      "AF-P1-010-4"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "brass",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "set",
+      "shopping",
+      "thesanga"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-011",
+    "slug": "visitart-jewellery-alloy-gold-plated-gold-jewel-set-af-p1-011",
+    "name": "Visitart Jewellery Alloy Gold-plated Gold Jewel Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Visitart Jewellery Alloy Gold-plated Gold Jewel Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 382,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-011-1.jpg",
+      "./product_images/AF-P1-011-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-011-1",
+      "AF-P1-011-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "plated",
+      "set",
+      "shopping",
+      "visitart"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      23,
+      24
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-012",
+    "slug": "zestylo-alloy-gold-plated-gold-green-jewel-set-pack-of-1-af-p1-012",
+    "name": "Zestylo Alloy Gold-plated Gold, Green Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Zestylo Alloy Gold-plated Gold, Green Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 260,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-012-1.jpg",
+      "./product_images/AF-P1-012-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-012-1",
+      "AF-P1-012-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "green",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "set",
+      "shopping",
+      "zestylo"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      25,
+      26
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-013",
+    "slug": "sanchi-alloy-gold-jewel-set-pack-of-3-af-p1-013",
+    "name": "Sanchi Alloy Gold Jewel Set (Pack of 3)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Sanchi Alloy Gold Jewel Set (Pack of 3). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 330,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-013-1.jpg",
+      "./product_images/AF-P1-013-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-013-1",
+      "AF-P1-013-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "sanchi",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      27,
+      28
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-014",
+    "slug": "sanchi-alloy-multicolor-jewel-set-pack-of-5-af-p1-014",
+    "name": "Sanchi Alloy Multicolor Jewel Set (Pack of 5)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Sanchi Alloy Multicolor Jewel Set (Pack of 5). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": null,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-014-1.jpg",
+      "./product_images/AF-P1-014-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-014-1",
+      "AF-P1-014-2"
+    ],
+    "badge": "Price on enquiry",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "multicolor",
+      "pack",
+      "sanchi",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      29,
+      30
+    ],
+    "priceStatus": "price-to-confirm",
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-015",
+    "slug": "savara-jewels-brass-alloy-brass-multicolor-white-jewel-set-af-p1-015",
+    "name": "Savara Jewels Brass, Alloy Brass Multicolor, White Jewel Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Savara Jewels Brass, Alloy Brass Multicolor, White Jewel Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 417,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-015-1.jpg",
+      "./product_images/AF-P1-015-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-015-1",
+      "AF-P1-015-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "brass",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "jewels",
+      "multicolor",
+      "savara",
+      "set",
+      "shopping",
+      "white"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      31,
+      32
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-016",
+    "slug": "ridhi-sidhi-collection-brass-brass-white-jewel-set-pack-of-1-af-p1-016",
+    "name": "Ridhi Sidhi Collection Brass Brass White Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Ridhi Sidhi Collection Brass Brass White Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 266,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-016-1.jpg",
+      "./product_images/AF-P1-016-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-016-1",
+      "AF-P1-016-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "brass",
+      "collection",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "ridhi",
+      "set",
+      "shopping",
+      "sidhi",
+      "white"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      33,
+      34
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-017",
+    "slug": "jewel-world-brass-alloy-gold-plated-gold-jewel-set-af-p1-017",
+    "name": "Jewel World Brass & Alloy Gold-plated Gold Jewel Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Jewel World Brass & Alloy Gold-plated Gold Jewel Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": null,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-017-1.jpg",
+      "./product_images/AF-P1-017-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-017-1",
+      "AF-P1-017-2"
+    ],
+    "badge": "Price on enquiry",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "brass",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "plated",
+      "set",
+      "shopping",
+      "world"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      35,
+      36
+    ],
+    "priceStatus": "price-to-confirm",
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-018",
+    "slug": "entan-liyer-chain-silver-plated-layered-necklace-af-p1-018",
+    "name": "ENTAN Liyer Chain - Silver-plated Layered Necklace",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "ENTAN Liyer Chain - Silver-plated Layered Necklace. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 123,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-018-1.jpg",
+      "./product_images/AF-P1-018-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-018-1",
+      "AF-P1-018-2"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "chain",
+      "entan",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "layered",
+      "liyer",
+      "necklace",
+      "necklaces & chains",
+      "plated",
+      "shopping",
+      "silver"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      37,
+      38
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-019",
+    "slug": "moonpearl-gold-plated-stainless-steel-necklace-af-p1-019",
+    "name": "MoonPearl Gold-plated Stainless Steel Necklace",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "MoonPearl Gold-plated Stainless Steel Necklace. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 237,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-019-1.jpg",
+      "./product_images/AF-P1-019-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-019-1",
+      "AF-P1-019-2"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewellery",
+      "jewelry",
+      "moonpearl",
+      "necklace",
+      "necklaces & chains",
+      "plated",
+      "shopping",
+      "stainless",
+      "steel"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      39,
+      40
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-020",
+    "slug": "dhanasvi-enterprisee-6-pcs-korean-style-pendant-necklace-set-af-p1-020",
+    "name": "Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 203,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-020-1.jpg",
+      "./product_images/AF-P1-020-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-020-1",
+      "AF-P1-020-2"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "dhanasvi",
+      "enterprisee",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "korean",
+      "necklace",
+      "necklaces & chains",
+      "pcs",
+      "pendant",
+      "set",
+      "shopping",
+      "style"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      41,
+      42
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-021",
+    "slug": "yash-sales-brass-gold-plated-gold-jewel-set-pack-of-1-af-p1-021",
+    "name": "Yash Sales Brass Gold-plated Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Yash Sales Brass Gold-plated Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 235,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-021-1.jpg",
+      "./product_images/AF-P1-021-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-021-1",
+      "AF-P1-021-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "brass",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "sales",
+      "set",
+      "shopping",
+      "yash"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      43,
+      44
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-022",
+    "slug": "raj-deb-alloy-gold-plated-gold-jewel-set-pack-of-3-af-p1-022",
+    "name": "Raj & Deb Alloy Gold-plated Gold Jewel Set (Pack of 3)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Raj & Deb Alloy Gold-plated Gold Jewel Set (Pack of 3). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 361,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-022-1.jpg",
+      "./product_images/AF-P1-022-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-022-1",
+      "AF-P1-022-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "deb",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "raj",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      45,
+      46
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-023",
+    "slug": "udama-alloy-gold-plated-gold-jewel-set-pack-of-3-af-p1-023",
+    "name": "Udama Alloy Gold-plated Gold Jewel Set (Pack of 3)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Udama Alloy Gold-plated Gold Jewel Set (Pack of 3). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 277,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-023-1.jpg",
+      "./product_images/AF-P1-023-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-023-1",
+      "AF-P1-023-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "artificial jewellery",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "set",
+      "shopping",
+      "udama"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      47,
+      48
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-024",
+    "slug": "anvi-store-alloy-gold-plated-gold-jewel-set-pack-of-1-af-p1-024",
+    "name": "Anvi Store Alloy Gold-plated Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Anvi Store Alloy Gold-plated Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 248,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-024-1.jpg",
+      "./product_images/AF-P1-024-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-024-1",
+      "AF-P1-024-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "alloy",
+      "anvi",
+      "artificial jewellery",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "plated",
+      "set",
+      "shopping",
+      "store"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      49,
+      50
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-025",
+    "slug": "fakezak-brass-gold-jewel-set-pack-of-1-af-p1-025",
+    "name": "Fakezak Brass Gold Jewel Set (Pack of 1)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Fakezak Brass Gold Jewel Set (Pack of 1). Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 237,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-025-1.jpg",
+      "./product_images/AF-P1-025-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-025-1",
+      "AF-P1-025-2"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "brass",
+      "fakezak",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewel",
+      "jewellery",
+      "jewelry",
+      "pack",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      51,
+      52
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-026",
+    "slug": "alucia-bracelet-jewellery-keychain-gift-box-gift-set-af-p1-026",
+    "name": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories · details on enquiry",
+    "price": 284,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-026-1.jpg",
+      "./product_images/AF-P1-026-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-026-1",
+      "AF-P1-026-2"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "accessories",
+      "alucia",
+      "box",
+      "bracelet",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "keychain",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      53,
+      54
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-027",
+    "slug": "starliven-jewellery-gift-set-af-p1-027",
+    "name": "Starliven Jewellery Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Starliven Jewellery Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 279,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-027-1.jpg",
+      "./product_images/AF-P1-027-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-027-1",
+      "AF-P1-027-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "present",
+      "set",
+      "shopping",
+      "starliven"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      55,
+      56
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-028",
+    "slug": "starliven-jewellery-gift-set-af-p1-028",
+    "name": "Starliven Jewellery Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Starliven Jewellery Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 263,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-028-1.jpg",
+      "./product_images/AF-P1-028-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-028-1",
+      "AF-P1-028-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "present",
+      "set",
+      "shopping",
+      "starliven"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      57,
+      58
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-029",
+    "slug": "starliven-jewellery-gift-set-af-p1-029",
+    "name": "Starliven Jewellery Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Starliven Jewellery Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 273,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-029-1.jpg",
+      "./product_images/AF-P1-029-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-029-1",
+      "AF-P1-029-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "present",
+      "set",
+      "shopping",
+      "starliven"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      59,
+      60
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-030",
+    "slug": "dear-90-gift-box-gift-set-af-p1-030",
+    "name": "Dear 90 Gift Box Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Dear 90 Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 339,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-030-1.jpg",
+      "./product_images/AF-P1-030-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-030-1",
+      "AF-P1-030-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "dear",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "present",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      61,
+      62
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-031",
+    "slug": "purependant-jewellery-gift-box-gift-set-af-p1-031",
+    "name": "PurePendant Jewellery Gift Box Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "PurePendant Jewellery Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 353,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-031-1.jpg",
+      "./product_images/AF-P1-031-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-031-1",
+      "AF-P1-031-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "present",
+      "purependant",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      63,
+      64
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-032",
+    "slug": "alucia-bracelet-gift-box-keychain-jewellery-gift-set-af-p1-032",
+    "name": "Alucia Bracelet, Gift Box, Keychain, Jewellery Gift Set",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Alucia Bracelet, Gift Box, Keychain, Jewellery Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories · details on enquiry",
+    "price": 321,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-032-1.jpg",
+      "./product_images/AF-P1-032-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-032-1",
+      "AF-P1-032-2"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "accessories",
+      "alucia",
+      "box",
+      "bracelet",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "keychain",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      65,
+      66
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-033",
+    "slug": "mohmit-mart-jewellery-gift-box-gift-set-af-p1-033",
+    "name": "Mohmit Mart Jewellery Gift Box Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Mohmit Mart Jewellery Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 290,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-033-1.jpg",
+      "./product_images/AF-P1-033-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-033-1",
+      "AF-P1-033-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "mart",
+      "mohmit",
+      "present",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      67,
+      68
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-034",
+    "slug": "mohmit-mart-jewellery-gift-box-gift-set-af-p1-034",
+    "name": "Mohmit Mart Jewellery Gift Box Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Mohmit Mart Jewellery Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 265,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-034-1.jpg",
+      "./product_images/AF-P1-034-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-034-1",
+      "AF-P1-034-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "mart",
+      "mohmit",
+      "present",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      69,
+      70
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-035",
+    "slug": "mohmit-mart-jewellery-gift-box-gift-set-af-p1-035",
+    "name": "Mohmit Mart Jewellery, Gift Box Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Mohmit Mart Jewellery, Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 270,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-035-1.jpg",
+      "./product_images/AF-P1-035-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-035-1",
+      "AF-P1-035-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "mart",
+      "mohmit",
+      "present",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      71,
+      72
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-036",
+    "slug": "alucia-bracelet-jewellery-keychain-gift-box-gift-set-af-p1-036",
+    "name": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories · details on enquiry",
+    "price": 301,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-036-1.jpg",
+      "./product_images/AF-P1-036-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-036-1",
+      "AF-P1-036-2"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "accessories",
+      "alucia",
+      "box",
+      "bracelet",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "keychain",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      73,
+      74
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-037",
+    "slug": "jewellery-gift-box-set-af-p1-037",
+    "name": "Jewellery Gift Box Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Jewellery Gift Box Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 564,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-037-1.jpg",
+      "./product_images/AF-P1-037-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-037-1",
+      "AF-P1-037-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "present",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      75,
+      76
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-038",
+    "slug": "floricraft-jewellery-gift-box-gift-set-af-p1-038",
+    "name": "Floricraft Jewellery, Gift Box Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Floricraft Jewellery, Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 454,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-038-1.jpg",
+      "./product_images/AF-P1-038-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-038-1",
+      "AF-P1-038-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "floricraft",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "present",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      77,
+      78
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-039",
+    "slug": "floricraft-jewellery-keychain-gift-box-gift-set-af-p1-039",
+    "name": "Floricraft Jewellery, Keychain, Gift Box Gift Set",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Floricraft Jewellery, Keychain, Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories · details on enquiry",
+    "price": 280,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-039-1.jpg",
+      "./product_images/AF-P1-039-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-039-1",
+      "AF-P1-039-2"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "accessories",
+      "box",
+      "floricraft",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "keychain",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      79,
+      80
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-040",
+    "slug": "floricraft-greeting-card-jewellery-gift-box-gift-set-af-p1-040",
+    "name": "Floricraft Greeting Card, Jewellery, Gift Box Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Floricraft Greeting Card, Jewellery, Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 284,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-040-1.jpg",
+      "./product_images/AF-P1-040-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-040-1",
+      "AF-P1-040-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "card",
+      "floricraft",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "greeting",
+      "hamper",
+      "jewellery",
+      "present",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      81,
+      82
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-041",
+    "slug": "starliven-jewellery-gift-set-af-p1-041",
+    "name": "Starliven Jewellery Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Starliven Jewellery Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 2099,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-041-1.jpg",
+      "./product_images/AF-P1-041-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-041-1",
+      "AF-P1-041-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "present",
+      "set",
+      "shopping",
+      "starliven"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      83,
+      84
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-042",
+    "slug": "weddingcharm-jewellery-accessories-gift-set-af-p1-042",
+    "name": "Weddingcharm Jewellery & Accessories Gift Set",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Weddingcharm Jewellery & Accessories Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 629,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-042-1.jpg",
+      "./product_images/AF-P1-042-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-042-1",
+      "AF-P1-042-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "accessories",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "jewellery",
+      "present",
+      "set",
+      "shopping",
+      "weddingcharm"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      85,
+      86
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-043",
+    "slug": "ji-shri-jewellery-bracelet-key-ring-gift-box-gift-set-af-p1-043",
+    "name": "Ji Shri Jewellery, Bracelet, Key Ring, Gift Box Gift Set",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Ji Shri Jewellery, Bracelet, Key Ring, Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories · details on enquiry",
+    "price": 539,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-043-1.jpg",
+      "./product_images/AF-P1-043-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-043-1",
+      "AF-P1-043-2"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "accessories",
+      "box",
+      "bracelet",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "key",
+      "ring",
+      "set",
+      "shopping",
+      "shri"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      87,
+      88
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-044",
+    "slug": "glisha-jewellery-bracelet-gift-box-gift-set-af-p1-044",
+    "name": "Glisha Jewellery, Bracelet, Gift Box Gift Set",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Glisha Jewellery, Bracelet, Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 490,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-044-1.jpg",
+      "./product_images/AF-P1-044-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-044-1",
+      "AF-P1-044-2"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "bracelet",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "glisha",
+      "jewellery",
+      "jewelry",
+      "necklaces & chains",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      89,
+      90
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-045",
+    "slug": "sfep-artificial-flower-gift-box-gift-set-af-p1-045",
+    "name": "SFEP Artificial Flower, Gift Box Gift Set",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "SFEP Artificial Flower, Gift Box Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": 189,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-045-1.jpg",
+      "./product_images/AF-P1-045-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-045-1",
+      "AF-P1-045-2"
+    ],
+    "badge": "Home & Living",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial",
+      "box",
+      "decor",
+      "festive",
+      "flower",
+      "gharsansar",
+      "gift",
+      "home",
+      "home & living",
+      "set",
+      "sfep",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      91,
+      92
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-046",
+    "slug": "mycraftcrazy-showpiece-gift-set-af-p1-046",
+    "name": "Mycraftcrazy Showpiece Gift Set",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "Mycraftcrazy Showpiece Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": 133,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-046-1.jpg",
+      "./product_images/AF-P1-046-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-046-1",
+      "AF-P1-046-2"
+    ],
+    "badge": "Home & Living",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "festive",
+      "gharsansar",
+      "gift",
+      "home",
+      "home & living",
+      "mycraftcrazy",
+      "set",
+      "shopping",
+      "showpiece"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      93,
+      94
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-047",
+    "slug": "mycraftcrazy-showpiece-gift-set-af-p1-047",
+    "name": "Mycraftcrazy Showpiece Gift Set",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "Mycraftcrazy Showpiece Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": 129,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-047-1.jpg",
+      "./product_images/AF-P1-047-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-047-1",
+      "AF-P1-047-2"
+    ],
+    "badge": "Home & Living",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "festive",
+      "gharsansar",
+      "gift",
+      "home",
+      "home & living",
+      "mycraftcrazy",
+      "set",
+      "shopping",
+      "showpiece"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      95,
+      96
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-048",
+    "slug": "earnam-showpiece-gift-set-af-p1-048",
+    "name": "Earnam Showpiece Gift Set",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "Earnam Showpiece Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": 122,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-048-1.jpg",
+      "./product_images/AF-P1-048-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-048-1",
+      "AF-P1-048-2"
+    ],
+    "badge": "Home & Living",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "earnam",
+      "festive",
+      "gharsansar",
+      "gift",
+      "home",
+      "home & living",
+      "set",
+      "shopping",
+      "showpiece"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      97,
+      98
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-049",
+    "slug": "mycraftcrazy-showpiece-gift-set-af-p1-049",
+    "name": "Mycraftcrazy Showpiece Gift Set",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "Mycraftcrazy Showpiece Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": null,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-049-1.jpg",
+      "./product_images/AF-P1-049-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-049-1",
+      "AF-P1-049-2"
+    ],
+    "badge": "Price on enquiry",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "festive",
+      "gharsansar",
+      "gift",
+      "home",
+      "home & living",
+      "mycraftcrazy",
+      "set",
+      "shopping",
+      "showpiece"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      99,
+      100
+    ],
+    "priceStatus": "price-to-confirm",
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-050",
+    "slug": "mycraftcrazy-showpiece-gift-set-af-p1-050",
+    "name": "Mycraftcrazy Showpiece Gift Set",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "Mycraftcrazy Showpiece Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": 123,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-050-1.jpg",
+      "./product_images/AF-P1-050-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-050-1",
+      "AF-P1-050-2"
+    ],
+    "badge": "Home & Living",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "festive",
+      "gharsansar",
+      "gift",
+      "home",
+      "home & living",
+      "mycraftcrazy",
+      "set",
+      "shopping",
+      "showpiece"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      101,
+      102
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-051",
+    "slug": "earnam-showpiece-gift-set-af-p1-051",
+    "name": "Earnam Showpiece Gift Set",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "Earnam Showpiece Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": 123,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-051-1.jpg",
+      "./product_images/AF-P1-051-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-051-1",
+      "AF-P1-051-2"
+    ],
+    "badge": "Home & Living",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "earnam",
+      "festive",
+      "gharsansar",
+      "gift",
+      "home",
+      "home & living",
+      "set",
+      "shopping",
+      "showpiece"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      103,
+      104
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-052",
+    "slug": "effete-gift-hamper-with-ganesha-idol-af-p1-052",
+    "name": "Effete Gift Hamper with Ganesha Idol",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "Effete Gift Hamper with Ganesha Idol. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": 525,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-052-1.jpg",
+      "./product_images/AF-P1-052-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-052-1",
+      "AF-P1-052-2"
+    ],
+    "badge": "Home & Living",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "effete",
+      "festive",
+      "ganesha",
+      "gharsansar",
+      "gift",
+      "hamper",
+      "home",
+      "home & living",
+      "idol",
+      "shopping",
+      "with"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      105,
+      106
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-053",
+    "slug": "pureheart-dry-fruits-diwali-gift-hamper-cashews-cranberry-nuts-af-p1-053",
+    "name": "Pureheart Dry Fruits Diwali Gift Hamper - Cashews, Cranberry & Nuts",
+    "category": "gifts-hampers",
+    "categoryLabel": "Gifts & Hampers",
+    "description": "Pureheart Dry Fruits Diwali Gift Hamper - Cashews, Cranberry & Nuts. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Gifts & Hampers · details on enquiry",
+    "price": 1001,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-053-1.jpg",
+      "./product_images/AF-P1-053-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-053-1",
+      "AF-P1-053-2"
+    ],
+    "badge": "Gifts & Hampers",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "cashews",
+      "cranberry",
+      "diwali",
+      "dry",
+      "fruits",
+      "gharsansar",
+      "gift",
+      "gifts & hampers",
+      "hamper",
+      "nuts",
+      "present",
+      "pureheart",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      107,
+      108
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-054",
+    "slug": "international-gift-showpiece-gift-set-af-p1-054",
+    "name": "International Gift Showpiece Gift Set",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "International Gift Showpiece Gift Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": 554,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-054-1.jpg",
+      "./product_images/AF-P1-054-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-054-1",
+      "AF-P1-054-2"
+    ],
+    "badge": "Home & Living",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "festive",
+      "gharsansar",
+      "gift",
+      "home",
+      "home & living",
+      "international",
+      "set",
+      "shopping",
+      "showpiece"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      109,
+      110
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-055",
+    "slug": "yaara-enterprise-36-grids-clear-plastic-storage-box-af-p1-055",
+    "name": "Yaara Enterprise 36-Grids Clear Plastic Storage Box",
+    "category": "home-living",
+    "categoryLabel": "Home & Living",
+    "description": "Yaara Enterprise 36-Grids Clear Plastic Storage Box. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Home & Living · details on enquiry",
+    "price": 221,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-055-1.jpg",
+      "./product_images/AF-P1-055-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-055-1",
+      "AF-P1-055-2"
+    ],
+    "badge": "Home & Living",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "box",
+      "clear",
+      "decor",
+      "enterprise",
+      "festive",
+      "gharsansar",
+      "gift",
+      "grids",
+      "home",
+      "home & living",
+      "plastic",
+      "shopping",
+      "storage",
+      "yaara"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      111,
+      112
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-056",
+    "slug": "collectible-india-laxmi-ganesh-saraswati-idol-diya-oil-lamp-af-p1-056",
+    "name": "Collectible India Laxmi Ganesh Saraswati Idol Diya Oil Lamp",
+    "category": "festive-decor",
+    "categoryLabel": "Festive Decor & Lights",
+    "description": "Collectible India Laxmi Ganesh Saraswati Idol Diya Oil Lamp. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Festive Decor & Lights · details on enquiry",
+    "price": 745,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-056-1.jpg",
+      "./product_images/AF-P1-056-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-056-1",
+      "AF-P1-056-2"
+    ],
+    "badge": "Festive Decor & Lights",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "collectible",
+      "decor",
+      "diya",
+      "festive",
+      "festive decor & lights",
+      "ganesh",
+      "gharsansar",
+      "gift",
+      "home",
+      "idol",
+      "india",
+      "lamp",
+      "laxmi",
+      "oil",
+      "saraswati",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      113,
+      114
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-057",
+    "slug": "fnf-creation-metal-decorative-flower-shaped-diya-af-p1-057",
+    "name": "FNF Creation Metal Decorative Flower-shaped Diya",
+    "category": "festive-decor",
+    "categoryLabel": "Festive Decor & Lights",
+    "description": "FNF Creation Metal Decorative Flower-shaped Diya. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Festive Decor & Lights · details on enquiry",
+    "price": null,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-057-1.jpg",
+      "./product_images/AF-P1-057-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-057-1",
+      "AF-P1-057-2"
+    ],
+    "badge": "Price on enquiry",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "creation",
+      "decor",
+      "decorative",
+      "diya",
+      "festive",
+      "festive decor & lights",
+      "flower",
+      "fnf",
+      "gharsansar",
+      "gift",
+      "home",
+      "metal",
+      "shaped",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      115,
+      116
+    ],
+    "priceStatus": "price-to-confirm",
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-058",
+    "slug": "fnf-creation-water-sensor-reusable-led-diyas-af-p1-058",
+    "name": "FNF Creation Water Sensor Reusable LED Diyas",
+    "category": "festive-decor",
+    "categoryLabel": "Festive Decor & Lights",
+    "description": "FNF Creation Water Sensor Reusable LED Diyas. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Festive Decor & Lights · details on enquiry",
+    "price": 256,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-058-1.jpg",
+      "./product_images/AF-P1-058-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-058-1",
+      "AF-P1-058-2"
+    ],
+    "badge": "Festive Decor & Lights",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "creation",
+      "decor",
+      "diyas",
+      "festive",
+      "festive decor & lights",
+      "fnf",
+      "gharsansar",
+      "gift",
+      "home",
+      "led",
+      "reusable",
+      "sensor",
+      "shopping",
+      "water"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      117,
+      118
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-059",
+    "slug": "aurasip-led-tea-light-candles-for-diwali-pooja-af-p1-059",
+    "name": "AuraSip LED Tea Light Candles for Diwali & Pooja",
+    "category": "festive-decor",
+    "categoryLabel": "Festive Decor & Lights",
+    "description": "AuraSip LED Tea Light Candles for Diwali & Pooja. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Festive Decor & Lights · details on enquiry",
+    "price": 258,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-059-1.jpg",
+      "./product_images/AF-P1-059-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-059-1",
+      "AF-P1-059-2"
+    ],
+    "badge": "Festive Decor & Lights",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "aurasip",
+      "candles",
+      "decor",
+      "diwali",
+      "festive",
+      "festive decor & lights",
+      "for",
+      "gharsansar",
+      "gift",
+      "home",
+      "led",
+      "light",
+      "pooja",
+      "shopping",
+      "tea"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      119,
+      120
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-060",
+    "slug": "viskri-multishape-multicolour-3d-reflection-diya-set-af-p1-060",
+    "name": "Viskri Multishape Multicolour 3D Reflection Diya Set",
+    "category": "festive-decor",
+    "categoryLabel": "Festive Decor & Lights",
+    "description": "Viskri Multishape Multicolour 3D Reflection Diya Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Festive Decor & Lights · details on enquiry",
+    "price": 179,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-060-1.jpg",
+      "./product_images/AF-P1-060-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-060-1",
+      "AF-P1-060-2"
+    ],
+    "badge": "Festive Decor & Lights",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "diya",
+      "festive",
+      "festive decor & lights",
+      "gharsansar",
+      "gift",
+      "home",
+      "multicolour",
+      "multishape",
+      "reflection",
+      "set",
+      "shopping",
+      "viskri"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      121,
+      122
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-061",
+    "slug": "flashkitch-3d-reflection-diwali-diya-combo-af-p1-061",
+    "name": "Flashkitch 3D Reflection Diwali Diya Combo",
+    "category": "festive-decor",
+    "categoryLabel": "Festive Decor & Lights",
+    "description": "Flashkitch 3D Reflection Diwali Diya Combo. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Festive Decor & Lights · details on enquiry",
+    "price": 137,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-061-1.jpg",
+      "./product_images/AF-P1-061-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-061-1",
+      "AF-P1-061-2"
+    ],
+    "badge": "Festive Decor & Lights",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "combo",
+      "decor",
+      "diwali",
+      "diya",
+      "festive",
+      "festive decor & lights",
+      "flashkitch",
+      "gharsansar",
+      "gift",
+      "home",
+      "reflection",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      123,
+      124
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-062",
+    "slug": "swagata-store-water-sensor-led-electric-diyas-af-p1-062",
+    "name": "Swagata Store Water Sensor LED Electric Diyas",
+    "category": "festive-decor",
+    "categoryLabel": "Festive Decor & Lights",
+    "description": "Swagata Store Water Sensor LED Electric Diyas. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Festive Decor & Lights · details on enquiry",
+    "price": 210,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-062-1.jpg",
+      "./product_images/AF-P1-062-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-062-1",
+      "AF-P1-062-2"
+    ],
+    "badge": "Festive Decor & Lights",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "diyas",
+      "electric",
+      "festive",
+      "festive decor & lights",
+      "gharsansar",
+      "gift",
+      "home",
+      "led",
+      "sensor",
+      "shopping",
+      "store",
+      "swagata",
+      "water"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      125,
+      126
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P1-063",
+    "slug": "zunis-deepak-urli-decorative-showpiece-af-p1-063",
+    "name": "Zunis Deepak Urli Decorative Showpiece",
+    "category": "festive-decor",
+    "categoryLabel": "Festive Decor & Lights",
+    "description": "Zunis Deepak Urli Decorative Showpiece. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Festive Decor & Lights · details on enquiry",
+    "price": 279,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P1-063-1.jpg",
+      "./product_images/AF-P1-063-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P1-063-1",
+      "AF-P1-063-2"
+    ],
+    "badge": "Festive Decor & Lights",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "decor",
+      "decorative",
+      "deepak",
+      "festive",
+      "festive decor & lights",
+      "gharsansar",
+      "gift",
+      "home",
+      "shopping",
+      "showpiece",
+      "urli",
+      "zunis"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      127,
+      128
+    ],
+    "batch": "P1"
+  },
+  {
+    "id": "AF-P2-001",
+    "slug": "ruby-key-necklace-af-p2-001",
+    "name": "Ruby Key Necklace",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Ruby Key Necklace. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 99,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-001-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-001-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "key",
+      "necklace",
+      "necklaces & chains",
+      "ruby",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      129
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-002",
+    "slug": "urban-loop-keychain-af-p2-002",
+    "name": "Urban Loop Keychain",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Urban Loop Keychain. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories · details on enquiry",
+    "price": 120,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-002-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-002-1"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "accessories",
+      "gharsansar",
+      "gift",
+      "keychain",
+      "loop",
+      "shopping",
+      "urban"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      130
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-003",
+    "slug": "evil-eye-bead-necklace-af-p2-003",
+    "name": "Evil Eye Bead Necklace",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Evil Eye Bead Necklace. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 120,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-003-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-003-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bead",
+      "evil",
+      "eye",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "necklace",
+      "necklaces & chains",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      131
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-004",
+    "slug": "metro-clip-keychain-af-p2-004",
+    "name": "Metro Clip Keychain",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Metro Clip Keychain. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories · details on enquiry",
+    "price": 120,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-004-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-004-1"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "accessories",
+      "clip",
+      "gharsansar",
+      "gift",
+      "keychain",
+      "metro",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      132
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-005",
+    "slug": "ivory-blossom-earrings-af-p2-005",
+    "name": "Ivory Blossom Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Ivory Blossom Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 50,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-005-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-005-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "blossom",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "ivory",
+      "jewellery",
+      "jewelry",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      133
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-006",
+    "slug": "pearl-dot-studs-af-p2-006",
+    "name": "Pearl Dot Studs",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Pearl Dot Studs. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 15,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-006-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-006-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "dot",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "pearl",
+      "shopping",
+      "studs"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      134
+    ],
+    "priceUnit": "pair",
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-007",
+    "slug": "square-crystal-studs-af-p2-007",
+    "name": "Square Crystal Studs",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Square Crystal Studs. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 15,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-007-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-007-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "crystal",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "shopping",
+      "square",
+      "studs"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      135
+    ],
+    "priceUnit": "pair",
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-008",
+    "slug": "golden-bloom-studs-af-p2-008",
+    "name": "Golden Bloom Studs",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Golden Bloom Studs. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 60,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-008-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-008-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bloom",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "golden",
+      "jewellery",
+      "jewelry",
+      "shopping",
+      "studs"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      136
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-009",
+    "slug": "pearl-bow-earrings-af-p2-009",
+    "name": "Pearl Bow Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Pearl Bow Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 50,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-009-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-009-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bow",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "pearl",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      137
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-010",
+    "slug": "celeste-pendant-set-af-p2-010",
+    "name": "Celeste Pendant Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Celeste Pendant Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-010-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-010-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "celeste",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "pendant",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      138
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-011",
+    "slug": "golden-charm-necklace-af-p2-011",
+    "name": "Golden Charm Necklace",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Golden Charm Necklace. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 99,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-011-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-011-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "charm",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "golden",
+      "jewellery",
+      "jewelry",
+      "necklace",
+      "necklaces & chains",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      139
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-012",
+    "slug": "classic-snake-chain-af-p2-012",
+    "name": "Classic Snake Chain",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Classic Snake Chain. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 99,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-012-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-012-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "chain",
+      "classic",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "necklaces & chains",
+      "shopping",
+      "snake"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      140
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-013",
+    "slug": "coin-charm-chain-af-p2-013",
+    "name": "Coin Charm Chain",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Coin Charm Chain. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 60,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-013-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-013-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "chain",
+      "charm",
+      "coin",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "necklaces & chains",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      141
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-014",
+    "slug": "coastal-shell-bracelet-af-p2-014",
+    "name": "Coastal Shell Bracelet",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Coastal Shell Bracelet. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains · details on enquiry",
+    "price": 60,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-014-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-014-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bracelet",
+      "coastal",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "necklaces & chains",
+      "shell",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      142
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-015",
+    "slug": "cherry-drop-earrings-af-p2-015",
+    "name": "Cherry Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Cherry Drop Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 80,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-015-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-015-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "cherry",
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      143
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-016",
+    "slug": "pearl-halo-studs-af-p2-016",
+    "name": "Pearl Halo Studs",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Pearl Halo Studs. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 50,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-016-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-016-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "halo",
+      "jewellery",
+      "jewelry",
+      "pearl",
+      "shopping",
+      "studs"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      144
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-017",
+    "slug": "golden-crest-mangalsutra-af-p2-017",
+    "name": "Golden Crest Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Golden Crest Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-017-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-017-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "crest",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "golden",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      145
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-018",
+    "slug": "heartline-mangalsutra-af-p2-018",
+    "name": "Heartline Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Heartline Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-018-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-018-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "heartline",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      146
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-019",
+    "slug": "crystal-teardrop-mangalsutra-af-p2-019",
+    "name": "Crystal Teardrop Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Crystal Teardrop Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-019-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-019-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "crystal",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "shopping",
+      "teardrop"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      147
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-020",
+    "slug": "square-radiance-mangalsutra-af-p2-020",
+    "name": "Square Radiance Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Square Radiance Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-020-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-020-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "radiance",
+      "shopping",
+      "square"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      148
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-021",
+    "slug": "floral-medallion-mangalsutra-af-p2-021",
+    "name": "Floral Medallion Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Floral Medallion Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-021-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-021-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "fashion accessories",
+      "floral",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "medallion",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      149
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-022",
+    "slug": "classic-crystal-pendant-set-af-p2-022",
+    "name": "Classic Crystal Pendant Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Classic Crystal Pendant Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 300,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-022-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-022-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "classic",
+      "crystal",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "pendant",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      150
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-023",
+    "slug": "ornate-circle-mangalsutra-af-p2-023",
+    "name": "Ornate Circle Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Ornate Circle Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-023-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-023-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "circle",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "ornate",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      151
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-024",
+    "slug": "regal-crystal-jewellery-set-af-p2-024",
+    "name": "Regal Crystal Jewellery Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Regal Crystal Jewellery Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 500,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-024-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-024-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "crystal",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "regal",
+      "set",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      152
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-025",
+    "slug": "traditional-gold-tone-jewellery-set-af-p2-025",
+    "name": "Traditional Gold-Tone Jewellery Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Traditional Gold-Tone Jewellery Set. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery · details on enquiry",
+    "price": 500,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-025-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-025-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "artificial jewellery",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewellery",
+      "jewelry",
+      "set",
+      "shopping",
+      "tone",
+      "traditional"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      153
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-026",
+    "slug": "ruby-medallion-mangalsutra-af-p2-026",
+    "name": "Ruby Medallion Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Ruby Medallion Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-026-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-026-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "medallion",
+      "ruby",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      154
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-027",
+    "slug": "crystal-arc-mangalsutra-af-p2-027",
+    "name": "Crystal Arc Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Crystal Arc Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 220,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-027-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-027-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "arc",
+      "crystal",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      155
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-028",
+    "slug": "minimal-bead-mangalsutra-af-p2-028",
+    "name": "Minimal Bead Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Minimal Bead Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-028-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-028-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bead",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "minimal",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      156
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-029",
+    "slug": "diamond-fan-mangalsutra-af-p2-029",
+    "name": "Diamond Fan Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Diamond Fan Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-029-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-029-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "diamond",
+      "fan",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      157
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-030",
+    "slug": "graceful-curve-mangalsutra-af-p2-030",
+    "name": "Graceful Curve Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Graceful Curve Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 180,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-030-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-030-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "curve",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "graceful",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      158
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-031",
+    "slug": "heritage-ruby-mangalsutra-af-p2-031",
+    "name": "Heritage Ruby Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Heritage Ruby Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-031-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-031-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "heritage",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "ruby",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      159
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-032",
+    "slug": "crystal-fan-mangalsutra-af-p2-032",
+    "name": "Crystal Fan Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Crystal Fan Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-032-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-032-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "crystal",
+      "fan",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      160
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-033",
+    "slug": "butterfly-charm-mangalsutra-af-p2-033",
+    "name": "Butterfly Charm Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Butterfly Charm Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-033-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-033-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "butterfly",
+      "charm",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      161
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-034",
+    "slug": "bloom-curve-mangalsutra-af-p2-034",
+    "name": "Bloom Curve Mangalsutra",
+    "category": "mangalsutras",
+    "categoryLabel": "Mangalsutras",
+    "description": "Bloom Curve Mangalsutra. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Mangalsutras · details on enquiry",
+    "price": 220,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-034-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-034-1"
+    ],
+    "badge": "Mangalsutras",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bloom",
+      "curve",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "mangalsutra",
+      "mangalsutras",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      162
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-035",
+    "slug": "heart-glow-studs-af-p2-035",
+    "name": "Heart Glow Studs",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Heart Glow Studs. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 75,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-035-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-035-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "glow",
+      "heart",
+      "jewellery",
+      "jewelry",
+      "shopping",
+      "studs"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      163
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-036",
+    "slug": "pearl-cascade-earrings-af-p2-036",
+    "name": "Pearl Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Pearl Cascade Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-036-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-036-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "cascade",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "pearl",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      164
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-037",
+    "slug": "peacock-drop-earrings-af-p2-037",
+    "name": "Peacock Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Peacock Drop Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 120,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-037-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-037-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "peacock",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      165
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-038",
+    "slug": "petal-cascade-earrings-af-p2-038",
+    "name": "Petal Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Petal Cascade Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-038-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-038-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "cascade",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "petal",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      166
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-039",
+    "slug": "rose-gold-square-dangles-af-p2-039",
+    "name": "Rose Gold Square Dangles",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Rose Gold Square Dangles. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-039-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-039-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "dangles",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "gold",
+      "jewellery",
+      "jewelry",
+      "rose",
+      "shopping",
+      "square"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      167
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-040",
+    "slug": "golden-frame-drop-earrings-af-p2-040",
+    "name": "Golden Frame Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Golden Frame Drop Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-040-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-040-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "frame",
+      "gharsansar",
+      "gift",
+      "golden",
+      "jewellery",
+      "jewelry",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      168
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-041",
+    "slug": "starlight-bloom-earrings-af-p2-041",
+    "name": "Starlight Bloom Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Starlight Bloom Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-041-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-041-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bloom",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "shopping",
+      "starlight"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      169
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-042",
+    "slug": "regal-frame-drop-earrings-af-p2-042",
+    "name": "Regal Frame Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Regal Frame Drop Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-042-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-042-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "frame",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "regal",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      170
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-043",
+    "slug": "petal-glow-drop-earrings-af-p2-043",
+    "name": "Petal Glow Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Petal Glow Drop Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 160,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-043-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-043-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "glow",
+      "jewellery",
+      "jewelry",
+      "petal",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      171
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-044",
+    "slug": "triad-crystal-cascade-earrings-af-p2-044",
+    "name": "Triad Crystal Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Triad Crystal Cascade Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 180,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-044-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-044-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "cascade",
+      "crystal",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "shopping",
+      "triad"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      172
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-045",
+    "slug": "pearl-teardrop-earrings-af-p2-045",
+    "name": "Pearl Teardrop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Pearl Teardrop Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-045-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-045-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "pearl",
+      "shopping",
+      "teardrop"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      173
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-046",
+    "slug": "golden-leaf-chain-earrings-af-p2-046",
+    "name": "Golden Leaf Chain Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Golden Leaf Chain Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-046-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-046-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "chain",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "golden",
+      "jewellery",
+      "jewelry",
+      "leaf",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      174
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-047",
+    "slug": "lattice-bloom-studs-af-p2-047",
+    "name": "Lattice Bloom Studs",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Lattice Bloom Studs. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-047-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-047-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bloom",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "lattice",
+      "shopping",
+      "studs"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      175
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-048",
+    "slug": "halo-petal-drop-earrings-af-p2-048",
+    "name": "Halo Petal Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Halo Petal Drop Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 180,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-048-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-048-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "halo",
+      "jewellery",
+      "jewelry",
+      "petal",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      176
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-049",
+    "slug": "crystal-frame-cascade-earrings-af-p2-049",
+    "name": "Crystal Frame Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Crystal Frame Cascade Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-049-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-049-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "cascade",
+      "crystal",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "frame",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      177
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-050",
+    "slug": "silver-bloom-dangle-earrings-af-p2-050",
+    "name": "Silver Bloom Dangle Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Silver Bloom Dangle Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 120,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-050-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-050-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bloom",
+      "dangle",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "shopping",
+      "silver"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      178
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-051",
+    "slug": "geometric-bloom-studs-af-p2-051",
+    "name": "Geometric Bloom Studs",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Geometric Bloom Studs. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-051-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-051-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "bloom",
+      "earrings & studs",
+      "fashion accessories",
+      "geometric",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "shopping",
+      "studs"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      179
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-052",
+    "slug": "ruby-blossom-studs-af-p2-052",
+    "name": "Ruby Blossom Studs",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Ruby Blossom Studs. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 90,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-052-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-052-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "blossom",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "jewellery",
+      "jewelry",
+      "ruby",
+      "shopping",
+      "studs"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      180
+    ],
+    "batch": "P2"
+  },
+  {
+    "id": "AF-P2-053",
+    "slug": "rose-halo-cascade-earrings-af-p2-053",
+    "name": "Rose Halo Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Rose Halo Cascade Earrings. Product details and included pieces can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs · details on enquiry",
+    "price": 120,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P2-053-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P2-053-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "cascade",
+      "earrings",
+      "earrings & studs",
+      "fashion accessories",
+      "gharsansar",
+      "gift",
+      "halo",
+      "jewellery",
+      "jewelry",
+      "rose",
+      "shopping"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      181
+    ],
+    "batch": "P2"
+  }
+]

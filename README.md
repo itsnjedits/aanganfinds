@@ -1,63 +1,75 @@
-# Aangan Finds — First Real Catalogue (v1.2)
+# GharSansar — Version 2 (Aangan Finds catalogue)
 
-A mobile-first, front-end-only shopping catalogue. This build replaces the eight design placeholders with **34 products and 59 locally saved product images** cropped from the product screenshots supplied by the owner.
+**Brand:** GharSansar · **Tagline:** हर घर की पसंद  
+**Stack:** HTML, CSS, JavaScript, Tailwind browser CDN, JSON catalogue, PWA/service worker  
+**Catalogue:** 116 products · 181 mapped image filenames · 8 product categories (plus All Products)
 
-## What's included
+## What's in V2
 
-- `index.html` — storefront, dark/light toggle, live fuzzy search, category filters, sorting, cart and saved-items UI.
-- `css/styles.css` — mobile-first styling and touch-safe desktop hover effects.
-- `js/app.js` — product rendering, real-time typo-tolerant search, saved list, quantity controls, bag, detail modal with image gallery, and WhatsApp order/enquiry messages.
-- `data/products.json` — the 34 live catalogue entries. Every item includes its name, category, selling price and locally stored image paths.
-- `data/categories.json` — categories generated for this batch.
-- `data/image-index.json` — mapping of each product/image ID to its local filename.
-- `product_images/` — 59 cropped JPGs, with names such as `AF-JW-002-1.jpg` and `AF-JW-002-2.jpg`.
-- `assets/brand/` and `assets/banners/` — site logo, PWA icons and original festive artwork.
-- `manifest.webmanifest` and `sw.js` — PWA setup and static caching.
-- `tools/validate_catalogue.py` — checks product IDs, category references, prices and image paths.
-- `tools/product-template.json` — example structure for a future product.
+- Rebranded storefront inspired by the supplied GharSansar reference: wine/maroon, warm cream, gold accents, large logo, category cards and wide hero illustration.
+- Mobile-first layout (two product columns on phones), horizontal category navigation and fixed bottom navigation on mobile.
+- Light/dark theme with contrast-aware surface/text tokens; preference saved in localStorage.
+- Live fuzzy search, category filtering, price/name sorting, wishlist, cart, detail modal, multiple-image gallery, quantity controls, separate Order and Ask us WhatsApp links.
+- Ordinary WhatsApp destination configured as `917568443870` (India country code + 7568443870).
+- `data/products.json` contains the 116 catalogue entries parsed from the supplied 181-page image index. P1 prices are the marked-up prices shown in that index; P2 prices are kept as listed. Four P1 entries have no visible price and show **Price on enquiry** instead of a guessed amount.
+- `data/image-index.json` maps all 181 expected crop filenames to product IDs.
 
-## Pricing used in this build
+## IMPORTANT: product image folder is intentionally empty
 
-The displayed `price` for each product was calculated from the sale price visibly shown on its corresponding page in the supplied `products_combined.pdf`: **sale price × 1.40, rounded to the nearest whole rupee**. Examples: ₹190 → ₹266 and ₹298 → ₹417. The source prices are not displayed in the storefront. Please re-check live marketplace price, product variant, availability and your actual margin before taking an order; screenshot prices can change.
+`product_images/` contains only `.gitkeep`, as requested. Each product already points to its expected local file, such as:
 
-This PDF contains 34 product listing screenshots; the imported catalogue therefore has 34 products, with multiple full-visible image crops where available. Cropped images inherit the resolution and framing of the screenshots. Use only product photographs you are permitted to reuse commercially before publishing the site publicly.
+```text
+./product_images/AF-P1-001-1.jpg
+./product_images/AF-P1-001-2.jpg
+./product_images/AF-P2-001-1.jpg
+```
+
+When you add a matching JPG/PNG/WebP file to that folder and push it to GitHub, the product card, wishlist/cart thumbnail and product detail gallery will use it automatically. Until then, a styled GharSansar placeholder appears instead of a broken image. Keep filenames exactly as listed in `data/products.json`.
 
 ## Run locally on Windows
 
-1. Extract the project folder.
-2. Open PowerShell in this folder.
-3. Run:
+1. Extract this ZIP directly into your existing project folder/repository, or make a backup and replace the old project contents.
+2. Open CMD in this folder and run:
 
-   ```powershell
+   ```cmd
    py -m http.server 8000
    ```
 
-4. Open `http://localhost:8000` in Chrome. Do not double-click `index.html`, because the catalogue is fetched as JSON.
+3. Visit `http://localhost:8000` in Chrome. Do not double-click `index.html`; JSON is fetched over HTTP.
+4. Search, filters, theme, wishlist/cart, quantity controls and WhatsApp message links can be tested without product images. Add photos later using the mapped names.
 
-## Publish on GitHub Pages
+## Validate product data
 
-1. Create a GitHub repository (for example, `aangan-finds`).
-2. Upload the **contents** of this folder to the repository root, including `index.html`, `product_images/`, `data/`, `assets/`, `css/`, `js/`, `sw.js` and `manifest.webmanifest`. Do not upload only the ZIP.
-3. In **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/(root)`, then save.
-4. Open the Pages URL after deployment finishes. All data/image paths are relative, so a project subpath works.
-
-## WhatsApp ordering
-
-The configured number is `917568443870` (India country code 91 + 7568443870). Ordinary WhatsApp is sufficient. Each product has separate **Order** and **Ask us** actions. Order messages include the product name, ID, selected quantity, listed unit price and subtotal. The bag can send a combined message for multiple items. WhatsApp only opens a prefilled draft; the customer must press Send. The site does not take payments or confirm stock.
-
-## Catalogue edits
-
-Edit `data/products.json`. Keep `id` stable when updating a product. For a new product, add its image(s) under `product_images/` and use paths such as `./product_images/AF-JW-035-1.jpg`. Ensure its category matches an ID in `data/categories.json`. Run:
-
-```powershell
+```cmd
 py tools/validate_catalogue.py
 ```
 
-Then commit/push the updated files to GitHub. When adding images, also add their paths to `sw.js`'s `APP_FILES` list if you want them pre-cached for offline use, and bump `CACHE_NAME` so browsers refresh their cached assets.
+This confirms product IDs, category references, image ID uniqueness and JSON mapping. Because the image directory is intentionally empty, the default validator reports the missing photo files as expected. After you add images, run:
 
-## Current limitations
+```cmd
+py tools/validate_catalogue.py --require-images
+```
 
-- No backend, customer accounts, online payments or cross-device wishlist syncing. Wishlist/cart/theme are stored in the current browser via `localStorage`.
-- Product details beyond names are intentionally minimal because the screenshots do not verify every specification.
-- Tailwind's browser CDN is included to preserve the no-build-step starter workflow; for a production-optimised launch, compile Tailwind CSS locally.
-- Product images are screenshot crops, not source-resolution originals.
+## Push to GitHub Pages
+
+From CMD in the repository folder:
+
+```cmd
+git add .
+git commit -m "Launch GharSansar version 2"
+git push
+```
+
+The repository name remains whatever you already created. If your repo is `itsnjedits/aanganfinds`, its Pages URL remains `https://itsnjedits.github.io/aanganfinds/`. In GitHub, select **Settings → Pages → Deploy from a branch → main → /(root)**.
+
+## Add the crops you already have
+
+The provided image-index PDF names the first product batch `AF-P1-...` and the second `AF-P2-...`. Use the cropped images in that naming scheme. If your earlier crop ZIP contains older `AF-JW-...` filenames, rename/map those according to the current `data/image-index.json`; do not simply copy them under the old names.
+
+## Important behaviour
+
+- No backend, online payment, customer account or cross-device wishlist sync. Wishlist/cart/theme use this browser's localStorage.
+- Order and Ask us open ordinary WhatsApp chat with a prefilled message; the customer still taps Send.
+- Products with no visible price are still listed; the message asks the customer to confirm price.
+- The Tailwind browser CDN is included for the no-build workflow. For a production-optimised build, Tailwind can later be compiled locally.
+- Only use product photos you are permitted to use on a public commercial store.

@@ -1,0 +1,5 @@
+GharSansar Version 2
+Catalog source: Aangan Finds combined product image index PDF
+Product records: 116
+Mapped images: 181
+Product images intentionally excluded from ZIP; add images to product_images/ with filenames in data/products.json.

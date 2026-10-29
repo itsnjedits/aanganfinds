@@ -1,1996 +1,1454 @@
 {
   "count": 181,
+  "products": 116,
   "images": [
     {
-      "source": "first-pdf",
-      "sourcePage": 1,
       "productId": "AF-P1-001",
       "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-001-1",
-      "filename": "AF-P1-001-1.jpg",
       "imagePath": "./product_images/AF-P1-001-1.jpg",
-      "price": 216,
-      "priceDisplay": "₹216"
+      "imageOrder": 1,
+      "indexPdfPage": 1
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 1,
       "productId": "AF-P1-001",
       "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-001-2",
-      "filename": "AF-P1-001-2.jpg",
       "imagePath": "./product_images/AF-P1-001-2.jpg",
-      "price": 216,
-      "priceDisplay": "₹216"
+      "imageOrder": 2,
+      "indexPdfPage": 2
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 2,
       "productId": "AF-P1-002",
       "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-002-1",
-      "filename": "AF-P1-002-1.jpg",
       "imagePath": "./product_images/AF-P1-002-1.jpg",
-      "price": 228,
-      "priceDisplay": "₹228"
+      "imageOrder": 1,
+      "indexPdfPage": 3
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 2,
       "productId": "AF-P1-002",
       "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-002-2",
-      "filename": "AF-P1-002-2.jpg",
       "imagePath": "./product_images/AF-P1-002-2.jpg",
-      "price": 228,
-      "priceDisplay": "₹228"
+      "imageOrder": 2,
+      "indexPdfPage": 4
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 3,
       "productId": "AF-P1-003",
       "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-003-1",
-      "filename": "AF-P1-003-1.jpg",
       "imagePath": "./product_images/AF-P1-003-1.jpg",
-      "price": 181,
-      "priceDisplay": "₹181"
+      "imageOrder": 1,
+      "indexPdfPage": 5
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 3,
       "productId": "AF-P1-003",
       "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-003-2",
-      "filename": "AF-P1-003-2.jpg",
       "imagePath": "./product_images/AF-P1-003-2.jpg",
-      "price": 181,
-      "priceDisplay": "₹181"
+      "imageOrder": 2,
+      "indexPdfPage": 6
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 4,
       "productId": "AF-P1-004",
       "productName": "BOGHRA SALES Brass, Metal & Alloy Gold-plated Jewel Set",
       "imageId": "AF-P1-004-1",
-      "filename": "AF-P1-004-1.jpg",
       "imagePath": "./product_images/AF-P1-004-1.jpg",
-      "price": 165,
-      "priceDisplay": "₹165"
+      "imageOrder": 1,
+      "indexPdfPage": 7
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 4,
       "productId": "AF-P1-004",
       "productName": "BOGHRA SALES Brass, Metal & Alloy Gold-plated Jewel Set",
       "imageId": "AF-P1-004-2",
-      "filename": "AF-P1-004-2.jpg",
       "imagePath": "./product_images/AF-P1-004-2.jpg",
-      "price": 165,
-      "priceDisplay": "₹165"
+      "imageOrder": 2,
+      "indexPdfPage": 8
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 5,
       "productId": "AF-P1-005",
       "productName": "Flaring Brass Gold-plated Gold Jewel Set (Pack of 2)",
       "imageId": "AF-P1-005-1",
-      "filename": "AF-P1-005-1.jpg",
       "imagePath": "./product_images/AF-P1-005-1.jpg",
-      "price": 225,
-      "priceDisplay": "₹225"
+      "imageOrder": 1,
+      "indexPdfPage": 9
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 5,
       "productId": "AF-P1-005",
       "productName": "Flaring Brass Gold-plated Gold Jewel Set (Pack of 2)",
       "imageId": "AF-P1-005-2",
-      "filename": "AF-P1-005-2.jpg",
       "imagePath": "./product_images/AF-P1-005-2.jpg",
-      "price": 225,
-      "priceDisplay": "₹225"
+      "imageOrder": 2,
+      "indexPdfPage": 10
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 6,
       "productId": "AF-P1-006",
       "productName": "SVENTS Alloy Gold, White Jewel Set (Pack of 2)",
       "imageId": "AF-P1-006-1",
-      "filename": "AF-P1-006-1.jpg",
       "imagePath": "./product_images/AF-P1-006-1.jpg",
-      "price": 283,
-      "priceDisplay": "₹283"
+      "imageOrder": 1,
+      "indexPdfPage": 11
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 6,
       "productId": "AF-P1-006",
       "productName": "SVENTS Alloy Gold, White Jewel Set (Pack of 2)",
       "imageId": "AF-P1-006-2",
-      "filename": "AF-P1-006-2.jpg",
       "imagePath": "./product_images/AF-P1-006-2.jpg",
-      "price": 283,
-      "priceDisplay": "₹283"
+      "imageOrder": 2,
+      "indexPdfPage": 12
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 7,
       "productId": "AF-P1-007",
       "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-007-1",
-      "filename": "AF-P1-007-1.jpg",
       "imagePath": "./product_images/AF-P1-007-1.jpg",
-      "price": 183,
-      "priceDisplay": "₹183"
+      "imageOrder": 1,
+      "indexPdfPage": 13
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 7,
       "productId": "AF-P1-007",
       "productName": "BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-007-2",
-      "filename": "AF-P1-007-2.jpg",
       "imagePath": "./product_images/AF-P1-007-2.jpg",
-      "price": 183,
-      "priceDisplay": "₹183"
+      "imageOrder": 2,
+      "indexPdfPage": 14
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 8,
       "productId": "AF-P1-008",
       "productName": "Bulsenk Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-008-1",
-      "filename": "AF-P1-008-1.jpg",
       "imagePath": "./product_images/AF-P1-008-1.jpg",
-      "price": 291,
-      "priceDisplay": "₹291"
+      "imageOrder": 1,
+      "indexPdfPage": 15
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 8,
       "productId": "AF-P1-008",
       "productName": "Bulsenk Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-008-2",
-      "filename": "AF-P1-008-2.jpg",
       "imagePath": "./product_images/AF-P1-008-2.jpg",
-      "price": 291,
-      "priceDisplay": "₹291"
+      "imageOrder": 2,
+      "indexPdfPage": 16
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 9,
       "productId": "AF-P1-009",
       "productName": "Yash Collection Brass Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-009-1",
-      "filename": "AF-P1-009-1.jpg",
       "imagePath": "./product_images/AF-P1-009-1.jpg",
-      "price": 246,
-      "priceDisplay": "₹246"
+      "imageOrder": 1,
+      "indexPdfPage": 17
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 9,
       "productId": "AF-P1-009",
       "productName": "Yash Collection Brass Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-009-2",
-      "filename": "AF-P1-009-2.jpg",
       "imagePath": "./product_images/AF-P1-009-2.jpg",
-      "price": 246,
-      "priceDisplay": "₹246"
+      "imageOrder": 2,
+      "indexPdfPage": 18
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 10,
       "productId": "AF-P1-010",
       "productName": "TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-010-1",
-      "filename": "AF-P1-010-1.jpg",
       "imagePath": "./product_images/AF-P1-010-1.jpg",
-      "price": 265,
-      "priceDisplay": "₹265"
+      "imageOrder": 1,
+      "indexPdfPage": 19
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 10,
       "productId": "AF-P1-010",
       "productName": "TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-010-2",
-      "filename": "AF-P1-010-2.jpg",
       "imagePath": "./product_images/AF-P1-010-2.jpg",
-      "price": 265,
-      "priceDisplay": "₹265"
+      "imageOrder": 2,
+      "indexPdfPage": 20
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 14,
       "productId": "AF-P1-010",
       "productName": "TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-010-3",
-      "filename": "AF-P1-010-3.jpg",
       "imagePath": "./product_images/AF-P1-010-3.jpg",
-      "price": 265,
-      "priceDisplay": "₹265"
+      "imageOrder": 3,
+      "indexPdfPage": 21
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 14,
       "productId": "AF-P1-010",
       "productName": "TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-010-4",
-      "filename": "AF-P1-010-4.jpg",
       "imagePath": "./product_images/AF-P1-010-4.jpg",
-      "price": 265,
-      "priceDisplay": "₹265"
+      "imageOrder": 4,
+      "indexPdfPage": 22
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 15,
       "productId": "AF-P1-011",
       "productName": "VISITART JEWELLERY Alloy Gold-plated Gold Jewel Set",
       "imageId": "AF-P1-011-1",
-      "filename": "AF-P1-011-1.jpg",
       "imagePath": "./product_images/AF-P1-011-1.jpg",
-      "price": 382,
-      "priceDisplay": "₹382"
+      "imageOrder": 1,
+      "indexPdfPage": 23
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 15,
       "productId": "AF-P1-011",
       "productName": "VISITART JEWELLERY Alloy Gold-plated Gold Jewel Set",
       "imageId": "AF-P1-011-2",
-      "filename": "AF-P1-011-2.jpg",
       "imagePath": "./product_images/AF-P1-011-2.jpg",
-      "price": 382,
-      "priceDisplay": "₹382"
+      "imageOrder": 2,
+      "indexPdfPage": 24
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 16,
       "productId": "AF-P1-012",
       "productName": "Zestylo Alloy Gold-plated Gold, Green Jewel Set (Pack of 1)",
       "imageId": "AF-P1-012-1",
-      "filename": "AF-P1-012-1.jpg",
       "imagePath": "./product_images/AF-P1-012-1.jpg",
-      "price": 260,
-      "priceDisplay": "₹260"
+      "imageOrder": 1,
+      "indexPdfPage": 25
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 16,
       "productId": "AF-P1-012",
       "productName": "Zestylo Alloy Gold-plated Gold, Green Jewel Set (Pack of 1)",
       "imageId": "AF-P1-012-2",
-      "filename": "AF-P1-012-2.jpg",
       "imagePath": "./product_images/AF-P1-012-2.jpg",
-      "price": 260,
-      "priceDisplay": "₹260"
+      "imageOrder": 2,
+      "indexPdfPage": 26
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 17,
       "productId": "AF-P1-013",
       "productName": "Sanchi Alloy Gold Jewel Set (Pack of 3)",
       "imageId": "AF-P1-013-1",
-      "filename": "AF-P1-013-1.jpg",
       "imagePath": "./product_images/AF-P1-013-1.jpg",
-      "price": 330,
-      "priceDisplay": "₹330"
+      "imageOrder": 1,
+      "indexPdfPage": 27
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 17,
       "productId": "AF-P1-013",
       "productName": "Sanchi Alloy Gold Jewel Set (Pack of 3)",
       "imageId": "AF-P1-013-2",
-      "filename": "AF-P1-013-2.jpg",
       "imagePath": "./product_images/AF-P1-013-2.jpg",
-      "price": 330,
-      "priceDisplay": "₹330"
+      "imageOrder": 2,
+      "indexPdfPage": 28
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 18,
       "productId": "AF-P1-014",
       "productName": "Sanchi Alloy Multicolor Jewel Set (Pack of 5)",
       "imageId": "AF-P1-014-1",
-      "filename": "AF-P1-014-1.jpg",
       "imagePath": "./product_images/AF-P1-014-1.jpg",
-      "price": null,
-      "priceDisplay": "Price not visible in source screenshot"
+      "imageOrder": 1,
+      "indexPdfPage": 29
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 18,
       "productId": "AF-P1-014",
       "productName": "Sanchi Alloy Multicolor Jewel Set (Pack of 5)",
       "imageId": "AF-P1-014-2",
-      "filename": "AF-P1-014-2.jpg",
       "imagePath": "./product_images/AF-P1-014-2.jpg",
-      "price": null,
-      "priceDisplay": "Price not visible in source screenshot"
+      "imageOrder": 2,
+      "indexPdfPage": 30
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 19,
       "productId": "AF-P1-015",
       "productName": "Savara Jewels Brass, Alloy Brass Multicolor, White Jewel Set",
       "imageId": "AF-P1-015-1",
-      "filename": "AF-P1-015-1.jpg",
       "imagePath": "./product_images/AF-P1-015-1.jpg",
-      "price": 417,
-      "priceDisplay": "₹417"
+      "imageOrder": 1,
+      "indexPdfPage": 31
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 19,
       "productId": "AF-P1-015",
       "productName": "Savara Jewels Brass, Alloy Brass Multicolor, White Jewel Set",
       "imageId": "AF-P1-015-2",
-      "filename": "AF-P1-015-2.jpg",
       "imagePath": "./product_images/AF-P1-015-2.jpg",
-      "price": 417,
-      "priceDisplay": "₹417"
+      "imageOrder": 2,
+      "indexPdfPage": 32
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 20,
       "productId": "AF-P1-016",
       "productName": "Ridhi Sidhi Collection Brass Brass White Jewel Set (Pack of 1)",
       "imageId": "AF-P1-016-1",
-      "filename": "AF-P1-016-1.jpg",
       "imagePath": "./product_images/AF-P1-016-1.jpg",
-      "price": 266,
-      "priceDisplay": "₹266"
+      "imageOrder": 1,
+      "indexPdfPage": 33
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 20,
       "productId": "AF-P1-016",
       "productName": "Ridhi Sidhi Collection Brass Brass White Jewel Set (Pack of 1)",
       "imageId": "AF-P1-016-2",
-      "filename": "AF-P1-016-2.jpg",
       "imagePath": "./product_images/AF-P1-016-2.jpg",
-      "price": 266,
-      "priceDisplay": "₹266"
+      "imageOrder": 2,
+      "indexPdfPage": 34
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 22,
       "productId": "AF-P1-017",
       "productName": "Jewel World Brass & Alloy Gold-plated Gold Jewel Set",
       "imageId": "AF-P1-017-1",
-      "filename": "AF-P1-017-1.jpg",
       "imagePath": "./product_images/AF-P1-017-1.jpg",
-      "price": null,
-      "priceDisplay": "Price not visible in source screenshot"
+      "imageOrder": 1,
+      "indexPdfPage": 35
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 22,
       "productId": "AF-P1-017",
       "productName": "Jewel World Brass & Alloy Gold-plated Gold Jewel Set",
       "imageId": "AF-P1-017-2",
-      "filename": "AF-P1-017-2.jpg",
       "imagePath": "./product_images/AF-P1-017-2.jpg",
-      "price": null,
-      "priceDisplay": "Price not visible in source screenshot"
+      "imageOrder": 2,
+      "indexPdfPage": 36
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 23,
       "productId": "AF-P1-018",
       "productName": "ENTAN Liyer Chain - Silver-plated Layered Necklace",
       "imageId": "AF-P1-018-1",
-      "filename": "AF-P1-018-1.jpg",
       "imagePath": "./product_images/AF-P1-018-1.jpg",
-      "price": 123,
-      "priceDisplay": "₹123"
+      "imageOrder": 1,
+      "indexPdfPage": 37
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 23,
       "productId": "AF-P1-018",
       "productName": "ENTAN Liyer Chain - Silver-plated Layered Necklace",
       "imageId": "AF-P1-018-2",
-      "filename": "AF-P1-018-2.jpg",
       "imagePath": "./product_images/AF-P1-018-2.jpg",
-      "price": 123,
-      "priceDisplay": "₹123"
+      "imageOrder": 2,
+      "indexPdfPage": 38
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 24,
       "productId": "AF-P1-019",
       "productName": "MoonPearl Gold-plated Stainless Steel Necklace",
       "imageId": "AF-P1-019-1",
-      "filename": "AF-P1-019-1.jpg",
       "imagePath": "./product_images/AF-P1-019-1.jpg",
-      "price": 237,
-      "priceDisplay": "₹237"
+      "imageOrder": 1,
+      "indexPdfPage": 39
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 24,
       "productId": "AF-P1-019",
       "productName": "MoonPearl Gold-plated Stainless Steel Necklace",
       "imageId": "AF-P1-019-2",
-      "filename": "AF-P1-019-2.jpg",
       "imagePath": "./product_images/AF-P1-019-2.jpg",
-      "price": 237,
-      "priceDisplay": "₹237"
+      "imageOrder": 2,
+      "indexPdfPage": 40
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 25,
       "productId": "AF-P1-020",
       "productName": "Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set",
       "imageId": "AF-P1-020-1",
-      "filename": "AF-P1-020-1.jpg",
       "imagePath": "./product_images/AF-P1-020-1.jpg",
-      "price": 203,
-      "priceDisplay": "₹203"
+      "imageOrder": 1,
+      "indexPdfPage": 41
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 25,
       "productId": "AF-P1-020",
       "productName": "Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set",
       "imageId": "AF-P1-020-2",
-      "filename": "AF-P1-020-2.jpg",
       "imagePath": "./product_images/AF-P1-020-2.jpg",
-      "price": 203,
-      "priceDisplay": "₹203"
+      "imageOrder": 2,
+      "indexPdfPage": 42
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 26,
       "productId": "AF-P1-021",
       "productName": "Yash Sales Brass Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-021-1",
-      "filename": "AF-P1-021-1.jpg",
       "imagePath": "./product_images/AF-P1-021-1.jpg",
-      "price": 235,
-      "priceDisplay": "₹235"
+      "imageOrder": 1,
+      "indexPdfPage": 43
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 26,
       "productId": "AF-P1-021",
       "productName": "Yash Sales Brass Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-021-2",
-      "filename": "AF-P1-021-2.jpg",
       "imagePath": "./product_images/AF-P1-021-2.jpg",
-      "price": 235,
-      "priceDisplay": "₹235"
+      "imageOrder": 2,
+      "indexPdfPage": 44
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 27,
       "productId": "AF-P1-022",
       "productName": "Raj And Deb Alloy Gold-plated Gold Jewel Set (Pack of 3)",
       "imageId": "AF-P1-022-1",
-      "filename": "AF-P1-022-1.jpg",
       "imagePath": "./product_images/AF-P1-022-1.jpg",
-      "price": 361,
-      "priceDisplay": "₹361"
+      "imageOrder": 1,
+      "indexPdfPage": 45
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 27,
       "productId": "AF-P1-022",
       "productName": "Raj And Deb Alloy Gold-plated Gold Jewel Set (Pack of 3)",
       "imageId": "AF-P1-022-2",
-      "filename": "AF-P1-022-2.jpg",
       "imagePath": "./product_images/AF-P1-022-2.jpg",
-      "price": 361,
-      "priceDisplay": "₹361"
+      "imageOrder": 2,
+      "indexPdfPage": 46
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 28,
       "productId": "AF-P1-023",
       "productName": "UDAMA Alloy Gold-plated Gold Jewel Set (Pack of 3)",
       "imageId": "AF-P1-023-1",
-      "filename": "AF-P1-023-1.jpg",
       "imagePath": "./product_images/AF-P1-023-1.jpg",
-      "price": 277,
-      "priceDisplay": "₹277"
+      "imageOrder": 1,
+      "indexPdfPage": 47
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 28,
       "productId": "AF-P1-023",
       "productName": "UDAMA Alloy Gold-plated Gold Jewel Set (Pack of 3)",
       "imageId": "AF-P1-023-2",
-      "filename": "AF-P1-023-2.jpg",
       "imagePath": "./product_images/AF-P1-023-2.jpg",
-      "price": 277,
-      "priceDisplay": "₹277"
+      "imageOrder": 2,
+      "indexPdfPage": 48
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 29,
       "productId": "AF-P1-024",
       "productName": "Anvi Store Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-024-1",
-      "filename": "AF-P1-024-1.jpg",
       "imagePath": "./product_images/AF-P1-024-1.jpg",
-      "price": 248,
-      "priceDisplay": "₹248"
+      "imageOrder": 1,
+      "indexPdfPage": 49
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 29,
       "productId": "AF-P1-024",
       "productName": "Anvi Store Alloy Gold-plated Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-024-2",
-      "filename": "AF-P1-024-2.jpg",
       "imagePath": "./product_images/AF-P1-024-2.jpg",
-      "price": 248,
-      "priceDisplay": "₹248"
+      "imageOrder": 2,
+      "indexPdfPage": 50
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 30,
       "productId": "AF-P1-025",
       "productName": "Fakezak Brass Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-025-1",
-      "filename": "AF-P1-025-1.jpg",
       "imagePath": "./product_images/AF-P1-025-1.jpg",
-      "price": 237,
-      "priceDisplay": "₹237"
+      "imageOrder": 1,
+      "indexPdfPage": 51
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 30,
       "productId": "AF-P1-025",
       "productName": "Fakezak Brass Gold Jewel Set (Pack of 1)",
       "imageId": "AF-P1-025-2",
-      "filename": "AF-P1-025-2.jpg",
       "imagePath": "./product_images/AF-P1-025-2.jpg",
-      "price": 237,
-      "priceDisplay": "₹237"
+      "imageOrder": 2,
+      "indexPdfPage": 52
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 31,
       "productId": "AF-P1-026",
       "productName": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",
       "imageId": "AF-P1-026-1",
-      "filename": "AF-P1-026-1.jpg",
       "imagePath": "./product_images/AF-P1-026-1.jpg",
-      "price": 284,
-      "priceDisplay": "₹284"
+      "imageOrder": 1,
+      "indexPdfPage": 53
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 31,
       "productId": "AF-P1-026",
       "productName": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",
       "imageId": "AF-P1-026-2",
-      "filename": "AF-P1-026-2.jpg",
       "imagePath": "./product_images/AF-P1-026-2.jpg",
-      "price": 284,
-      "priceDisplay": "₹284"
+      "imageOrder": 2,
+      "indexPdfPage": 54
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 32,
       "productId": "AF-P1-027",
       "productName": "Starliven Jewellery Gift Set",
       "imageId": "AF-P1-027-1",
-      "filename": "AF-P1-027-1.jpg",
       "imagePath": "./product_images/AF-P1-027-1.jpg",
-      "price": 279,
-      "priceDisplay": "₹279"
+      "imageOrder": 1,
+      "indexPdfPage": 55
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 32,
       "productId": "AF-P1-027",
       "productName": "Starliven Jewellery Gift Set",
       "imageId": "AF-P1-027-2",
-      "filename": "AF-P1-027-2.jpg",
       "imagePath": "./product_images/AF-P1-027-2.jpg",
-      "price": 279,
-      "priceDisplay": "₹279"
+      "imageOrder": 2,
+      "indexPdfPage": 56
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 33,
       "productId": "AF-P1-028",
       "productName": "Starliven Jewellery Gift Set",
       "imageId": "AF-P1-028-1",
-      "filename": "AF-P1-028-1.jpg",
       "imagePath": "./product_images/AF-P1-028-1.jpg",
-      "price": 263,
-      "priceDisplay": "₹263"
+      "imageOrder": 1,
+      "indexPdfPage": 57
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 33,
       "productId": "AF-P1-028",
       "productName": "Starliven Jewellery Gift Set",
       "imageId": "AF-P1-028-2",
-      "filename": "AF-P1-028-2.jpg",
       "imagePath": "./product_images/AF-P1-028-2.jpg",
-      "price": 263,
-      "priceDisplay": "₹263"
+      "imageOrder": 2,
+      "indexPdfPage": 58
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 34,
       "productId": "AF-P1-029",
       "productName": "Starliven Jewellery Gift Set",
       "imageId": "AF-P1-029-1",
-      "filename": "AF-P1-029-1.jpg",
       "imagePath": "./product_images/AF-P1-029-1.jpg",
-      "price": 273,
-      "priceDisplay": "₹273"
+      "imageOrder": 1,
+      "indexPdfPage": 59
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 34,
       "productId": "AF-P1-029",
       "productName": "Starliven Jewellery Gift Set",
       "imageId": "AF-P1-029-2",
-      "filename": "AF-P1-029-2.jpg",
       "imagePath": "./product_images/AF-P1-029-2.jpg",
-      "price": 273,
-      "priceDisplay": "₹273"
+      "imageOrder": 2,
+      "indexPdfPage": 60
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 35,
       "productId": "AF-P1-030",
       "productName": "Dear 90 Gift Box Gift Set",
       "imageId": "AF-P1-030-1",
-      "filename": "AF-P1-030-1.jpg",
       "imagePath": "./product_images/AF-P1-030-1.jpg",
-      "price": 339,
-      "priceDisplay": "₹339"
+      "imageOrder": 1,
+      "indexPdfPage": 61
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 35,
       "productId": "AF-P1-030",
       "productName": "Dear 90 Gift Box Gift Set",
       "imageId": "AF-P1-030-2",
-      "filename": "AF-P1-030-2.jpg",
       "imagePath": "./product_images/AF-P1-030-2.jpg",
-      "price": 339,
-      "priceDisplay": "₹339"
+      "imageOrder": 2,
+      "indexPdfPage": 62
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 36,
       "productId": "AF-P1-031",
       "productName": "PurePendant Jewellery Gift Box Gift Set",
       "imageId": "AF-P1-031-1",
-      "filename": "AF-P1-031-1.jpg",
       "imagePath": "./product_images/AF-P1-031-1.jpg",
-      "price": 353,
-      "priceDisplay": "₹353"
+      "imageOrder": 1,
+      "indexPdfPage": 63
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 36,
       "productId": "AF-P1-031",
       "productName": "PurePendant Jewellery Gift Box Gift Set",
       "imageId": "AF-P1-031-2",
-      "filename": "AF-P1-031-2.jpg",
       "imagePath": "./product_images/AF-P1-031-2.jpg",
-      "price": 353,
-      "priceDisplay": "₹353"
+      "imageOrder": 2,
+      "indexPdfPage": 64
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 37,
       "productId": "AF-P1-032",
       "productName": "Alucia Bracelet, Gift Box, Keychain, Jewellery Gift Set",
       "imageId": "AF-P1-032-1",
-      "filename": "AF-P1-032-1.jpg",
       "imagePath": "./product_images/AF-P1-032-1.jpg",
-      "price": 321,
-      "priceDisplay": "₹321"
+      "imageOrder": 1,
+      "indexPdfPage": 65
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 37,
       "productId": "AF-P1-032",
       "productName": "Alucia Bracelet, Gift Box, Keychain, Jewellery Gift Set",
       "imageId": "AF-P1-032-2",
-      "filename": "AF-P1-032-2.jpg",
       "imagePath": "./product_images/AF-P1-032-2.jpg",
-      "price": 321,
-      "priceDisplay": "₹321"
+      "imageOrder": 2,
+      "indexPdfPage": 66
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 38,
       "productId": "AF-P1-033",
       "productName": "Mohmit Mart Jewellery Gift Box Gift Set",
       "imageId": "AF-P1-033-1",
-      "filename": "AF-P1-033-1.jpg",
       "imagePath": "./product_images/AF-P1-033-1.jpg",
-      "price": 290,
-      "priceDisplay": "₹290"
+      "imageOrder": 1,
+      "indexPdfPage": 67
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 38,
       "productId": "AF-P1-033",
       "productName": "Mohmit Mart Jewellery Gift Box Gift Set",
       "imageId": "AF-P1-033-2",
-      "filename": "AF-P1-033-2.jpg",
       "imagePath": "./product_images/AF-P1-033-2.jpg",
-      "price": 290,
-      "priceDisplay": "₹290"
+      "imageOrder": 2,
+      "indexPdfPage": 68
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 39,
       "productId": "AF-P1-034",
       "productName": "Mohmit Mart Jewellery Gift Box Gift Set",
       "imageId": "AF-P1-034-1",
-      "filename": "AF-P1-034-1.jpg",
       "imagePath": "./product_images/AF-P1-034-1.jpg",
-      "price": 265,
-      "priceDisplay": "₹265"
+      "imageOrder": 1,
+      "indexPdfPage": 69
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 39,
       "productId": "AF-P1-034",
       "productName": "Mohmit Mart Jewellery Gift Box Gift Set",
       "imageId": "AF-P1-034-2",
-      "filename": "AF-P1-034-2.jpg",
       "imagePath": "./product_images/AF-P1-034-2.jpg",
-      "price": 265,
-      "priceDisplay": "₹265"
+      "imageOrder": 2,
+      "indexPdfPage": 70
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 40,
       "productId": "AF-P1-035",
       "productName": "Mohmit Mart Jewellery, Gift Box Gift Set",
       "imageId": "AF-P1-035-1",
-      "filename": "AF-P1-035-1.jpg",
       "imagePath": "./product_images/AF-P1-035-1.jpg",
-      "price": 270,
-      "priceDisplay": "₹270"
+      "imageOrder": 1,
+      "indexPdfPage": 71
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 40,
       "productId": "AF-P1-035",
       "productName": "Mohmit Mart Jewellery, Gift Box Gift Set",
       "imageId": "AF-P1-035-2",
-      "filename": "AF-P1-035-2.jpg",
       "imagePath": "./product_images/AF-P1-035-2.jpg",
-      "price": 270,
-      "priceDisplay": "₹270"
+      "imageOrder": 2,
+      "indexPdfPage": 72
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 41,
       "productId": "AF-P1-036",
       "productName": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",
       "imageId": "AF-P1-036-1",
-      "filename": "AF-P1-036-1.jpg",
       "imagePath": "./product_images/AF-P1-036-1.jpg",
-      "price": 301,
-      "priceDisplay": "₹301"
+      "imageOrder": 1,
+      "indexPdfPage": 73
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 41,
       "productId": "AF-P1-036",
       "productName": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",
       "imageId": "AF-P1-036-2",
-      "filename": "AF-P1-036-2.jpg",
       "imagePath": "./product_images/AF-P1-036-2.jpg",
-      "price": 301,
-      "priceDisplay": "₹301"
+      "imageOrder": 2,
+      "indexPdfPage": 74
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 42,
       "productId": "AF-P1-037",
       "productName": "Jewellery Gift Box Set",
       "imageId": "AF-P1-037-1",
-      "filename": "AF-P1-037-1.jpg",
       "imagePath": "./product_images/AF-P1-037-1.jpg",
-      "price": 564,
-      "priceDisplay": "₹564"
+      "imageOrder": 1,
+      "indexPdfPage": 75
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 42,
       "productId": "AF-P1-037",
       "productName": "Jewellery Gift Box Set",
       "imageId": "AF-P1-037-2",
-      "filename": "AF-P1-037-2.jpg",
       "imagePath": "./product_images/AF-P1-037-2.jpg",
-      "price": 564,
-      "priceDisplay": "₹564"
+      "imageOrder": 2,
+      "indexPdfPage": 76
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 43,
       "productId": "AF-P1-038",
       "productName": "Floricraft Jewellery, Gift Box Gift Set",
       "imageId": "AF-P1-038-1",
-      "filename": "AF-P1-038-1.jpg",
       "imagePath": "./product_images/AF-P1-038-1.jpg",
-      "price": 454,
-      "priceDisplay": "₹454"
+      "imageOrder": 1,
+      "indexPdfPage": 77
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 43,
       "productId": "AF-P1-038",
       "productName": "Floricraft Jewellery, Gift Box Gift Set",
       "imageId": "AF-P1-038-2",
-      "filename": "AF-P1-038-2.jpg",
       "imagePath": "./product_images/AF-P1-038-2.jpg",
-      "price": 454,
-      "priceDisplay": "₹454"
+      "imageOrder": 2,
+      "indexPdfPage": 78
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 44,
       "productId": "AF-P1-039",
       "productName": "Floricraft Jewellery, Keychain, Gift Box Gift Set",
       "imageId": "AF-P1-039-1",
-      "filename": "AF-P1-039-1.jpg",
       "imagePath": "./product_images/AF-P1-039-1.jpg",
-      "price": 280,
-      "priceDisplay": "₹280"
+      "imageOrder": 1,
+      "indexPdfPage": 79
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 44,
       "productId": "AF-P1-039",
       "productName": "Floricraft Jewellery, Keychain, Gift Box Gift Set",
       "imageId": "AF-P1-039-2",
-      "filename": "AF-P1-039-2.jpg",
       "imagePath": "./product_images/AF-P1-039-2.jpg",
-      "price": 280,
-      "priceDisplay": "₹280"
+      "imageOrder": 2,
+      "indexPdfPage": 80
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 45,
       "productId": "AF-P1-040",
       "productName": "Floricraft Greeting Card, Jewellery, Gift Box Gift Set",
       "imageId": "AF-P1-040-1",
-      "filename": "AF-P1-040-1.jpg",
       "imagePath": "./product_images/AF-P1-040-1.jpg",
-      "price": 284,
-      "priceDisplay": "₹284"
+      "imageOrder": 1,
+      "indexPdfPage": 81
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 45,
       "productId": "AF-P1-040",
       "productName": "Floricraft Greeting Card, Jewellery, Gift Box Gift Set",
       "imageId": "AF-P1-040-2",
-      "filename": "AF-P1-040-2.jpg",
       "imagePath": "./product_images/AF-P1-040-2.jpg",
-      "price": 284,
-      "priceDisplay": "₹284"
+      "imageOrder": 2,
+      "indexPdfPage": 82
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 46,
       "productId": "AF-P1-041",
       "productName": "Starliven Jewellery Gift Set",
       "imageId": "AF-P1-041-1",
-      "filename": "AF-P1-041-1.jpg",
       "imagePath": "./product_images/AF-P1-041-1.jpg",
-      "price": 2099,
-      "priceDisplay": "₹2,099"
+      "imageOrder": 1,
+      "indexPdfPage": 83
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 46,
       "productId": "AF-P1-041",
       "productName": "Starliven Jewellery Gift Set",
       "imageId": "AF-P1-041-2",
-      "filename": "AF-P1-041-2.jpg",
       "imagePath": "./product_images/AF-P1-041-2.jpg",
-      "price": 2099,
-      "priceDisplay": "₹2,099"
+      "imageOrder": 2,
+      "indexPdfPage": 84
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 47,
       "productId": "AF-P1-042",
       "productName": "Weddingcharm Jewellery & Accessories Gift Set",
       "imageId": "AF-P1-042-1",
-      "filename": "AF-P1-042-1.jpg",
       "imagePath": "./product_images/AF-P1-042-1.jpg",
-      "price": 629,
-      "priceDisplay": "₹629"
+      "imageOrder": 1,
+      "indexPdfPage": 85
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 47,
       "productId": "AF-P1-042",
       "productName": "Weddingcharm Jewellery & Accessories Gift Set",
       "imageId": "AF-P1-042-2",
-      "filename": "AF-P1-042-2.jpg",
       "imagePath": "./product_images/AF-P1-042-2.jpg",
-      "price": 629,
-      "priceDisplay": "₹629"
+      "imageOrder": 2,
+      "indexPdfPage": 86
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 48,
       "productId": "AF-P1-043",
       "productName": "Ji Shri Jewellery, Bracelet, Key Ring, Gift Box Gift Set",
       "imageId": "AF-P1-043-1",
-      "filename": "AF-P1-043-1.jpg",
       "imagePath": "./product_images/AF-P1-043-1.jpg",
-      "price": 539,
-      "priceDisplay": "₹539"
+      "imageOrder": 1,
+      "indexPdfPage": 87
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 48,
       "productId": "AF-P1-043",
       "productName": "Ji Shri Jewellery, Bracelet, Key Ring, Gift Box Gift Set",
       "imageId": "AF-P1-043-2",
-      "filename": "AF-P1-043-2.jpg",
       "imagePath": "./product_images/AF-P1-043-2.jpg",
-      "price": 539,
-      "priceDisplay": "₹539"
+      "imageOrder": 2,
+      "indexPdfPage": 88
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 49,
       "productId": "AF-P1-044",
       "productName": "Glisha Jewellery, Bracelet, Gift Box Gift Set",
       "imageId": "AF-P1-044-1",
-      "filename": "AF-P1-044-1.jpg",
       "imagePath": "./product_images/AF-P1-044-1.jpg",
-      "price": 490,
-      "priceDisplay": "₹490"
+      "imageOrder": 1,
+      "indexPdfPage": 89
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 49,
       "productId": "AF-P1-044",
       "productName": "Glisha Jewellery, Bracelet, Gift Box Gift Set",
       "imageId": "AF-P1-044-2",
-      "filename": "AF-P1-044-2.jpg",
       "imagePath": "./product_images/AF-P1-044-2.jpg",
-      "price": 490,
-      "priceDisplay": "₹490"
+      "imageOrder": 2,
+      "indexPdfPage": 90
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 50,
       "productId": "AF-P1-045",
       "productName": "SFEP Artificial Flower, Gift Box Gift Set",
       "imageId": "AF-P1-045-1",
-      "filename": "AF-P1-045-1.jpg",
       "imagePath": "./product_images/AF-P1-045-1.jpg",
-      "price": 189,
-      "priceDisplay": "₹189"
+      "imageOrder": 1,
+      "indexPdfPage": 91
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 50,
       "productId": "AF-P1-045",
       "productName": "SFEP Artificial Flower, Gift Box Gift Set",
       "imageId": "AF-P1-045-2",
-      "filename": "AF-P1-045-2.jpg",
       "imagePath": "./product_images/AF-P1-045-2.jpg",
-      "price": 189,
-      "priceDisplay": "₹189"
+      "imageOrder": 2,
+      "indexPdfPage": 92
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 51,
       "productId": "AF-P1-046",
       "productName": "Mycraftcrazy Showpiece Gift Set",
       "imageId": "AF-P1-046-1",
-      "filename": "AF-P1-046-1.jpg",
       "imagePath": "./product_images/AF-P1-046-1.jpg",
-      "price": 133,
-      "priceDisplay": "₹133"
+      "imageOrder": 1,
+      "indexPdfPage": 93
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 51,
       "productId": "AF-P1-046",
       "productName": "Mycraftcrazy Showpiece Gift Set",
       "imageId": "AF-P1-046-2",
-      "filename": "AF-P1-046-2.jpg",
       "imagePath": "./product_images/AF-P1-046-2.jpg",
-      "price": 133,
-      "priceDisplay": "₹133"
+      "imageOrder": 2,
+      "indexPdfPage": 94
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 52,
       "productId": "AF-P1-047",
       "productName": "Mycraftcrazy Showpiece Gift Set",
       "imageId": "AF-P1-047-1",
-      "filename": "AF-P1-047-1.jpg",
       "imagePath": "./product_images/AF-P1-047-1.jpg",
-      "price": 129,
-      "priceDisplay": "₹129"
+      "imageOrder": 1,
+      "indexPdfPage": 95
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 52,
       "productId": "AF-P1-047",
       "productName": "Mycraftcrazy Showpiece Gift Set",
       "imageId": "AF-P1-047-2",
-      "filename": "AF-P1-047-2.jpg",
       "imagePath": "./product_images/AF-P1-047-2.jpg",
-      "price": 129,
-      "priceDisplay": "₹129"
+      "imageOrder": 2,
+      "indexPdfPage": 96
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 53,
       "productId": "AF-P1-048",
       "productName": "Earnam Showpiece Gift Set",
       "imageId": "AF-P1-048-1",
-      "filename": "AF-P1-048-1.jpg",
       "imagePath": "./product_images/AF-P1-048-1.jpg",
-      "price": 122,
-      "priceDisplay": "₹122"
+      "imageOrder": 1,
+      "indexPdfPage": 97
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 53,
       "productId": "AF-P1-048",
       "productName": "Earnam Showpiece Gift Set",
       "imageId": "AF-P1-048-2",
-      "filename": "AF-P1-048-2.jpg",
       "imagePath": "./product_images/AF-P1-048-2.jpg",
-      "price": 122,
-      "priceDisplay": "₹122"
+      "imageOrder": 2,
+      "indexPdfPage": 98
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 54,
       "productId": "AF-P1-049",
       "productName": "Mycraftcrazy Showpiece Gift Set",
       "imageId": "AF-P1-049-1",
-      "filename": "AF-P1-049-1.jpg",
       "imagePath": "./product_images/AF-P1-049-1.jpg",
-      "price": null,
-      "priceDisplay": "Price not visible in source screenshot"
+      "imageOrder": 1,
+      "indexPdfPage": 99
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 54,
       "productId": "AF-P1-049",
       "productName": "Mycraftcrazy Showpiece Gift Set",
       "imageId": "AF-P1-049-2",
-      "filename": "AF-P1-049-2.jpg",
       "imagePath": "./product_images/AF-P1-049-2.jpg",
-      "price": null,
-      "priceDisplay": "Price not visible in source screenshot"
+      "imageOrder": 2,
+      "indexPdfPage": 100
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 55,
       "productId": "AF-P1-050",
       "productName": "Mycraftcrazy Showpiece Gift Set",
       "imageId": "AF-P1-050-1",
-      "filename": "AF-P1-050-1.jpg",
       "imagePath": "./product_images/AF-P1-050-1.jpg",
-      "price": 123,
-      "priceDisplay": "₹123"
+      "imageOrder": 1,
+      "indexPdfPage": 101
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 55,
       "productId": "AF-P1-050",
       "productName": "Mycraftcrazy Showpiece Gift Set",
       "imageId": "AF-P1-050-2",
-      "filename": "AF-P1-050-2.jpg",
       "imagePath": "./product_images/AF-P1-050-2.jpg",
-      "price": 123,
-      "priceDisplay": "₹123"
+      "imageOrder": 2,
+      "indexPdfPage": 102
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 56,
       "productId": "AF-P1-051",
       "productName": "Earnam Showpiece Gift Set",
       "imageId": "AF-P1-051-1",
-      "filename": "AF-P1-051-1.jpg",
       "imagePath": "./product_images/AF-P1-051-1.jpg",
-      "price": 123,
-      "priceDisplay": "₹123"
+      "imageOrder": 1,
+      "indexPdfPage": 103
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 56,
       "productId": "AF-P1-051",
       "productName": "Earnam Showpiece Gift Set",
       "imageId": "AF-P1-051-2",
-      "filename": "AF-P1-051-2.jpg",
       "imagePath": "./product_images/AF-P1-051-2.jpg",
-      "price": 123,
-      "priceDisplay": "₹123"
+      "imageOrder": 2,
+      "indexPdfPage": 104
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 57,
       "productId": "AF-P1-052",
       "productName": "Effete Gift Hamper with Ganesha Idol",
       "imageId": "AF-P1-052-1",
-      "filename": "AF-P1-052-1.jpg",
       "imagePath": "./product_images/AF-P1-052-1.jpg",
-      "price": 525,
-      "priceDisplay": "₹525"
+      "imageOrder": 1,
+      "indexPdfPage": 105
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 57,
       "productId": "AF-P1-052",
       "productName": "Effete Gift Hamper with Ganesha Idol",
       "imageId": "AF-P1-052-2",
-      "filename": "AF-P1-052-2.jpg",
       "imagePath": "./product_images/AF-P1-052-2.jpg",
-      "price": 525,
-      "priceDisplay": "₹525"
+      "imageOrder": 2,
+      "indexPdfPage": 106
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 58,
       "productId": "AF-P1-053",
       "productName": "PUREHEART Dry Fruits Diwali Gift Hamper - Cashews, Cranberry & Nuts",
       "imageId": "AF-P1-053-1",
-      "filename": "AF-P1-053-1.jpg",
       "imagePath": "./product_images/AF-P1-053-1.jpg",
-      "price": 1001,
-      "priceDisplay": "₹1,001"
+      "imageOrder": 1,
+      "indexPdfPage": 107
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 58,
       "productId": "AF-P1-053",
       "productName": "PUREHEART Dry Fruits Diwali Gift Hamper - Cashews, Cranberry & Nuts",
       "imageId": "AF-P1-053-2",
-      "filename": "AF-P1-053-2.jpg",
       "imagePath": "./product_images/AF-P1-053-2.jpg",
-      "price": 1001,
-      "priceDisplay": "₹1,001"
+      "imageOrder": 2,
+      "indexPdfPage": 108
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 59,
       "productId": "AF-P1-054",
       "productName": "International Gift Showpiece Gift Set",
       "imageId": "AF-P1-054-1",
-      "filename": "AF-P1-054-1.jpg",
       "imagePath": "./product_images/AF-P1-054-1.jpg",
-      "price": 554,
-      "priceDisplay": "₹554"
+      "imageOrder": 1,
+      "indexPdfPage": 109
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 59,
       "productId": "AF-P1-054",
       "productName": "International Gift Showpiece Gift Set",
       "imageId": "AF-P1-054-2",
-      "filename": "AF-P1-054-2.jpg",
       "imagePath": "./product_images/AF-P1-054-2.jpg",
-      "price": 554,
-      "priceDisplay": "₹554"
+      "imageOrder": 2,
+      "indexPdfPage": 110
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 60,
       "productId": "AF-P1-055",
       "productName": "Yaara Enterprise 36-Grids Clear Plastic Storage Box",
       "imageId": "AF-P1-055-1",
-      "filename": "AF-P1-055-1.jpg",
       "imagePath": "./product_images/AF-P1-055-1.jpg",
-      "price": 221,
-      "priceDisplay": "₹221"
+      "imageOrder": 1,
+      "indexPdfPage": 111
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 60,
       "productId": "AF-P1-055",
       "productName": "Yaara Enterprise 36-Grids Clear Plastic Storage Box",
       "imageId": "AF-P1-055-2",
-      "filename": "AF-P1-055-2.jpg",
       "imagePath": "./product_images/AF-P1-055-2.jpg",
-      "price": 221,
-      "priceDisplay": "₹221"
+      "imageOrder": 2,
+      "indexPdfPage": 112
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 61,
       "productId": "AF-P1-056",
       "productName": "Collectible India Laxmi Ganesh Saraswati Idol Diya Oil Lamp",
       "imageId": "AF-P1-056-1",
-      "filename": "AF-P1-056-1.jpg",
       "imagePath": "./product_images/AF-P1-056-1.jpg",
-      "price": 745,
-      "priceDisplay": "₹745"
+      "imageOrder": 1,
+      "indexPdfPage": 113
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 61,
       "productId": "AF-P1-056",
       "productName": "Collectible India Laxmi Ganesh Saraswati Idol Diya Oil Lamp",
       "imageId": "AF-P1-056-2",
-      "filename": "AF-P1-056-2.jpg",
       "imagePath": "./product_images/AF-P1-056-2.jpg",
-      "price": 745,
-      "priceDisplay": "₹745"
+      "imageOrder": 2,
+      "indexPdfPage": 114
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 62,
       "productId": "AF-P1-057",
       "productName": "FNF Creation Metal Decorative Flower-shaped Diya",
       "imageId": "AF-P1-057-1",
-      "filename": "AF-P1-057-1.jpg",
       "imagePath": "./product_images/AF-P1-057-1.jpg",
-      "price": null,
-      "priceDisplay": "Price not visible in source screenshot"
+      "imageOrder": 1,
+      "indexPdfPage": 115
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 62,
       "productId": "AF-P1-057",
       "productName": "FNF Creation Metal Decorative Flower-shaped Diya",
       "imageId": "AF-P1-057-2",
-      "filename": "AF-P1-057-2.jpg",
       "imagePath": "./product_images/AF-P1-057-2.jpg",
-      "price": null,
-      "priceDisplay": "Price not visible in source screenshot"
+      "imageOrder": 2,
+      "indexPdfPage": 116
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 63,
       "productId": "AF-P1-058",
       "productName": "FNF Creation Water Sensor Reusable LED Diyas",
       "imageId": "AF-P1-058-1",
-      "filename": "AF-P1-058-1.jpg",
       "imagePath": "./product_images/AF-P1-058-1.jpg",
-      "price": 256,
-      "priceDisplay": "₹256"
+      "imageOrder": 1,
+      "indexPdfPage": 117
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 63,
       "productId": "AF-P1-058",
       "productName": "FNF Creation Water Sensor Reusable LED Diyas",
       "imageId": "AF-P1-058-2",
-      "filename": "AF-P1-058-2.jpg",
       "imagePath": "./product_images/AF-P1-058-2.jpg",
-      "price": 256,
-      "priceDisplay": "₹256"
+      "imageOrder": 2,
+      "indexPdfPage": 118
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 64,
       "productId": "AF-P1-059",
       "productName": "AuraSip LED Tea Light Candles for Diwali & Pooja",
       "imageId": "AF-P1-059-1",
-      "filename": "AF-P1-059-1.jpg",
       "imagePath": "./product_images/AF-P1-059-1.jpg",
-      "price": 258,
-      "priceDisplay": "₹258"
+      "imageOrder": 1,
+      "indexPdfPage": 119
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 64,
       "productId": "AF-P1-059",
       "productName": "AuraSip LED Tea Light Candles for Diwali & Pooja",
       "imageId": "AF-P1-059-2",
-      "filename": "AF-P1-059-2.jpg",
       "imagePath": "./product_images/AF-P1-059-2.jpg",
-      "price": 258,
-      "priceDisplay": "₹258"
+      "imageOrder": 2,
+      "indexPdfPage": 120
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 65,
       "productId": "AF-P1-060",
       "productName": "Viskri Multishape Multicolour 3D Reflection Diya Set",
       "imageId": "AF-P1-060-1",
-      "filename": "AF-P1-060-1.jpg",
       "imagePath": "./product_images/AF-P1-060-1.jpg",
-      "price": 179,
-      "priceDisplay": "₹179"
+      "imageOrder": 1,
+      "indexPdfPage": 121
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 65,
       "productId": "AF-P1-060",
       "productName": "Viskri Multishape Multicolour 3D Reflection Diya Set",
       "imageId": "AF-P1-060-2",
-      "filename": "AF-P1-060-2.jpg",
       "imagePath": "./product_images/AF-P1-060-2.jpg",
-      "price": 179,
-      "priceDisplay": "₹179"
+      "imageOrder": 2,
+      "indexPdfPage": 122
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 66,
       "productId": "AF-P1-061",
       "productName": "Flashkitch 3D Reflection Diwali Diya Combo",
       "imageId": "AF-P1-061-1",
-      "filename": "AF-P1-061-1.jpg",
       "imagePath": "./product_images/AF-P1-061-1.jpg",
-      "price": 137,
-      "priceDisplay": "₹137"
+      "imageOrder": 1,
+      "indexPdfPage": 123
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 66,
       "productId": "AF-P1-061",
       "productName": "Flashkitch 3D Reflection Diwali Diya Combo",
       "imageId": "AF-P1-061-2",
-      "filename": "AF-P1-061-2.jpg",
       "imagePath": "./product_images/AF-P1-061-2.jpg",
-      "price": 137,
-      "priceDisplay": "₹137"
+      "imageOrder": 2,
+      "indexPdfPage": 124
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 67,
       "productId": "AF-P1-062",
       "productName": "Swagata Store Water Sensor LED Electric Diyas",
       "imageId": "AF-P1-062-1",
-      "filename": "AF-P1-062-1.jpg",
       "imagePath": "./product_images/AF-P1-062-1.jpg",
-      "price": 210,
-      "priceDisplay": "₹210"
+      "imageOrder": 1,
+      "indexPdfPage": 125
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 67,
       "productId": "AF-P1-062",
       "productName": "Swagata Store Water Sensor LED Electric Diyas",
       "imageId": "AF-P1-062-2",
-      "filename": "AF-P1-062-2.jpg",
       "imagePath": "./product_images/AF-P1-062-2.jpg",
-      "price": 210,
-      "priceDisplay": "₹210"
+      "imageOrder": 2,
+      "indexPdfPage": 126
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 68,
       "productId": "AF-P1-063",
       "productName": "Zunis Deepak Urli Decorative Showpiece",
       "imageId": "AF-P1-063-1",
-      "filename": "AF-P1-063-1.jpg",
       "imagePath": "./product_images/AF-P1-063-1.jpg",
-      "price": 279,
-      "priceDisplay": "₹279"
+      "imageOrder": 1,
+      "indexPdfPage": 127
     },
     {
-      "source": "first-pdf",
-      "sourcePage": 68,
       "productId": "AF-P1-063",
       "productName": "Zunis Deepak Urli Decorative Showpiece",
       "imageId": "AF-P1-063-2",
-      "filename": "AF-P1-063-2.jpg",
       "imagePath": "./product_images/AF-P1-063-2.jpg",
-      "price": 279,
-      "priceDisplay": "₹279"
+      "imageOrder": 2,
+      "indexPdfPage": 128
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 1,
       "productId": "AF-P2-001",
       "productName": "Ruby Key Necklace",
       "imageId": "AF-P2-001-1",
-      "filename": "AF-P2-001-1.jpg",
       "imagePath": "./product_images/AF-P2-001-1.jpg",
-      "price": 99,
-      "priceDisplay": "₹99"
+      "imageOrder": 1,
+      "indexPdfPage": 129
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 2,
       "productId": "AF-P2-002",
       "productName": "Urban Loop Keychain",
       "imageId": "AF-P2-002-1",
-      "filename": "AF-P2-002-1.jpg",
       "imagePath": "./product_images/AF-P2-002-1.jpg",
-      "price": 120,
-      "priceDisplay": "₹120"
+      "imageOrder": 1,
+      "indexPdfPage": 130
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 3,
       "productId": "AF-P2-003",
       "productName": "Evil Eye Bead Necklace",
       "imageId": "AF-P2-003-1",
-      "filename": "AF-P2-003-1.jpg",
       "imagePath": "./product_images/AF-P2-003-1.jpg",
-      "price": 120,
-      "priceDisplay": "₹120"
+      "imageOrder": 1,
+      "indexPdfPage": 131
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 4,
       "productId": "AF-P2-004",
       "productName": "Metro Clip Keychain",
       "imageId": "AF-P2-004-1",
-      "filename": "AF-P2-004-1.jpg",
       "imagePath": "./product_images/AF-P2-004-1.jpg",
-      "price": 120,
-      "priceDisplay": "₹120"
+      "imageOrder": 1,
+      "indexPdfPage": 132
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 5,
       "productId": "AF-P2-005",
       "productName": "Ivory Blossom Earrings",
       "imageId": "AF-P2-005-1",
-      "filename": "AF-P2-005-1.jpg",
       "imagePath": "./product_images/AF-P2-005-1.jpg",
-      "price": 50,
-      "priceDisplay": "₹50"
+      "imageOrder": 1,
+      "indexPdfPage": 133
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 6,
       "productId": "AF-P2-006",
       "productName": "Pearl Dot Studs",
       "imageId": "AF-P2-006-1",
-      "filename": "AF-P2-006-1.jpg",
       "imagePath": "./product_images/AF-P2-006-1.jpg",
-      "price": 15,
-      "priceDisplay": "₹15 / pair"
+      "imageOrder": 1,
+      "indexPdfPage": 134
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 7,
       "productId": "AF-P2-007",
       "productName": "Square Crystal Studs",
       "imageId": "AF-P2-007-1",
-      "filename": "AF-P2-007-1.jpg",
       "imagePath": "./product_images/AF-P2-007-1.jpg",
-      "price": 15,
-      "priceDisplay": "₹15 / pair"
+      "imageOrder": 1,
+      "indexPdfPage": 135
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 8,
       "productId": "AF-P2-008",
       "productName": "Golden Bloom Studs",
       "imageId": "AF-P2-008-1",
-      "filename": "AF-P2-008-1.jpg",
       "imagePath": "./product_images/AF-P2-008-1.jpg",
-      "price": 60,
-      "priceDisplay": "₹60"
+      "imageOrder": 1,
+      "indexPdfPage": 136
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 9,
       "productId": "AF-P2-009",
       "productName": "Pearl Bow Earrings",
       "imageId": "AF-P2-009-1",
-      "filename": "AF-P2-009-1.jpg",
       "imagePath": "./product_images/AF-P2-009-1.jpg",
-      "price": 50,
-      "priceDisplay": "₹50"
+      "imageOrder": 1,
+      "indexPdfPage": 137
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 10,
       "productId": "AF-P2-010",
       "productName": "Celeste Pendant Set",
       "imageId": "AF-P2-010-1",
-      "filename": "AF-P2-010-1.jpg",
       "imagePath": "./product_images/AF-P2-010-1.jpg",
-      "price": 250,
-      "priceDisplay": "₹250"
+      "imageOrder": 1,
+      "indexPdfPage": 138
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 11,
       "productId": "AF-P2-011",
       "productName": "Golden Charm Necklace",
       "imageId": "AF-P2-011-1",
-      "filename": "AF-P2-011-1.jpg",
       "imagePath": "./product_images/AF-P2-011-1.jpg",
-      "price": 99,
-      "priceDisplay": "₹99"
+      "imageOrder": 1,
+      "indexPdfPage": 139
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 12,
       "productId": "AF-P2-012",
       "productName": "Classic Snake Chain",
       "imageId": "AF-P2-012-1",
-      "filename": "AF-P2-012-1.jpg",
       "imagePath": "./product_images/AF-P2-012-1.jpg",
-      "price": 99,
-      "priceDisplay": "₹99"
+      "imageOrder": 1,
+      "indexPdfPage": 140
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 13,
       "productId": "AF-P2-013",
       "productName": "Coin Charm Chain",
       "imageId": "AF-P2-013-1",
-      "filename": "AF-P2-013-1.jpg",
       "imagePath": "./product_images/AF-P2-013-1.jpg",
-      "price": 60,
-      "priceDisplay": "₹60"
+      "imageOrder": 1,
+      "indexPdfPage": 141
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 14,
       "productId": "AF-P2-014",
       "productName": "Coastal Shell Bracelet",
       "imageId": "AF-P2-014-1",
-      "filename": "AF-P2-014-1.jpg",
       "imagePath": "./product_images/AF-P2-014-1.jpg",
-      "price": 60,
-      "priceDisplay": "₹60"
+      "imageOrder": 1,
+      "indexPdfPage": 142
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 15,
       "productId": "AF-P2-015",
       "productName": "Cherry Drop Earrings",
       "imageId": "AF-P2-015-1",
-      "filename": "AF-P2-015-1.jpg",
       "imagePath": "./product_images/AF-P2-015-1.jpg",
-      "price": 80,
-      "priceDisplay": "₹80"
+      "imageOrder": 1,
+      "indexPdfPage": 143
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 16,
       "productId": "AF-P2-016",
       "productName": "Pearl Halo Studs",
       "imageId": "AF-P2-016-1",
-      "filename": "AF-P2-016-1.jpg",
       "imagePath": "./product_images/AF-P2-016-1.jpg",
-      "price": 50,
-      "priceDisplay": "₹50"
+      "imageOrder": 1,
+      "indexPdfPage": 144
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 17,
       "productId": "AF-P2-017",
       "productName": "Golden Crest Mangalsutra",
       "imageId": "AF-P2-017-1",
-      "filename": "AF-P2-017-1.jpg",
       "imagePath": "./product_images/AF-P2-017-1.jpg",
-      "price": 150,
-      "priceDisplay": "₹150"
+      "imageOrder": 1,
+      "indexPdfPage": 145
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 18,
       "productId": "AF-P2-018",
       "productName": "Heartline Mangalsutra",
       "imageId": "AF-P2-018-1",
-      "filename": "AF-P2-018-1.jpg",
       "imagePath": "./product_images/AF-P2-018-1.jpg",
-      "price": 200,
-      "priceDisplay": "₹200"
+      "imageOrder": 1,
+      "indexPdfPage": 146
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 19,
       "productId": "AF-P2-019",
       "productName": "Crystal Teardrop Mangalsutra",
       "imageId": "AF-P2-019-1",
-      "filename": "AF-P2-019-1.jpg",
       "imagePath": "./product_images/AF-P2-019-1.jpg",
-      "price": 250,
-      "priceDisplay": "₹250"
+      "imageOrder": 1,
+      "indexPdfPage": 147
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 20,
       "productId": "AF-P2-020",
       "productName": "Square Radiance Mangalsutra",
       "imageId": "AF-P2-020-1",
-      "filename": "AF-P2-020-1.jpg",
       "imagePath": "./product_images/AF-P2-020-1.jpg",
-      "price": 150,
-      "priceDisplay": "₹150"
+      "imageOrder": 1,
+      "indexPdfPage": 148
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 21,
       "productId": "AF-P2-021",
       "productName": "Floral Medallion Mangalsutra",
       "imageId": "AF-P2-021-1",
-      "filename": "AF-P2-021-1.jpg",
       "imagePath": "./product_images/AF-P2-021-1.jpg",
-      "price": 200,
-      "priceDisplay": "₹200"
+      "imageOrder": 1,
+      "indexPdfPage": 149
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 22,
       "productId": "AF-P2-022",
       "productName": "Classic Crystal Pendant Set",
       "imageId": "AF-P2-022-1",
-      "filename": "AF-P2-022-1.jpg",
       "imagePath": "./product_images/AF-P2-022-1.jpg",
-      "price": 300,
-      "priceDisplay": "₹300"
+      "imageOrder": 1,
+      "indexPdfPage": 150
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 23,
       "productId": "AF-P2-023",
       "productName": "Ornate Circle Mangalsutra",
       "imageId": "AF-P2-023-1",
-      "filename": "AF-P2-023-1.jpg",
       "imagePath": "./product_images/AF-P2-023-1.jpg",
-      "price": 250,
-      "priceDisplay": "₹250"
+      "imageOrder": 1,
+      "indexPdfPage": 151
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 24,
       "productId": "AF-P2-024",
       "productName": "Regal Crystal Jewellery Set",
       "imageId": "AF-P2-024-1",
-      "filename": "AF-P2-024-1.jpg",
       "imagePath": "./product_images/AF-P2-024-1.jpg",
-      "price": 500,
-      "priceDisplay": "₹500"
+      "imageOrder": 1,
+      "indexPdfPage": 152
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 25,
       "productId": "AF-P2-025",
       "productName": "Traditional Gold-Tone Jewellery Set",
       "imageId": "AF-P2-025-1",
-      "filename": "AF-P2-025-1.jpg",
       "imagePath": "./product_images/AF-P2-025-1.jpg",
-      "price": 500,
-      "priceDisplay": "₹500"
+      "imageOrder": 1,
+      "indexPdfPage": 153
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 26,
       "productId": "AF-P2-026",
       "productName": "Ruby Medallion Mangalsutra",
       "imageId": "AF-P2-026-1",
-      "filename": "AF-P2-026-1.jpg",
       "imagePath": "./product_images/AF-P2-026-1.jpg",
-      "price": 200,
-      "priceDisplay": "₹200"
+      "imageOrder": 1,
+      "indexPdfPage": 154
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 27,
       "productId": "AF-P2-027",
       "productName": "Crystal Arc Mangalsutra",
       "imageId": "AF-P2-027-1",
-      "filename": "AF-P2-027-1.jpg",
       "imagePath": "./product_images/AF-P2-027-1.jpg",
-      "price": 220,
-      "priceDisplay": "₹220"
+      "imageOrder": 1,
+      "indexPdfPage": 155
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 28,
       "productId": "AF-P2-028",
       "productName": "Minimal Bead Mangalsutra",
       "imageId": "AF-P2-028-1",
-      "filename": "AF-P2-028-1.jpg",
       "imagePath": "./product_images/AF-P2-028-1.jpg",
-      "price": 150,
-      "priceDisplay": "₹150"
+      "imageOrder": 1,
+      "indexPdfPage": 156
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 29,
       "productId": "AF-P2-029",
       "productName": "Diamond Fan Mangalsutra",
       "imageId": "AF-P2-029-1",
-      "filename": "AF-P2-029-1.jpg",
       "imagePath": "./product_images/AF-P2-029-1.jpg",
-      "price": 200,
-      "priceDisplay": "₹200"
+      "imageOrder": 1,
+      "indexPdfPage": 157
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 30,
       "productId": "AF-P2-030",
       "productName": "Graceful Curve Mangalsutra",
       "imageId": "AF-P2-030-1",
-      "filename": "AF-P2-030-1.jpg",
       "imagePath": "./product_images/AF-P2-030-1.jpg",
-      "price": 180,
-      "priceDisplay": "₹180"
+      "imageOrder": 1,
+      "indexPdfPage": 158
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 31,
       "productId": "AF-P2-031",
       "productName": "Heritage Ruby Mangalsutra",
       "imageId": "AF-P2-031-1",
-      "filename": "AF-P2-031-1.jpg",
       "imagePath": "./product_images/AF-P2-031-1.jpg",
-      "price": 200,
-      "priceDisplay": "₹200"
+      "imageOrder": 1,
+      "indexPdfPage": 159
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 32,
       "productId": "AF-P2-032",
       "productName": "Crystal Fan Mangalsutra",
       "imageId": "AF-P2-032-1",
-      "filename": "AF-P2-032-1.jpg",
       "imagePath": "./product_images/AF-P2-032-1.jpg",
-      "price": 200,
-      "priceDisplay": "₹200"
+      "imageOrder": 1,
+      "indexPdfPage": 160
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 33,
       "productId": "AF-P2-033",
       "productName": "Butterfly Charm Mangalsutra",
       "imageId": "AF-P2-033-1",
-      "filename": "AF-P2-033-1.jpg",
       "imagePath": "./product_images/AF-P2-033-1.jpg",
-      "price": 250,
-      "priceDisplay": "₹250"
+      "imageOrder": 1,
+      "indexPdfPage": 161
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 34,
       "productId": "AF-P2-034",
       "productName": "Bloom Curve Mangalsutra",
       "imageId": "AF-P2-034-1",
-      "filename": "AF-P2-034-1.jpg",
       "imagePath": "./product_images/AF-P2-034-1.jpg",
-      "price": 220,
-      "priceDisplay": "₹220"
+      "imageOrder": 1,
+      "indexPdfPage": 162
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 35,
       "productId": "AF-P2-035",
       "productName": "Heart Glow Studs",
       "imageId": "AF-P2-035-1",
-      "filename": "AF-P2-035-1.jpg",
       "imagePath": "./product_images/AF-P2-035-1.jpg",
-      "price": 75,
-      "priceDisplay": "₹75"
+      "imageOrder": 1,
+      "indexPdfPage": 163
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 36,
       "productId": "AF-P2-036",
       "productName": "Pearl Cascade Earrings",
       "imageId": "AF-P2-036-1",
-      "filename": "AF-P2-036-1.jpg",
       "imagePath": "./product_images/AF-P2-036-1.jpg",
-      "price": 150,
-      "priceDisplay": "₹150"
+      "imageOrder": 1,
+      "indexPdfPage": 164
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 37,
       "productId": "AF-P2-037",
       "productName": "Peacock Drop Earrings",
       "imageId": "AF-P2-037-1",
-      "filename": "AF-P2-037-1.jpg",
       "imagePath": "./product_images/AF-P2-037-1.jpg",
-      "price": 120,
-      "priceDisplay": "₹120"
+      "imageOrder": 1,
+      "indexPdfPage": 165
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 38,
       "productId": "AF-P2-038",
       "productName": "Petal Cascade Earrings",
       "imageId": "AF-P2-038-1",
-      "filename": "AF-P2-038-1.jpg",
       "imagePath": "./product_images/AF-P2-038-1.jpg",
-      "price": 200,
-      "priceDisplay": "₹200"
+      "imageOrder": 1,
+      "indexPdfPage": 166
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 39,
       "productId": "AF-P2-039",
       "productName": "Rose Gold Square Dangles",
       "imageId": "AF-P2-039-1",
-      "filename": "AF-P2-039-1.jpg",
       "imagePath": "./product_images/AF-P2-039-1.jpg",
-      "price": 150,
-      "priceDisplay": "₹150"
+      "imageOrder": 1,
+      "indexPdfPage": 167
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 40,
       "productId": "AF-P2-040",
       "productName": "Golden Frame Drop Earrings",
       "imageId": "AF-P2-040-1",
-      "filename": "AF-P2-040-1.jpg",
       "imagePath": "./product_images/AF-P2-040-1.jpg",
-      "price": 150,
-      "priceDisplay": "₹150"
+      "imageOrder": 1,
+      "indexPdfPage": 168
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 41,
       "productId": "AF-P2-041",
       "productName": "Starlight Bloom Earrings",
       "imageId": "AF-P2-041-1",
-      "filename": "AF-P2-041-1.jpg",
       "imagePath": "./product_images/AF-P2-041-1.jpg",
-      "price": 150,
-      "priceDisplay": "₹150"
+      "imageOrder": 1,
+      "indexPdfPage": 169
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 42,
       "productId": "AF-P2-042",
       "productName": "Regal Frame Drop Earrings",
       "imageId": "AF-P2-042-1",
-      "filename": "AF-P2-042-1.jpg",
       "imagePath": "./product_images/AF-P2-042-1.jpg",
-      "price": 200,
-      "priceDisplay": "₹200"
+      "imageOrder": 1,
+      "indexPdfPage": 170
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 43,
       "productId": "AF-P2-043",
       "productName": "Petal Glow Drop Earrings",
       "imageId": "AF-P2-043-1",
-      "filename": "AF-P2-043-1.jpg",
       "imagePath": "./product_images/AF-P2-043-1.jpg",
-      "price": 160,
-      "priceDisplay": "₹160"
+      "imageOrder": 1,
+      "indexPdfPage": 171
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 44,
       "productId": "AF-P2-044",
       "productName": "Triad Crystal Cascade Earrings",
       "imageId": "AF-P2-044-1",
-      "filename": "AF-P2-044-1.jpg",
       "imagePath": "./product_images/AF-P2-044-1.jpg",
-      "price": 180,
-      "priceDisplay": "₹180"
+      "imageOrder": 1,
+      "indexPdfPage": 172
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 45,
       "productId": "AF-P2-045",
       "productName": "Pearl Teardrop Earrings",
       "imageId": "AF-P2-045-1",
-      "filename": "AF-P2-045-1.jpg",
       "imagePath": "./product_images/AF-P2-045-1.jpg",
-      "price": 150,
-      "priceDisplay": "₹150"
+      "imageOrder": 1,
+      "indexPdfPage": 173
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 46,
       "productId": "AF-P2-046",
       "productName": "Golden Leaf Chain Earrings",
       "imageId": "AF-P2-046-1",
-      "filename": "AF-P2-046-1.jpg",
       "imagePath": "./product_images/AF-P2-046-1.jpg",
-      "price": 100,
-      "priceDisplay": "₹100"
+      "imageOrder": 1,
+      "indexPdfPage": 174
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 47,
       "productId": "AF-P2-047",
       "productName": "Lattice Bloom Studs",
       "imageId": "AF-P2-047-1",
-      "filename": "AF-P2-047-1.jpg",
       "imagePath": "./product_images/AF-P2-047-1.jpg",
-      "price": 100,
-      "priceDisplay": "₹100"
+      "imageOrder": 1,
+      "indexPdfPage": 175
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 48,
       "productId": "AF-P2-048",
       "productName": "Halo Petal Drop Earrings",
       "imageId": "AF-P2-048-1",
-      "filename": "AF-P2-048-1.jpg",
       "imagePath": "./product_images/AF-P2-048-1.jpg",
-      "price": 180,
-      "priceDisplay": "₹180"
+      "imageOrder": 1,
+      "indexPdfPage": 176
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 49,
       "productId": "AF-P2-049",
       "productName": "Crystal Frame Cascade Earrings",
       "imageId": "AF-P2-049-1",
-      "filename": "AF-P2-049-1.jpg",
       "imagePath": "./product_images/AF-P2-049-1.jpg",
-      "price": 200,
-      "priceDisplay": "₹200"
+      "imageOrder": 1,
+      "indexPdfPage": 177
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 50,
       "productId": "AF-P2-050",
       "productName": "Silver Bloom Dangle Earrings",
       "imageId": "AF-P2-050-1",
-      "filename": "AF-P2-050-1.jpg",
       "imagePath": "./product_images/AF-P2-050-1.jpg",
-      "price": 120,
-      "priceDisplay": "₹120"
+      "imageOrder": 1,
+      "indexPdfPage": 178
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 51,
       "productId": "AF-P2-051",
       "productName": "Geometric Bloom Studs",
       "imageId": "AF-P2-051-1",
-      "filename": "AF-P2-051-1.jpg",
       "imagePath": "./product_images/AF-P2-051-1.jpg",
-      "price": 100,
-      "priceDisplay": "₹100"
+      "imageOrder": 1,
+      "indexPdfPage": 179
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 52,
       "productId": "AF-P2-052",
       "productName": "Ruby Blossom Studs",
       "imageId": "AF-P2-052-1",
-      "filename": "AF-P2-052-1.jpg",
       "imagePath": "./product_images/AF-P2-052-1.jpg",
-      "price": 90,
-      "priceDisplay": "₹90"
+      "imageOrder": 1,
+      "indexPdfPage": 180
     },
     {
-      "source": "second-pdf",
-      "sourcePage": 53,
       "productId": "AF-P2-053",
       "productName": "Rose Halo Cascade Earrings",
       "imageId": "AF-P2-053-1",
-      "filename": "AF-P2-053-1.jpg",
       "imagePath": "./product_images/AF-P2-053-1.jpg",
-      "price": 120,
-      "priceDisplay": "₹120"
+      "imageOrder": 1,
+      "indexPdfPage": 181
     }
   ]
 }

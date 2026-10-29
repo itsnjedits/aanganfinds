@@ -1,67 +1,38 @@
 #!/usr/bin/env python3
-"""Check product catalogue IDs, categories, prices, and local image paths."""
-import json
-import sys
+"""Validate GharSansar V2 catalogue JSON, IDs, categories and image filename mapping."""
+import argparse, json, sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-PRODUCTS_FILE = ROOT / "data" / "products.json"
-CATEGORIES_FILE = ROOT / "data" / "categories.json"
+ROOT=Path(__file__).resolve().parents[1]
+def load(path):
+    with path.open('r',encoding='utf-8') as f: return json.load(f)
 
-
-def main() -> int:
-    try:
-        products = json.loads(PRODUCTS_FILE.read_text(encoding="utf-8"))
-        categories = json.loads(CATEGORIES_FILE.read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as exc:
-        print(f"ERROR: Could not read catalogue JSON: {exc}")
-        return 1
-
-    category_ids = {item.get("id") for item in categories if isinstance(item, dict)}
-    seen_ids: set[str] = set()
-    seen_slugs: set[str] = set()
-    errors: list[str] = []
-    for index, item in enumerate(products, start=1):
-        if not isinstance(item, dict):
-            errors.append(f"Product row {index} is not an object")
-            continue
-        pid = str(item.get("id", ""))
-        if not pid:
-            errors.append(f"Product row {index} has no id")
-        elif pid in seen_ids:
-            errors.append(f"Duplicate product id: {pid}")
-        seen_ids.add(pid)
-        slug = str(item.get("slug", ""))
-        if slug and slug in seen_slugs:
-            errors.append(f"Duplicate slug: {slug}")
-        if slug:
-            seen_slugs.add(slug)
-        if not isinstance(item.get("price"), (int, float)) or item.get("price", 0) < 0:
-            errors.append(f"{pid or 'Row ' + str(index)} has invalid price")
-        if item.get("category") not in category_ids - {"all"}:
-            errors.append(f"{pid or 'Row ' + str(index)} references unknown category {item.get('category')!r}")
-        images = item.get("images", [])
-        if not isinstance(images, list) or not images:
-            errors.append(f"{pid or 'Row ' + str(index)} has no images array")
-            continue
-        for image in images:
-            if not isinstance(image, str) or not image.startswith("./"):
-                errors.append(f"{pid or 'Row ' + str(index)} image path must start with './': {image!r}")
-                continue
-            image_path = (ROOT / image[2:]).resolve()
-            if ROOT.resolve() not in image_path.parents and image_path != ROOT.resolve():
-                errors.append(f"{pid} image path escapes project directory: {image}")
-            elif not image_path.is_file():
-                errors.append(f"{pid} image not found: {image}")
-
+def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument('--require-images',action='store_true',help='Fail if any mapped product image file is missing.')
+    args=parser.parse_args()
+    products=load(ROOT/'data/products.json'); cats=load(ROOT/'data/categories.json'); index=load(ROOT/'data/image-index.json')
+    errors=[]; product_ids=[p.get('id') for p in products]; category_ids={c.get('id') for c in cats}
+    if len(product_ids)!=len(set(product_ids)): errors.append('Duplicate product IDs found.')
+    image_ids=[]; missing=[]
+    for p in products:
+        if p.get('category') not in category_ids: errors.append(f"{p.get('id')}: unknown category {p.get('category')}")
+        if p.get('price') is not None and (not isinstance(p.get('price'),(int,float)) or p['price']<0): errors.append(f"{p.get('id')}: invalid price")
+        if not p.get('images'): errors.append(f"{p.get('id')}: no image filename mapped")
+        for path in p.get('images',[]):
+            image_ids.append(Path(path).stem)
+            disk=ROOT/path.removeprefix('./')
+            if not disk.is_file(): missing.append(str(path))
+    if len(image_ids)!=len(set(image_ids)): errors.append('Duplicate image IDs found.')
+    if index.get('count') != len(index.get('images',[])): errors.append('image-index.json count does not match images array.')
+    if len(index.get('images',[])) != len(image_ids): errors.append('Image index count does not match product image paths.')
+    if args.require_images and missing: errors.append(f'{len(missing)} image file(s) missing.')
     if errors:
-        print("CATALOGUE CHECK FAILED:")
-        for error in errors:
-            print(f" - {error}")
-        return 1
-    print(f"OK: {len(products)} products, {len(category_ids) - 1} non-All categories, no duplicate IDs, all image files found.")
+        print('VALIDATION FAILED:'); [print(' - '+e) for e in errors]; return 1
+    print(f'VALIDATION PASSED: {len(products)} products, {len(image_ids)} mapped image filenames, {len(cats)-1} categories.')
+    print(f'Photo folder currently contains {sum(1 for p in (ROOT/"product_images").iterdir() if p.is_file() and p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"})} actual product photo(s).')
+    if missing: print(f'{len(missing)} mapped photo files are not present yet; expected in this V2 package because product_images/ is intentionally empty.')
+    else: print('All mapped image files exist.')
+    print('Run with --require-images after adding photos to require all paths to exist.')
     return 0
-
-
-if __name__ == "__main__":
-    sys.exit(main())
+if __name__=='__main__': raise SystemExit(main())

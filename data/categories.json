@@ -1,27 +1,18 @@
 [
   {
-    "id": "all",
-    "label": "Everything",
-    "symbol": "✦"
-  },
-  {
-    "id": "jewellery-sets",
-    "label": "Jewellery Sets",
-    "symbol": "✧"
-  },
-  {
-    "id": "necklaces",
-    "label": "Necklaces",
-    "symbol": "⌁"
+    "id": "jewellery",
+    "name": "Jewellery & Accessories"
   },
   {
     "id": "gift-sets",
-    "label": "Gift Sets",
-    "symbol": "♡"
+    "name": "Gift Sets & Hampers"
   },
   {
-    "id": "home-decor",
-    "label": "Home Decor",
-    "symbol": "✺"
+    "id": "diwali-decor",
+    "name": "Diwali Decor & Lighting"
+  },
+  {
+    "id": "storage-organisers",
+    "name": "Storage & Organisers"
   }
 ]

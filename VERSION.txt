@@ -1,5 +1,3 @@
-GharSansar Version 2
-Catalog source: Aangan Finds combined product image index PDF
-Product records: 116
-Mapped images: 181
-Product images intentionally excluded from ZIP; add images to product_images/ with filenames in data/products.json.
+GharSansar Version 3 — premium UI/UX overhaul
+Catalogue: 116 products, 181 mapped images, 8 categories (unchanged from V2)
+Service-worker cache: v3-20261029

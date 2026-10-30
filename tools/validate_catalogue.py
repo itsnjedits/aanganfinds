@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate GharSansar V2 catalogue JSON, IDs, categories and image filename mapping."""
+"""Validate GharSansar catalogue JSON, IDs, categories and image filename mapping."""
 import argparse, json, sys
 from pathlib import Path
 
@@ -30,8 +30,14 @@ def main():
     if errors:
         print('VALIDATION FAILED:'); [print(' - '+e) for e in errors]; return 1
     print(f'VALIDATION PASSED: {len(products)} products, {len(image_ids)} mapped image filenames, {len(cats)-1} categories.')
-    print(f'Photo folder currently contains {sum(1 for p in (ROOT/"product_images").iterdir() if p.is_file() and p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"})} actual product photo(s).')
-    if missing: print(f'{len(missing)} mapped photo files are not present yet; expected in this V2 package because product_images/ is intentionally empty.')
+    photo_dir=ROOT/"product_images"
+    photos=sum(1 for p in photo_dir.iterdir() if p.is_file() and p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"}) if photo_dir.is_dir() else 0
+    print(f'Photo folder currently contains {photos} actual product photo(s).')
+    # Also flag product images on disk that no product references (typos in filenames).
+    referenced={Path(path).name for p in products for path in p.get('images',[])}
+    orphans=sorted(p.name for p in photo_dir.iterdir() if p.is_file() and p.suffix.lower() in {".jpg", ".jpeg", ".png", ".webp"} and p.name not in referenced) if photo_dir.is_dir() else []
+    if orphans: print(f'Warning: {len(orphans)} photo file(s) are not referenced by any product: '+', '.join(orphans[:8]))
+    if missing: print(f'{len(missing)} mapped photo files are not present yet (they show the branded placeholder until added).')
     else: print('All mapped image files exist.')
     print('Run with --require-images after adding photos to require all paths to exist.')
     return 0

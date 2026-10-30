@@ -4647,5 +4647,1794 @@
       181
     ],
     "batch": "P2"
+  },
+  {
+    "id": "AF-P3-001",
+    "slug": "lace-bloom-jute-tote-af-p3-001",
+    "name": "Lace & Bloom Jute Tote",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Lace & Bloom Jute Tote. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories",
+    "price": 130,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-001-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-001-1"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "lace",
+      "bloom",
+      "jute",
+      "tote",
+      "bags",
+      "accessories",
+      "gharsansar",
+      "new arrival",
+      "lace & bloom jute tote"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      1
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-01"
+  },
+  {
+    "id": "AF-P3-002",
+    "slug": "verdant-floral-bottle-bag-af-p3-002",
+    "name": "Verdant Floral Bottle Bag",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Verdant Floral Bottle Bag. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories",
+    "price": 105,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-002-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-002-1"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "verdant",
+      "floral",
+      "bottle",
+      "bag",
+      "bags",
+      "accessories",
+      "gharsansar",
+      "new arrival",
+      "verdant floral bottle bag"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      2
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-02"
+  },
+  {
+    "id": "AF-P3-003",
+    "slug": "celestial-cascade-earrings-af-p3-003",
+    "name": "Celestial Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Celestial Cascade Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-003-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-003-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "celestial",
+      "cascade",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "celestial cascade earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      3
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-03"
+  },
+  {
+    "id": "AF-P3-004",
+    "slug": "pearl-crystal-drop-earrings-af-p3-004",
+    "name": "Pearl & Crystal Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Pearl & Crystal Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-004-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-004-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "pearl",
+      "crystal",
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "pearl & crystal drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      4
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-04"
+  },
+  {
+    "id": "AF-P3-005",
+    "slug": "heartlight-stud-earrings-af-p3-005",
+    "name": "Heartlight Stud Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Heartlight Stud Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 75,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-005-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-005-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "heartlight",
+      "stud",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "heartlight stud earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      5
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-05"
+  },
+  {
+    "id": "AF-P3-006",
+    "slug": "celestial-bell-drop-earrings-af-p3-006",
+    "name": "Celestial Bell Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Celestial Bell Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-006-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-006-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "celestial",
+      "bell",
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "celestial bell drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      6
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-06"
+  },
+  {
+    "id": "AF-P3-007",
+    "slug": "crystal-square-jhumka-drops-af-p3-007",
+    "name": "Crystal Square Jhumka Drops",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Crystal Square Jhumka Drops. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-007-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-007-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "crystal",
+      "square",
+      "jhumka",
+      "drops",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "crystal square jhumka drops"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      7
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-07"
+  },
+  {
+    "id": "AF-P3-008",
+    "slug": "golden-petal-cascade-earrings-af-p3-008",
+    "name": "Golden Petal Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Golden Petal Cascade Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-008-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-008-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "golden",
+      "petal",
+      "cascade",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "golden petal cascade earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      8
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-08"
+  },
+  {
+    "id": "AF-P3-009",
+    "slug": "peacock-grace-drop-earrings-af-p3-009",
+    "name": "Peacock Grace Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Peacock Grace Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 120,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-009-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-009-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "peacock",
+      "grace",
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "peacock grace drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      9
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-09"
+  },
+  {
+    "id": "AF-P3-010",
+    "slug": "golden-chain-cascade-earrings-af-p3-010",
+    "name": "Golden Chain Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Golden Chain Cascade Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-010-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-010-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "golden",
+      "chain",
+      "cascade",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "golden chain cascade earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      10
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-10"
+  },
+  {
+    "id": "AF-P3-011",
+    "slug": "crystal-leaf-tassel-earrings-af-p3-011",
+    "name": "Crystal Leaf Tassel Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Crystal Leaf Tassel Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-011-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-011-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "crystal",
+      "leaf",
+      "tassel",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "crystal leaf tassel earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      11
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-11"
+  },
+  {
+    "id": "AF-P3-012",
+    "slug": "floral-bloom-cascade-earrings-af-p3-012",
+    "name": "Floral Bloom Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Floral Bloom Cascade Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 160,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-012-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-012-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "floral",
+      "bloom",
+      "cascade",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "floral bloom cascade earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      12
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-12"
+  },
+  {
+    "id": "AF-P3-013",
+    "slug": "pearl-halo-drop-earrings-af-p3-013",
+    "name": "Pearl Halo Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Pearl Halo Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-013-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-013-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "pearl",
+      "halo",
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "pearl halo drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      13
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-13"
+  },
+  {
+    "id": "AF-P3-014",
+    "slug": "geometric-crystal-cascade-earrings-af-p3-014",
+    "name": "Geometric Crystal Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Geometric Crystal Cascade Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-014-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-014-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "geometric",
+      "crystal",
+      "cascade",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "geometric crystal cascade earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      14
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-14"
+  },
+  {
+    "id": "AF-P3-015",
+    "slug": "triangular-crystal-drop-earrings-af-p3-015",
+    "name": "Triangular Crystal Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Triangular Crystal Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 180,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-015-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-015-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "triangular",
+      "crystal",
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "triangular crystal drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      15
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-15"
+  },
+  {
+    "id": "AF-P3-016",
+    "slug": "radiant-bloom-drop-earrings-af-p3-016",
+    "name": "Radiant Bloom Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Radiant Bloom Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 180,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-016-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-016-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "radiant",
+      "bloom",
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "radiant bloom drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      16
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-16"
+  },
+  {
+    "id": "AF-P3-017",
+    "slug": "ruby-bloom-stud-earrings-af-p3-017",
+    "name": "Ruby Bloom Stud Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Ruby Bloom Stud Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 90,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-017-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-017-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "ruby",
+      "bloom",
+      "stud",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "ruby bloom stud earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      17
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-17"
+  },
+  {
+    "id": "AF-P3-018",
+    "slug": "golden-halo-drop-earrings-af-p3-018",
+    "name": "Golden Halo Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Golden Halo Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-018-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-018-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "golden",
+      "halo",
+      "drop",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "golden halo drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      18
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-18"
+  },
+  {
+    "id": "AF-P3-019",
+    "slug": "golden-lattice-stud-earrings-af-p3-019",
+    "name": "Golden Lattice Stud Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Golden Lattice Stud Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-019-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-019-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "golden",
+      "lattice",
+      "stud",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "golden lattice stud earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      19
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-19"
+  },
+  {
+    "id": "AF-P3-020",
+    "slug": "crystal-vine-dangle-earrings-af-p3-020",
+    "name": "Crystal Vine Dangle Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Crystal Vine Dangle Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 120,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-020-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-020-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "crystal",
+      "vine",
+      "dangle",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "crystal vine dangle earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      20
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-20"
+  },
+  {
+    "id": "AF-P3-021",
+    "slug": "rose-gold-cascade-earrings-af-p3-021",
+    "name": "Rose Gold Cascade Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Rose Gold Cascade Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 120,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-021-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-021-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "rose",
+      "gold",
+      "cascade",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "rose gold cascade earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      21
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-21"
+  },
+  {
+    "id": "AF-P3-022",
+    "slug": "tribal-bell-jhumkas-af-p3-022",
+    "name": "Tribal Bell Jhumkas",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Tribal Bell Jhumkas. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-022-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-022-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "tribal",
+      "bell",
+      "jhumkas",
+      "traditional",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "tribal bell jhumkas"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      22
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-22"
+  },
+  {
+    "id": "AF-P3-023",
+    "slug": "rangoli-stone-drop-earrings-af-p3-023",
+    "name": "Rangoli Stone Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Rangoli Stone Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-023-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-023-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "rangoli",
+      "stone",
+      "drop",
+      "earrings",
+      "traditional",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "rangoli stone drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      23
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-23"
+  },
+  {
+    "id": "AF-P3-024",
+    "slug": "peacock-heritage-jhumkas-af-p3-024",
+    "name": "Peacock Heritage Jhumkas",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Peacock Heritage Jhumkas. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 125,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-024-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-024-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "peacock",
+      "heritage",
+      "jhumkas",
+      "traditional",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "peacock heritage jhumkas"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      24
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-24"
+  },
+  {
+    "id": "AF-P3-025",
+    "slug": "ruby-peacock-drop-earrings-af-p3-025",
+    "name": "Ruby Peacock Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Ruby Peacock Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-025-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-025-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "ruby",
+      "peacock",
+      "drop",
+      "earrings",
+      "traditional",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "ruby peacock drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      25
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-25"
+  },
+  {
+    "id": "AF-P3-026",
+    "slug": "emerald-pearl-jhumkas-af-p3-026",
+    "name": "Emerald Pearl Jhumkas",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Emerald Pearl Jhumkas. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-026-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-026-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "emerald",
+      "pearl",
+      "jhumkas",
+      "traditional",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "emerald pearl jhumkas"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      26
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-26"
+  },
+  {
+    "id": "AF-P3-027",
+    "slug": "birdsong-pearl-jhumkas-af-p3-027",
+    "name": "Birdsong Pearl Jhumkas",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Birdsong Pearl Jhumkas. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-027-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-027-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "birdsong",
+      "pearl",
+      "jhumkas",
+      "traditional",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "birdsong pearl jhumkas"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      27
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-27"
+  },
+  {
+    "id": "AF-P3-028",
+    "slug": "moonstone-peacock-drop-earrings-af-p3-028",
+    "name": "Moonstone Peacock Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Moonstone Peacock Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-028-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-028-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "moonstone",
+      "peacock",
+      "drop",
+      "earrings",
+      "traditional",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "moonstone peacock drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      28
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-28"
+  },
+  {
+    "id": "AF-P3-029",
+    "slug": "golden-filigree-butterfly-af-p3-029",
+    "name": "Golden Filigree Butterfly",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Golden Filigree Butterfly. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories",
+    "price": 60,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-029-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-029-1"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "golden",
+      "filigree",
+      "butterfly",
+      "statement",
+      "accessory",
+      "accessories",
+      "gharsansar",
+      "new arrival",
+      "golden filigree butterfly"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      29
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-29"
+  },
+  {
+    "id": "AF-P3-030",
+    "slug": "heritage-coin-jhumkas-af-p3-030",
+    "name": "Heritage Coin Jhumkas",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Heritage Coin Jhumkas. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 40,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-030-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-030-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "heritage",
+      "coin",
+      "jhumkas",
+      "traditional",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "heritage coin jhumkas"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      30
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-30"
+  },
+  {
+    "id": "AF-P3-031",
+    "slug": "pearl-heritage-jhumkas-af-p3-031",
+    "name": "Pearl Heritage Jhumkas",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Pearl Heritage Jhumkas. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 50,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-031-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-031-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "pearl",
+      "heritage",
+      "jhumkas",
+      "traditional",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "pearl heritage jhumkas"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      31
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-31"
+  },
+  {
+    "id": "AF-P3-032",
+    "slug": "ruby-mandala-jhumkas-af-p3-032",
+    "name": "Ruby Mandala Jhumkas",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Ruby Mandala Jhumkas. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 50,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-032-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-032-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "ruby",
+      "mandala",
+      "jhumkas",
+      "traditional",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "ruby mandala jhumkas"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      32
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-32"
+  },
+  {
+    "id": "AF-P3-033",
+    "slug": "heartline-charm-necklace-af-p3-033",
+    "name": "Heartline Charm Necklace",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Heartline Charm Necklace. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-033-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-033-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "heartline",
+      "charm",
+      "necklace",
+      "necklaces",
+      "necklaces & chains",
+      "gharsansar",
+      "new arrival",
+      "heartline charm necklace"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      33
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-33"
+  },
+  {
+    "id": "AF-P3-034",
+    "slug": "meadow-bloom-necklace-af-p3-034",
+    "name": "Meadow Bloom Necklace",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Meadow Bloom Necklace. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-034-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-034-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "meadow",
+      "bloom",
+      "necklace",
+      "necklaces",
+      "necklaces & chains",
+      "gharsansar",
+      "new arrival",
+      "meadow bloom necklace"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      34
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-34"
+  },
+  {
+    "id": "AF-P3-035",
+    "slug": "golden-butterfly-necklace-af-p3-035",
+    "name": "Golden Butterfly Necklace",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Golden Butterfly Necklace. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains",
+    "price": 300,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-035-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-035-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "golden",
+      "butterfly",
+      "necklace",
+      "necklaces",
+      "necklaces & chains",
+      "gharsansar",
+      "new arrival",
+      "golden butterfly necklace"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      35
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-35"
+  },
+  {
+    "id": "AF-P3-036",
+    "slug": "tulip-bloom-necklace-af-p3-036",
+    "name": "Tulip Bloom Necklace",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Tulip Bloom Necklace. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Necklaces & Chains",
+    "price": 200,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-036-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-036-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "tulip",
+      "bloom",
+      "necklace",
+      "necklaces",
+      "necklaces & chains",
+      "gharsansar",
+      "new arrival",
+      "tulip bloom necklace"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      36
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-36"
+  },
+  {
+    "id": "AF-P3-037",
+    "slug": "midnight-bloom-jewellery-set-af-p3-037",
+    "name": "Midnight Bloom Jewellery Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Midnight Bloom Jewellery Set. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-037-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-037-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "midnight",
+      "bloom",
+      "jewellery",
+      "set",
+      "sets",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "midnight bloom jewellery set"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      37
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-37"
+  },
+  {
+    "id": "AF-P3-038",
+    "slug": "ruby-blossom-jewellery-set-af-p3-038",
+    "name": "Ruby Blossom Jewellery Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Ruby Blossom Jewellery Set. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-038-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-038-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "ruby",
+      "blossom",
+      "jewellery",
+      "set",
+      "sets",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "ruby blossom jewellery set"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      38
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-38"
+  },
+  {
+    "id": "AF-P3-039",
+    "slug": "emerald-bloom-jewellery-set-af-p3-039",
+    "name": "Emerald Bloom Jewellery Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Emerald Bloom Jewellery Set. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-039-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-039-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "emerald",
+      "bloom",
+      "jewellery",
+      "set",
+      "sets",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "emerald bloom jewellery set"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      39
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-39"
+  },
+  {
+    "id": "AF-P3-040",
+    "slug": "ruby-petal-jewellery-set-af-p3-040",
+    "name": "Ruby Petal Jewellery Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Ruby Petal Jewellery Set. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-040-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-040-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "ruby",
+      "petal",
+      "jewellery",
+      "set",
+      "sets",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "ruby petal jewellery set"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      40
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-40"
+  },
+  {
+    "id": "AF-P3-041",
+    "slug": "ruby-drop-jewellery-set-af-p3-041",
+    "name": "Ruby Drop Jewellery Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Ruby Drop Jewellery Set. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery",
+    "price": 215,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-041-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-041-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "ruby",
+      "drop",
+      "jewellery",
+      "set",
+      "sets",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "ruby drop jewellery set"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      41
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-41"
+  },
+  {
+    "id": "AF-P3-042",
+    "slug": "emerald-drop-jewellery-set-af-p3-042",
+    "name": "Emerald Drop Jewellery Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Emerald Drop Jewellery Set. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery",
+    "price": 215,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-042-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-042-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "emerald",
+      "drop",
+      "jewellery",
+      "set",
+      "sets",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "emerald drop jewellery set"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      42
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-42"
+  },
+  {
+    "id": "AF-P3-043",
+    "slug": "sapphire-peacock-jewellery-set-af-p3-043",
+    "name": "Sapphire Peacock Jewellery Set",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Sapphire Peacock Jewellery Set. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Artificial Jewellery",
+    "price": 250,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-043-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-043-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "sapphire",
+      "peacock",
+      "jewellery",
+      "set",
+      "sets",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "sapphire peacock jewellery set"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      43
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-43"
+  },
+  {
+    "id": "AF-P3-044",
+    "slug": "silver-blossom-anklet-af-p3-044",
+    "name": "Silver Blossom Anklet",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Silver Blossom Anklet. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories",
+    "price": 70,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-044-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-044-1"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "silver",
+      "blossom",
+      "anklet",
+      "anklets",
+      "accessories",
+      "gharsansar",
+      "new arrival",
+      "silver blossom anklet"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      44
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-44"
+  },
+  {
+    "id": "AF-P3-045",
+    "slug": "evil-eye-charm-anklet-af-p3-045",
+    "name": "Evil Eye Charm Anklet",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Evil Eye Charm Anklet. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories",
+    "price": 70,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-045-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-045-1"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "evil",
+      "eye",
+      "charm",
+      "anklet",
+      "anklets",
+      "accessories",
+      "gharsansar",
+      "new arrival",
+      "evil eye charm anklet"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      45
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-45"
+  },
+  {
+    "id": "AF-P3-046",
+    "slug": "classic-silver-crescent-nose-ring-af-p3-046",
+    "name": "Classic Silver Crescent Nose Ring",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Classic Silver Crescent Nose Ring. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories",
+    "price": 15,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-046-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-046-1"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "classic",
+      "silver",
+      "crescent",
+      "nose",
+      "ring",
+      "rings",
+      "accessories",
+      "gharsansar",
+      "new arrival",
+      "classic silver crescent nose ring"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      46
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-46"
+  },
+  {
+    "id": "AF-P3-047",
+    "slug": "crystal-crescent-nose-ring-af-p3-047",
+    "name": "Crystal Crescent Nose Ring",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "Crystal Crescent Nose Ring. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Accessories",
+    "price": 15,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-047-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-047-1"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "crystal",
+      "crescent",
+      "nose",
+      "ring",
+      "rings",
+      "accessories",
+      "gharsansar",
+      "new arrival",
+      "crystal crescent nose ring"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      47
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-47"
+  },
+  {
+    "id": "AF-P3-048",
+    "slug": "moonstone-peacock-drop-earrings-af-p3-048",
+    "name": "Moonstone Peacock Drop Earrings",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Moonstone Peacock Drop Earrings. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-048-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-048-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "moonstone",
+      "peacock",
+      "drop",
+      "earrings",
+      "traditional",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "moonstone peacock drop earrings"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      48
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-48"
+  },
+  {
+    "id": "AF-P3-049",
+    "slug": "silver-peacock-jhumkas-af-p3-049",
+    "name": "Silver Peacock Jhumkas",
+    "category": "earrings",
+    "categoryLabel": "Earrings & Studs",
+    "description": "Silver Peacock Jhumkas. Product details can be confirmed with GharSansar on WhatsApp.",
+    "shortDescription": "Earrings & Studs",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P3-049-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P3-049-1"
+    ],
+    "badge": "Earrings & Studs",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "silver",
+      "peacock",
+      "jhumkas",
+      "traditional",
+      "earrings",
+      "earrings & studs",
+      "gharsansar",
+      "new arrival",
+      "silver peacock jhumkas"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      49
+    ],
+    "batch": "P3",
+    "sourceCode": "AF-49"
   }
 ]

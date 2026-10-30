@@ -1,6 +1,6 @@
 {
-  "count": 181,
-  "products": 116,
+  "count": 230,
+  "products": 165,
   "images": [
     {
       "productId": "AF-P1-001",
@@ -1449,6 +1449,398 @@
       "imagePath": "./product_images/AF-P2-053-1.jpg",
       "imageOrder": 1,
       "indexPdfPage": 181
+    },
+    {
+      "productId": "AF-P3-001",
+      "productName": "Lace & Bloom Jute Tote",
+      "imageId": "AF-P3-001-1",
+      "imagePath": "./product_images/AF-P3-001-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 1
+    },
+    {
+      "productId": "AF-P3-002",
+      "productName": "Verdant Floral Bottle Bag",
+      "imageId": "AF-P3-002-1",
+      "imagePath": "./product_images/AF-P3-002-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 2
+    },
+    {
+      "productId": "AF-P3-003",
+      "productName": "Celestial Cascade Earrings",
+      "imageId": "AF-P3-003-1",
+      "imagePath": "./product_images/AF-P3-003-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 3
+    },
+    {
+      "productId": "AF-P3-004",
+      "productName": "Pearl & Crystal Drop Earrings",
+      "imageId": "AF-P3-004-1",
+      "imagePath": "./product_images/AF-P3-004-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 4
+    },
+    {
+      "productId": "AF-P3-005",
+      "productName": "Heartlight Stud Earrings",
+      "imageId": "AF-P3-005-1",
+      "imagePath": "./product_images/AF-P3-005-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 5
+    },
+    {
+      "productId": "AF-P3-006",
+      "productName": "Celestial Bell Drop Earrings",
+      "imageId": "AF-P3-006-1",
+      "imagePath": "./product_images/AF-P3-006-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 6
+    },
+    {
+      "productId": "AF-P3-007",
+      "productName": "Crystal Square Jhumka Drops",
+      "imageId": "AF-P3-007-1",
+      "imagePath": "./product_images/AF-P3-007-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 7
+    },
+    {
+      "productId": "AF-P3-008",
+      "productName": "Golden Petal Cascade Earrings",
+      "imageId": "AF-P3-008-1",
+      "imagePath": "./product_images/AF-P3-008-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 8
+    },
+    {
+      "productId": "AF-P3-009",
+      "productName": "Peacock Grace Drop Earrings",
+      "imageId": "AF-P3-009-1",
+      "imagePath": "./product_images/AF-P3-009-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 9
+    },
+    {
+      "productId": "AF-P3-010",
+      "productName": "Golden Chain Cascade Earrings",
+      "imageId": "AF-P3-010-1",
+      "imagePath": "./product_images/AF-P3-010-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 10
+    },
+    {
+      "productId": "AF-P3-011",
+      "productName": "Crystal Leaf Tassel Earrings",
+      "imageId": "AF-P3-011-1",
+      "imagePath": "./product_images/AF-P3-011-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 11
+    },
+    {
+      "productId": "AF-P3-012",
+      "productName": "Floral Bloom Cascade Earrings",
+      "imageId": "AF-P3-012-1",
+      "imagePath": "./product_images/AF-P3-012-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 12
+    },
+    {
+      "productId": "AF-P3-013",
+      "productName": "Pearl Halo Drop Earrings",
+      "imageId": "AF-P3-013-1",
+      "imagePath": "./product_images/AF-P3-013-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 13
+    },
+    {
+      "productId": "AF-P3-014",
+      "productName": "Geometric Crystal Cascade Earrings",
+      "imageId": "AF-P3-014-1",
+      "imagePath": "./product_images/AF-P3-014-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 14
+    },
+    {
+      "productId": "AF-P3-015",
+      "productName": "Triangular Crystal Drop Earrings",
+      "imageId": "AF-P3-015-1",
+      "imagePath": "./product_images/AF-P3-015-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 15
+    },
+    {
+      "productId": "AF-P3-016",
+      "productName": "Radiant Bloom Drop Earrings",
+      "imageId": "AF-P3-016-1",
+      "imagePath": "./product_images/AF-P3-016-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 16
+    },
+    {
+      "productId": "AF-P3-017",
+      "productName": "Ruby Bloom Stud Earrings",
+      "imageId": "AF-P3-017-1",
+      "imagePath": "./product_images/AF-P3-017-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 17
+    },
+    {
+      "productId": "AF-P3-018",
+      "productName": "Golden Halo Drop Earrings",
+      "imageId": "AF-P3-018-1",
+      "imagePath": "./product_images/AF-P3-018-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 18
+    },
+    {
+      "productId": "AF-P3-019",
+      "productName": "Golden Lattice Stud Earrings",
+      "imageId": "AF-P3-019-1",
+      "imagePath": "./product_images/AF-P3-019-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 19
+    },
+    {
+      "productId": "AF-P3-020",
+      "productName": "Crystal Vine Dangle Earrings",
+      "imageId": "AF-P3-020-1",
+      "imagePath": "./product_images/AF-P3-020-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 20
+    },
+    {
+      "productId": "AF-P3-021",
+      "productName": "Rose Gold Cascade Earrings",
+      "imageId": "AF-P3-021-1",
+      "imagePath": "./product_images/AF-P3-021-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 21
+    },
+    {
+      "productId": "AF-P3-022",
+      "productName": "Tribal Bell Jhumkas",
+      "imageId": "AF-P3-022-1",
+      "imagePath": "./product_images/AF-P3-022-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 22
+    },
+    {
+      "productId": "AF-P3-023",
+      "productName": "Rangoli Stone Drop Earrings",
+      "imageId": "AF-P3-023-1",
+      "imagePath": "./product_images/AF-P3-023-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 23
+    },
+    {
+      "productId": "AF-P3-024",
+      "productName": "Peacock Heritage Jhumkas",
+      "imageId": "AF-P3-024-1",
+      "imagePath": "./product_images/AF-P3-024-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 24
+    },
+    {
+      "productId": "AF-P3-025",
+      "productName": "Ruby Peacock Drop Earrings",
+      "imageId": "AF-P3-025-1",
+      "imagePath": "./product_images/AF-P3-025-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 25
+    },
+    {
+      "productId": "AF-P3-026",
+      "productName": "Emerald Pearl Jhumkas",
+      "imageId": "AF-P3-026-1",
+      "imagePath": "./product_images/AF-P3-026-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 26
+    },
+    {
+      "productId": "AF-P3-027",
+      "productName": "Birdsong Pearl Jhumkas",
+      "imageId": "AF-P3-027-1",
+      "imagePath": "./product_images/AF-P3-027-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 27
+    },
+    {
+      "productId": "AF-P3-028",
+      "productName": "Moonstone Peacock Drop Earrings",
+      "imageId": "AF-P3-028-1",
+      "imagePath": "./product_images/AF-P3-028-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 28
+    },
+    {
+      "productId": "AF-P3-029",
+      "productName": "Golden Filigree Butterfly",
+      "imageId": "AF-P3-029-1",
+      "imagePath": "./product_images/AF-P3-029-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 29
+    },
+    {
+      "productId": "AF-P3-030",
+      "productName": "Heritage Coin Jhumkas",
+      "imageId": "AF-P3-030-1",
+      "imagePath": "./product_images/AF-P3-030-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 30
+    },
+    {
+      "productId": "AF-P3-031",
+      "productName": "Pearl Heritage Jhumkas",
+      "imageId": "AF-P3-031-1",
+      "imagePath": "./product_images/AF-P3-031-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 31
+    },
+    {
+      "productId": "AF-P3-032",
+      "productName": "Ruby Mandala Jhumkas",
+      "imageId": "AF-P3-032-1",
+      "imagePath": "./product_images/AF-P3-032-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 32
+    },
+    {
+      "productId": "AF-P3-033",
+      "productName": "Heartline Charm Necklace",
+      "imageId": "AF-P3-033-1",
+      "imagePath": "./product_images/AF-P3-033-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 33
+    },
+    {
+      "productId": "AF-P3-034",
+      "productName": "Meadow Bloom Necklace",
+      "imageId": "AF-P3-034-1",
+      "imagePath": "./product_images/AF-P3-034-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 34
+    },
+    {
+      "productId": "AF-P3-035",
+      "productName": "Golden Butterfly Necklace",
+      "imageId": "AF-P3-035-1",
+      "imagePath": "./product_images/AF-P3-035-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 35
+    },
+    {
+      "productId": "AF-P3-036",
+      "productName": "Tulip Bloom Necklace",
+      "imageId": "AF-P3-036-1",
+      "imagePath": "./product_images/AF-P3-036-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 36
+    },
+    {
+      "productId": "AF-P3-037",
+      "productName": "Midnight Bloom Jewellery Set",
+      "imageId": "AF-P3-037-1",
+      "imagePath": "./product_images/AF-P3-037-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 37
+    },
+    {
+      "productId": "AF-P3-038",
+      "productName": "Ruby Blossom Jewellery Set",
+      "imageId": "AF-P3-038-1",
+      "imagePath": "./product_images/AF-P3-038-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 38
+    },
+    {
+      "productId": "AF-P3-039",
+      "productName": "Emerald Bloom Jewellery Set",
+      "imageId": "AF-P3-039-1",
+      "imagePath": "./product_images/AF-P3-039-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 39
+    },
+    {
+      "productId": "AF-P3-040",
+      "productName": "Ruby Petal Jewellery Set",
+      "imageId": "AF-P3-040-1",
+      "imagePath": "./product_images/AF-P3-040-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 40
+    },
+    {
+      "productId": "AF-P3-041",
+      "productName": "Ruby Drop Jewellery Set",
+      "imageId": "AF-P3-041-1",
+      "imagePath": "./product_images/AF-P3-041-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 41
+    },
+    {
+      "productId": "AF-P3-042",
+      "productName": "Emerald Drop Jewellery Set",
+      "imageId": "AF-P3-042-1",
+      "imagePath": "./product_images/AF-P3-042-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 42
+    },
+    {
+      "productId": "AF-P3-043",
+      "productName": "Sapphire Peacock Jewellery Set",
+      "imageId": "AF-P3-043-1",
+      "imagePath": "./product_images/AF-P3-043-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 43
+    },
+    {
+      "productId": "AF-P3-044",
+      "productName": "Silver Blossom Anklet",
+      "imageId": "AF-P3-044-1",
+      "imagePath": "./product_images/AF-P3-044-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 44
+    },
+    {
+      "productId": "AF-P3-045",
+      "productName": "Evil Eye Charm Anklet",
+      "imageId": "AF-P3-045-1",
+      "imagePath": "./product_images/AF-P3-045-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 45
+    },
+    {
+      "productId": "AF-P3-046",
+      "productName": "Classic Silver Crescent Nose Ring",
+      "imageId": "AF-P3-046-1",
+      "imagePath": "./product_images/AF-P3-046-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 46
+    },
+    {
+      "productId": "AF-P3-047",
+      "productName": "Crystal Crescent Nose Ring",
+      "imageId": "AF-P3-047-1",
+      "imagePath": "./product_images/AF-P3-047-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 47
+    },
+    {
+      "productId": "AF-P3-048",
+      "productName": "Moonstone Peacock Drop Earrings",
+      "imageId": "AF-P3-048-1",
+      "imagePath": "./product_images/AF-P3-048-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 48
+    },
+    {
+      "productId": "AF-P3-049",
+      "productName": "Silver Peacock Jhumkas",
+      "imageId": "AF-P3-049-1",
+      "imagePath": "./product_images/AF-P3-049-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 49
     }
   ]
 }

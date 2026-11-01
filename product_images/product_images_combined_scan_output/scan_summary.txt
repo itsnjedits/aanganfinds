@@ -1,0 +1,21 @@
+Product Price Scanner - SCAN SUMMARY
+================================================
+Input PDF: Y:\WEB DEVELOPMENT\aanganfinds\product_images\product_images_combined.pdf
+Total PDF pages scanned: 230
+Pages with price detections: 94
+Pages without price detections: 136
+Total detected price candidates: 95
+Pages requiring extra manual review: 5
+Prices edited: 0 (scan-only mode)
+
+FILES CREATED:
+- price_pages_only.pdf (only pages with detected price candidates; if any)
+- preview_boxes.pdf (full-page bounding-box preview)
+- side_by_side_preview.pdf (original vs detected-box comparison)
+- detections.csv (editable decision/coordinate review sheet)
+- page_summary.csv
+- detections.json
+- page_previews/ and manual_review/
+
+IMPORTANT: Review every detection before any later price-update stage.
+Set detections.csv decision to APPROVE, MANUAL, or REJECT only after visual inspection.

@@ -1,0 +1,14 @@
+Product Price Updater - SUMMARY
+======================================================
+Source PDF: Y:\WEB DEVELOPMENT\aanganfinds\product_images\product_images_combined.pdf
+Detection CSV: Y:\WEB DEVELOPMENT\aanganfinds\product_images\product_images_combined_scan_output\detections.csv
+Detection rows selected: 92
+Successfully updated: 89
+Skipped / failed: 3
+Increase: 40%
+Rounding: nearest 5
+Render DPI: 300
+Updated PDF: Y:\WEB DEVELOPMENT\aanganfinds\product_images\product_images_combined_price_updated\product_images_combined_PRICE_UPDATED.pdf
+Report: Y:\WEB DEVELOPMENT\aanganfinds\product_images\product_images_combined_price_updated\update_report.csv
+
+The original input PDF was not overwritten.

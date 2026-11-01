@@ -6436,5 +6436,200 @@
     ],
     "batch": "P3",
     "sourceCode": "AF-49"
+  },
+  {
+    "id": "AF-P4-001",
+    "slug": "blackstone-shimmring-beautiful-necklace-combo-for-women-and-girls-af-p4-001",
+    "name": "Blackstone Shimmring Beautiful Necklace Combo for Women and Girls",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Blackstone Shimmring Beautiful Necklace Combo for Women and Girls.",
+    "shortDescription": "Necklaces & Chains",
+    "price": null,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P4-001-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P4-001-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "blackstone",
+      "necklace",
+      "combo",
+      "women",
+      "girls",
+      "necklaces & chains",
+      "gharsansar",
+      "new arrival",
+      "blackstone shimmring beautiful necklace combo for women and girls"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      1
+    ],
+    "batch": "P4",
+    "sourceCode": "PRODUCT 01"
+  },
+  {
+    "id": "AF-P4-002",
+    "slug": "hand-made-cotton-wick-1000pcs-af-p4-002",
+    "name": "Hand Made Cotton Wick 1000pcs",
+    "category": "festive-decor",
+    "categoryLabel": "Festive Decor & Lights",
+    "description": "Hand made cotton wick pack. Please confirm the exact pack quantity before order confirmation.",
+    "shortDescription": "Festive Decor & Lights",
+    "price": null,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P4-002-1.jpg",
+      "./product_images/AF-P4-002-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P4-002-1",
+      "AF-P4-002-2"
+    ],
+    "badge": "Festive Decor & Lights",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "cotton",
+      "wick",
+      "cotton wick",
+      "pooja",
+      "diya",
+      "festive decor",
+      "1000pcs",
+      "gharsansar",
+      "new arrival",
+      "hand made cotton wick 1000pcs"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      2
+    ],
+    "batch": "P4",
+    "sourceCode": "PRODUCT 02",
+    "sourceNotes": [
+      "The supplied second gallery image visibly says 'PACK OF 500', while the product title says 1000pcs. Confirm pack quantity before confirming an order."
+    ]
+  },
+  {
+    "id": "AF-P4-003",
+    "slug": "elegant-everyday-necklace-set-combo-of-5-necklaces-af-p4-003",
+    "name": "Elegant Everyday Necklace Set - Combo of 5 Necklaces",
+    "category": "necklaces-chains",
+    "categoryLabel": "Necklaces & Chains",
+    "description": "Elegant Everyday Necklace Set - Combo of 5 Necklaces.",
+    "shortDescription": "Necklaces & Chains",
+    "price": null,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P4-003-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P4-003-1"
+    ],
+    "badge": "Necklaces & Chains",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "everyday",
+      "necklace",
+      "necklaces",
+      "combo of 5",
+      "necklaces & chains",
+      "gharsansar",
+      "new arrival",
+      "elegant everyday necklace set - combo of 5 necklaces"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      3
+    ],
+    "batch": "P4",
+    "sourceCode": "PRODUCT 03"
+  },
+  {
+    "id": "AF-P4-004",
+    "slug": "shreeji-imitation-brass-alloy-bangle-set-pack-of-6-af-p4-004",
+    "name": "Shreeji Imitation Brass, Alloy Bangle Set (Pack of 6)",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Shreeji imitation Brass, Alloy Bangle Set (Pack of 6).",
+    "shortDescription": "Artificial Jewellery",
+    "price": null,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P4-004-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P4-004-1"
+    ],
+    "badge": "Artificial Jewellery",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "shreeji",
+      "imitation",
+      "brass",
+      "alloy",
+      "bangle",
+      "bangles",
+      "pack of 6",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "shreeji imitation brass, alloy bangle set (pack of 6)"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      4
+    ],
+    "batch": "P4",
+    "sourceCode": "PRODUCT 04"
+  },
+  {
+    "id": "AF-P4-005",
+    "slug": "houseofcommon-premium-transparent-printed-floral-cosmetic-pouch-af-p4-005",
+    "name": "HouseOfCommon Premium Transparent Printed Floral Cosmetic Pouch",
+    "category": "accessories",
+    "categoryLabel": "Accessories",
+    "description": "HouseOfCommon Premium Transparent Printed Floral Cosmetic Pouch.",
+    "shortDescription": "Accessories",
+    "price": null,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P4-005-1.jpg",
+      "./product_images/AF-P4-005-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P4-005-1",
+      "AF-P4-005-2"
+    ],
+    "badge": "Accessories",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "houseofcommon",
+      "cosmetic pouch",
+      "makeup pouch",
+      "transparent",
+      "floral",
+      "printed",
+      "accessories",
+      "gharsansar",
+      "new arrival",
+      "houseofcommon premium transparent printed floral cosmetic pouch"
+    ],
+    "specifications": {},
+    "sourceIndexPages": [
+      5
+    ],
+    "batch": "P4",
+    "sourceCode": "PRODUCT 05"
   }
 ]

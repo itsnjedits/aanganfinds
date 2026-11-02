@@ -28,6 +28,7 @@ const state = {
   drawerMode: 'cart',
   modal: { id: null, qty: 1, index: 0 },
   installPrompt: null,
+  shareProductId: null,
   loaded: false,
 };
 let toastTimer = null;
@@ -123,7 +124,7 @@ function applyTheme(theme, persist) {
   const toggle = $('#themeToggle');
   if (toggle) { toggle.setAttribute('aria-pressed', String(dark)); toggle.setAttribute('aria-label', 'Dark mode'); toggle.title = dark ? 'Switch to light mode' : 'Switch to dark mode'; }
   const meta = $('#themeColorMeta');
-  if (meta) meta.setAttribute('content', dark ? '#231a20' : '#fffdf9');
+  if (meta) meta.setAttribute('content', '#3a0717');
   if (persist) { try { localStorage.setItem(STORAGE_KEYS.theme, dark ? 'dark' : 'light'); } catch (_) { /* theme still applies for this visit */ } }
 }
 function initTheme() {
@@ -277,6 +278,7 @@ function productCard(p) {
     <div class="pc-media">
       <button type="button" class="pc-open" data-action="details" data-id="${id}" tabindex="-1" aria-label="${name} — view details"><img src="${esc(src)}" alt="${name}" width="520" height="650" loading="lazy" decoding="async"></button>
       <button type="button" class="pc-heart" data-action="wish" data-id="${id}" aria-pressed="${wished}" aria-label="Save ${name} to wishlist"><span class="disc">${icon('heart')}</span></button>
+      <button type="button" class="pc-share" data-action="share" data-id="${id}" aria-label="Share ${name}" title="Share product"><span class="disc">${icon('share')}</span></button>
     </div>
     <div class="pc-body">
       <p class="pc-cat">${esc(p.categoryLabel || 'GharSansar')}</p>
@@ -434,8 +436,78 @@ function orderCart() {
   openWhatsApp(cartOrderMessage(items));
 }
 
-/* ───────── 9. Overlays: drawer + product sheet ───────── */
-const OVERLAYS = { drawer: { overlay: '#drawerOverlay', panel: '#drawerPanel' }, modal: { overlay: '#productModalOverlay', panel: '#productModal' } };
+/* ───────── 9. Share Engine: product URLs, social links, native image sharing ───────── */
+function productShareUrl(product) {
+  const slug = String(product.slug || product.id).trim();
+  const base = new URL('./', document.baseURI);
+  return new URL(`products/${encodeURIComponent(slug)}/`, base).href;
+}
+function productShareCopy(product, url) {
+  const priceLine = hasPrice(product) ? `Price: ${priceText(product)}` : 'Price: Please enquire';
+  return `A lovely find from GharSansar — Har Ghar ki Pasand!\n\n${product.name}\n${priceLine}\nProduct ID: ${product.id}\n\nExplore this product: ${url}`;
+}
+function openShareDialog(id) {
+  const p = getProduct(id); if (!p) return;
+  state.shareProductId = id;
+  const url = productShareUrl(p);
+  const text = productShareCopy(p, url);
+  const image = productImages(p)[0] || PLACEHOLDER;
+  const wa = `https://wa.me/?text=${encodeURIComponent(text)}`;
+  const telegram = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(`${p.name} · ${hasPrice(p) ? priceText(p) : 'Price on enquiry'} | GharSansar`)}`;
+  $('#shareContent').innerHTML = `
+    <div class="share-product-preview">
+      <img src="${esc(image)}" alt="" width="88" height="104" loading="lazy">
+      <div class="share-product-copy"><span>GHARSANSAR · ${esc(p.id)}</span><strong>${esc(p.name)}</strong><b>${esc(priceText(p))}</b><small>Har Ghar ki Pasand</small></div>
+    </div>
+    <p class="share-hint">Share the product link. WhatsApp and Telegram can show its photo, name and price as a preview.</p>
+    <div class="share-options">
+      <a class="share-choice share-whatsapp" href="${esc(wa)}" target="_blank" rel="noopener noreferrer">${icon('whatsapp')}<span>WhatsApp</span></a>
+      <a class="share-choice share-telegram" href="${esc(telegram)}" target="_blank" rel="noopener noreferrer">${icon('send')}<span>Telegram</span></a>
+      <button class="share-choice" type="button" data-action="share-copy" data-id="${esc(id)}">${icon('copy')}<span>Copy link</span></button>
+      <button class="share-choice" type="button" data-action="share-native" data-id="${esc(id)}">${icon('share')}<span>More options</span></button>
+      <button class="share-choice share-photo" type="button" data-action="share-photo" data-id="${esc(id)}">${icon('image')}<span>Share photo + link</span></button>
+    </div>
+    <div class="share-link-row"><span>${esc(url)}</span><button type="button" data-action="share-copy" data-id="${esc(id)}" aria-label="Copy product link">${icon('copy')}</button></div>`;
+  openOverlay('share');
+}
+async function copyShareLink(id) {
+  const p = getProduct(id); if (!p) return;
+  const url = productShareUrl(p);
+  try {
+    if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(url);
+    else {
+      const box = document.createElement('textarea'); box.value = url; box.setAttribute('readonly','');
+      box.style.position = 'fixed'; box.style.opacity = '0'; document.body.appendChild(box); box.select();
+      const ok = document.execCommand('copy'); box.remove(); if (!ok) throw new Error('copy failed');
+    }
+    showToast('Product link copied. Share it anywhere!');
+  } catch (_) { showToast('Could not copy automatically. Select the product link shown above.'); }
+}
+async function nativeShareProduct(id, includeImage = false) {
+  const p = getProduct(id); if (!p) return;
+  const url = productShareUrl(p), text = productShareCopy(p, url);
+  if (!navigator.share) { await copyShareLink(id); return; }
+  try {
+    if (includeImage) {
+      const imageUrl = new URL(productImages(p)[0], document.baseURI).href;
+      const response = await fetch(imageUrl, { cache: 'no-cache' });
+      if (!response.ok) throw new Error('Product image is not available yet.');
+      const blob = await response.blob();
+      const ext = (blob.type.split('/')[1] || 'jpg').replace('jpeg','jpg');
+      const file = new File([blob], `GharSansar-${p.slug || p.id}.${ext}`, { type: blob.type || 'image/jpeg' });
+      if (!navigator.canShare || !navigator.canShare({ files: [file] })) throw new Error('Photo sharing is not supported by this browser.');
+      await navigator.share({ files: [file], title: p.name, text });
+    } else {
+      await navigator.share({ title: `${p.name} | GharSansar`, text, url });
+    }
+  } catch (error) {
+    if (error && error.name === 'AbortError') return;
+    showToast(error && error.message ? error.message : 'Sharing could not be opened. Try WhatsApp or Copy link.');
+  }
+}
+
+/* ───────── 10. Overlays: drawer + product sheet + share sheet ───────── */
+const OVERLAYS = { drawer: { overlay: '#drawerOverlay', panel: '#drawerPanel' }, modal: { overlay: '#productModalOverlay', panel: '#productModal' }, share: { overlay: '#shareOverlay', panel: '#sharePanel' } };
 let activeOverlay = null;
 let returnFocus = null;
 
@@ -564,6 +636,7 @@ function openProduct(id) {
         ${specs ? `<div class="spec-list">${specs}</div>` : ''}
         <p class="modal-note">Product details, variants and delivery are confirmed with you on WhatsApp before your order is final.</p>
         <button type="button" class="modal-enquire" data-action="modal-enquire" data-id="${esc(p.id)}">${icon('whatsapp')}Ask about this product</button>
+        <button type="button" class="modal-share-btn" data-action="modal-share" data-id="${esc(p.id)}">${icon('share')}Share this product</button>
         <button type="button" class="text-btn" id="modalWish" data-action="modal-wish" data-id="${esc(p.id)}" aria-pressed="${state.wishlist.has(p.id)}" style="margin-top:6px;padding-left:0">${icon('heart')}<span></span></button>
       </div>
     </div>
@@ -676,6 +749,10 @@ function onClick(event) {
   const { action, id } = target.dataset;
   switch (action) {
     case 'details': openProduct(id); break;
+    case 'share': case 'modal-share': openShareDialog(id); break;
+    case 'share-copy': copyShareLink(id); break;
+    case 'share-native': nativeShareProduct(id, false); break;
+    case 'share-photo': nativeShareProduct(id, true); break;
     case 'wish': toggleWishlist(id); break;
     case 'add': addToCart(id, 1); break;
     case 'cart-inc': case 'drawer-inc': changeCartQty(id, 1); break;
@@ -741,16 +818,24 @@ function bindEvents() {
   $('#mobileSearchButton').addEventListener('click', () => { window.scrollTo({ top: 0, behavior: scrollBehavior() }); input.focus({ preventScroll: true }); });
   $('#closeDrawer').addEventListener('click', () => closeOverlay());
   $('#closeProductModal').addEventListener('click', () => closeOverlay());
+  $('#closeShare').addEventListener('click', () => closeOverlay());
   $('#drawerOverlay').addEventListener('click', e => { if (e.target === e.currentTarget) closeOverlay(); });
   $('#productModalOverlay').addEventListener('click', e => { if (e.target === e.currentTarget) closeOverlay(); });
+  $('#shareOverlay').addEventListener('click', e => { if (e.target === e.currentTarget) closeOverlay(); });
 
-  $('#installButton').addEventListener('click', async () => {
-    if (!state.installPrompt) return;
-    state.installPrompt.prompt(); await state.installPrompt.userChoice.catch(() => {});
-    state.installPrompt = null; $('#installButton').hidden = true;
-  });
-  window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); state.installPrompt = event; $('#installButton').hidden = false; });
-  window.addEventListener('appinstalled', () => { $('#installButton').hidden = true; showToast('GharSansar is ready on your home screen.'); });
+  const installButtons = ['#headerInstallButton', '#installButton'].map(sel => $(sel)).filter(Boolean);
+  async function requestInstall() {
+    if (!state.installPrompt) {
+      const isAppleMobile = /iphone|ipad|ipod/i.test(navigator.userAgent);
+      showToast(isAppleMobile ? 'On iPhone/iPad: use Share → Add to Home Screen.' : 'Open your browser menu and choose Install app or Add to Home Screen.');
+      return;
+    }
+    const promptEvent = state.installPrompt; state.installPrompt = null;
+    try { await promptEvent.prompt(); await promptEvent.userChoice.catch(() => {}); } catch (_) {}
+  }
+  installButtons.forEach(button => button.addEventListener('click', requestInstall));
+  window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); state.installPrompt = event; installButtons.forEach(b => { b.dataset.installReady = 'true'; b.title = 'Install GharSansar'; }); });
+  window.addEventListener('appinstalled', () => { installButtons.forEach(b => { b.hidden = true; }); showToast('GharSansar is ready on your home screen.'); });
 
   // Keep several open tabs consistent.
   window.addEventListener('storage', event => {
@@ -791,6 +876,12 @@ async function loadCatalogue() {
     pruneUnknownIds();
     renderCategories(); renderProducts(true); updateCounts();
     if ($('#searchInput').value) applySearch();
+    const deepProductId = new URLSearchParams(window.location.search).get('product');
+    if (deepProductId) {
+      const deepProduct = getProduct(deepProductId);
+      if (deepProduct) setTimeout(() => openProduct(deepProductId), 120);
+      else showToast('This product link is no longer available. Browse the latest collection instead.');
+    }
   } catch (error) {
     console.error(error);
     grid.hidden = false; $('#emptyState').hidden = true;

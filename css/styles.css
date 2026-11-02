@@ -1,4 +1,4 @@
-/* GharSansar — Version 3 design system
+/* GharSansar — Version 5 design system
    Mobile-first. Tokens first, then base, layout, components, overlays, responsive, motion.
    Fonts are loaded from index.html (non-blocking) — fallbacks below keep layout stable. */
 
@@ -501,3 +501,147 @@ body.no-scroll .toast.visible { transform: translate(-50%, 0); }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
   .spin { animation: none; }
 }
+
+
+/* ───────── 16. GharSansar brand refresh + share engine ───────── */
+:root {
+  --bg: #fbf3e8;
+  --surface: #fffaf2;
+  --surface-2: #f7eadb;
+  --surface-3: #efddc8;
+  --ink: #35131d;
+  --muted: #715b5e;
+  --line: #ead8c2;
+  --line-strong: #cdb18d;
+  --brand: #7c102d;
+  --brand-solid: #7c102d;
+  --brand-solid-hover: #5f0b21;
+  --on-brand: #fff6e9;
+  --gold: #d7a64d;
+  --gold-text: #81521a;
+}
+html[data-theme="dark"] {
+  --bg: #170b10;
+  --surface: #26131b;
+  --surface-2: #351a25;
+  --surface-3: #482431;
+  --ink: #fff0e4;
+  --muted: #d8bfc1;
+  --line: #573443;
+  --line-strong: #80505d;
+  --brand: #f2c4ce;
+  --brand-solid: #98143b;
+  --brand-solid-hover: #b21b49;
+  --on-brand: #fff8f0;
+  --gold: #edc777;
+  --gold-text: #f2d38d;
+}
+.announcement-bar {
+  background: linear-gradient(90deg, #350713, #5d0a25 52%, #350713);
+  color: #fff0d7;
+}
+.site-header {
+  background: linear-gradient(110deg, #26050f 0%, #3a0717 54%, #2c0612 100%);
+  color: #fff0df;
+  border-bottom: 1px solid rgba(219, 174, 95, .38);
+}
+.header-inner { gap: 10px 14px; }
+.brand { width: clamp(142px, 38vw, 220px); min-width: 0; }
+.brand-logo { width: 100%; height: auto; object-fit: contain; flex: none; }
+.brand-copy { display: none !important; }
+.header-actions { gap: 4px; }
+.icon-action { color: #fff1de; }
+.icon-action .icon { color: #efc778; }
+.action-label { color: #f2dfc4; }
+.count-badge { background: #e2b55d; color: #35101b; border-color: #3a0717; }
+.header-search { background: rgba(255, 245, 226, .10); border-color: rgba(237, 199, 119, .40); }
+.header-search:focus-within { background: rgba(255, 245, 226, .16); border-color: #edc777; }
+.header-search input { color: #fff8ec; }
+.header-search input::placeholder, .search-mark { color: #e6cfc4; }
+.search-clear { color: #f1dfd4; }
+.search-submit { background: #a31643; color: #fff8ef; }
+.primary-nav { background: #3a0918; border-top: 1px solid rgba(224, 181, 101, .2); }
+.nav-link { color: #f9ead7; }
+.nav-link::after { background: #e4b65d; }
+.nav-link.is-active, .nav-home { color: #f3cc7c; }
+.nav-link:focus-visible, .icon-action:focus-visible { outline-color: #f1ce83; }
+.install-button-header {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-width: 42px; min-height: 40px; padding: 0 11px; border-color: #efc778;
+  background: linear-gradient(135deg, #f4d58d, #d4a14a); color: #3c101c;
+  white-space: nowrap; box-shadow: 0 3px 10px rgba(0,0,0,.16);
+}
+.install-button-header .icon { width: 17px; height: 17px; color: currentColor; }
+.install-button-header[data-install-ready="true"] { box-shadow: 0 0 0 2px rgba(244,213,141,.22), 0 3px 10px rgba(0,0,0,.16); }
+.hero-section { background: #26050f; border-bottom-color: rgba(215,166,77,.34); }
+.hero-banner { display: block; width: 100%; max-width: 1680px; margin-inline: auto; background: #26050f; overflow: hidden; }
+.hero-banner img { display: block; width: 100%; height: auto; aspect-ratio: 1672 / 941; object-fit: contain; }
+.pc-share { position: absolute; top: 4px; left: 4px; width: var(--tap); height: var(--tap); display: grid; place-items: center; padding: 0; border: 0; background: transparent; color: var(--ink); }
+.pc-share .disc { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; background: color-mix(in srgb, var(--surface) 94%, transparent); border: 1px solid var(--line); box-shadow: var(--shadow-sm); transition: transform var(--t-fast), background-color var(--t-fast), color var(--t-fast); }
+.pc-share .icon { width: 17px; height: 17px; }
+.modal-share-btn { width: 100%; min-height: 46px; margin-top: 8px; display: flex; align-items: center; justify-content: center; gap: 9px; border: 1px solid var(--line-strong); border-radius: var(--r-md); background: var(--surface-2); color: var(--brand); font-weight: 700; transition: background-color var(--t-fast), border-color var(--t-fast), transform var(--t-fast); }
+.modal-share-btn .icon { width: 19px; height: 19px; }
+.overlay-share { align-items: flex-end; justify-content: center; padding: 12px; }
+.share-panel { width: min(500px, 100%); max-height: min(82dvh, 650px); overflow-y: auto; overscroll-behavior: contain; padding: 20px; padding-bottom: max(20px, env(safe-area-inset-bottom)); border: 1px solid var(--line); border-radius: 24px; background: var(--surface); color: var(--ink); box-shadow: var(--shadow-lg); transform: translateY(24px); transition: transform var(--t) var(--ease); outline: 0; }
+.overlay.is-open .share-panel { transform: none; }
+.share-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.share-header h2 { font-family: var(--font-display); font-size: 1.7rem; line-height: 1.15; font-weight: 600; }
+.share-product-preview { display: flex; align-items: center; gap: 14px; min-width: 0; padding: 16px 0 12px; }
+.share-product-preview > img { width: 82px; height: 98px; flex: none; object-fit: cover; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--line); }
+.share-product-copy { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.share-product-copy span { color: var(--gold-text); font-size: .68rem; font-weight: 800; letter-spacing: .09em; }
+.share-product-copy strong { font-family: var(--font-display); font-size: 1.05rem; line-height: 1.25; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.share-product-copy b { color: var(--brand); font-size: 1rem; }
+.share-product-copy small { color: var(--muted); font-size: .75rem; }
+.share-hint { margin: 0 0 14px; color: var(--muted); font-size: var(--fs-sm); line-height: 1.55; }
+.share-options { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 9px; }
+.share-choice { min-width: 0; min-height: 48px; display: flex; align-items: center; justify-content: flex-start; gap: 10px; padding: 0 13px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface-2); color: var(--ink); font-size: var(--fs-sm); font-weight: 700; text-align: left; transition: transform var(--t-fast), border-color var(--t-fast), background-color var(--t-fast); }
+.share-choice .icon { width: 20px; height: 20px; color: var(--brand); }
+.share-whatsapp .icon { color: #168b50; }
+.share-telegram .icon { color: #258ac7; }
+.share-photo { grid-column: 1 / -1; justify-content: center; border-color: color-mix(in srgb, var(--gold) 55%, var(--line)); background: color-mix(in srgb, var(--gold) 12%, var(--surface)); }
+.share-link-row { display: flex; align-items: center; gap: 8px; margin-top: 13px; padding: 7px 8px 7px 12px; border: 1px solid var(--line); border-radius: 11px; background: var(--surface); }
+.share-link-row span { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; color: var(--muted); font-size: .72rem; }
+.share-link-row button { width: 38px; height: 38px; display: grid; place-items: center; flex: none; border: 0; border-radius: 9px; background: var(--brand-solid); color: var(--on-brand); }
+.share-link-row button .icon { color: currentColor; }
+.footer-brand img { display: block; width: min(260px, 64vw); height: auto; }
+@media (min-width: 640px) { .share-options { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (min-width: 721px) {
+  .header-inner { grid-template-columns: minmax(180px, 240px) minmax(220px, 1fr) auto; gap: 18px; padding: 8px clamp(16px, 3.4vw, 52px); }
+  .brand { width: clamp(190px, 19vw, 250px); }
+  .brand img { width: 100%; height: auto; }
+  .header-actions { grid-column: 3; gap: 4px; }
+  .install-button-header { min-height: 40px; }
+  .primary-nav { background: #3a0918; }
+  .overlay-share { align-items: center; padding: 24px; }
+  .share-panel { max-height: min(80dvh, 650px); transform: translateY(14px) scale(.99); }
+  .overlay.is-open .share-panel { transform: none; }
+}
+@media (min-width: 721px) and (max-width: 960px) {
+  .header-inner { grid-template-columns: minmax(150px, 190px) minmax(180px, 1fr) auto; gap: 10px; padding-inline: 14px; }
+  .brand { width: 184px; }
+  .header-actions { gap: 0; }
+  .header-actions .icon-action { min-width: 40px; padding-inline: 5px; }
+  .install-button-header { padding-inline: 8px; }
+  .install-button-header span { display: none; }
+}
+@media (max-width: 420px) {
+  .header-inner { padding: 8px 12px 10px; gap: 8px; }
+  .brand { width: clamp(132px, 43vw, 168px); }
+  .header-actions { gap: 0; }
+  .header-actions .icon-action { min-width: 40px; padding-inline: 4px; }
+  .install-button-header { min-width: 40px; width: 40px; padding: 0; }
+  .install-button-header span { display: none; }
+  .hero-banner img { width: 100%; }
+  .share-panel { padding-inline: 16px; }
+}
+@media (hover: hover) and (pointer: fine) {
+  .pc-share:hover .disc { transform: scale(1.06); background: var(--surface); color: var(--brand); }
+  .modal-share-btn:hover, .share-choice:hover { border-color: var(--gold); background: var(--surface-3); }
+  .share-link-row button:hover { background: var(--brand-solid-hover); }
+  .install-button-header:hover { filter: brightness(1.04); transform: translateY(-1px); }
+}
+
+/* Wordmark sizing wins over the older square logo sizing rules. */
+.brand img.brand-logo { width: 100%; height: auto; }
+.footer-brand { width: fit-content; max-width: 100%; padding: 8px 12px; border-radius: 14px; background: linear-gradient(110deg, #26050f, #3a0717 54%, #2c0612); border: 1px solid rgba(219,174,95,.3); }

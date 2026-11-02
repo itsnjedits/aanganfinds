@@ -3,8 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#fffdf9" id="themeColorMeta">
+  <meta name="theme-color" content="#3a0717" id="themeColorMeta">
   <meta name="description" content="GharSansar — हर घर की पसंद. Curated jewellery, gifts, home and festive finds, ordered through WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GharSansar">
+  <meta property="og:title" content="GharSansar — Har Ghar ki Pasand">
+  <meta property="og:description" content="Discover jewellery, thoughtful gifts, home finds and festive décor at GharSansar.">
+  <meta property="og:url" content="https://itsnjedits.github.io/aanganfinds/">
+  <meta property="og:image" content="https://itsnjedits.github.io/aanganfinds/assets/banners/gharsansar-hero.webp">
+  <meta property="og:image:alt" content="GharSansar — Har Ghar ki Pasand">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GharSansar — Har Ghar ki Pasand">
+  <meta name="twitter:description" content="Discover jewellery, thoughtful gifts, home finds and festive décor at GharSansar.">
+  <meta name="twitter:image" content="https://itsnjedits.github.io/aanganfinds/assets/banners/gharsansar-hero.webp">
   <meta name="color-scheme" content="light dark">
   <title>GharSansar — हर घर की पसंद</title>
   <!-- Apply the saved (or system) theme before first paint to avoid a flash. -->
@@ -17,11 +28,11 @@
         else if (window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches) theme = 'dark';
       } catch (e) {}
       document.documentElement.dataset.theme = theme;
-      document.getElementById('themeColorMeta').setAttribute('content', theme === 'dark' ? '#231a20' : '#fffdf9');
+      document.getElementById('themeColorMeta').setAttribute('content', '#3a0717');
     })();
   </script>
-  <link rel="icon" type="image/svg+xml" href="./assets/brand/logo.svg">
-  <link rel="apple-touch-icon" href="./assets/brand/icons/icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/brand/gharsansar-app-icon-512.png">
+  <link rel="apple-touch-icon" href="./assets/brand/gharsansar-app-icon-512.png">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,6 +64,10 @@
       <symbol id="i-diya" viewBox="0 0 24 24"><path d="M3.5 13.5h17c0 3.4-3.8 5.5-8.5 5.5s-8.5-2.1-8.5-5.5z"/><path d="M12 3.5c2.3 2.6 2.3 5 0 6.5-2.3-1.5-2.3-3.9 0-6.5z"/></symbol>
       <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 16v4M17 18h4"/></symbol>
       <symbol id="i-image" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4.5 3.5 3 3-2.5L20 16"/></symbol>
+      <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="2.8"/><circle cx="6" cy="12" r="2.8"/><circle cx="18" cy="19" r="2.8"/><path d="m8.5 10.6 7-4.1M8.5 13.4l7 4.1"/></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3.5v11M7.5 10l4.5 4.5 4.5-4.5M4.5 17.5v2h15v-2"/></symbol>
+      <symbol id="i-send" viewBox="0 0 24 24"><path d="m21 3-7.2 18-3.6-7.2L3 10.2 21 3z"/><path d="M10.2 13.8 21 3"/></symbol>
     </defs>
   </svg>
 
@@ -69,9 +84,8 @@
 
     <header class="site-header" id="siteHeader">
       <div class="header-inner">
-        <a class="brand" href="#top" aria-label="GharSansar — home">
-          <img src="./assets/brand/logo.svg" alt="" width="64" height="64">
-          <span class="brand-copy"><strong>GharSansar</strong><small lang="hi">हर घर की पसंद</small></span>
+        <a class="brand" href="#top" aria-label="GharSansar — Har Ghar ki Pasand, home">
+          <img class="brand-logo" src="./assets/brand/gharsansar-logo.png" alt="GharSansar — Har Ghar ki Pasand" width="1400" height="469" fetchpriority="high">
         </a>
 
         <div class="search-wrap" id="searchWrap">
@@ -87,6 +101,9 @@
         </div>
 
         <div class="header-actions">
+          <button class="install-button install-button-header" id="headerInstallButton" type="button" aria-label="Install GharSansar app" title="Install GharSansar">
+            <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span>Install</span>
+          </button>
           <button class="icon-action" id="themeToggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
             <svg class="icon theme-icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
             <svg class="icon theme-icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
@@ -112,16 +129,10 @@
 
     <main id="main">
       <section class="hero-section" id="top" aria-labelledby="heroTitle">
-        <div class="hero-inner">
-          <div class="hero-copy">
-            <p class="hero-eyebrow"><svg class="icon" aria-hidden="true"><use href="#i-sparkle"/></svg>The GharSansar edit</p>
-            <h1 id="heroTitle"><span class="brand-serif">GharSansar</span><span class="hero-hindi" lang="hi">हर घर की पसंद</span></h1>
-            <p class="hero-description" lang="hi">घर की ज़रूरतें, सुंदरता का साथ,<br>और हर दिन कुछ ख़ास…</p>
-            <p class="hero-support">Jewellery, thoughtful gifts, festive décor and little finds for everyday living.</p>
-            <a class="button button-primary" href="#catalogue">Shop now <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
-          </div>
-          <div class="hero-art-wrap" aria-hidden="true"><img class="hero-art" src="./assets/banners/gharsansar-hero.svg" alt="" decoding="async"></div>
-        </div>
+        <h1 id="heroTitle" class="sr-only">GharSansar — Har Ghar ki Pasand</h1>
+        <a class="hero-banner" href="#catalogue" aria-label="Explore the GharSansar collection">
+          <img src="./assets/banners/gharsansar-hero.webp" alt="GharSansar — Har Ghar ki Pasand. A warm collection of jewellery, home décor and thoughtful gifts." width="1672" height="941" fetchpriority="high" decoding="async">
+        </a>
       </section>
 
       <section class="category-section page-shell" aria-labelledby="categoryTitle">
@@ -186,7 +197,7 @@
     </main>
 
     <footer class="site-footer page-shell">
-      <div class="footer-brand"><img src="./assets/brand/logo.svg" alt="" width="48" height="48" loading="lazy"><span><strong>GharSansar</strong><small lang="hi">हर घर की पसंद</small></span></div>
+      <div class="footer-brand"><img src="./assets/brand/gharsansar-logo.png" alt="GharSansar — Har Ghar ki Pasand" width="1400" height="469" loading="lazy"></div>
       <p class="footer-line">Beauty · Home · Jewellery · Gifts &amp; More</p>
       <div class="footer-bottom">
         <span>© <span id="currentYear">2026</span> GharSansar</span>
@@ -218,6 +229,17 @@
     <section id="productModal" class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalProductName" tabindex="-1">
       <button id="closeProductModal" class="close-button modal-close" type="button" aria-label="Close product details"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
       <div id="productModalContent"></div>
+    </section>
+  </div>
+
+
+  <div id="shareOverlay" class="overlay overlay-share" aria-hidden="true">
+    <section id="sharePanel" class="share-panel" role="dialog" aria-modal="true" aria-labelledby="shareTitle" tabindex="-1">
+      <div class="share-header">
+        <div><p class="eyebrow">Spread a lovely find</p><h2 id="shareTitle">Share this product</h2></div>
+        <button id="closeShare" class="close-button" type="button" aria-label="Close sharing options"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button>
+      </div>
+      <div id="shareContent" class="share-content"></div>
     </section>
   </div>
 

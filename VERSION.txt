@@ -1,3 +1,1 @@
-GharSansar Version 3 — premium UI/UX overhaul
-Catalogue: 116 products, 181 mapped images, 8 categories (unchanged from V2)
-Service-worker cache: v3-20261029
+GharSansar Version 5 — Share Engine + Brand Identity

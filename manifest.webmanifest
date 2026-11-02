@@ -1,23 +1,23 @@
 {
   "id": "./",
-  "name": "GharSansar — Har Ghar Ki Pasand",
+  "name": "GharSansar — Har Ghar ki Pasand",
   "short_name": "GharSansar",
-  "description": "Curated jewellery, gifts, home and festive finds.",
+  "description": "Discover jewellery, home finds and thoughtful gifts from GharSansar.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#fff9f0",
-  "theme_color": "#7d0c31",
+  "background_color": "#26050f",
+  "theme_color": "#3a0717",
   "icons": [
     {
-      "src": "./assets/brand/icons/icon-192.png",
+      "src": "./assets/brand/gharsansar-app-icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "./assets/brand/icons/icon-512.png",
+      "src": "./assets/brand/gharsansar-app-icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"

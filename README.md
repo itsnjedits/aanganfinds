@@ -1,10 +1,17 @@
-# GharSansar — Version 3 (premium UI/UX overhaul)
+# GharSansar — Version 5 (Share Engine + Brand Refresh)
 
 **Brand:** GharSansar · हर घर की पसंद · **Repo / Pages path:** `aanganfinds`
 **Stack:** plain HTML, CSS, JavaScript, JSON catalogue, local images, PWA. No build step, no backend, no trackers.
-**Catalogue:** 116 products · 181 product photos · 8 categories (data files are unchanged from V2).
+**Catalogue:** 170 products · 237 mapped product images · 8 categories. Product photos are kept in `product_images/` and can be added separately.
 
-## What's new in V3
+## What's new in V5
+- Premium GharSansar mixed-script logo and product-led homepage hero artwork, matched to the deep maroon and gold brand palette. The translucent logo is placed on its matching burgundy header/footer background.
+- Header-level Install App action, with browser-specific guidance when the native install prompt is unavailable.
+- GharSansar Share Engine: product share buttons on cards and details, WhatsApp and Telegram links, copy link, native share, and share-photo support where the device allows it. Homepage-level Open Graph and Twitter metadata are included too.
+- Static per-product share pages under `products/<slug>/index.html`, including Open Graph and Twitter metadata so social crawlers can render product name, price and image without JavaScript.
+- Deep-link handling: opening a shared product URL redirects into the storefront and opens that exact product.
+
+## What was already included in V3
 - Warm ivory / maroon / muted-gold design system (CSS variables for colour, type, spacing, radii, shadows, motion).
 - Mobile-first layout: 2-column phone grid, bottom navigation, bottom-sheet product view, 44px touch targets, safe-area aware.
 - Desktop hover effects only inside `@media (hover: hover) and (pointer: fine)`; reduced-motion respected.
@@ -25,9 +32,25 @@
 | `sw.js` | Offline/PWA caching — **bump `VERSION` on every release** |
 | `data/*.json` | Products, categories, image map (unchanged) |
 | `tools/validate_catalogue.py` | Catalogue + image validator |
+| `tools/generate_share_pages.py` | Generates static social-preview and deep-link pages for every product |
+
+## Share Engine
+- Each static product page includes Open Graph, Twitter Card, canonical URL and product price metadata. Product photos must exist at the mapped public URL for social platforms to show the photo preview.
+- Generate or refresh static product pages after adding products: `py tools/generate_share_pages.py`.
+- The default canonical site URL is `https://itsnjedits.github.io/aanganfinds/`. For a different domain, pass `--base-url`.
+- Each product share page uses the product's first mapped image for social previews. Product images must be uploaded to `product_images/` with the exact filenames in `data/products.json` for previews to show product photography.
+- Product links use the stable `products/<slug>/` route. Visitors are redirected to `index.html?product=<ID>` and the app opens that product.
+- WhatsApp, Telegram, copy-link, native device share and image+link share actions are available. Native photo sharing depends on browser/device support.
 
 ## WhatsApp
 The number is set once, in `js/app.js` (`WHATSAPP_NUMBER = '917568443870'`): India code 91 + 7568443870. Buttons open WhatsApp with a pre-filled message; the customer sends it. Nothing is sent automatically.
+
+## After adding or changing products
+```cmd
+py tools/validate_catalogue.py
+py tools/generate_share_pages.py
+```
+Commit generated `products/` share pages along with the JSON and product images.
 
 ## Run locally
 ```cmd
@@ -43,7 +66,7 @@ py tools/validate_catalogue.py --require-images
 ## Publish
 ```cmd
 git add .
-git commit -m "GharSansar V3 premium UI/UX overhaul"
+git commit -m "GharSansar V5 share engine and brand polish"
 git push
 ```
 GitHub → Settings → Pages → Deploy from a branch → main → /(root). Returning visitors pick up the new version automatically (cache name changed).

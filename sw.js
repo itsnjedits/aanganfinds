@@ -3,7 +3,7 @@
  * - HTML / CSS / JS / JSON catalogue: network-first (always fresh when online, cached copy when offline).
  * - Product photos and brand assets: stale-while-revalidate (fast, and replaced photos refresh in the background).
  */
-const VERSION = 'v3-20261029';
+const VERSION = 'v5-share-engine-brand-20261102';
 const CORE_CACHE = `gharsansar-core-${VERSION}`;
 const MEDIA_CACHE = `gharsansar-media-${VERSION}`;
 const MAX_MEDIA_ENTRIES = 260;
@@ -13,10 +13,14 @@ const OPTIONAL_FILES = [
   './data/image-index.json',
   './manifest.webmanifest',
   './assets/brand/logo.svg',
+  './assets/brand/gharsansar-logo.png',
+  './assets/brand/gharsansar-app-icon-192.png',
+  './assets/brand/gharsansar-app-icon-512.png',
   './assets/brand/product-placeholder.svg',
   './assets/brand/icons/icon-192.png',
   './assets/brand/icons/icon-512.png',
   './assets/banners/gharsansar-hero.svg',
+  './assets/banners/gharsansar-hero.webp',
   './assets/banners/mini-diya.svg',
   './assets/categories/home-living.svg',
   './assets/categories/artificial-jewellery.svg',

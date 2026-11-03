@@ -6631,5 +6631,806 @@
     ],
     "batch": "P4",
     "sourceCode": "PRODUCT 05"
+  },
+  {
+    "id": "AF-P5-001",
+    "slug": "celestial-star-and-heart-layered-bracelet-af-p5-001",
+    "name": "Celestial Star & Heart Layered Bracelet",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Celestial Star & Heart Layered Bracelet. From House of Avika — The Charm Edit bracelet collection.",
+    "shortDescription": "The Charm Edit · Bracelet Collection",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-001-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-001-1"
+    ],
+    "badge": "House of Avika",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "celestial",
+      "star",
+      "heart",
+      "layered",
+      "bracelet",
+      "house of avika",
+      "the charm edit",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "celestial star & heart layered bracelet"
+    ],
+    "specifications": {
+      "Brand": "House of Avika",
+      "Collection": "The Charm Edit",
+      "Type": "Bracelet"
+    },
+    "sourceIndexPages": [
+      1
+    ],
+    "batch": "P5",
+    "sourceCode": "COLLECTION PIECE 01 / 08",
+    "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+  },
+  {
+    "id": "AF-P5-002",
+    "slug": "daisy-bloom-pearl-charm-bracelet-af-p5-002",
+    "name": "Daisy Bloom Pearl Charm Bracelet",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Daisy Bloom Pearl Charm Bracelet. From House of Avika — The Charm Edit bracelet collection.",
+    "shortDescription": "The Charm Edit · Bracelet Collection",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-002-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-002-1"
+    ],
+    "badge": "House of Avika",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "daisy",
+      "bloom",
+      "pearl",
+      "charm",
+      "bracelet",
+      "house of avika",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "daisy bloom pearl charm bracelet"
+    ],
+    "specifications": {
+      "Brand": "House of Avika",
+      "Collection": "The Charm Edit",
+      "Type": "Bracelet"
+    },
+    "sourceIndexPages": [
+      2
+    ],
+    "batch": "P5",
+    "sourceCode": "COLLECTION PIECE 02 / 08",
+    "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+  },
+  {
+    "id": "AF-P5-003",
+    "slug": "blue-eye-and-pearl-charm-bracelet-af-p5-003",
+    "name": "Blue Eye & Pearl Charm Bracelet",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Blue Eye & Pearl Charm Bracelet. From House of Avika — The Charm Edit bracelet collection.",
+    "shortDescription": "The Charm Edit · Bracelet Collection",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-003-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-003-1"
+    ],
+    "badge": "House of Avika",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "blue eye",
+      "evil eye",
+      "pearl",
+      "charm",
+      "bracelet",
+      "house of avika",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "blue eye & pearl charm bracelet"
+    ],
+    "specifications": {
+      "Brand": "House of Avika",
+      "Collection": "The Charm Edit",
+      "Type": "Bracelet"
+    },
+    "sourceIndexPages": [
+      3
+    ],
+    "batch": "P5",
+    "sourceCode": "COLLECTION PIECE 03 / 08",
+    "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+  },
+  {
+    "id": "AF-P5-004",
+    "slug": "golden-lock-and-coin-charm-bracelet-af-p5-004",
+    "name": "Golden Lock & Coin Charm Bracelet",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Golden Lock & Coin Charm Bracelet. From House of Avika — The Charm Edit bracelet collection.",
+    "shortDescription": "The Charm Edit · Bracelet Collection",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-004-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-004-1"
+    ],
+    "badge": "House of Avika",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "golden",
+      "lock",
+      "coin",
+      "charm",
+      "bracelet",
+      "house of avika",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "golden lock & coin charm bracelet"
+    ],
+    "specifications": {
+      "Brand": "House of Avika",
+      "Collection": "The Charm Edit",
+      "Type": "Bracelet"
+    },
+    "sourceIndexPages": [
+      4
+    ],
+    "batch": "P5",
+    "sourceCode": "COLLECTION PIECE 04 / 08",
+    "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+  },
+  {
+    "id": "AF-P5-005",
+    "slug": "crimson-daisy-pearl-charm-bracelet-af-p5-005",
+    "name": "Crimson Daisy Pearl Charm Bracelet",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Crimson Daisy Pearl Charm Bracelet. From House of Avika — The Charm Edit bracelet collection.",
+    "shortDescription": "The Charm Edit · Bracelet Collection",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-005-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-005-1"
+    ],
+    "badge": "House of Avika",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "crimson",
+      "daisy",
+      "pearl",
+      "charm",
+      "bracelet",
+      "house of avika",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "crimson daisy pearl charm bracelet"
+    ],
+    "specifications": {
+      "Brand": "House of Avika",
+      "Collection": "The Charm Edit",
+      "Type": "Bracelet"
+    },
+    "sourceIndexPages": [
+      5
+    ],
+    "batch": "P5",
+    "sourceCode": "COLLECTION PIECE 05 / 08",
+    "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+  },
+  {
+    "id": "AF-P5-006",
+    "slug": "coastal-butterfly-and-shell-bracelet-af-p5-006",
+    "name": "Coastal Butterfly & Shell Bracelet",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Coastal Butterfly & Shell Bracelet. From House of Avika — The Charm Edit bracelet collection.",
+    "shortDescription": "The Charm Edit · Bracelet Collection",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-006-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-006-1"
+    ],
+    "badge": "House of Avika",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "coastal",
+      "butterfly",
+      "shell",
+      "bracelet",
+      "house of avika",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "coastal butterfly & shell bracelet"
+    ],
+    "specifications": {
+      "Brand": "House of Avika",
+      "Collection": "The Charm Edit",
+      "Type": "Bracelet"
+    },
+    "sourceIndexPages": [
+      6
+    ],
+    "batch": "P5",
+    "sourceCode": "COLLECTION PIECE 06 / 08",
+    "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+  },
+  {
+    "id": "AF-P5-007",
+    "slug": "golden-heritage-medallion-bracelet-af-p5-007",
+    "name": "Golden Heritage Medallion Bracelet",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Golden Heritage Medallion Bracelet. From House of Avika — The Charm Edit bracelet collection.",
+    "shortDescription": "The Charm Edit · Bracelet Collection",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-007-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-007-1"
+    ],
+    "badge": "House of Avika",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "golden",
+      "heritage",
+      "medallion",
+      "bracelet",
+      "house of avika",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "golden heritage medallion bracelet"
+    ],
+    "specifications": {
+      "Brand": "House of Avika",
+      "Collection": "The Charm Edit",
+      "Type": "Bracelet"
+    },
+    "sourceIndexPages": [
+      7
+    ],
+    "batch": "P5",
+    "sourceCode": "COLLECTION PIECE 07 / 08",
+    "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+  },
+  {
+    "id": "AF-P5-008",
+    "slug": "pastel-butterfly-and-shell-charm-bracelet-af-p5-008",
+    "name": "Pastel Butterfly & Shell Charm Bracelet",
+    "category": "artificial-jewellery",
+    "categoryLabel": "Artificial Jewellery",
+    "description": "Pastel Butterfly & Shell Charm Bracelet. From House of Avika — The Charm Edit bracelet collection.",
+    "shortDescription": "The Charm Edit · Bracelet Collection",
+    "price": 100,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-008-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-008-1"
+    ],
+    "badge": "House of Avika",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "pastel",
+      "butterfly",
+      "shell",
+      "charm",
+      "bracelet",
+      "house of avika",
+      "artificial jewellery",
+      "gharsansar",
+      "new arrival",
+      "pastel butterfly & shell charm bracelet"
+    ],
+    "specifications": {
+      "Brand": "House of Avika",
+      "Collection": "The Charm Edit",
+      "Type": "Bracelet"
+    },
+    "sourceIndexPages": [
+      8
+    ],
+    "batch": "P5",
+    "sourceCode": "COLLECTION PIECE 08 / 08",
+    "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+  },
+  {
+    "id": "AF-P5-009",
+    "slug": "the-ministry-of-utmost-happiness-af-p5-009",
+    "name": "The Ministry of Utmost Happiness",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Arundhati Roy.",
+    "shortDescription": "Pre-loved book · by Arundhati Roy",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-009-1.jpg",
+      "./product_images/AF-P5-009-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-009-1",
+      "AF-P5-009-2"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "arundhati roy",
+      "the ministry of utmost happiness",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Arundhati Roy",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      1
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 01 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-010",
+    "slug": "the-ticking-lances-af-p5-010",
+    "name": "The Ticking Lances",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Sonia Sharma.",
+    "shortDescription": "Pre-loved book · by Sonia Sharma",
+    "price": 115,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-010-1.jpg",
+      "./product_images/AF-P5-010-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-010-1",
+      "AF-P5-010-2"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "sonia sharma",
+      "the ticking lances",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Sonia Sharma",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      2
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 02 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-011",
+    "slug": "pride-prejudice-and-punditry-af-p5-011",
+    "name": "Pride, Prejudice & Punditry",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Shashi Tharoor.",
+    "shortDescription": "Pre-loved book · by Shashi Tharoor",
+    "price": 499,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-011-1.jpg",
+      "./product_images/AF-P5-011-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-011-1",
+      "AF-P5-011-2"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "shashi tharoor",
+      "pride, prejudice & punditry",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Shashi Tharoor",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      3
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 03 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-012",
+    "slug": "kuch-woh-pal-af-p5-012",
+    "name": "Kuch Woh Pal",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Subrat Saurabh.",
+    "shortDescription": "Pre-loved book · by Subrat Saurabh",
+    "price": 112,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-012-1.jpg",
+      "./product_images/AF-P5-012-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-012-1",
+      "AF-P5-012-2"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "subrat saurabh",
+      "kuch woh pal",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Subrat Saurabh",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      4
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 04 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-013",
+    "slug": "emma-af-p5-013",
+    "name": "Emma",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Jane Austen.",
+    "shortDescription": "Pre-loved book · by Jane Austen",
+    "price": 95,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-013-1.jpg",
+      "./product_images/AF-P5-013-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-013-1",
+      "AF-P5-013-2"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "jane austen",
+      "emma",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Jane Austen",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      5
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 05 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-014",
+    "slug": "an-era-of-darkness-af-p5-014",
+    "name": "An Era of Darkness",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Shashi Tharoor.",
+    "shortDescription": "Pre-loved book · by Shashi Tharoor",
+    "price": 399,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-014-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-014-1"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "shashi tharoor",
+      "an era of darkness",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Shashi Tharoor",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      6
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 06 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-015",
+    "slug": "northanger-abbey-af-p5-015",
+    "name": "Northanger Abbey",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Jane Austen.",
+    "shortDescription": "Pre-loved book · by Jane Austen",
+    "price": 150,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-015-1.jpg",
+      "./product_images/AF-P5-015-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-015-1",
+      "AF-P5-015-2"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "jane austen",
+      "northanger abbey",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Jane Austen",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      7
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 07 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-016",
+    "slug": "pride-and-prejudice-af-p5-016",
+    "name": "Pride and Prejudice",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Jane Austen.",
+    "shortDescription": "Pre-loved book · by Jane Austen",
+    "price": 97,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-016-1.jpg",
+      "./product_images/AF-P5-016-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-016-1",
+      "AF-P5-016-2"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "jane austen",
+      "pride and prejudice",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Jane Austen",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      8
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 08 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-017",
+    "slug": "persuasion-af-p5-017",
+    "name": "Persuasion",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Jane Austen.",
+    "shortDescription": "Pre-loved book · by Jane Austen",
+    "price": 75,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-017-1.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-017-1"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "jane austen",
+      "persuasion",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Jane Austen",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      9
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 09 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-018",
+    "slug": "mansfield-park-af-p5-018",
+    "name": "Mansfield Park",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Jane Austen.",
+    "shortDescription": "Pre-loved book · by Jane Austen",
+    "price": 112,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-018-1.jpg",
+      "./product_images/AF-P5-018-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-018-1",
+      "AF-P5-018-2"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "jane austen",
+      "mansfield park",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Jane Austen",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      10
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 10 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
+  },
+  {
+    "id": "AF-P5-019",
+    "slug": "sense-and-sensibility-af-p5-019",
+    "name": "Sense and Sensibility",
+    "category": "old-books",
+    "categoryLabel": "Old Books",
+    "description": "Pre-loved book by Jane Austen.",
+    "shortDescription": "Pre-loved book · by Jane Austen",
+    "price": 87,
+    "currency": "INR",
+    "images": [
+      "./product_images/AF-P5-019-1.jpg",
+      "./product_images/AF-P5-019-2.jpg"
+    ],
+    "imageIds": [
+      "AF-P5-019-1",
+      "AF-P5-019-2"
+    ],
+    "badge": "Pre-loved Book",
+    "featured": false,
+    "active": true,
+    "tags": [
+      "old books",
+      "books",
+      "pre-loved book",
+      "pre loved",
+      "jane austen",
+      "sense and sensibility",
+      "gharsansar",
+      "new arrival"
+    ],
+    "specifications": {
+      "Author": "Jane Austen",
+      "Condition": "Pre-loved book"
+    },
+    "sourceIndexPages": [
+      11
+    ],
+    "batch": "P5",
+    "sourceCode": "OLD BOOKS 11 / 11",
+    "sourcePdf": "Old_Books_Catalogue.pdf"
   }
 ]

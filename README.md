@@ -1,8 +1,16 @@
-# GharSansar — Version 5 (Share Engine + Brand Refresh)
+# GharSansar — Version 6 (Bracelets + Old Books)
 
 **Brand:** GharSansar · हर घर की पसंद · **Repo / Pages path:** `aanganfinds`
 **Stack:** plain HTML, CSS, JavaScript, JSON catalogue, local images, PWA. No build step, no backend, no trackers.
-**Catalogue:** 170 products · 237 mapped product images · 8 categories. Product photos are kept in `product_images/` and can be added separately.
+**Catalogue:** 189 products · 265 mapped product images · 9 categories (including Old Books). Product photos are kept in `product_images/` and can be added separately.
+
+
+## What's new in V6
+- Added 8 House of Avika bracelet designs under Artificial Jewellery, priced exactly as shown in the supplied catalogue (₹100 each).
+- Added a new Old Books category with 11 pre-loved books, author details and the printed catalogue prices.
+- Added front/back cover gallery images where supplied; front cover is the first image used for the product card and social preview.
+- Added the Old Books category tile, navigation filter, icon and category artwork.
+- Regenerated static share pages for all 189 products and bumped the service-worker cache version.
 
 ## What's new in V5
 - Premium GharSansar mixed-script logo and product-led homepage hero artwork, matched to the deep maroon and gold brand palette. The translucent logo is placed on its matching burgundy header/footer background.

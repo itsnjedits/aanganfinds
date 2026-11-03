@@ -1,6 +1,6 @@
 {
-  "count": 237,
-  "products": 170,
+  "count": 265,
+  "products": 189,
   "images": [
     {
       "productId": "AF-P1-001",
@@ -1897,6 +1897,278 @@
       "imagePath": "./product_images/AF-P4-005-2.jpg",
       "imageOrder": 2,
       "indexPdfPage": 5
+    },
+    {
+      "productId": "AF-P5-001",
+      "productName": "Celestial Star & Heart Layered Bracelet",
+      "imageId": "AF-P5-001-1",
+      "imagePath": "./product_images/AF-P5-001-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 1,
+      "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+    },
+    {
+      "productId": "AF-P5-002",
+      "productName": "Daisy Bloom Pearl Charm Bracelet",
+      "imageId": "AF-P5-002-1",
+      "imagePath": "./product_images/AF-P5-002-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 2,
+      "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+    },
+    {
+      "productId": "AF-P5-003",
+      "productName": "Blue Eye & Pearl Charm Bracelet",
+      "imageId": "AF-P5-003-1",
+      "imagePath": "./product_images/AF-P5-003-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 3,
+      "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+    },
+    {
+      "productId": "AF-P5-004",
+      "productName": "Golden Lock & Coin Charm Bracelet",
+      "imageId": "AF-P5-004-1",
+      "imagePath": "./product_images/AF-P5-004-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 4,
+      "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+    },
+    {
+      "productId": "AF-P5-005",
+      "productName": "Crimson Daisy Pearl Charm Bracelet",
+      "imageId": "AF-P5-005-1",
+      "imagePath": "./product_images/AF-P5-005-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 5,
+      "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+    },
+    {
+      "productId": "AF-P5-006",
+      "productName": "Coastal Butterfly & Shell Bracelet",
+      "imageId": "AF-P5-006-1",
+      "imagePath": "./product_images/AF-P5-006-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 6,
+      "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+    },
+    {
+      "productId": "AF-P5-007",
+      "productName": "Golden Heritage Medallion Bracelet",
+      "imageId": "AF-P5-007-1",
+      "imagePath": "./product_images/AF-P5-007-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 7,
+      "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+    },
+    {
+      "productId": "AF-P5-008",
+      "productName": "Pastel Butterfly & Shell Charm Bracelet",
+      "imageId": "AF-P5-008-1",
+      "imagePath": "./product_images/AF-P5-008-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 8,
+      "sourcePdf": "house_of_avika_original_images_name_price.pdf"
+    },
+    {
+      "productId": "AF-P5-009",
+      "productName": "The Ministry of Utmost Happiness",
+      "imageId": "AF-P5-009-1",
+      "imagePath": "./product_images/AF-P5-009-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 1,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-009",
+      "productName": "The Ministry of Utmost Happiness",
+      "imageId": "AF-P5-009-2",
+      "imagePath": "./product_images/AF-P5-009-2.jpg",
+      "imageOrder": 2,
+      "indexPdfPage": 1,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "spine"
+    },
+    {
+      "productId": "AF-P5-010",
+      "productName": "The Ticking Lances",
+      "imageId": "AF-P5-010-1",
+      "imagePath": "./product_images/AF-P5-010-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 2,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-010",
+      "productName": "The Ticking Lances",
+      "imageId": "AF-P5-010-2",
+      "imagePath": "./product_images/AF-P5-010-2.jpg",
+      "imageOrder": 2,
+      "indexPdfPage": 2,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "back-cover"
+    },
+    {
+      "productId": "AF-P5-011",
+      "productName": "Pride, Prejudice & Punditry",
+      "imageId": "AF-P5-011-1",
+      "imagePath": "./product_images/AF-P5-011-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 3,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-011",
+      "productName": "Pride, Prejudice & Punditry",
+      "imageId": "AF-P5-011-2",
+      "imagePath": "./product_images/AF-P5-011-2.jpg",
+      "imageOrder": 2,
+      "indexPdfPage": 3,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "back-cover"
+    },
+    {
+      "productId": "AF-P5-012",
+      "productName": "Kuch Woh Pal",
+      "imageId": "AF-P5-012-1",
+      "imagePath": "./product_images/AF-P5-012-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 4,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-012",
+      "productName": "Kuch Woh Pal",
+      "imageId": "AF-P5-012-2",
+      "imagePath": "./product_images/AF-P5-012-2.jpg",
+      "imageOrder": 2,
+      "indexPdfPage": 4,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "back-cover"
+    },
+    {
+      "productId": "AF-P5-013",
+      "productName": "Emma",
+      "imageId": "AF-P5-013-1",
+      "imagePath": "./product_images/AF-P5-013-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 5,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-013",
+      "productName": "Emma",
+      "imageId": "AF-P5-013-2",
+      "imagePath": "./product_images/AF-P5-013-2.jpg",
+      "imageOrder": 2,
+      "indexPdfPage": 5,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "back-cover"
+    },
+    {
+      "productId": "AF-P5-014",
+      "productName": "An Era of Darkness",
+      "imageId": "AF-P5-014-1",
+      "imagePath": "./product_images/AF-P5-014-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 6,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-015",
+      "productName": "Northanger Abbey",
+      "imageId": "AF-P5-015-1",
+      "imagePath": "./product_images/AF-P5-015-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 7,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-015",
+      "productName": "Northanger Abbey",
+      "imageId": "AF-P5-015-2",
+      "imagePath": "./product_images/AF-P5-015-2.jpg",
+      "imageOrder": 2,
+      "indexPdfPage": 7,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "back-cover"
+    },
+    {
+      "productId": "AF-P5-016",
+      "productName": "Pride and Prejudice",
+      "imageId": "AF-P5-016-1",
+      "imagePath": "./product_images/AF-P5-016-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 8,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-016",
+      "productName": "Pride and Prejudice",
+      "imageId": "AF-P5-016-2",
+      "imagePath": "./product_images/AF-P5-016-2.jpg",
+      "imageOrder": 2,
+      "indexPdfPage": 8,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "back-cover"
+    },
+    {
+      "productId": "AF-P5-017",
+      "productName": "Persuasion",
+      "imageId": "AF-P5-017-1",
+      "imagePath": "./product_images/AF-P5-017-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 9,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-018",
+      "productName": "Mansfield Park",
+      "imageId": "AF-P5-018-1",
+      "imagePath": "./product_images/AF-P5-018-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 10,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-018",
+      "productName": "Mansfield Park",
+      "imageId": "AF-P5-018-2",
+      "imagePath": "./product_images/AF-P5-018-2.jpg",
+      "imageOrder": 2,
+      "indexPdfPage": 10,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "back-cover"
+    },
+    {
+      "productId": "AF-P5-019",
+      "productName": "Sense and Sensibility",
+      "imageId": "AF-P5-019-1",
+      "imagePath": "./product_images/AF-P5-019-1.jpg",
+      "imageOrder": 1,
+      "indexPdfPage": 11,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "front-cover"
+    },
+    {
+      "productId": "AF-P5-019",
+      "productName": "Sense and Sensibility",
+      "imageId": "AF-P5-019-2",
+      "imagePath": "./product_images/AF-P5-019-2.jpg",
+      "imageOrder": 2,
+      "indexPdfPage": 11,
+      "sourcePdf": "Old_Books_Catalogue.pdf",
+      "imageRole": "back-cover"
     }
   ]
 }

@@ -43,5 +43,10 @@
     "id": "accessories",
     "label": "Accessories",
     "symbol": "✦"
+  },
+  {
+    "id": "old-books",
+    "label": "Old Books",
+    "symbol": "▤"
   }
 ]

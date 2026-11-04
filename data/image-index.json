@@ -1,6 +1,6 @@
 {
-  "count": 289,
-  "products": 203,
+  "count": 277,
+  "products": 196,
   "images": [
     {
       "productId": "AF-P1-001",
@@ -2285,126 +2285,6 @@
       "productName": "Ashq Bane Alfaz",
       "imageId": "AF-P6-007-2",
       "imagePath": "./product_images/AF-P6-007-2.jpg",
-      "imageOrder": 2,
-      "indexPdfPage": 7,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "back-cover"
-    },
-    {
-      "productId": "AF-P7-001",
-      "productName": "Sewing Organizer",
-      "imageId": "AF-P7-001-1",
-      "imagePath": "./product_images/AF-P7-001-1.jpg",
-      "imageOrder": 1,
-      "indexPdfPage": 1,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "main"
-    },
-    {
-      "productId": "AF-P7-001",
-      "productName": "Sewing Organizer",
-      "imageId": "AF-P7-001-2",
-      "imagePath": "./product_images/AF-P7-001-2.jpg",
-      "imageOrder": 2,
-      "indexPdfPage": 1,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "colour-options"
-    },
-    {
-      "productId": "AF-P7-002",
-      "productName": "Trendy Tulip Hair Claws",
-      "imageId": "AF-P7-002-1",
-      "imagePath": "./product_images/AF-P7-002-1.jpg",
-      "imageOrder": 1,
-      "indexPdfPage": 2,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "main"
-    },
-    {
-      "productId": "AF-P7-003",
-      "productName": "Clover Charm Bracelet",
-      "imageId": "AF-P7-003-1",
-      "imagePath": "./product_images/AF-P7-003-1.jpg",
-      "imageOrder": 1,
-      "indexPdfPage": 3,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "main"
-    },
-    {
-      "productId": "AF-P7-004",
-      "productName": "Lotus Coin Jhumka Earrings",
-      "imageId": "AF-P7-004-1",
-      "imagePath": "./product_images/AF-P7-004-1.jpg",
-      "imageOrder": 1,
-      "indexPdfPage": 4,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "main"
-    },
-    {
-      "productId": "AF-P7-005",
-      "productName": "Personalised Pencil Topper",
-      "imageId": "AF-P7-005-1",
-      "imagePath": "./product_images/AF-P7-005-1.jpg",
-      "imageOrder": 1,
-      "indexPdfPage": 5,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "name-colour-options"
-    },
-    {
-      "productId": "AF-P7-005",
-      "productName": "Personalised Pencil Topper",
-      "imageId": "AF-P7-005-2",
-      "imagePath": "./product_images/AF-P7-005-2.jpg",
-      "imageOrder": 2,
-      "indexPdfPage": 5,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "personalised-example"
-    },
-    {
-      "productId": "AF-P7-006",
-      "productName": "Princess Coloring Set",
-      "imageId": "AF-P7-006-1",
-      "imagePath": "./product_images/AF-P7-006-1.jpg",
-      "imageOrder": 1,
-      "indexPdfPage": 6,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "colouring-examples"
-    },
-    {
-      "productId": "AF-P7-006",
-      "productName": "Princess Coloring Set",
-      "imageId": "AF-P7-006-2",
-      "imagePath": "./product_images/AF-P7-006-2.jpg",
-      "imageOrder": 2,
-      "indexPdfPage": 6,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "set-with-colouring-pens"
-    },
-    {
-      "productId": "AF-P7-006",
-      "productName": "Princess Coloring Set",
-      "imageId": "AF-P7-006-3",
-      "imagePath": "./product_images/AF-P7-006-3.jpg",
-      "imageOrder": 3,
-      "indexPdfPage": 6,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "shape-detail"
-    },
-    {
-      "productId": "AF-P7-007",
-      "productName": "Ashq Bane Alfaz",
-      "imageId": "AF-P7-007-1",
-      "imagePath": "./product_images/AF-P7-007-1.jpg",
-      "imageOrder": 1,
-      "indexPdfPage": 7,
-      "sourcePdf": "Product_Catalogue.pdf",
-      "imageRole": "front-cover"
-    },
-    {
-      "productId": "AF-P7-007",
-      "productName": "Ashq Bane Alfaz",
-      "imageId": "AF-P7-007-2",
-      "imagePath": "./product_images/AF-P7-007-2.jpg",
       "imageOrder": 2,
       "indexPdfPage": 7,
       "sourcePdf": "Product_Catalogue.pdf",

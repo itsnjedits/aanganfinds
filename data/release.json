@@ -1,14 +1,15 @@
 {
-  "release": "p7-20261104",
-  "addedProducts": 7,
-  "addedImages": 12,
-  "totalProducts": 203,
-  "totalImageMappings": 289,
+  "release": "p7-duplicate-cleanup-20261104",
+  "addedProducts": 0,
+  "addedImages": 0,
+  "totalProducts": 196,
+  "totalImageMappings": 277,
   "features": [
     "category-sharing",
     "local-recommendations",
     "visit-greetings",
     "optional-visit-notifications",
-    "p7-product-batch"
-  ]
+    "p7-duplicate-cleanup"
+  ],
+  "removedDuplicateProducts": 7
 }

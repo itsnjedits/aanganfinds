@@ -1,18 +1,16 @@
-# GharSansar — Version 7 (Personalisation + New Product Batch)
+# GharSansar — Version 8 (Duplicate Product Cleanup)
 
 **Brand:** GharSansar · हर घर की पसंद · **Repo / Pages path:** `aanganfinds`
 **Stack:** plain HTML, CSS, JavaScript, JSON catalogue, local images, PWA. No build step, no backend, no trackers.
-**Catalogue:** 203 products · 289 mapped product images · 9 categories (including Old Books). Product photos are kept in `product_images/` and can be added separately.
+**Catalogue:** 196 unique products · 277 mapped product images · 9 categories (including Old Books). Product photos are kept in `product_images/` and can be added separately.
 
 
-## What's new in V7
-- Added 7 products from the 4 November catalogue: Sewing Organizer, Trendy Tulip Hair Claws, Clover Charm Bracelet, Lotus Coin Jhumka Earrings, Personalised Pencil Topper, Princess Coloring Set, and *Ashq Bane Alfaz*.
-- Added 12 mapped product photographs. They are delivered separately in the new-images ZIP; the website ZIP intentionally keeps `product_images/` empty except `.gitkeep`.
-- Prices are exactly as printed in the supplied PDF; no additional 40% markup was applied.
-- Reused the existing 9 categories; no `categories.json` change was required.
-- Regenerated 203 product share pages and 10 category share pages; bumped service-worker cache version.
-- Search intent now contributes to local recommendations after the user pauses typing; wishlist, cart, product views and category views also contribute.
-- Release ID updated so returning visitors can see a new-arrivals notice on their next visit.
+## What's new in V8
+- Fixed duplicate product listings: the seven products previously appeared once under `AF-P6-001`–`AF-P6-007` and again under `AF-P7-001`–`AF-P7-007`.
+- Kept the original `AF-P6` records as the canonical products because their image filenames and existing share URLs are already in use. Removed the duplicate `AF-P7` records, image-index entries and share-page folders.
+- The catalogue now contains 196 unique product records and 277 image mappings. No existing canonical product IDs, prices, or image paths were changed.
+- Regenerated 196 product share pages and 10 category share pages, updated category share counts, and bumped the service-worker cache version.
+- Added a `product_images/.gitkeep` placeholder; keep your existing product photographs in this folder when replacing project files.
 
 ## What's new in V6
 - Added 8 House of Avika bracelet designs under Artificial Jewellery, priced exactly as shown in the supplied catalogue (₹100 each).
@@ -83,7 +81,7 @@ py tools/validate_catalogue.py --require-images
 ## Publish
 ```cmd
 git add .
-git commit -m "GharSansar V7 product batch and personalisation"
+git commit -m "GharSansar V8 duplicate cleanup"
 git push
 ```
 GitHub → Settings → Pages → Deploy from a branch → main → /(root). Returning visitors pick up the new version automatically (cache name changed).

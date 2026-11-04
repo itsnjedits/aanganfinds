@@ -645,3 +645,51 @@ html[data-theme="dark"] {
 /* Wordmark sizing wins over the older square logo sizing rules. */
 .brand img.brand-logo { width: 100%; height: auto; }
 .footer-brand { width: fit-content; max-width: 100%; padding: 8px 12px; border-radius: 14px; background: linear-gradient(110deg, #26050f, #3a0717 54%, #2c0612); border: 1px solid rgba(219,174,95,.3); }
+
+
+/* ───────── 17. Personal recommendations, category sharing & gentle protection ───────── */
+/* Prevent casual selection / long-press image menus; form controls remain selectable. */
+body, body * { -webkit-user-select: none; user-select: none; }
+input, textarea, select, [contenteditable="true"] { -webkit-user-select: text; user-select: text; }
+img, .pc-open, .modal-gallery, .share-product-preview { -webkit-touch-callout: none; -webkit-user-drag: none; user-drag: none; }
+img { -webkit-user-select: none; user-select: none; }
+/* Branded scrollbar for desktop and long panels. */
+html { scrollbar-color: #8c2448 #f2e7d9; scrollbar-width: thin; }
+html[data-theme="dark"] { scrollbar-color: #d4a85d #241720; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #f2e7d9; }
+::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #a33a60, #650d2d); border: 2px solid #f2e7d9; border-radius: 999px; }
+html[data-theme="dark"] ::-webkit-scrollbar-track { background: #241720; }
+html[data-theme="dark"] ::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #e0be78, #9f5b43); border-color: #241720; }
+.category-tile-wrap { position: relative; min-width: 0; }
+.category-tile-wrap .category-tile { width: 100%; height: 100%; }
+.category-tile-share { position: absolute; top: 8px; right: 8px; z-index: 3; width: 36px; height: 36px; display: grid; place-items: center; border: 1px solid rgba(255,255,255,.55); border-radius: 50%; background: rgba(255,250,242,.94); color: #710d30; box-shadow: 0 3px 12px rgba(48,8,24,.18); }
+.category-tile-share .icon { width: 17px; height: 17px; }
+.category-chip-wrap { display: inline-flex; flex: none; align-items: center; gap: 3px; scroll-snap-align: start; }
+.category-chip-wrap .category-chip { scroll-snap-align: none; }
+.category-chip-share { width: 34px; min-width: 34px; height: 34px; display: grid; place-items: center; border: 1px solid var(--line-strong); border-radius: 50%; background: var(--surface); color: var(--brand); }
+.category-chip-share .icon { width: 15px; height: 15px; }
+.recommend-section { padding-top: 28px; padding-bottom: 30px; }
+.recommend-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 14px; margin-bottom: 16px; }
+.recommend-heading h2 { font-family: var(--font-display); font-size: clamp(1.65rem,5vw,2.35rem); line-height: 1.12; font-weight: 600; color: var(--ink); }
+.recommend-heading h2 em { color: var(--brand); font-weight: 500; }
+.recommend-note { margin-top: 6px; max-width: 54ch; color: var(--muted); font-size: var(--fs-sm); }
+.recommend-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 7px; flex: none; }
+.recommend-action { min-height: 36px; display: inline-flex; align-items: center; justify-content: center; gap: 6px; padding: 0 10px; border: 1px solid var(--line-strong); border-radius: var(--r-pill); background: var(--surface); color: var(--ink); font-size: .72rem; font-weight: 700; white-space: nowrap; }
+.recommend-action .icon { width: 15px; height: 15px; color: var(--gold-text); }
+.recommend-reset { color: var(--muted); }
+.recommend-grid { margin-bottom: 10px; }
+.recommend-privacy { color: var(--muted); font-size: .72rem; line-height: 1.45; }
+.category-share-preview > img { object-fit: contain; padding: 8px; }
+@media (max-width: 560px) {
+  .recommend-heading { align-items: flex-start; flex-direction: column; }
+  .recommend-actions { justify-content: flex-start; }
+  .recommend-action { min-height: 40px; }
+}
+@media (hover: hover) and (pointer: fine) {
+  .category-tile-share:hover, .category-chip-share:hover { border-color: var(--gold); background: var(--surface-3); color: var(--brand); transform: translateY(-1px); }
+  .recommend-action:hover { border-color: var(--gold); background: var(--surface-2); }
+}
+
+/* Respect the installed-app visibility state even with component display rules. */
+.install-button[hidden], .install-button-header[hidden] { display: none !important; }

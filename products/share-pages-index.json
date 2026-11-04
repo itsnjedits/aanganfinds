@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://itsnjedits.github.io/aanganfinds/",
-  "count": 189,
-  "paths": [
+  "products": 203,
+  "productPaths": [
     "products/boghra-sales-alloy-gold-plated-gold-jewel-set-pack-of-1-af-p1-001/",
     "products/boghra-sales-alloy-gold-plated-gold-jewel-set-pack-of-1-af-p1-002/",
     "products/boghra-sales-alloy-gold-plated-gold-jewel-set-pack-of-1-af-p1-003/",
@@ -190,6 +190,33 @@
     "products/pride-and-prejudice-af-p5-016/",
     "products/persuasion-af-p5-017/",
     "products/mansfield-park-af-p5-018/",
-    "products/sense-and-sensibility-af-p5-019/"
+    "products/sense-and-sensibility-af-p5-019/",
+    "products/sewing-organizer-af-p6-001/",
+    "products/trendy-tulip-hair-claws-af-p6-002/",
+    "products/clover-charm-bracelet-af-p6-003/",
+    "products/lotus-coin-jhumka-earrings-af-p6-004/",
+    "products/personalised-pencil-topper-af-p6-005/",
+    "products/princess-coloring-set-af-p6-006/",
+    "products/ashq-bane-alfaz-af-p6-007/",
+    "products/sewing-organizer-af-p7-001/",
+    "products/trendy-tulip-hair-claws-af-p7-002/",
+    "products/clover-charm-bracelet-af-p7-003/",
+    "products/lotus-coin-jhumka-earrings-af-p7-004/",
+    "products/personalised-pencil-topper-af-p7-005/",
+    "products/princess-coloring-set-af-p7-006/",
+    "products/ashq-bane-alfaz-af-p7-007/"
+  ],
+  "categories": 10,
+  "categoryPaths": [
+    "categories/all/",
+    "categories/home-living/",
+    "categories/artificial-jewellery/",
+    "categories/gifts-hampers/",
+    "categories/festive-decor/",
+    "categories/necklaces-chains/",
+    "categories/earrings/",
+    "categories/mangalsutras/",
+    "categories/accessories/",
+    "categories/old-books/"
   ]
 }

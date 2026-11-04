@@ -10,7 +10,8 @@
 /* ───────── 1. Config ───────── */
 const WHATSAPP_NUMBER = '917568443870';
 const STORE_NAME = 'GharSansar';
-const STORAGE_KEYS = { wishlist: 'gharsansar:v2:wishlist', cart: 'gharsansar:v2:cart', theme: 'gharsansar:v2:theme' };
+const STORAGE_KEYS = { wishlist: 'gharsansar:v2:wishlist', cart: 'gharsansar:v2:cart', theme: 'gharsansar:v2:theme', activity: 'gharsansar:v1:activity', alerts: 'gharsansar:v1:alerts', release: 'gharsansar:v1:release' };
+const RELEASE_ID = 'p7-20261104';
 const PLACEHOLDER = './assets/brand/product-placeholder.svg';
 const MAX_QTY = 99;
 const SEARCH_DEBOUNCE_MS = 80;
@@ -29,10 +30,13 @@ const state = {
   modal: { id: null, qty: 1, index: 0 },
   installPrompt: null,
   shareProductId: null,
+  shareCategoryId: null,
+  activity: null,
   loaded: false,
 };
 let toastTimer = null;
 let searchTimer = null;
+let searchActivityTimer = null;
 let lastRenderKey = '';
 let storageWarned = false;
 const lastAddAt = new Map();
@@ -71,6 +75,48 @@ function loadSavedLists() {
 }
 function persistWishlist() { writeStorage(STORAGE_KEYS.wishlist, [...state.wishlist]); updateCounts(); }
 function persistCart() { writeStorage(STORAGE_KEYS.cart, state.cart); updateCounts(); }
+function cleanCounterMap(value) {
+  const clean = {};
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return clean;
+  for (const [key, raw] of Object.entries(value)) {
+    const n = Math.max(0, Math.min(250, Math.floor(Number(raw) || 0)));
+    if (key && n) clean[key] = n;
+  }
+  return clean;
+}
+function loadActivity() {
+  const raw = readStorage(STORAGE_KEYS.activity, {});
+  state.activity = {
+    productViews: cleanCounterMap(raw.productViews),
+    wishlistAdds: cleanCounterMap(raw.wishlistAdds),
+    cartAdds: cleanCounterMap(raw.cartAdds),
+    categoryViews: cleanCounterMap(raw.categoryViews),
+    searchQueries: Array.isArray(raw.searchQueries) ? raw.searchQueries.filter(x => typeof x === 'string').slice(-20) : [],
+    visits: Math.max(0, Math.floor(Number(raw.visits) || 0)),
+    lastVisitAt: Number(raw.lastVisitAt) || 0,
+    lastGreetingDate: String(raw.lastGreetingDate || ''),
+  };
+}
+function saveActivity() { if (state.activity) writeStorage(STORAGE_KEYS.activity, state.activity); }
+function incrementActivity(mapName, key, amount = 1) {
+  if (!state.activity || !key || !state.activity[mapName]) return;
+  state.activity[mapName][key] = Math.min(250, (Number(state.activity[mapName][key]) || 0) + amount);
+  saveActivity();
+}
+function recordProductView(id) {
+  const p = getProduct(id); if (!p) return;
+  incrementActivity('productViews', id);
+  incrementActivity('categoryViews', p.category);
+  renderRecommendations();
+}
+function recordSearch(query, results) {
+  if (!state.activity || !query || !query.trim()) return;
+  const clean = query.trim().slice(0, 70);
+  if (!clean) return;
+  state.activity.searchQueries = [...state.activity.searchQueries.filter(x => x !== clean), clean].slice(-20);
+  [...new Set((results || []).slice(0, 5).map(p => p && p.category).filter(Boolean))].forEach(category => { state.activity.categoryViews[category] = Math.min(250, (state.activity.categoryViews[category] || 0) + 1); });
+  saveActivity();
+}
 
 /* ───────── 3. Helpers ───────── */
 const $ = (selector, root = document) => root.querySelector(selector);
@@ -85,11 +131,11 @@ function money(value) {
   return new Intl.NumberFormat('en-IN', { style: 'currency', currency: 'INR', maximumFractionDigits: 0 }).format(Number(value) || 0);
 }
 function hasPrice(p) { return p && p.price !== null && p.price !== undefined && p.price !== '' && Number.isFinite(Number(p.price)); }
-function unitSuffix(p) { return p.priceUnit === 'pair' ? ' / pair' : ''; }
+function unitSuffix(p) { return p.priceUnit === 'pair' ? ' / pair' : p.priceUnit === 'piece' ? ' / piece' : ''; }
 function priceText(p) { return hasPrice(p) ? `${money(p.price)}${unitSuffix(p)}` : 'Price on enquiry'; }
 function priceHtml(p) {
   return hasPrice(p)
-    ? `<span class="price">${esc(money(p.price))}</span>${p.priceUnit === 'pair' ? '<span class="price-unit">/ pair</span>' : ''}`
+    ? `<span class="price">${esc(money(p.price))}</span>${p.priceUnit === 'pair' ? '<span class="price-unit">/ pair</span>' : p.priceUnit === 'piece' ? '<span class="price-unit">/ piece</span>' : ''}`
     : '<span class="price is-pending">Price on enquiry</span>';
 }
 function isAvailable(p) { return !!p && p.active !== false; }
@@ -254,7 +300,7 @@ function currentResults() {
 
 function renderCategories() {
   $('#categoryBar').innerHTML = state.categories.map(c =>
-    `<button class="category-chip" type="button" data-category="${esc(c.id)}" aria-pressed="${c.id === state.activeCategory}">${esc(c.label)}</button>`).join('');
+    `<div class="category-chip-wrap"><button class="category-chip" type="button" data-category="${esc(c.id)}" aria-pressed="${c.id === state.activeCategory}">${esc(c.label)}</button><button class="category-chip-share" type="button" data-action="share-category" data-category-id="${esc(c.id)}" aria-label="Share ${esc(c.label)} category" title="Share ${esc(c.label)}">${icon('share')}</button></div>`).join('');
   syncCategoryHighlights();
 }
 function syncCategoryHighlights() {
@@ -293,6 +339,75 @@ function productCard(p) {
   </article>`;
 }
 
+function recommendationProfile() {
+  const activity = state.activity || {};
+  const categoryScores = {};
+  const seedProducts = new Map();
+  const addCategory = (id, weight) => { if (id) categoryScores[id] = (categoryScores[id] || 0) + weight; };
+  const addSeed = (id, weight) => { const p = getProduct(id); if (!p) return; seedProducts.set(id, (seedProducts.get(id) || 0) + weight); addCategory(p.category, weight * 1.1); };
+  for (const [id, n] of Object.entries(activity.productViews || {})) addSeed(id, Math.min(10, n) * 0.8);
+  for (const [id, n] of Object.entries(activity.wishlistAdds || {})) addSeed(id, Math.min(8, n) * 2.2);
+  for (const [id, n] of Object.entries(activity.cartAdds || {})) addSeed(id, Math.min(8, n) * 2.8);
+  for (const [cat, n] of Object.entries(activity.categoryViews || {})) addCategory(cat, Math.min(12, n) * 0.55);
+  for (const id of state.wishlist) addSeed(id, 3.5);
+  for (const [id, qty] of Object.entries(state.cart)) addSeed(id, Math.min(5, qty) * 3.8);
+  const topCategory = Object.entries(categoryScores).sort((a,b)=>b[1]-a[1])[0];
+  return { categoryScores, seedProducts, topCategory, hasSignals: seedProducts.size > 0 || !!topCategory };
+}
+function recommendedProducts(limit = 8) {
+  const active = state.products.filter(isAvailable);
+  if (!active.length) return [];
+  const profile = recommendationProfile();
+  const owned = new Set([...state.wishlist, ...Object.keys(state.cart)]);
+  const candidates = active.filter(p => !owned.has(p.id));
+  if (!profile.hasSignals) {
+    return candidates.sort((a,b) => {
+      const batch = (p) => Number((String(p.batch || '').match(/\d+/) || [0])[0]);
+      return Number(b.featured)-Number(a.featured) || batch(b)-batch(a) || String(b.id).localeCompare(String(a.id));
+    }).slice(0, limit);
+  }
+  const seedTags = new Map();
+  for (const [id, weight] of profile.seedProducts) {
+    const p = getProduct(id); if (!p) continue;
+    for (const tag of (p.tags || []).map(normalize).filter(Boolean)) seedTags.set(tag, (seedTags.get(tag) || 0) + weight);
+  }
+  return candidates.map(p => {
+    let score = (profile.categoryScores[p.category] || 0) * 2.2;
+    for (const tag of (p.tags || []).map(normalize)) if (seedTags.has(tag)) score += Math.min(6, seedTags.get(tag)) * 0.32;
+    score += Number(p.featured) * 0.35;
+    if (p.batch === 'P7') score += 0.2;
+    return { p, score };
+  }).sort((a,b) => b.score-a.score || a.p.name.localeCompare(b.p.name)).slice(0,limit).map(x=>x.p);
+}
+function renderRecommendations() {
+  const section = $('#recommendSection');
+  if (!section || !state.loaded) return;
+  const isHome = state.activeCategory === 'all' && !state.query.trim();
+  section.hidden = !isHome;
+  if (!isHome) return;
+  const list = recommendedProducts(8);
+  const profile = recommendationProfile();
+  const topCategory = profile.topCategory && state.categories.find(c=>c.id===profile.topCategory[0]);
+  $('#recommendTitle').innerHTML = profile.hasSignals ? 'Picked <em>for you</em>' : 'Fresh <em>finds</em> for you';
+  $('#recommendNote').textContent = profile.hasSignals
+    ? `${topCategory ? `You seem to enjoy ${topCategory.label.toLowerCase()} — ` : ''}Suggestions are shaped by what you view, save and add to your bag, on this device.`
+    : 'A few lovely new finds to explore. Your picks will become more personal as you browse.';
+  $('#recommendGrid').innerHTML = list.map(productCard).join('');
+  const alertButton = $('#enableAlertsButton');
+  if (alertButton) {
+    const supported = 'Notification' in window && 'serviceWorker' in navigator;
+    const enabled = supported && Notification.permission === 'granted' && readStorage(STORAGE_KEYS.alerts, false) === true;
+    alertButton.hidden = !supported || enabled;
+    if (enabled) alertButton.textContent = 'Alerts enabled';
+  }
+}
+function resetBrowsingInsights() {
+  if (!state.activity) return;
+  state.activity.productViews = {}; state.activity.wishlistAdds = {}; state.activity.cartAdds = {};
+  state.activity.categoryViews = {}; state.activity.searchQueries = [];
+  saveActivity(); renderRecommendations(); showToast('Browsing insights reset. Your wishlist and bag are untouched.');
+}
+
 function renderProducts(force = false) {
   if (!state.loaded) return;
   const list = currentResults();
@@ -318,24 +433,28 @@ function renderProducts(force = false) {
 }
 
 function refreshCard(id) {
-  const card = $(`[data-card="${cssEscape(id)}"]`);
+  const cards = $$(`[data-card="${cssEscape(id)}"]`);
   const p = getProduct(id);
-  if (!card || !p) return;
-  const buy = $('.pc-buy', card);
-  const active = document.activeElement;
-  const hadFocus = buy.contains(active) ? active.dataset.action : null;
-  buy.innerHTML = buyHtml(p);
-  if (hadFocus) {
-    const next = { add: 'cart-inc', 'cart-remove': 'add', 'cart-inc': 'cart-inc', 'cart-dec': 'cart-dec' }[hadFocus];
-    const target = $(`[data-action="${next}"]:not(:disabled)`, buy) || $('button:not(:disabled)', buy);
-    if (target) target.focus({ preventScroll: true });
+  if (!cards.length || !p) return;
+  for (const card of cards) {
+    const buy = $('.pc-buy', card);
+    const active = document.activeElement;
+    const hadFocus = buy && buy.contains(active) ? active.dataset.action : null;
+    if (buy) buy.innerHTML = buyHtml(p);
+    if (hadFocus && buy) {
+      const next = { add: 'cart-inc', 'cart-remove': 'add', 'cart-inc': 'cart-inc', 'cart-dec': 'cart-dec' }[hadFocus];
+      const target = $(`[data-action="${next}"]:not(:disabled)`, buy) || $('button:not(:disabled)', buy);
+      if (target) target.focus({ preventScroll: true });
+    }
   }
 }
 function refreshHeart(id, animate) {
-  const heart = $(`[data-card="${cssEscape(id)}"] .pc-heart`);
-  if (!heart) return;
-  heart.setAttribute('aria-pressed', String(state.wishlist.has(id)));
-  if (animate) { heart.classList.remove('pop'); void heart.offsetWidth; heart.classList.add('pop'); }
+  const hearts = $$(`[data-card="${cssEscape(id)}"] .pc-heart`);
+  if (!hearts.length) return;
+  for (const heart of hearts) {
+    heart.setAttribute('aria-pressed', String(state.wishlist.has(id)));
+    if (animate) { heart.classList.remove('pop'); void heart.offsetWidth; heart.classList.add('pop'); }
+  }
 }
 function updateCounts() {
   const cart = cartCount(), saved = state.wishlist.size;
@@ -351,8 +470,10 @@ function updateCounts() {
 
 function selectCategory(id, scroll) {
   state.activeCategory = state.categories.some(c => c.id === id) ? id : 'all';
+  if (state.activeCategory !== 'all') incrementActivity('categoryViews', state.activeCategory);
   syncCategoryHighlights();
   renderProducts();
+  renderRecommendations();
   if (scroll) scrollToCatalogue();
 }
 
@@ -360,8 +481,9 @@ function selectCategory(id, scroll) {
 function toggleWishlist(id) {
   const p = getProduct(id); if (!p) return;
   const adding = !state.wishlist.has(id);
-  if (adding) state.wishlist.add(id); else state.wishlist.delete(id);
+  if (adding) { state.wishlist.add(id); incrementActivity('wishlistAdds', id); } else state.wishlist.delete(id);
   persistWishlist();
+  renderRecommendations();
   showToast(adding ? 'Saved to your wishlist' : 'Removed from your wishlist');
   refreshHeart(id, adding);
   syncModalHeart();
@@ -375,7 +497,8 @@ function addToCart(id, qty = 1) {
   lastAddAt.set(id, now);
   const before = cartQty(id);
   state.cart[id] = Math.min(MAX_QTY, before + clampQty(qty));
-  persistCart(); refreshCard(id);
+  incrementActivity('cartAdds', id);
+  persistCart(); refreshCard(id); renderRecommendations();
   showToast(before >= MAX_QTY ? `Maximum ${MAX_QTY} per item` : `Added to cart · ${state.cart[id]} in total`);
   if (isOpen('drawer') && state.drawerMode === 'cart') renderDrawer();
   return true;
@@ -386,13 +509,13 @@ function changeCartQty(id, delta) {
   const next = cartQty(id) + delta;
   if (next < 1) return; // quantity never drops below 1 — use Remove to take an item out
   state.cart[id] = Math.min(MAX_QTY, next);
-  persistCart(); refreshCard(id);
+  persistCart(); refreshCard(id); renderRecommendations();
   if (isOpen('drawer') && state.drawerMode === 'cart') renderDrawer();
 }
 function removeFromCart(id) {
   if (!(id in state.cart)) return;
   delete state.cart[id];
-  persistCart(); refreshCard(id);
+  persistCart(); refreshCard(id); renderRecommendations();
   showToast('Removed from your cart');
   if (isOpen('drawer') && state.drawerMode === 'cart') renderDrawer();
 }
@@ -437,6 +560,53 @@ function orderCart() {
 }
 
 /* ───────── 9. Share Engine: product URLs, social links, native image sharing ───────── */
+function categoryShareUrl(categoryId) {
+  const base = new URL('./', document.baseURI);
+  return new URL(`categories/${encodeURIComponent(categoryId)}/`, base).href;
+}
+function categoryShareCopy(category, url) {
+  const count = state.products.filter(p => isAvailable(p) && (category.id === 'all' || p.category === category.id)).length;
+  return `Explore ${category.label} at GharSansar — Har Ghar ki Pasand!\n\n${count} curated ${count === 1 ? 'find' : 'finds'} in this collection.\n\nBrowse the collection: ${url}`;
+}
+function openCategoryShareDialog(categoryId) {
+  const category = state.categories.find(c => c.id === categoryId); if (!category) return;
+  state.shareCategoryId = categoryId; state.shareProductId = null;
+  const url = categoryShareUrl(categoryId), count = state.products.filter(p => isAvailable(p) && (categoryId === 'all' || p.category === categoryId)).length;
+  const text = categoryShareCopy(category, url);
+  const wa = `https://wa.me/?text=${encodeURIComponent(text)}`;
+  const telegram = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(`${category.label} · ${count} curated finds | GharSansar`)}`;
+  const artwork = categoryId === 'old-books' ? './assets/categories/old-books.svg' : categoryId === 'home-living' ? './assets/categories/home-living.svg' : categoryId === 'gifts-hampers' ? './assets/categories/gifts-hampers.svg' : categoryId === 'festive-decor' ? './assets/categories/festive-decor.svg' : './assets/categories/artificial-jewellery.svg';
+  $('#shareTitle').textContent = `Share ${category.label}`;
+  $('.share-header .eyebrow').textContent = 'Share a whole collection';
+  $('#shareContent').innerHTML = `
+    <div class="share-product-preview category-share-preview"><img src="${esc(artwork)}" alt="" width="88" height="104"><div class="share-product-copy"><span>GHARSANSAR · COLLECTION</span><strong>${esc(category.label)}</strong><b>${count} curated ${count === 1 ? 'find' : 'finds'}</b><small>Har Ghar ki Pasand</small></div></div>
+    <p class="share-hint">Share this collection link. Friends will land directly on the ${esc(category.label)} products.</p>
+    <div class="share-options">
+      <a class="share-choice share-whatsapp" href="${esc(wa)}" target="_blank" rel="noopener noreferrer">${icon('whatsapp')}<span>WhatsApp</span></a>
+      <a class="share-choice share-telegram" href="${esc(telegram)}" target="_blank" rel="noopener noreferrer">${icon('send')}<span>Telegram</span></a>
+      <button class="share-choice" type="button" data-action="share-category-copy" data-category-id="${esc(categoryId)}">${icon('copy')}<span>Copy link</span></button>
+      <button class="share-choice" type="button" data-action="share-category-native" data-category-id="${esc(categoryId)}">${icon('share')}<span>More options</span></button>
+    </div>
+    <div class="share-link-row"><span>${esc(url)}</span><button type="button" data-action="share-category-copy" data-category-id="${esc(categoryId)}" aria-label="Copy category link">${icon('copy')}</button></div>`;
+  openOverlay('share');
+}
+async function copyCategoryShareLink(categoryId) {
+  const category = state.categories.find(c=>c.id===categoryId); if (!category) return;
+  const url = categoryShareUrl(categoryId);
+  try {
+    if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(url);
+    else { const box=document.createElement('textarea'); box.value=url; box.setAttribute('readonly',''); box.style.position='fixed'; box.style.opacity='0'; document.body.appendChild(box); box.select(); const ok=document.execCommand('copy'); box.remove(); if(!ok) throw new Error('copy failed'); }
+    showToast(`${category.label} link copied. Share it anywhere!`);
+  } catch (_) { showToast('Could not copy automatically. Please try again.'); }
+}
+async function nativeShareCategory(categoryId) {
+  const category=state.categories.find(c=>c.id===categoryId); if(!category) return;
+  const url=categoryShareUrl(categoryId), text=categoryShareCopy(category,url);
+  if(!navigator.share) return copyCategoryShareLink(categoryId);
+  try { await navigator.share({title:`${category.label} | GharSansar`,text,url}); }
+  catch(error) { if(error && error.name!=='AbortError') showToast('Sharing could not be opened. Try WhatsApp or Copy link.'); }
+}
+
 function productShareUrl(product) {
   const slug = String(product.slug || product.id).trim();
   const base = new URL('./', document.baseURI);
@@ -448,7 +618,8 @@ function productShareCopy(product, url) {
 }
 function openShareDialog(id) {
   const p = getProduct(id); if (!p) return;
-  state.shareProductId = id;
+  state.shareProductId = id; state.shareCategoryId = null;
+  $('#shareTitle').textContent = 'Share this product'; $('.share-header .eyebrow').textContent = 'Spread a lovely find';
   const url = productShareUrl(p);
   const text = productShareCopy(p, url);
   const image = productImages(p)[0] || PLACEHOLDER;
@@ -617,6 +788,7 @@ function renderDrawer() {
 /* Product sheet / dialog */
 function openProduct(id) {
   const p = getProduct(id); if (!p) return;
+  recordProductView(id);
   state.modal = { id, qty: 1, index: 0 };
   const images = productImages(p);
   const specs = Object.entries(p.specifications || {}).map(([k, v]) => `<div class="spec-row"><span>${esc(k)}</span><span>${esc(v)}</span></div>`).join('');
@@ -714,7 +886,13 @@ function clearSearch(focus = true) {
   input.value = ''; applySearch();
   if (focus) input.focus();
 }
-function onSearchInput() { $('#searchClear').hidden = !$('#searchInput').value; clearTimeout(searchTimer); searchTimer = setTimeout(applySearch, SEARCH_DEBOUNCE_MS); }
+function onSearchInput() {
+  $('#searchClear').hidden = !$('#searchInput').value;
+  clearTimeout(searchTimer); clearTimeout(searchActivityTimer);
+  searchTimer = setTimeout(applySearch, SEARCH_DEBOUNCE_MS);
+  // Store a settled search query rather than every keystroke. This remains local to this browser.
+  searchActivityTimer = setTimeout(() => { applySearch(); recordSearch(state.query, currentResults()); }, 850);
+}
 function onSearchKeydown(event) {
   const items = $$('.sp-item, .sp-more, .sp-chip', $('#searchPanel'));
   if (event.key === 'ArrowDown' && items.length && !$('#searchPanel').hidden) { event.preventDefault(); items[0].focus(); }
@@ -732,7 +910,7 @@ function onPanelKeydown(event) {
 }
 function submitSearch(event) {
   event.preventDefault();
-  clearTimeout(searchTimer); applySearch(); closeSearchPanel();
+  clearTimeout(searchTimer); clearTimeout(searchActivityTimer); applySearch(); recordSearch(state.query, currentResults()); closeSearchPanel();
   $('#searchInput').blur(); // dismiss the mobile keyboard
   scrollToCatalogue();
 }
@@ -750,6 +928,9 @@ function onClick(event) {
   switch (action) {
     case 'details': openProduct(id); break;
     case 'share': case 'modal-share': openShareDialog(id); break;
+    case 'share-category': openCategoryShareDialog(target.dataset.categoryId); break;
+    case 'share-category-copy': copyCategoryShareLink(target.dataset.categoryId); break;
+    case 'share-category-native': nativeShareCategory(target.dataset.categoryId); break;
     case 'share-copy': copyShareLink(id); break;
     case 'share-native': nativeShareProduct(id, false); break;
     case 'share-photo': nativeShareProduct(id, true); break;
@@ -763,7 +944,7 @@ function onClick(event) {
     case 'order-cart': orderCart(); break;
     case 'saved-add': addToCart(id, 1); break;
     case 'unsave':
-      state.wishlist.delete(id); persistWishlist(); refreshHeart(id); renderDrawer(); showToast('Removed from your wishlist'); break;
+      state.wishlist.delete(id); persistWishlist(); refreshHeart(id); renderDrawer(); renderRecommendations(); showToast('Removed from your wishlist'); break;
     case 'shop': closeOverlay(false); returnFocus = null; scrollToCatalogue(); break;
     case 'gallery': setGalleryIndex(Number(target.dataset.index) || 0); break;
     case 'gallery-prev': setGalleryIndex(state.modal.index - 1); break;
@@ -777,6 +958,8 @@ function onClick(event) {
     case 'search-open': closeSearchPanel(); openProduct(id); break;
     case 'search-all': closeSearchPanel(); scrollToCatalogue(); break;
     case 'search-category': clearSearch(false); closeSearchPanel(); selectCategory(target.dataset.categoryId, true); break;
+    case 'enable-alerts': enableBrowserAlerts(); break;
+    case 'reset-activity': clearActivityInsights(); break;
     case 'retry': loadCatalogue(); break;
     default: break;
   }
@@ -800,7 +983,7 @@ function bindEvents() {
   $('#resetFilters').addEventListener('click', () => {
     state.activeCategory = 'all'; state.sort = 'featured'; $('#sortSelect').value = 'featured';
     $('#searchInput').value = ''; $('#searchClear').hidden = true; state.query = '';
-    syncCategoryHighlights(); closeSearchPanel(); renderProducts();
+    syncCategoryHighlights(); closeSearchPanel(); renderProducts(); renderRecommendations();
   });
 
   const input = $('#searchInput');
@@ -831,18 +1014,33 @@ function bindEvents() {
       return;
     }
     const promptEvent = state.installPrompt; state.installPrompt = null;
-    try { await promptEvent.prompt(); await promptEvent.userChoice.catch(() => {}); } catch (_) {}
+    try {
+      await promptEvent.prompt();
+      const choice = await promptEvent.userChoice.catch(() => null);
+      if (choice && choice.outcome === 'accepted') { writeStorage('gharsansar:v1:installed', true); syncInstallButtons(); }
+    } catch (_) {}
   }
   installButtons.forEach(button => button.addEventListener('click', requestInstall));
-  window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); state.installPrompt = event; installButtons.forEach(b => { b.dataset.installReady = 'true'; b.title = 'Install GharSansar'; }); });
-  window.addEventListener('appinstalled', () => { installButtons.forEach(b => { b.hidden = true; }); showToast('GharSansar is ready on your home screen.'); });
+  syncInstallButtons();
+  window.addEventListener('beforeinstallprompt', event => { event.preventDefault(); state.installPrompt = event; if (!isAppInstalled()) installButtons.forEach(b => { b.hidden = false; b.dataset.installReady = 'true'; b.title = 'Install GharSansar'; }); });
+  window.addEventListener('appinstalled', () => { writeStorage('gharsansar:v1:installed', true); installButtons.forEach(b => { b.hidden = true; }); showToast('GharSansar is ready on your home screen.'); });
+  if (window.matchMedia) { const standaloneQuery = window.matchMedia('(display-mode: standalone)'); if (standaloneQuery.addEventListener) standaloneQuery.addEventListener('change', syncInstallButtons); }
 
   // Keep several open tabs consistent.
   window.addEventListener('storage', event => {
-    if (event.key !== STORAGE_KEYS.wishlist && event.key !== STORAGE_KEYS.cart && event.key !== STORAGE_KEYS.theme) return;
+    if (![STORAGE_KEYS.wishlist, STORAGE_KEYS.cart, STORAGE_KEYS.theme, STORAGE_KEYS.activity].includes(event.key)) return;
     if (event.key === STORAGE_KEYS.theme) { const t = savedTheme(); if (t) applyTheme(t, false); return; }
-    loadSavedLists(); pruneUnknownIds(); updateCounts(); renderProducts(true);
+    if (event.key === STORAGE_KEYS.activity) { loadActivity(); renderRecommendations(); return; }
+    loadSavedLists(); pruneUnknownIds(); updateCounts(); renderProducts(true); renderRecommendations();
     if (isOpen('drawer')) renderDrawer();
+  });
+
+  // Light deterrents against casual text selection, image dragging and mobile long-press menus.
+  document.addEventListener('contextmenu', event => {
+    if (event.target.closest('.pc-open img, .modal-gallery img, .modal-thumbs img, .share-product-preview img')) event.preventDefault();
+  });
+  document.addEventListener('dragstart', event => {
+    if (event.target instanceof HTMLImageElement) event.preventDefault();
   });
 
   // Sticky-header offset for anchors and the sticky category bar.
@@ -874,14 +1072,20 @@ async function loadCatalogue() {
     state.categories = Array.isArray(categories) ? categories.filter(c => c && c.id) : [];
     state.loaded = true;
     pruneUnknownIds();
-    renderCategories(); renderProducts(true); updateCounts();
+    renderCategories(); renderProducts(true); renderRecommendations(); updateCounts();
     if ($('#searchInput').value) applySearch();
+    const deepCategoryId = new URLSearchParams(window.location.search).get('category');
+    if (deepCategoryId && state.categories.some(c => c.id === deepCategoryId)) {
+      selectCategory(deepCategoryId, false);
+      setTimeout(() => scrollToCatalogue(), 140);
+    }
     const deepProductId = new URLSearchParams(window.location.search).get('product');
     if (deepProductId) {
       const deepProduct = getProduct(deepProductId);
       if (deepProduct) setTimeout(() => openProduct(deepProductId), 120);
       else showToast('This product link is no longer available. Browse the latest collection instead.');
     }
+    recordVisitAndWelcome();
   } catch (error) {
     console.error(error);
     grid.hidden = false; $('#emptyState').hidden = true;
@@ -890,6 +1094,70 @@ async function loadCatalogue() {
     $('#resultCount').textContent = 'Catalogue unavailable';
   }
 }
+function recordVisitAndWelcome() {
+  if (!state.activity) return;
+  const now = Date.now();
+  state.activity.visits += 1; state.activity.lastVisitAt = now;
+  const today = new Date().toLocaleDateString('en-CA');
+  const previouslyTracked = Boolean(readStorage(STORAGE_KEYS.release, '')) || Boolean(readStorage(STORAGE_KEYS.wishlist, null)) || Boolean(readStorage(STORAGE_KEYS.cart, null));
+  const previousRelease = readStorage(STORAGE_KEYS.release, previouslyTracked ? 'p5' : '');
+  const isUpdate = Boolean(previousRelease && previousRelease !== RELEASE_ID);
+  writeStorage(STORAGE_KEYS.release, RELEASE_ID);
+  if (isUpdate) {
+    const message = 'Fresh finds have arrived at GharSansar — 7 new products are waiting for you.';
+    showToast(message);
+    if (readStorage(STORAGE_KEYS.alerts, false) === true && 'Notification' in window && Notification.permission === 'granted') {
+      sendVisitNotification('New finds at GharSansar', '7 fresh products have joined the collection.', './?category=all');
+    }
+  } else if (state.activity.lastGreetingDate !== today) {
+    const hour = new Date().getHours();
+    const greeting = hour < 12 ? 'Good morning' : hour < 17 ? 'Good afternoon' : 'Good evening';
+    let context = '';
+    if (cartCount()) context = ' Your bag is saved just where you left it.';
+    else if (state.wishlist.size) context = ' Your saved favourites are waiting for you.';
+    else {
+      const pref = recommendationProfile().topCategory;
+      const cat = pref && state.categories.find(c=>c.id===pref[0]);
+      if (cat) context = ` A few more ${cat.label.toLowerCase()} finds are waiting.`;
+    }
+    showToast(`${greeting}! Welcome to GharSansar.${context}`);
+    state.activity.lastGreetingDate = today;
+  } else if (cartCount()) {
+    // Keep the welcome gentle: only a brief in-app message, never an interruptive random popup.
+    showToast('Your GharSansar bag is safely saved on this device.');
+  }
+  saveActivity();
+}
+async function sendVisitNotification(title, body, categoryUrl) {
+  try {
+    if ('serviceWorker' in navigator) {
+      const reg = await navigator.serviceWorker.ready;
+      if (reg && reg.showNotification) await reg.showNotification(title, { body, icon: './assets/brand/gharsansar-app-icon-192.png', badge: './assets/brand/gharsansar-app-icon-192.png', tag: 'gharsansar-catalogue-update', data: { url: categoryUrl } });
+    } else if ('Notification' in window) new Notification(title, { body, icon: './assets/brand/gharsansar-app-icon-192.png' });
+  } catch (e) { console.warn('Visit notification could not be shown:', e); }
+}
+async function enableBrowserAlerts() {
+  if (!('Notification' in window)) { showToast('This browser does not support notifications.'); return; }
+  try {
+    const permission = await Notification.requestPermission();
+    if (permission === 'granted') { writeStorage(STORAGE_KEYS.alerts, true); renderRecommendations(); showToast('New-arrival alerts enabled for your next visits.'); }
+    else showToast('Notifications were not enabled. You can still see updates when you visit.');
+  } catch (_) { showToast('Could not enable browser alerts on this device.'); }
+}
+function clearActivityInsights() {
+  if (!state.activity) return;
+  state.activity.productViews = {}; state.activity.wishlistAdds = {}; state.activity.cartAdds = {}; state.activity.categoryViews = {}; state.activity.searchQueries = [];
+  saveActivity(); renderRecommendations();
+  showToast('Browsing insights cleared. Wishlist and cart remain saved.');
+}
+function isAppInstalled() {
+  return Boolean((window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true || document.referrer.startsWith('android-app://') || readStorage('gharsansar:v1:installed', false) === true);
+}
+function syncInstallButtons() {
+  const installed = isAppInstalled();
+  ['#headerInstallButton','#installButton'].forEach(sel=>{ const b=$(sel); if(b) b.hidden=installed; });
+}
+
 async function registerServiceWorker() {
   if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
   try { await navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }); }
@@ -900,6 +1168,7 @@ function init() {
   const wa = $('#footerWhatsApp'); if (wa) wa.href = waLink('Namaste GharSansar! I have a product enquiry.');
   initTheme();
   loadSavedLists();
+  loadActivity();
   bindEvents();
   updateCounts();
   loadCatalogue();

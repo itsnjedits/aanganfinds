@@ -3,10 +3,10 @@
  * - HTML / CSS / JS / JSON catalogue: network-first (always fresh when online, cached copy when offline).
  * - Product photos and brand assets: stale-while-revalidate (fast, and replaced photos refresh in the background).
  */
-const VERSION = 'v6-books-bracelets-20261103';
+const VERSION = 'v8-personalized-p7-20261104';
 const CORE_CACHE = `gharsansar-core-${VERSION}`;
 const MEDIA_CACHE = `gharsansar-media-${VERSION}`;
-const MAX_MEDIA_ENTRIES = 260;
+const MAX_MEDIA_ENTRIES = 320;
 
 const CRITICAL_FILES = ['./', './index.html', './css/styles.css', './js/app.js', './data/products.json', './data/categories.json'];
 const OPTIONAL_FILES = [
@@ -92,4 +92,22 @@ self.addEventListener('fetch', event => {
     return;
   }
   event.respondWith(staleWhileRevalidate(request));
+});
+
+
+// Visit-time alerts open the relevant GharSansar view when the user taps them.
+self.addEventListener('notificationclick', event => {
+  event.notification.close();
+  const target = new URL((event.notification.data && event.notification.data.url) || './', self.registration.scope).href;
+  event.waitUntil((async () => {
+    const windows = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    for (const client of windows) {
+      if ('focus' in client) {
+        await client.focus();
+        if ('navigate' in client) await client.navigate(target);
+        return;
+      }
+    }
+    if (self.clients.openWindow) await self.clients.openWindow(target);
+  })());
 });

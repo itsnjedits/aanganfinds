@@ -4,17 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#3a0717" id="themeColorMeta">
-  <meta name="description" content="GharSansar — हर घर की पसंद. Curated jewellery, gifts, home and festive finds, ordered through WhatsApp.">
+  <meta name="description" content="GharSansar — Har Ghar ki Pasand. Discover curated jewellery, clothing, gifts, home and festive finds with friendly WhatsApp ordering.">
+  <link rel="canonical" href="https://itsnjedits.github.io/aanganfinds/">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_IN">
   <meta property="og:site_name" content="GharSansar">
   <meta property="og:title" content="GharSansar — Har Ghar ki Pasand">
-  <meta property="og:description" content="Discover jewellery, thoughtful gifts, home finds and festive décor at GharSansar.">
+  <meta property="og:description" content="Discover curated jewellery, clothing, thoughtful gifts, home finds and festive décor at GharSansar — Har Ghar ki Pasand.">
   <meta property="og:url" content="https://itsnjedits.github.io/aanganfinds/">
   <meta property="og:image" content="https://itsnjedits.github.io/aanganfinds/assets/banners/gharsansar-hero.webp">
-  <meta property="og:image:alt" content="GharSansar — Har Ghar ki Pasand">
+  <meta property="og:image:secure_url" content="https://itsnjedits.github.io/aanganfinds/assets/banners/gharsansar-hero.webp">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image:width" content="1672">
+  <meta property="og:image:height" content="941">
+  <meta property="og:image:alt" content="GharSansar — Har Ghar ki Pasand. Curated jewellery, clothing, gifts and home finds.">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="GharSansar — Har Ghar ki Pasand">
-  <meta name="twitter:description" content="Discover jewellery, thoughtful gifts, home finds and festive décor at GharSansar.">
+  <meta name="twitter:description" content="Discover curated jewellery, clothing, thoughtful gifts, home finds and festive décor at GharSansar — Har Ghar ki Pasand.">
   <meta name="twitter:image" content="https://itsnjedits.github.io/aanganfinds/assets/banners/gharsansar-hero.webp">
   <meta name="color-scheme" content="light dark">
   <title>GharSansar — हर घर की पसंद</title>
@@ -66,6 +72,7 @@
       <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="m12 3 1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9L12 3z"/><path d="M19 16v4M17 18h4"/></symbol>
       <symbol id="i-image" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.6"/><path d="m4 17 5-4.5 3.5 3 3-2.5L20 16"/></symbol>
       <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="2.8"/><circle cx="6" cy="12" r="2.8"/><circle cx="18" cy="19" r="2.8"/><path d="m8.5 10.6 7-4.1M8.5 13.4l7 4.1"/></symbol>
+      <symbol id="i-shirt" viewBox="0 0 24 24"><path d="m8.5 4 3.5 2 3.5-2 5 3-2.2 4-2.1-1v10H7.8V10l-2.1 1L3.5 7l5-3z"/><path d="M9 4.2c.4 1.4 1.4 2.2 3 2.2s2.6-.8 3-2.2"/></symbol>
       <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></symbol>
       <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3.5v11M7.5 10l4.5 4.5 4.5-4.5M4.5 17.5v2h15v-2"/></symbol>
       <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9zM10 21h4"/></symbol>
@@ -103,6 +110,9 @@
         </div>
 
         <div class="header-actions">
+          <button class="icon-action" id="shareSiteButton" type="button" data-action="share-site" aria-label="Share GharSansar website" title="Share GharSansar">
+            <svg class="icon" aria-hidden="true"><use href="#i-share"/></svg><span class="action-label">Share</span>
+          </button>
           <button class="install-button install-button-header" id="headerInstallButton" type="button" aria-label="Install GharSansar app" title="Install GharSansar">
             <svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span>Install</span>
           </button>
@@ -144,6 +154,7 @@
         <div id="categoryTiles" class="category-tiles">
           <div class="category-tile-wrap"><button type="button" class="category-tile tile-home" data-category="home-living"><img src="./assets/categories/home-living.svg" alt="" width="320" height="170" loading="lazy" decoding="async"><span class="tile-icon"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg></span><strong>Home &amp; Living</strong><small lang="hi">घर को बनाएं और भी खास</small><span class="tile-cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></button><button class="category-tile-share" type="button" data-action="share-category" data-category-id="home-living" aria-label="Share Home and Living category" title="Share category"><svg class="icon" aria-hidden="true"><use href="#i-share"/></svg></button></div>
           <div class="category-tile-wrap"><button type="button" class="category-tile tile-jewellery" data-category="artificial-jewellery"><img src="./assets/categories/artificial-jewellery.svg" alt="" width="320" height="170" loading="lazy" decoding="async"><span class="tile-icon"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg></span><strong>Artificial Jewellery</strong><small lang="hi">हर अंदाज़ में आपकी पहचान</small><span class="tile-cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></button><button class="category-tile-share" type="button" data-action="share-category" data-category-id="artificial-jewellery" aria-label="Share Artificial Jewellery category" title="Share category"><svg class="icon" aria-hidden="true"><use href="#i-share"/></svg></button></div>
+          <div class="category-tile-wrap"><button type="button" class="category-tile tile-apparel" data-category="clothing-apparel"><img src="./assets/categories/clothing-apparel.svg" alt="" width="320" height="170" loading="lazy" decoding="async"><span class="tile-icon"><svg class="icon" aria-hidden="true"><use href="#i-shirt"/></svg></span><strong>Clothing &amp; Apparel</strong><small lang="hi">हर मौसम और अंदाज़ के लिए</small><span class="tile-cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></button><button class="category-tile-share" type="button" data-action="share-category" data-category-id="clothing-apparel" aria-label="Share Clothing and Apparel category" title="Share category"><svg class="icon" aria-hidden="true"><use href="#i-share"/></svg></button></div>
           <div class="category-tile-wrap"><button type="button" class="category-tile tile-gifts" data-category="gifts-hampers"><img src="./assets/categories/gifts-hampers.svg" alt="" width="320" height="170" loading="lazy" decoding="async"><span class="tile-icon"><svg class="icon" aria-hidden="true"><use href="#i-gift"/></svg></span><strong>Gifts &amp; Hampers</strong><small lang="hi">अपनों के लिए कुछ ख़ास</small><span class="tile-cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></button><button class="category-tile-share" type="button" data-action="share-category" data-category-id="gifts-hampers" aria-label="Share Gifts and Hampers category" title="Share category"><svg class="icon" aria-hidden="true"><use href="#i-share"/></svg></button></div>
           <div class="category-tile-wrap"><button type="button" class="category-tile tile-festive" data-category="festive-decor"><img src="./assets/categories/festive-decor.svg" alt="" width="320" height="170" loading="lazy" decoding="async"><span class="tile-icon"><svg class="icon" aria-hidden="true"><use href="#i-diya"/></svg></span><strong>Festive Decor</strong><small lang="hi">रोशनी और रंग हर घर में</small><span class="tile-cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></button><button class="category-tile-share" type="button" data-action="share-category" data-category-id="festive-decor" aria-label="Share Festive Decor category" title="Share category"><svg class="icon" aria-hidden="true"><use href="#i-share"/></svg></button></div>
           <div class="category-tile-wrap"><button type="button" class="category-tile tile-books" data-category="old-books"><img src="./assets/categories/old-books.svg" alt="" width="320" height="170" loading="lazy" decoding="async"><span class="tile-icon"><svg class="icon" aria-hidden="true"><use href="#i-book"/></svg></span><strong>Old Books</strong><small lang="hi">किताबों के साथ कुछ पुराने पल</small><span class="tile-cta">Explore <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span></button><button class="category-tile-share" type="button" data-action="share-category" data-category-id="old-books" aria-label="Share Old Books category" title="Share category"><svg class="icon" aria-hidden="true"><use href="#i-share"/></svg></button></div>
@@ -211,7 +222,8 @@
 
     <footer class="site-footer page-shell">
       <div class="footer-brand"><img src="./assets/brand/gharsansar-logo.png" alt="GharSansar — Har Ghar ki Pasand" width="1400" height="469" loading="lazy"></div>
-      <p class="footer-line">Books · Beauty · Home · Jewellery · Gifts &amp; More</p>
+      <p class="footer-line">Books · Beauty · Clothing · Home · Jewellery · Gifts &amp; More</p>
+      <button type="button" class="recommend-action footer-share-btn" data-action="share-site"> <svg class="icon" aria-hidden="true"><use href="#i-share"/></svg> Share GharSansar</button>
       <div class="footer-bottom">
         <span>© <span id="currentYear">2026</span> GharSansar</span>
         <button id="installButton" class="install-button" type="button" hidden>Install the app</button>

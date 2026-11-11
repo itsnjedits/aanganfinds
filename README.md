@@ -1,14 +1,22 @@
-# GharSansar — Version 8 (Duplicate Product Cleanup)
+# GharSansar — Version 9 (Product Batch P8 + Website Sharing)
 
 **Brand:** GharSansar · हर घर की पसंद · **Repo / Pages path:** `aanganfinds`
 **Stack:** plain HTML, CSS, JavaScript, JSON catalogue, local images, PWA. No build step, no backend, no trackers.
-**Catalogue:** 196 unique products · 277 mapped product images · 9 categories (including Old Books). Product photos are kept in `product_images/` and can be added separately.
+**Catalogue:** 228 unique products · 358 mapped product images · 10 categories (including Clothing & Apparel and Old Books). Product photos are kept in `product_images/` and can be added separately.
 
+
+## What's new in V9
+- Added 32 new products under the P8 sequence (`AF-P8-001`–`AF-P8-032`) and 81 mapped photographs.
+- Added a dedicated Clothing & Apparel category, category tile, category filter and generated category share page.
+- Refreshed the six pearl designs using the new `updated_images.zip` photographs. House of Avika (`AF-P8-008`) retains the exact embedded ₹100 price with no markup.
+- Added a website-level Share GharSansar panel with a wide visual card, name, description, public URL, WhatsApp, Telegram, copy-link and native-share actions.
+- Strengthened homepage Open Graph/Twitter website preview metadata and bumped the service-worker cache version.
+- Regenerated 228 product pages and 11 category pages; removed orphan share-page folders left from earlier duplicate cleanup.
 
 ## What's new in V8
 - Fixed duplicate product listings: the seven products previously appeared once under `AF-P6-001`–`AF-P6-007` and again under `AF-P7-001`–`AF-P7-007`.
 - Kept the original `AF-P6` records as the canonical products because their image filenames and existing share URLs are already in use. Removed the duplicate `AF-P7` records, image-index entries and share-page folders.
-- The catalogue now contains 196 unique product records and 277 image mappings. No existing canonical product IDs, prices, or image paths were changed.
+- The V8 baseline contained 196 unique product records and 277 image mappings. No existing canonical product IDs, prices, or image paths were changed.
 - Regenerated 196 product share pages and 10 category share pages, updated category share counts, and bumped the service-worker cache version.
 - Added a `product_images/.gitkeep` placeholder; keep your existing product photographs in this folder when replacing project files.
 
@@ -45,7 +53,7 @@
 | `css/styles.css` | Design tokens and all components |
 | `js/app.js` | Catalogue, search, wishlist, cart, WhatsApp, dialogs |
 | `sw.js` | Offline/PWA caching — **bump `VERSION` on every release** |
-| `data/*.json` | Products, categories, image map (unchanged) |
+| `data/*.json` | Products, categories, image map and release metadata |
 | `tools/validate_catalogue.py` | Catalogue + image validator |
 | `tools/generate_share_pages.py` | Generates static social-preview and deep-link pages for every product |
 
@@ -55,7 +63,7 @@
 - The default canonical site URL is `https://itsnjedits.github.io/aanganfinds/`. For a different domain, pass `--base-url`.
 - Each product share page uses the product's first mapped image for social previews. Product images must be uploaded to `product_images/` with the exact filenames in `data/products.json` for previews to show product photography.
 - Product links use the stable `products/<slug>/` route. Visitors are redirected to `index.html?product=<ID>` and the app opens that product.
-- WhatsApp, Telegram, copy-link, native device share and image+link share actions are available. Native photo sharing depends on browser/device support.
+- WhatsApp, Telegram, copy-link, native device share and image+link share actions are available for products and categories. A separate website-level share panel is also available from the always-visible header action and footer. Native photo sharing depends on browser/device support.
 
 ## WhatsApp
 The number is set once, in `js/app.js` (`WHATSAPP_NUMBER = '917568443870'`): India code 91 + 7568443870. Buttons open WhatsApp with a pre-filled message; the customer sends it. Nothing is sent automatically.
@@ -65,7 +73,7 @@ The number is set once, in `js/app.js` (`WHATSAPP_NUMBER = '917568443870'`): Ind
 py tools/validate_catalogue.py
 py tools/generate_share_pages.py
 ```
-Commit generated `products/` share pages along with the JSON and product images. The image folder in the website ZIP is intentionally empty until the separate new-images ZIP is extracted into it.
+Commit generated `products/` share pages along with the JSON and product images. The website ZIP intentionally does not embed the new product photo bytes. Extract the separate `GHARSANSAR_P8_PRODUCT_IMAGES.zip` into the project root to add `product_images/AF-P8-*.jpg` and `.png`; keep your existing P1–P6 photographs untouched.
 
 ## Run locally
 ```cmd
@@ -81,7 +89,7 @@ py tools/validate_catalogue.py --require-images
 ## Publish
 ```cmd
 git add .
-git commit -m "GharSansar V8 duplicate cleanup"
+git commit -m "GharSansar V9 P8 + website share"
 git push
 ```
 GitHub → Settings → Pages → Deploy from a branch → main → /(root). Returning visitors pick up the new version automatically (cache name changed).

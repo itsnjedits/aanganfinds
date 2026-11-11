@@ -9,7 +9,7 @@ Pages are static HTML for social crawlers. Human visitors are redirected to the
 main app using ?product=<ID> or ?category=<ID> deep links.
 '''
 from __future__ import annotations
-import argparse, json, re, html, mimetypes
+import argparse, json, re, html, mimetypes, shutil
 from pathlib import Path
 from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
@@ -73,6 +73,16 @@ def main() -> int:
         canonical=base+'categories/'+quote(slug)+'/'; app_url=base+'?category='+quote(cid)
         write_page(ROOT/'categories'/slug, f'{label} | GharSansar', desc, canonical, app_url, image_url, 'website', 'Explore this collection')
         category_paths.append('categories/'+slug+'/')
+    # Remove orphaned generated pages (for example the legacy P7 duplicate folders).
+    # Only directories containing an index.html are considered; the project index JSON is preserved.
+    for parent, valid_paths in ((ROOT/'products', set(product_paths)), (ROOT/'categories', set(category_paths))):
+        for child in parent.iterdir():
+            if not child.is_dir() or not (child/'index.html').is_file():
+                continue
+            relative = child.relative_to(ROOT).as_posix().rstrip('/') + '/'
+            if relative not in valid_paths:
+                shutil.rmtree(child)
+                print('Removed orphan share page:', relative)
     report={'baseUrl':base,'products':len(product_paths),'productPaths':product_paths,'categories':len(category_paths),'categoryPaths':category_paths}
     (ROOT/'products'/'share-pages-index.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f"Generated {len(product_paths)} product pages and {len(category_paths)} category pages.")

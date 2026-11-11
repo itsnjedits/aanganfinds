@@ -1,0 +1,141 @@
+{
+  "timestamp": "20261111_140209",
+  "projectRoot": "Y:\\WEB DEVELOPMENT\\aanganfinds",
+  "productsBefore": 228,
+  "productsAfter": 213,
+  "catalogueRowsRemovedThisRun": 15,
+  "removedProducts": [
+    {
+      "productId": "AF-P1-014",
+      "name": "Sanchi Alloy Multicolor Jewel Set (Pack of 5)",
+      "reasons": [
+        "missing image: AF-P1-014-1.jpg",
+        "missing image: AF-P1-014-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-016",
+      "name": "Ridhi Sidhi Collection Brass Brass White Jewel Set (Pack of 1)",
+      "reasons": [
+        "missing image: AF-P1-016-1.jpg",
+        "missing image: AF-P1-016-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-017",
+      "name": "Jewel World Brass & Alloy Gold-plated Gold Jewel Set",
+      "reasons": [
+        "missing image: AF-P1-017-1.jpg",
+        "missing image: AF-P1-017-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-023",
+      "name": "Udama Alloy Gold-plated Gold Jewel Set (Pack of 3)",
+      "reasons": [
+        "missing image: AF-P1-023-1.jpg",
+        "missing image: AF-P1-023-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-024",
+      "name": "Anvi Store Alloy Gold-plated Gold Jewel Set (Pack of 1)",
+      "reasons": [
+        "missing image: AF-P1-024-1.jpg",
+        "missing image: AF-P1-024-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-025",
+      "name": "Fakezak Brass Gold Jewel Set (Pack of 1)",
+      "reasons": [
+        "missing image: AF-P1-025-1.jpg",
+        "missing image: AF-P1-025-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-028",
+      "name": "Starliven Jewellery Gift Set",
+      "reasons": [
+        "missing image: AF-P1-028-1.jpg",
+        "missing image: AF-P1-028-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-033",
+      "name": "Mohmit Mart Jewellery Gift Box Gift Set",
+      "reasons": [
+        "missing image: AF-P1-033-1.jpg",
+        "missing image: AF-P1-033-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-034",
+      "name": "Mohmit Mart Jewellery Gift Box Gift Set",
+      "reasons": [
+        "missing image: AF-P1-034-1.jpg",
+        "missing image: AF-P1-034-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-035",
+      "name": "Mohmit Mart Jewellery, Gift Box Gift Set",
+      "reasons": [
+        "missing image: AF-P1-035-1.jpg",
+        "missing image: AF-P1-035-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-036",
+      "name": "Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",
+      "reasons": [
+        "missing image: AF-P1-036-1.jpg",
+        "missing image: AF-P1-036-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-037",
+      "name": "Jewellery Gift Box Set",
+      "reasons": [
+        "missing image: AF-P1-037-1.jpg",
+        "missing image: AF-P1-037-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-039",
+      "name": "Floricraft Jewellery, Keychain, Gift Box Gift Set",
+      "reasons": [
+        "missing image: AF-P1-039-1.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-042",
+      "name": "Weddingcharm Jewellery & Accessories Gift Set",
+      "reasons": [
+        "missing image: AF-P1-042-1.jpg",
+        "missing image: AF-P1-042-2.jpg"
+      ]
+    },
+    {
+      "productId": "AF-P1-049",
+      "name": "Mycraftcrazy Showpiece Gift Set",
+      "reasons": [
+        "explicitly requested removal"
+      ]
+    }
+  ],
+  "photosDeleted": [
+    "product_images/AF-P1-039-2.jpg",
+    "product_images/AF-P1-049-1.jpg",
+    "product_images/AF-P1-049-2.jpg"
+  ],
+  "productsAfterCount": 213,
+  "imageMappingsAfter": 328,
+  "remainingImageFiles": 328,
+  "unreferencedImageFilesKeptOnDisk": [],
+  "backupZip": "_cleanup_backups\\gharsansar_before_cleanup_20261111_140209.zip",
+  "cleanedImagesZip": "GHARSANSAR_PRODUCT_IMAGES_CLEANED.zip",
+  "duplicateProductRowsRemoved": 0,
+  "duplicateImageIndexIdsNormalised": [],
+  "note": "Same-name products with different product IDs were retained; they are not assumed duplicates."
+}

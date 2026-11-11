@@ -11,7 +11,7 @@
 const WHATSAPP_NUMBER = '917568443870';
 const STORE_NAME = 'GharSansar';
 const STORAGE_KEYS = { wishlist: 'gharsansar:v2:wishlist', cart: 'gharsansar:v2:cart', theme: 'gharsansar:v2:theme', activity: 'gharsansar:v1:activity', alerts: 'gharsansar:v1:alerts', release: 'gharsansar:v1:release' };
-const RELEASE_ID = 'p7-20261104';
+const RELEASE_ID = 'p8-20261111';
 const PLACEHOLDER = './assets/brand/product-placeholder.svg';
 const MAX_QTY = 99;
 const SEARCH_DEBOUNCE_MS = 80;
@@ -575,7 +575,7 @@ function openCategoryShareDialog(categoryId) {
   const text = categoryShareCopy(category, url);
   const wa = `https://wa.me/?text=${encodeURIComponent(text)}`;
   const telegram = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent(`${category.label} · ${count} curated finds | GharSansar`)}`;
-  const artwork = categoryId === 'old-books' ? './assets/categories/old-books.svg' : categoryId === 'home-living' ? './assets/categories/home-living.svg' : categoryId === 'gifts-hampers' ? './assets/categories/gifts-hampers.svg' : categoryId === 'festive-decor' ? './assets/categories/festive-decor.svg' : './assets/categories/artificial-jewellery.svg';
+  const artwork = categoryId === 'old-books' ? './assets/categories/old-books.svg' : categoryId === 'home-living' ? './assets/categories/home-living.svg' : categoryId === 'gifts-hampers' ? './assets/categories/gifts-hampers.svg' : categoryId === 'festive-decor' ? './assets/categories/festive-decor.svg' : categoryId === 'clothing-apparel' ? './assets/categories/clothing-apparel.svg' : './assets/categories/artificial-jewellery.svg';
   $('#shareTitle').textContent = `Share ${category.label}`;
   $('.share-header .eyebrow').textContent = 'Share a whole collection';
   $('#shareContent').innerHTML = `
@@ -605,6 +605,60 @@ async function nativeShareCategory(categoryId) {
   if(!navigator.share) return copyCategoryShareLink(categoryId);
   try { await navigator.share({title:`${category.label} | GharSansar`,text,url}); }
   catch(error) { if(error && error.name!=='AbortError') showToast('Sharing could not be opened. Try WhatsApp or Copy link.'); }
+}
+
+
+function websiteShareUrl() {
+  return new URL('./', document.baseURI).href;
+}
+function websiteShareCopy(url) {
+  return `GharSansar — Har Ghar ki Pasand\n\nDiscover curated jewellery, clothing, thoughtful gifts, home and festive finds in one place. Explore the collection and share your favourites.\n\nVisit GharSansar: ${url}`;
+}
+function openWebsiteShareDialog() {
+  state.shareProductId = null; state.shareCategoryId = null;
+  const url = websiteShareUrl();
+  const text = websiteShareCopy(url);
+  const wa = `https://wa.me/?text=${encodeURIComponent(text)}`;
+  const telegram = `https://t.me/share/url?url=${encodeURIComponent(url)}&text=${encodeURIComponent('GharSansar — Har Ghar ki Pasand | Curated jewellery, clothing, gifts and home finds.')}`;
+  $('#shareTitle').textContent = 'Share GharSansar';
+  $('.share-header .eyebrow').textContent = 'Invite someone to discover us';
+  $('#shareContent').innerHTML = `
+    <article class="site-share-preview" aria-label="GharSansar website share card">
+      <img src="./assets/banners/gharsansar-hero.webp" alt="GharSansar — Har Ghar ki Pasand" width="1672" height="941">
+      <div class="site-share-copy">
+        <span>GHARSANSAR · HAR GHAR KI PASAND</span>
+        <h3>GharSansar</h3>
+        <p>Discover curated jewellery, clothing, thoughtful gifts, home finds and festive décor — all in one welcoming place.</p>
+        <small>${esc(new URL(url).host + new URL(url).pathname)}</small>
+      </div>
+    </article>
+    <p class="share-hint">Share our website with friends and family. The link preview uses GharSansar’s image, name and description when the receiving app supports website previews.</p>
+    <div class="share-options">
+      <a class="share-choice share-whatsapp" href="${esc(wa)}" target="_blank" rel="noopener noreferrer">${icon('whatsapp')}<span>WhatsApp</span></a>
+      <a class="share-choice share-telegram" href="${esc(telegram)}" target="_blank" rel="noopener noreferrer">${icon('send')}<span>Telegram</span></a>
+      <button class="share-choice" type="button" data-action="share-site-copy">${icon('copy')}<span>Copy website link</span></button>
+      <button class="share-choice" type="button" data-action="share-site-native">${icon('share')}<span>More apps</span></button>
+    </div>
+    <div class="share-link-row"><span>${esc(url)}</span><button type="button" data-action="share-site-copy" aria-label="Copy GharSansar website link">${icon('copy')}</button></div>`;
+  openOverlay('share');
+}
+async function copyWebsiteShareLink() {
+  const url = websiteShareUrl();
+  try {
+    if (navigator.clipboard && window.isSecureContext) await navigator.clipboard.writeText(url);
+    else {
+      const box = document.createElement('textarea'); box.value = url; box.setAttribute('readonly','');
+      box.style.position = 'fixed'; box.style.opacity = '0'; document.body.appendChild(box); box.select();
+      const ok = document.execCommand('copy'); box.remove(); if (!ok) throw new Error('copy failed');
+    }
+    showToast('GharSansar website link copied. Share it anywhere!');
+  } catch (_) { showToast('Could not copy automatically. Please copy the website link shown above.'); }
+}
+async function nativeShareWebsite() {
+  const url = websiteShareUrl(), text = websiteShareCopy(url);
+  if (!navigator.share) { await copyWebsiteShareLink(); return; }
+  try { await navigator.share({ title: 'GharSansar — Har Ghar ki Pasand', text, url }); }
+  catch (error) { if (error && error.name !== 'AbortError') showToast('Sharing could not be opened. Try WhatsApp, Telegram or Copy website link.'); }
 }
 
 function productShareUrl(product) {
@@ -928,6 +982,9 @@ function onClick(event) {
   switch (action) {
     case 'details': openProduct(id); break;
     case 'share': case 'modal-share': openShareDialog(id); break;
+    case 'share-site': openWebsiteShareDialog(); break;
+    case 'share-site-copy': copyWebsiteShareLink(); break;
+    case 'share-site-native': nativeShareWebsite(); break;
     case 'share-category': openCategoryShareDialog(target.dataset.categoryId); break;
     case 'share-category-copy': copyCategoryShareLink(target.dataset.categoryId); break;
     case 'share-category-native': nativeShareCategory(target.dataset.categoryId); break;
@@ -1104,10 +1161,10 @@ function recordVisitAndWelcome() {
   const isUpdate = Boolean(previousRelease && previousRelease !== RELEASE_ID);
   writeStorage(STORAGE_KEYS.release, RELEASE_ID);
   if (isUpdate) {
-    const message = 'Fresh finds have arrived at GharSansar — 7 new products are waiting for you.';
+    const message = 'Fresh finds have arrived at GharSansar — 32 new products are waiting for you.';
     showToast(message);
     if (readStorage(STORAGE_KEYS.alerts, false) === true && 'Notification' in window && Notification.permission === 'granted') {
-      sendVisitNotification('New finds at GharSansar', '7 fresh products have joined the collection.', './?category=all');
+      sendVisitNotification('New finds at GharSansar', '32 fresh products have joined the collection.', './?category=all');
     }
   } else if (state.activity.lastGreetingDate !== today) {
     const hour = new Date().getHours();

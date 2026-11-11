@@ -1,15 +1,42 @@
 {
-  "release": "p7-duplicate-cleanup-20261104",
-  "addedProducts": 0,
-  "addedImages": 0,
-  "totalProducts": 196,
-  "totalImageMappings": 277,
+  "release": "p8-catalogue-cleanup-20261111",
+  "addedProducts": 32,
+  "addedImages": 81,
+  "totalProducts": 213,
+  "totalImageMappings": 328,
   "features": [
-    "category-sharing",
-    "local-recommendations",
-    "visit-greetings",
-    "optional-visit-notifications",
-    "p7-duplicate-cleanup"
+    "p8-product-batch",
+    "clothing-apparel-category",
+    "website-sharing",
+    "product-share-pages-regenerated",
+    "share-page-orphan-cleanup",
+    "missing-product-image-cleanup",
+    "af-p1-049-removed"
   ],
-  "removedDuplicateProducts": 7
+  "removedDuplicateProducts": 7,
+  "notes": [
+    "Website ZIP intentionally excludes product photo bytes. Extract the separate P8 image ZIP into the project root to add product_images/AF-P8-*.",
+    "Existing product records and IDs were retained.",
+    "Six pearl product photographs were refreshed from updated_images.zip; AF-P8-008 House of Avika remains priced at exactly ₹100 from its embedded image.",
+    "Cleanup run 20261111_140209: removed 15 incomplete/explicitly removed products and 3 associated photo files."
+  ],
+  "cleanupRemovedProducts": 15,
+  "cleanupPurgedProductIds": [
+    "AF-P1-014",
+    "AF-P1-016",
+    "AF-P1-017",
+    "AF-P1-023",
+    "AF-P1-024",
+    "AF-P1-025",
+    "AF-P1-028",
+    "AF-P1-033",
+    "AF-P1-034",
+    "AF-P1-035",
+    "AF-P1-036",
+    "AF-P1-037",
+    "AF-P1-039",
+    "AF-P1-042",
+    "AF-P1-049"
+  ],
+  "cleanupRemovedPhotos": 3
 }

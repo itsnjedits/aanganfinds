@@ -3,7 +3,7 @@
  * - HTML / CSS / JS / JSON catalogue: network-first (always fresh when online, cached copy when offline).
  * - Product photos and brand assets: stale-while-revalidate (fast, and replaced photos refresh in the background).
  */
-const VERSION = 'v8-p7-duplicate-cleanup-20261104';
+const VERSION = 'v9-p8-site-share-20261111';
 const CORE_CACHE = `gharsansar-core-${VERSION}`;
 const MEDIA_CACHE = `gharsansar-media-${VERSION}`;
 const MAX_MEDIA_ENTRIES = 320;
@@ -27,6 +27,7 @@ const OPTIONAL_FILES = [
   './assets/categories/gifts-hampers.svg',
   './assets/categories/festive-decor.svg',
   './assets/categories/old-books.svg',
+  './assets/categories/clothing-apparel.svg',
 ];
 const abs = path => new URL(path, self.registration.scope).href;
 

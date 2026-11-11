@@ -5,6 +5,11 @@
     "symbol": "✦"
   },
   {
+    "id": "clothing-apparel",
+    "label": "Clothing & Apparel",
+    "symbol": "♧"
+  },
+  {
     "id": "home-living",
     "label": "Home & Living",
     "symbol": "⌂"

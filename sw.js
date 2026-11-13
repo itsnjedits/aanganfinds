@@ -3,7 +3,7 @@
  * - HTML / CSS / JS / JSON catalogue: network-first (always fresh when online, cached copy when offline).
  * - Product photos and brand assets: stale-while-revalidate (fast, and replaced photos refresh in the background).
  */
-const VERSION = 'v10-p9-chat-products-20261112';
+const VERSION = 'v11-p10-chat-products-20261113';
 const CORE_CACHE = `gharsansar-core-${VERSION}`;
 const MEDIA_CACHE = `gharsansar-media-${VERSION}`;
 const MAX_MEDIA_ENTRIES = 320;

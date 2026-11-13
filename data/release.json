@@ -1,9 +1,9 @@
 {
-  "release": "p9-chat-products-20261112",
-  "addedProducts": 120,
-  "addedImages": 134,
-  "totalProducts": 333,
-  "totalImageMappings": 462,
+  "release": "p10-chat-products-20261113",
+  "addedProducts": 38,
+  "addedImages": 85,
+  "totalProducts": 371,
+  "totalImageMappings": 547,
   "features": [
     "p9-chat-product-batch",
     "palazzo-design-products",
@@ -16,6 +16,13 @@
     "share-pages-regenerated"
   ],
   "notes": [
+    "P10 adds 38 products: 15 winter sweaters, 1 LC500852 wide-leg trouser listing, 1 black lower, 4 tote-bag designs, 13 cotton A-line set designs and 4 imported dress/gown codes.",
+    "The P10 catalogue contains 85 mapped, unique original product photos. The website ZIP intentionally omits product_images/; extract GHARSANSAR_P10_PRODUCT_IMAGES.zip at the project root.",
+    "The supplier's stated prices were used without additional markup: sweaters ₹695 with free shipping; LC500852 trousers ₹700 with free shipping (COD ₹80 extra); elephant canvas shopping bag ₹499 with shipping extra; cotton A-line sets ₹775 with shipping extra; imported dresses ₹1,200 each or 2 for ₹2,100 with free shipping.",
+    "Four new records have no confirmed single-item price and remain Price on enquiry: the black universal/plus-size lower and the cat-, owl- and floral-butterfly tote designs.",
+    "One LC500304 product record retains the conflicting 54-inch and 56-inch lengths printed on its two supplied photo cards and is flagged for review; no unsupported value was silently selected.",
+    "Sixteen byte-identical source-photo copies were excluded by SHA-256. Three unique photos were held unmapped because the product association was not sufficiently clear: photo_41_2026-11-13_17-54-44.jpg, photo_42_2026-11-13_17-54-44.jpg and photo_6_2026-11-13_17-54-51.jpg.",
+    "No category changes were needed. All 333 pre-existing catalogue records and 462 pre-existing image mappings were preserved.",
     "The website ZIP intentionally contains an empty product_images/ directory. Extract GHARSANSAR_P9_PRODUCT_IMAGES.zip into the project root to provide the 134 AF-P9 image files.",
     "Existing catalogue records and IDs from the uploaded website ZIP were preserved; new records use AF-P9-001 through AF-P9-120.",
     "Prices supplied in the chat were preserved as sent because the user stated that supplier prices generally already include profit. No additional markup was added.",
@@ -27,15 +34,29 @@
     "No new category was required: existing Clothing & Apparel and Accessories categories cover this batch.",
     "Existing website sharing, product share pages, PWA and GitHub Pages static architecture were preserved."
   ],
-  "activeNewProducts": 119,
-  "unpublishedImagePendingProducts": [
-    "AF-P9-118"
-  ],
+  "activeNewProducts": 38,
+  "unpublishedImagePendingProducts": [],
   "pricePendingProducts": [
-    "AF-P9-120"
+    "AF-P10-017",
+    "AF-P10-019",
+    "AF-P10-020",
+    "AF-P10-021"
   ],
-  "exactDuplicateSourceFilesExcluded": 48,
+  "exactDuplicateSourceFilesExcluded": 16,
   "nonProductFilesExcluded": [
     "photo_85_2026-11-12_22-16-03.jpg"
-  ]
+  ],
+  "reviewRequiredProducts": [
+    "AF-P10-017",
+    "AF-P10-019",
+    "AF-P10-020",
+    "AF-P10-021",
+    "AF-P10-036"
+  ],
+  "unmappedUniqueSourcePhotosHeldForReview": [
+    "photo_41_2026-11-13_17-54-44.jpg",
+    "photo_42_2026-11-13_17-54-44.jpg",
+    "photo_6_2026-11-13_17-54-51.jpg"
+  ],
+  "newCategories": []
 }

@@ -1,463 +1,548 @@
-﻿productId,productName,imageId,imagePath,imageOrder,indexPdfPage,sourcePdf,imageRole,originalFilename,sourceArchive,width,height,format
-AF-P1-001,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-001-1,./product_images/AF-P1-001-1.jpg,1,1,,,,,,,
-AF-P1-001,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-001-2,./product_images/AF-P1-001-2.jpg,2,2,,,,,,,
-AF-P1-002,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-002-1,./product_images/AF-P1-002-1.jpg,1,3,,,,,,,
-AF-P1-002,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-002-2,./product_images/AF-P1-002-2.jpg,2,4,,,,,,,
-AF-P1-003,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-003-1,./product_images/AF-P1-003-1.jpg,1,5,,,,,,,
-AF-P1-003,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-003-2,./product_images/AF-P1-003-2.jpg,2,6,,,,,,,
-AF-P1-004,"BOGHRA SALES Brass, Metal & Alloy Gold-plated Jewel Set",AF-P1-004-1,./product_images/AF-P1-004-1.jpg,1,7,,,,,,,
-AF-P1-004,"BOGHRA SALES Brass, Metal & Alloy Gold-plated Jewel Set",AF-P1-004-2,./product_images/AF-P1-004-2.jpg,2,8,,,,,,,
-AF-P1-005,Flaring Brass Gold-plated Gold Jewel Set (Pack of 2),AF-P1-005-1,./product_images/AF-P1-005-1.jpg,1,9,,,,,,,
-AF-P1-005,Flaring Brass Gold-plated Gold Jewel Set (Pack of 2),AF-P1-005-2,./product_images/AF-P1-005-2.jpg,2,10,,,,,,,
-AF-P1-006,"SVENTS Alloy Gold, White Jewel Set (Pack of 2)",AF-P1-006-1,./product_images/AF-P1-006-1.jpg,1,11,,,,,,,
-AF-P1-006,"SVENTS Alloy Gold, White Jewel Set (Pack of 2)",AF-P1-006-2,./product_images/AF-P1-006-2.jpg,2,12,,,,,,,
-AF-P1-007,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-007-1,./product_images/AF-P1-007-1.jpg,1,13,,,,,,,
-AF-P1-007,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-007-2,./product_images/AF-P1-007-2.jpg,2,14,,,,,,,
-AF-P1-008,Bulsenk Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-008-1,./product_images/AF-P1-008-1.jpg,1,15,,,,,,,
-AF-P1-008,Bulsenk Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-008-2,./product_images/AF-P1-008-2.jpg,2,16,,,,,,,
-AF-P1-009,Yash Collection Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-009-1,./product_images/AF-P1-009-1.jpg,1,17,,,,,,,
-AF-P1-009,Yash Collection Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-009-2,./product_images/AF-P1-009-2.jpg,2,18,,,,,,,
-AF-P1-010,TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-010-1,./product_images/AF-P1-010-1.jpg,1,19,,,,,,,
-AF-P1-010,TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-010-2,./product_images/AF-P1-010-2.jpg,2,20,,,,,,,
-AF-P1-010,TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-010-3,./product_images/AF-P1-010-3.jpg,3,21,,,,,,,
-AF-P1-010,TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-010-4,./product_images/AF-P1-010-4.jpg,4,22,,,,,,,
-AF-P1-011,VISITART JEWELLERY Alloy Gold-plated Gold Jewel Set,AF-P1-011-1,./product_images/AF-P1-011-1.jpg,1,23,,,,,,,
-AF-P1-011,VISITART JEWELLERY Alloy Gold-plated Gold Jewel Set,AF-P1-011-2,./product_images/AF-P1-011-2.jpg,2,24,,,,,,,
-AF-P1-012,"Zestylo Alloy Gold-plated Gold, Green Jewel Set (Pack of 1)",AF-P1-012-1,./product_images/AF-P1-012-1.jpg,1,25,,,,,,,
-AF-P1-012,"Zestylo Alloy Gold-plated Gold, Green Jewel Set (Pack of 1)",AF-P1-012-2,./product_images/AF-P1-012-2.jpg,2,26,,,,,,,
-AF-P1-013,Sanchi Alloy Gold Jewel Set (Pack of 3),AF-P1-013-1,./product_images/AF-P1-013-1.jpg,1,27,,,,,,,
-AF-P1-013,Sanchi Alloy Gold Jewel Set (Pack of 3),AF-P1-013-2,./product_images/AF-P1-013-2.jpg,2,28,,,,,,,
-AF-P1-015,"Savara Jewels Brass, Alloy Brass Multicolor, White Jewel Set",AF-P1-015-1,./product_images/AF-P1-015-1.jpg,1,31,,,,,,,
-AF-P1-015,"Savara Jewels Brass, Alloy Brass Multicolor, White Jewel Set",AF-P1-015-2,./product_images/AF-P1-015-2.jpg,2,32,,,,,,,
-AF-P1-018,ENTAN Liyer Chain - Silver-plated Layered Necklace,AF-P1-018-1,./product_images/AF-P1-018-1.jpg,1,37,,,,,,,
-AF-P1-018,ENTAN Liyer Chain - Silver-plated Layered Necklace,AF-P1-018-2,./product_images/AF-P1-018-2.jpg,2,38,,,,,,,
-AF-P1-019,MoonPearl Gold-plated Stainless Steel Necklace,AF-P1-019-1,./product_images/AF-P1-019-1.jpg,1,39,,,,,,,
-AF-P1-019,MoonPearl Gold-plated Stainless Steel Necklace,AF-P1-019-2,./product_images/AF-P1-019-2.jpg,2,40,,,,,,,
-AF-P1-020,Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set,AF-P1-020-1,./product_images/AF-P1-020-1.jpg,1,41,,,,,,,
-AF-P1-020,Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set,AF-P1-020-2,./product_images/AF-P1-020-2.jpg,2,42,,,,,,,
-AF-P1-021,Yash Sales Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-021-1,./product_images/AF-P1-021-1.jpg,1,43,,,,,,,
-AF-P1-021,Yash Sales Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-021-2,./product_images/AF-P1-021-2.jpg,2,44,,,,,,,
-AF-P1-022,Raj And Deb Alloy Gold-plated Gold Jewel Set (Pack of 3),AF-P1-022-1,./product_images/AF-P1-022-1.jpg,1,45,,,,,,,
-AF-P1-022,Raj And Deb Alloy Gold-plated Gold Jewel Set (Pack of 3),AF-P1-022-2,./product_images/AF-P1-022-2.jpg,2,46,,,,,,,
-AF-P1-026,"Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",AF-P1-026-1,./product_images/AF-P1-026-1.jpg,1,53,,,,,,,
-AF-P1-026,"Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",AF-P1-026-2,./product_images/AF-P1-026-2.jpg,2,54,,,,,,,
-AF-P1-027,Starliven Jewellery Gift Set,AF-P1-027-1,./product_images/AF-P1-027-1.jpg,1,55,,,,,,,
-AF-P1-027,Starliven Jewellery Gift Set,AF-P1-027-2,./product_images/AF-P1-027-2.jpg,2,56,,,,,,,
-AF-P1-029,Starliven Jewellery Gift Set,AF-P1-029-1,./product_images/AF-P1-029-1.jpg,1,59,,,,,,,
-AF-P1-029,Starliven Jewellery Gift Set,AF-P1-029-2,./product_images/AF-P1-029-2.jpg,2,60,,,,,,,
-AF-P1-030,Dear 90 Gift Box Gift Set,AF-P1-030-1,./product_images/AF-P1-030-1.jpg,1,61,,,,,,,
-AF-P1-030,Dear 90 Gift Box Gift Set,AF-P1-030-2,./product_images/AF-P1-030-2.jpg,2,62,,,,,,,
-AF-P1-031,PurePendant Jewellery Gift Box Gift Set,AF-P1-031-1,./product_images/AF-P1-031-1.jpg,1,63,,,,,,,
-AF-P1-031,PurePendant Jewellery Gift Box Gift Set,AF-P1-031-2,./product_images/AF-P1-031-2.jpg,2,64,,,,,,,
-AF-P1-032,"Alucia Bracelet, Gift Box, Keychain, Jewellery Gift Set",AF-P1-032-1,./product_images/AF-P1-032-1.jpg,1,65,,,,,,,
-AF-P1-032,"Alucia Bracelet, Gift Box, Keychain, Jewellery Gift Set",AF-P1-032-2,./product_images/AF-P1-032-2.jpg,2,66,,,,,,,
-AF-P1-038,"Floricraft Jewellery, Gift Box Gift Set",AF-P1-038-1,./product_images/AF-P1-038-1.jpg,1,77,,,,,,,
-AF-P1-038,"Floricraft Jewellery, Gift Box Gift Set",AF-P1-038-2,./product_images/AF-P1-038-2.jpg,2,78,,,,,,,
-AF-P1-040,"Floricraft Greeting Card, Jewellery, Gift Box Gift Set",AF-P1-040-1,./product_images/AF-P1-040-1.jpg,1,81,,,,,,,
-AF-P1-040,"Floricraft Greeting Card, Jewellery, Gift Box Gift Set",AF-P1-040-2,./product_images/AF-P1-040-2.jpg,2,82,,,,,,,
-AF-P1-041,Starliven Jewellery Gift Set,AF-P1-041-1,./product_images/AF-P1-041-1.jpg,1,83,,,,,,,
-AF-P1-041,Starliven Jewellery Gift Set,AF-P1-041-2,./product_images/AF-P1-041-2.jpg,2,84,,,,,,,
-AF-P1-043,"Ji Shri Jewellery, Bracelet, Key Ring, Gift Box Gift Set",AF-P1-043-1,./product_images/AF-P1-043-1.jpg,1,87,,,,,,,
-AF-P1-043,"Ji Shri Jewellery, Bracelet, Key Ring, Gift Box Gift Set",AF-P1-043-2,./product_images/AF-P1-043-2.jpg,2,88,,,,,,,
-AF-P1-044,"Glisha Jewellery, Bracelet, Gift Box Gift Set",AF-P1-044-1,./product_images/AF-P1-044-1.jpg,1,89,,,,,,,
-AF-P1-044,"Glisha Jewellery, Bracelet, Gift Box Gift Set",AF-P1-044-2,./product_images/AF-P1-044-2.jpg,2,90,,,,,,,
-AF-P1-045,"SFEP Artificial Flower, Gift Box Gift Set",AF-P1-045-1,./product_images/AF-P1-045-1.jpg,1,91,,,,,,,
-AF-P1-045,"SFEP Artificial Flower, Gift Box Gift Set",AF-P1-045-2,./product_images/AF-P1-045-2.jpg,2,92,,,,,,,
-AF-P1-046,Mycraftcrazy Showpiece Gift Set,AF-P1-046-1,./product_images/AF-P1-046-1.jpg,1,93,,,,,,,
-AF-P1-046,Mycraftcrazy Showpiece Gift Set,AF-P1-046-2,./product_images/AF-P1-046-2.jpg,2,94,,,,,,,
-AF-P1-047,Mycraftcrazy Showpiece Gift Set,AF-P1-047-1,./product_images/AF-P1-047-1.jpg,1,95,,,,,,,
-AF-P1-047,Mycraftcrazy Showpiece Gift Set,AF-P1-047-2,./product_images/AF-P1-047-2.jpg,2,96,,,,,,,
-AF-P1-048,Earnam Showpiece Gift Set,AF-P1-048-1,./product_images/AF-P1-048-1.jpg,1,97,,,,,,,
-AF-P1-048,Earnam Showpiece Gift Set,AF-P1-048-2,./product_images/AF-P1-048-2.jpg,2,98,,,,,,,
-AF-P1-050,Mycraftcrazy Showpiece Gift Set,AF-P1-050-1,./product_images/AF-P1-050-1.jpg,1,101,,,,,,,
-AF-P1-050,Mycraftcrazy Showpiece Gift Set,AF-P1-050-2,./product_images/AF-P1-050-2.jpg,2,102,,,,,,,
-AF-P1-051,Earnam Showpiece Gift Set,AF-P1-051-1,./product_images/AF-P1-051-1.jpg,1,103,,,,,,,
-AF-P1-051,Earnam Showpiece Gift Set,AF-P1-051-2,./product_images/AF-P1-051-2.jpg,2,104,,,,,,,
-AF-P1-052,Effete Gift Hamper with Ganesha Idol,AF-P1-052-1,./product_images/AF-P1-052-1.jpg,1,105,,,,,,,
-AF-P1-052,Effete Gift Hamper with Ganesha Idol,AF-P1-052-2,./product_images/AF-P1-052-2.jpg,2,106,,,,,,,
-AF-P1-053,"PUREHEART Dry Fruits Diwali Gift Hamper - Cashews, Cranberry & Nuts",AF-P1-053-1,./product_images/AF-P1-053-1.jpg,1,107,,,,,,,
-AF-P1-053,"PUREHEART Dry Fruits Diwali Gift Hamper - Cashews, Cranberry & Nuts",AF-P1-053-2,./product_images/AF-P1-053-2.jpg,2,108,,,,,,,
-AF-P1-054,International Gift Showpiece Gift Set,AF-P1-054-1,./product_images/AF-P1-054-1.jpg,1,109,,,,,,,
-AF-P1-054,International Gift Showpiece Gift Set,AF-P1-054-2,./product_images/AF-P1-054-2.jpg,2,110,,,,,,,
-AF-P1-055,Yaara Enterprise 36-Grids Clear Plastic Storage Box,AF-P1-055-1,./product_images/AF-P1-055-1.jpg,1,111,,,,,,,
-AF-P1-055,Yaara Enterprise 36-Grids Clear Plastic Storage Box,AF-P1-055-2,./product_images/AF-P1-055-2.jpg,2,112,,,,,,,
-AF-P1-056,Collectible India Laxmi Ganesh Saraswati Idol Diya Oil Lamp,AF-P1-056-1,./product_images/AF-P1-056-1.jpg,1,113,,,,,,,
-AF-P1-056,Collectible India Laxmi Ganesh Saraswati Idol Diya Oil Lamp,AF-P1-056-2,./product_images/AF-P1-056-2.jpg,2,114,,,,,,,
-AF-P1-057,FNF Creation Metal Decorative Flower-shaped Diya,AF-P1-057-1,./product_images/AF-P1-057-1.jpg,1,115,,,,,,,
-AF-P1-057,FNF Creation Metal Decorative Flower-shaped Diya,AF-P1-057-2,./product_images/AF-P1-057-2.jpg,2,116,,,,,,,
-AF-P1-058,FNF Creation Water Sensor Reusable LED Diyas,AF-P1-058-1,./product_images/AF-P1-058-1.jpg,1,117,,,,,,,
-AF-P1-058,FNF Creation Water Sensor Reusable LED Diyas,AF-P1-058-2,./product_images/AF-P1-058-2.jpg,2,118,,,,,,,
-AF-P1-059,AuraSip LED Tea Light Candles for Diwali & Pooja,AF-P1-059-1,./product_images/AF-P1-059-1.jpg,1,119,,,,,,,
-AF-P1-059,AuraSip LED Tea Light Candles for Diwali & Pooja,AF-P1-059-2,./product_images/AF-P1-059-2.jpg,2,120,,,,,,,
-AF-P1-060,Viskri Multishape Multicolour 3D Reflection Diya Set,AF-P1-060-1,./product_images/AF-P1-060-1.jpg,1,121,,,,,,,
-AF-P1-060,Viskri Multishape Multicolour 3D Reflection Diya Set,AF-P1-060-2,./product_images/AF-P1-060-2.jpg,2,122,,,,,,,
-AF-P1-061,Flashkitch 3D Reflection Diwali Diya Combo,AF-P1-061-1,./product_images/AF-P1-061-1.jpg,1,123,,,,,,,
-AF-P1-061,Flashkitch 3D Reflection Diwali Diya Combo,AF-P1-061-2,./product_images/AF-P1-061-2.jpg,2,124,,,,,,,
-AF-P1-062,Swagata Store Water Sensor LED Electric Diyas,AF-P1-062-1,./product_images/AF-P1-062-1.jpg,1,125,,,,,,,
-AF-P1-062,Swagata Store Water Sensor LED Electric Diyas,AF-P1-062-2,./product_images/AF-P1-062-2.jpg,2,126,,,,,,,
-AF-P1-063,Zunis Deepak Urli Decorative Showpiece,AF-P1-063-1,./product_images/AF-P1-063-1.jpg,1,127,,,,,,,
-AF-P1-063,Zunis Deepak Urli Decorative Showpiece,AF-P1-063-2,./product_images/AF-P1-063-2.jpg,2,128,,,,,,,
-AF-P2-001,Ruby Key Necklace,AF-P2-001-1,./product_images/AF-P2-001-1.jpg,1,129,,,,,,,
-AF-P2-002,Urban Loop Keychain,AF-P2-002-1,./product_images/AF-P2-002-1.jpg,1,130,,,,,,,
-AF-P2-003,Evil Eye Bead Necklace,AF-P2-003-1,./product_images/AF-P2-003-1.jpg,1,131,,,,,,,
-AF-P2-004,Metro Clip Keychain,AF-P2-004-1,./product_images/AF-P2-004-1.jpg,1,132,,,,,,,
-AF-P2-005,Ivory Blossom Earrings,AF-P2-005-1,./product_images/AF-P2-005-1.jpg,1,133,,,,,,,
-AF-P2-006,Pearl Dot Studs,AF-P2-006-1,./product_images/AF-P2-006-1.jpg,1,134,,,,,,,
-AF-P2-007,Square Crystal Studs,AF-P2-007-1,./product_images/AF-P2-007-1.jpg,1,135,,,,,,,
-AF-P2-008,Golden Bloom Studs,AF-P2-008-1,./product_images/AF-P2-008-1.jpg,1,136,,,,,,,
-AF-P2-009,Pearl Bow Earrings,AF-P2-009-1,./product_images/AF-P2-009-1.jpg,1,137,,,,,,,
-AF-P2-010,Celeste Pendant Set,AF-P2-010-1,./product_images/AF-P2-010-1.jpg,1,138,,,,,,,
-AF-P2-011,Golden Charm Necklace,AF-P2-011-1,./product_images/AF-P2-011-1.jpg,1,139,,,,,,,
-AF-P2-012,Classic Snake Chain,AF-P2-012-1,./product_images/AF-P2-012-1.jpg,1,140,,,,,,,
-AF-P2-013,Coin Charm Chain,AF-P2-013-1,./product_images/AF-P2-013-1.jpg,1,141,,,,,,,
-AF-P2-014,Coastal Shell Bracelet,AF-P2-014-1,./product_images/AF-P2-014-1.jpg,1,142,,,,,,,
-AF-P2-015,Cherry Drop Earrings,AF-P2-015-1,./product_images/AF-P2-015-1.jpg,1,143,,,,,,,
-AF-P2-016,Pearl Halo Studs,AF-P2-016-1,./product_images/AF-P2-016-1.jpg,1,144,,,,,,,
-AF-P2-017,Golden Crest Mangalsutra,AF-P2-017-1,./product_images/AF-P2-017-1.jpg,1,145,,,,,,,
-AF-P2-018,Heartline Mangalsutra,AF-P2-018-1,./product_images/AF-P2-018-1.jpg,1,146,,,,,,,
-AF-P2-019,Crystal Teardrop Mangalsutra,AF-P2-019-1,./product_images/AF-P2-019-1.jpg,1,147,,,,,,,
-AF-P2-020,Square Radiance Mangalsutra,AF-P2-020-1,./product_images/AF-P2-020-1.jpg,1,148,,,,,,,
-AF-P2-021,Floral Medallion Mangalsutra,AF-P2-021-1,./product_images/AF-P2-021-1.jpg,1,149,,,,,,,
-AF-P2-022,Classic Crystal Pendant Set,AF-P2-022-1,./product_images/AF-P2-022-1.jpg,1,150,,,,,,,
-AF-P2-023,Ornate Circle Mangalsutra,AF-P2-023-1,./product_images/AF-P2-023-1.jpg,1,151,,,,,,,
-AF-P2-024,Regal Crystal Jewellery Set,AF-P2-024-1,./product_images/AF-P2-024-1.jpg,1,152,,,,,,,
-AF-P2-025,Traditional Gold-Tone Jewellery Set,AF-P2-025-1,./product_images/AF-P2-025-1.jpg,1,153,,,,,,,
-AF-P2-026,Ruby Medallion Mangalsutra,AF-P2-026-1,./product_images/AF-P2-026-1.jpg,1,154,,,,,,,
-AF-P2-027,Crystal Arc Mangalsutra,AF-P2-027-1,./product_images/AF-P2-027-1.jpg,1,155,,,,,,,
-AF-P2-028,Minimal Bead Mangalsutra,AF-P2-028-1,./product_images/AF-P2-028-1.jpg,1,156,,,,,,,
-AF-P2-029,Diamond Fan Mangalsutra,AF-P2-029-1,./product_images/AF-P2-029-1.jpg,1,157,,,,,,,
-AF-P2-030,Graceful Curve Mangalsutra,AF-P2-030-1,./product_images/AF-P2-030-1.jpg,1,158,,,,,,,
-AF-P2-031,Heritage Ruby Mangalsutra,AF-P2-031-1,./product_images/AF-P2-031-1.jpg,1,159,,,,,,,
-AF-P2-032,Crystal Fan Mangalsutra,AF-P2-032-1,./product_images/AF-P2-032-1.jpg,1,160,,,,,,,
-AF-P2-033,Butterfly Charm Mangalsutra,AF-P2-033-1,./product_images/AF-P2-033-1.jpg,1,161,,,,,,,
-AF-P2-034,Bloom Curve Mangalsutra,AF-P2-034-1,./product_images/AF-P2-034-1.jpg,1,162,,,,,,,
-AF-P2-035,Heart Glow Studs,AF-P2-035-1,./product_images/AF-P2-035-1.jpg,1,163,,,,,,,
-AF-P2-036,Pearl Cascade Earrings,AF-P2-036-1,./product_images/AF-P2-036-1.jpg,1,164,,,,,,,
-AF-P2-037,Peacock Drop Earrings,AF-P2-037-1,./product_images/AF-P2-037-1.jpg,1,165,,,,,,,
-AF-P2-038,Petal Cascade Earrings,AF-P2-038-1,./product_images/AF-P2-038-1.jpg,1,166,,,,,,,
-AF-P2-039,Rose Gold Square Dangles,AF-P2-039-1,./product_images/AF-P2-039-1.jpg,1,167,,,,,,,
-AF-P2-040,Golden Frame Drop Earrings,AF-P2-040-1,./product_images/AF-P2-040-1.jpg,1,168,,,,,,,
-AF-P2-041,Starlight Bloom Earrings,AF-P2-041-1,./product_images/AF-P2-041-1.jpg,1,169,,,,,,,
-AF-P2-042,Regal Frame Drop Earrings,AF-P2-042-1,./product_images/AF-P2-042-1.jpg,1,170,,,,,,,
-AF-P2-043,Petal Glow Drop Earrings,AF-P2-043-1,./product_images/AF-P2-043-1.jpg,1,171,,,,,,,
-AF-P2-044,Triad Crystal Cascade Earrings,AF-P2-044-1,./product_images/AF-P2-044-1.jpg,1,172,,,,,,,
-AF-P2-045,Pearl Teardrop Earrings,AF-P2-045-1,./product_images/AF-P2-045-1.jpg,1,173,,,,,,,
-AF-P2-046,Golden Leaf Chain Earrings,AF-P2-046-1,./product_images/AF-P2-046-1.jpg,1,174,,,,,,,
-AF-P2-047,Lattice Bloom Studs,AF-P2-047-1,./product_images/AF-P2-047-1.jpg,1,175,,,,,,,
-AF-P2-048,Halo Petal Drop Earrings,AF-P2-048-1,./product_images/AF-P2-048-1.jpg,1,176,,,,,,,
-AF-P2-049,Crystal Frame Cascade Earrings,AF-P2-049-1,./product_images/AF-P2-049-1.jpg,1,177,,,,,,,
-AF-P2-050,Silver Bloom Dangle Earrings,AF-P2-050-1,./product_images/AF-P2-050-1.jpg,1,178,,,,,,,
-AF-P2-051,Geometric Bloom Studs,AF-P2-051-1,./product_images/AF-P2-051-1.jpg,1,179,,,,,,,
-AF-P2-052,Ruby Blossom Studs,AF-P2-052-1,./product_images/AF-P2-052-1.jpg,1,180,,,,,,,
-AF-P2-053,Rose Halo Cascade Earrings,AF-P2-053-1,./product_images/AF-P2-053-1.jpg,1,181,,,,,,,
-AF-P3-001,Lace & Bloom Jute Tote,AF-P3-001-1,./product_images/AF-P3-001-1.jpg,1,1,,,,,,,
-AF-P3-002,Verdant Floral Bottle Bag,AF-P3-002-1,./product_images/AF-P3-002-1.jpg,1,2,,,,,,,
-AF-P3-003,Celestial Cascade Earrings,AF-P3-003-1,./product_images/AF-P3-003-1.jpg,1,3,,,,,,,
-AF-P3-004,Pearl & Crystal Drop Earrings,AF-P3-004-1,./product_images/AF-P3-004-1.jpg,1,4,,,,,,,
-AF-P3-005,Heartlight Stud Earrings,AF-P3-005-1,./product_images/AF-P3-005-1.jpg,1,5,,,,,,,
-AF-P3-006,Celestial Bell Drop Earrings,AF-P3-006-1,./product_images/AF-P3-006-1.jpg,1,6,,,,,,,
-AF-P3-007,Crystal Square Jhumka Drops,AF-P3-007-1,./product_images/AF-P3-007-1.jpg,1,7,,,,,,,
-AF-P3-008,Golden Petal Cascade Earrings,AF-P3-008-1,./product_images/AF-P3-008-1.jpg,1,8,,,,,,,
-AF-P3-009,Peacock Grace Drop Earrings,AF-P3-009-1,./product_images/AF-P3-009-1.jpg,1,9,,,,,,,
-AF-P3-010,Golden Chain Cascade Earrings,AF-P3-010-1,./product_images/AF-P3-010-1.jpg,1,10,,,,,,,
-AF-P3-011,Crystal Leaf Tassel Earrings,AF-P3-011-1,./product_images/AF-P3-011-1.jpg,1,11,,,,,,,
-AF-P3-012,Floral Bloom Cascade Earrings,AF-P3-012-1,./product_images/AF-P3-012-1.jpg,1,12,,,,,,,
-AF-P3-013,Pearl Halo Drop Earrings,AF-P3-013-1,./product_images/AF-P3-013-1.jpg,1,13,,,,,,,
-AF-P3-014,Geometric Crystal Cascade Earrings,AF-P3-014-1,./product_images/AF-P3-014-1.jpg,1,14,,,,,,,
-AF-P3-015,Triangular Crystal Drop Earrings,AF-P3-015-1,./product_images/AF-P3-015-1.jpg,1,15,,,,,,,
-AF-P3-016,Radiant Bloom Drop Earrings,AF-P3-016-1,./product_images/AF-P3-016-1.jpg,1,16,,,,,,,
-AF-P3-017,Ruby Bloom Stud Earrings,AF-P3-017-1,./product_images/AF-P3-017-1.jpg,1,17,,,,,,,
-AF-P3-018,Golden Halo Drop Earrings,AF-P3-018-1,./product_images/AF-P3-018-1.jpg,1,18,,,,,,,
-AF-P3-019,Golden Lattice Stud Earrings,AF-P3-019-1,./product_images/AF-P3-019-1.jpg,1,19,,,,,,,
-AF-P3-020,Crystal Vine Dangle Earrings,AF-P3-020-1,./product_images/AF-P3-020-1.jpg,1,20,,,,,,,
-AF-P3-021,Rose Gold Cascade Earrings,AF-P3-021-1,./product_images/AF-P3-021-1.jpg,1,21,,,,,,,
-AF-P3-022,Tribal Bell Jhumkas,AF-P3-022-1,./product_images/AF-P3-022-1.jpg,1,22,,,,,,,
-AF-P3-023,Rangoli Stone Drop Earrings,AF-P3-023-1,./product_images/AF-P3-023-1.jpg,1,23,,,,,,,
-AF-P3-024,Peacock Heritage Jhumkas,AF-P3-024-1,./product_images/AF-P3-024-1.jpg,1,24,,,,,,,
-AF-P3-025,Ruby Peacock Drop Earrings,AF-P3-025-1,./product_images/AF-P3-025-1.jpg,1,25,,,,,,,
-AF-P3-026,Emerald Pearl Jhumkas,AF-P3-026-1,./product_images/AF-P3-026-1.jpg,1,26,,,,,,,
-AF-P3-027,Birdsong Pearl Jhumkas,AF-P3-027-1,./product_images/AF-P3-027-1.jpg,1,27,,,,,,,
-AF-P3-028,Moonstone Peacock Drop Earrings,AF-P3-028-1,./product_images/AF-P3-028-1.jpg,1,28,,,,,,,
-AF-P3-029,Golden Filigree Butterfly,AF-P3-029-1,./product_images/AF-P3-029-1.jpg,1,29,,,,,,,
-AF-P3-030,Heritage Coin Jhumkas,AF-P3-030-1,./product_images/AF-P3-030-1.jpg,1,30,,,,,,,
-AF-P3-031,Pearl Heritage Jhumkas,AF-P3-031-1,./product_images/AF-P3-031-1.jpg,1,31,,,,,,,
-AF-P3-032,Ruby Mandala Jhumkas,AF-P3-032-1,./product_images/AF-P3-032-1.jpg,1,32,,,,,,,
-AF-P3-033,Heartline Charm Necklace,AF-P3-033-1,./product_images/AF-P3-033-1.jpg,1,33,,,,,,,
-AF-P3-034,Meadow Bloom Necklace,AF-P3-034-1,./product_images/AF-P3-034-1.jpg,1,34,,,,,,,
-AF-P3-035,Golden Butterfly Necklace,AF-P3-035-1,./product_images/AF-P3-035-1.jpg,1,35,,,,,,,
-AF-P3-036,Tulip Bloom Necklace,AF-P3-036-1,./product_images/AF-P3-036-1.jpg,1,36,,,,,,,
-AF-P3-037,Midnight Bloom Jewellery Set,AF-P3-037-1,./product_images/AF-P3-037-1.jpg,1,37,,,,,,,
-AF-P3-038,Ruby Blossom Jewellery Set,AF-P3-038-1,./product_images/AF-P3-038-1.jpg,1,38,,,,,,,
-AF-P3-039,Emerald Bloom Jewellery Set,AF-P3-039-1,./product_images/AF-P3-039-1.jpg,1,39,,,,,,,
-AF-P3-040,Ruby Petal Jewellery Set,AF-P3-040-1,./product_images/AF-P3-040-1.jpg,1,40,,,,,,,
-AF-P3-041,Ruby Drop Jewellery Set,AF-P3-041-1,./product_images/AF-P3-041-1.jpg,1,41,,,,,,,
-AF-P3-042,Emerald Drop Jewellery Set,AF-P3-042-1,./product_images/AF-P3-042-1.jpg,1,42,,,,,,,
-AF-P3-043,Sapphire Peacock Jewellery Set,AF-P3-043-1,./product_images/AF-P3-043-1.jpg,1,43,,,,,,,
-AF-P3-044,Silver Blossom Anklet,AF-P3-044-1,./product_images/AF-P3-044-1.jpg,1,44,,,,,,,
-AF-P3-045,Evil Eye Charm Anklet,AF-P3-045-1,./product_images/AF-P3-045-1.jpg,1,45,,,,,,,
-AF-P3-046,Classic Silver Crescent Nose Ring,AF-P3-046-1,./product_images/AF-P3-046-1.jpg,1,46,,,,,,,
-AF-P3-047,Crystal Crescent Nose Ring,AF-P3-047-1,./product_images/AF-P3-047-1.jpg,1,47,,,,,,,
-AF-P3-048,Moonstone Peacock Drop Earrings,AF-P3-048-1,./product_images/AF-P3-048-1.jpg,1,48,,,,,,,
-AF-P3-049,Silver Peacock Jhumkas,AF-P3-049-1,./product_images/AF-P3-049-1.jpg,1,49,,,,,,,
-AF-P4-001,Blackstone Shimmring Beautiful Necklace Combo for Women and Girls,AF-P4-001-1,./product_images/AF-P4-001-1.jpg,1,1,,,,,,,
-AF-P4-002,Hand Made Cotton Wick 1000pcs,AF-P4-002-1,./product_images/AF-P4-002-1.jpg,1,2,,,,,,,
-AF-P4-002,Hand Made Cotton Wick 1000pcs,AF-P4-002-2,./product_images/AF-P4-002-2.jpg,2,2,,,,,,,
-AF-P4-003,Elegant Everyday Necklace Set - Combo of 5 Necklaces,AF-P4-003-1,./product_images/AF-P4-003-1.jpg,1,3,,,,,,,
-AF-P4-004,"Shreeji Imitation Brass, Alloy Bangle Set (Pack of 6)",AF-P4-004-1,./product_images/AF-P4-004-1.jpg,1,4,,,,,,,
-AF-P4-005,HouseOfCommon Premium Transparent Printed Floral Cosmetic Pouch,AF-P4-005-1,./product_images/AF-P4-005-1.jpg,1,5,,,,,,,
-AF-P4-005,HouseOfCommon Premium Transparent Printed Floral Cosmetic Pouch,AF-P4-005-2,./product_images/AF-P4-005-2.jpg,2,5,,,,,,,
-AF-P5-001,Celestial Star & Heart Layered Bracelet,AF-P5-001-1,./product_images/AF-P5-001-1.jpg,1,1,house_of_avika_original_images_name_price.pdf,,,,,,
-AF-P5-002,Daisy Bloom Pearl Charm Bracelet,AF-P5-002-1,./product_images/AF-P5-002-1.jpg,1,2,house_of_avika_original_images_name_price.pdf,,,,,,
-AF-P5-003,Blue Eye & Pearl Charm Bracelet,AF-P5-003-1,./product_images/AF-P5-003-1.jpg,1,3,house_of_avika_original_images_name_price.pdf,,,,,,
-AF-P5-004,Golden Lock & Coin Charm Bracelet,AF-P5-004-1,./product_images/AF-P5-004-1.jpg,1,4,house_of_avika_original_images_name_price.pdf,,,,,,
-AF-P5-005,Crimson Daisy Pearl Charm Bracelet,AF-P5-005-1,./product_images/AF-P5-005-1.jpg,1,5,house_of_avika_original_images_name_price.pdf,,,,,,
-AF-P5-006,Coastal Butterfly & Shell Bracelet,AF-P5-006-1,./product_images/AF-P5-006-1.jpg,1,6,house_of_avika_original_images_name_price.pdf,,,,,,
-AF-P5-007,Golden Heritage Medallion Bracelet,AF-P5-007-1,./product_images/AF-P5-007-1.jpg,1,7,house_of_avika_original_images_name_price.pdf,,,,,,
-AF-P5-008,Pastel Butterfly & Shell Charm Bracelet,AF-P5-008-1,./product_images/AF-P5-008-1.jpg,1,8,house_of_avika_original_images_name_price.pdf,,,,,,
-AF-P5-009,The Ministry of Utmost Happiness,AF-P5-009-1,./product_images/AF-P5-009-1.jpg,1,1,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-009,The Ministry of Utmost Happiness,AF-P5-009-2,./product_images/AF-P5-009-2.jpg,2,1,Old_Books_Catalogue.pdf,spine,,,,,
-AF-P5-010,The Ticking Lances,AF-P5-010-1,./product_images/AF-P5-010-1.jpg,1,2,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-010,The Ticking Lances,AF-P5-010-2,./product_images/AF-P5-010-2.jpg,2,2,Old_Books_Catalogue.pdf,back-cover,,,,,
-AF-P5-011,"Pride, Prejudice & Punditry",AF-P5-011-1,./product_images/AF-P5-011-1.jpg,1,3,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-011,"Pride, Prejudice & Punditry",AF-P5-011-2,./product_images/AF-P5-011-2.jpg,2,3,Old_Books_Catalogue.pdf,back-cover,,,,,
-AF-P5-012,Kuch Woh Pal,AF-P5-012-1,./product_images/AF-P5-012-1.jpg,1,4,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-012,Kuch Woh Pal,AF-P5-012-2,./product_images/AF-P5-012-2.jpg,2,4,Old_Books_Catalogue.pdf,back-cover,,,,,
-AF-P5-013,Emma,AF-P5-013-1,./product_images/AF-P5-013-1.jpg,1,5,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-013,Emma,AF-P5-013-2,./product_images/AF-P5-013-2.jpg,2,5,Old_Books_Catalogue.pdf,back-cover,,,,,
-AF-P5-014,An Era of Darkness,AF-P5-014-1,./product_images/AF-P5-014-1.jpg,1,6,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-015,Northanger Abbey,AF-P5-015-1,./product_images/AF-P5-015-1.jpg,1,7,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-015,Northanger Abbey,AF-P5-015-2,./product_images/AF-P5-015-2.jpg,2,7,Old_Books_Catalogue.pdf,back-cover,,,,,
-AF-P5-016,Pride and Prejudice,AF-P5-016-1,./product_images/AF-P5-016-1.jpg,1,8,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-016,Pride and Prejudice,AF-P5-016-2,./product_images/AF-P5-016-2.jpg,2,8,Old_Books_Catalogue.pdf,back-cover,,,,,
-AF-P5-017,Persuasion,AF-P5-017-1,./product_images/AF-P5-017-1.jpg,1,9,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-018,Mansfield Park,AF-P5-018-1,./product_images/AF-P5-018-1.jpg,1,10,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-018,Mansfield Park,AF-P5-018-2,./product_images/AF-P5-018-2.jpg,2,10,Old_Books_Catalogue.pdf,back-cover,,,,,
-AF-P5-019,Sense and Sensibility,AF-P5-019-1,./product_images/AF-P5-019-1.jpg,1,11,Old_Books_Catalogue.pdf,front-cover,,,,,
-AF-P5-019,Sense and Sensibility,AF-P5-019-2,./product_images/AF-P5-019-2.jpg,2,11,Old_Books_Catalogue.pdf,back-cover,,,,,
-AF-P6-001,Sewing Organizer,AF-P6-001-1,./product_images/AF-P6-001-1.jpg,1,1,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-001,Sewing Organizer,AF-P6-001-2,./product_images/AF-P6-001-2.jpg,2,1,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-002,Trendy Tulip Hair Claws,AF-P6-002-1,./product_images/AF-P6-002-1.jpg,1,2,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-003,Clover Charm Bracelet,AF-P6-003-1,./product_images/AF-P6-003-1.jpg,1,3,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-004,Lotus Coin Jhumka Earrings,AF-P6-004-1,./product_images/AF-P6-004-1.jpg,1,4,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-005,Personalised Pencil Topper,AF-P6-005-1,./product_images/AF-P6-005-1.jpg,1,5,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-005,Personalised Pencil Topper,AF-P6-005-2,./product_images/AF-P6-005-2.jpg,2,5,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-006,Princess Coloring Set,AF-P6-006-1,./product_images/AF-P6-006-1.jpg,1,6,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-006,Princess Coloring Set,AF-P6-006-2,./product_images/AF-P6-006-2.jpg,2,6,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-006,Princess Coloring Set,AF-P6-006-3,./product_images/AF-P6-006-3.jpg,3,6,Product_Catalogue.pdf,product-photo,,,,,
-AF-P6-007,Ashq Bane Alfaz,AF-P6-007-1,./product_images/AF-P6-007-1.jpg,1,7,Product_Catalogue.pdf,front-cover,,,,,
-AF-P6-007,Ashq Bane Alfaz,AF-P6-007-2,./product_images/AF-P6-007-2.jpg,2,7,Product_Catalogue.pdf,back-cover,,,,,
-AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-1,./product_images/AF-P8-001-1.jpg,1,,b_combined.pdf,primary,photo_2_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-2,./product_images/AF-P8-001-2.jpg,2,,b_combined.pdf,gallery,photo_3_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-3,./product_images/AF-P8-001-3.jpg,3,,b_combined.pdf,gallery,photo_4_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-4,./product_images/AF-P8-001-4.jpg,4,,b_combined.pdf,gallery,photo_5_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-5,./product_images/AF-P8-001-5.jpg,5,,b_combined.pdf,gallery,photo_6_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-6,./product_images/AF-P8-001-6.jpg,6,,b_combined.pdf,gallery,photo_7_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-002,Soft Faux Georgette Gown with Embellished Net Dupatta,AF-P8-002-1,./product_images/AF-P8-002-1.jpg,1,,b_combined.pdf,primary,photo_8_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,538,1080,JPEG
-AF-P8-003,Pearl Necklace Set - Design 01,AF-P8-003-1,./product_images/AF-P8-003-1.png,1,,b_combined.pdf,primary,Elegant Pearl Butterfly Jewelry Set.png,updated_images.zip,1169,1346,PNG
-AF-P8-004,Pearl Necklace Set - Design 02,AF-P8-004-1,./product_images/AF-P8-004-1.png,1,,b_combined.pdf,primary,Pearl Necklace Set on Champagne Satin.png,updated_images.zip,1021,1541,PNG
-AF-P8-005,Pearl Necklace Set - Design 03,AF-P8-005-1,./product_images/AF-P8-005-1.jpg,1,,b_combined.pdf,primary,photo_3_2026-11-10_23-45-49.jpg,updated_images.zip,942,1106,JPEG
-AF-P8-006,Layered Pearl Necklace Set - Design 04,AF-P8-006-1,./product_images/AF-P8-006-1.jpg,1,,b_combined.pdf,primary,photo_4_2026-11-10_23-45-49.jpg,updated_images.zip,941,957,JPEG
-AF-P8-007,Pearl Necklace Set - Design 05,AF-P8-007-1,./product_images/AF-P8-007-1.jpg,1,,b_combined.pdf,primary,photo_5_2026-11-10_23-45-49.jpg,updated_images.zip,825,1280,JPEG
-AF-P8-008,House of Avika Pearl Necklace Set - Design 06,AF-P8-008-1,./product_images/AF-P8-008-1.jpg,1,,b_combined.pdf,primary,photo_6_2026-11-10_23-45-49.jpg,updated_images.zip,932,1048,JPEG
-AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-1,./product_images/AF-P8-009-1.jpg,1,,b_combined.pdf,primary,photo_22_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,576,1280,JPEG
-AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-2,./product_images/AF-P8-009-2.jpg,2,,b_combined.pdf,gallery,photo_23_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-3,./product_images/AF-P8-009-3.jpg,3,,b_combined.pdf,gallery,photo_24_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-4,./product_images/AF-P8-009-4.jpg,4,,b_combined.pdf,gallery,photo_25_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-5,./product_images/AF-P8-009-5.jpg,5,,b_combined.pdf,gallery,photo_26_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1024,1280,JPEG
-AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-6,./product_images/AF-P8-009-6.jpg,6,,b_combined.pdf,gallery,photo_27_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1024,1280,JPEG
-AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-7,./product_images/AF-P8-009-7.jpg,7,,b_combined.pdf,gallery,photo_28_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-8,./product_images/AF-P8-009-8.jpg,8,,b_combined.pdf,gallery,photo_29_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,962,1280,JPEG
-AF-P8-010,Textured Black Winter Sweater,AF-P8-010-1,./product_images/AF-P8-010-1.jpg,1,,b_combined.pdf,primary,photo_30_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-011,Burgundy Reindeer-Print Sweatshirt,AF-P8-011-1,./product_images/AF-P8-011-1.jpg,1,,b_combined.pdf,primary,photo_31_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,928,1120,JPEG
-AF-P8-012,Grey Button-Front Winter Cardigan,AF-P8-012-1,./product_images/AF-P8-012-1.jpg,1,,b_combined.pdf,primary,photo_32_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-013,Navy Zip-Up Winter Jacket,AF-P8-013-1,./product_images/AF-P8-013-1.jpg,1,,b_combined.pdf,primary,photo_33_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-014,Blue Striped Knit Sweater,AF-P8-014-1,./product_images/AF-P8-014-1.jpg,1,,b_combined.pdf,primary,photo_35_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1170,1280,JPEG
-AF-P8-015,Pink & Orange Check Knit Sweater,AF-P8-015-1,./product_images/AF-P8-015-1.jpg,1,,b_combined.pdf,primary,photo_36_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1170,1280,JPEG
-AF-P8-016,Pink Textured Winter Sweater,AF-P8-016-1,./product_images/AF-P8-016-1.jpg,1,,b_combined.pdf,primary,photo_37_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1170,1280,JPEG
-AF-P8-017,Black Winterwear Design - Design 08,AF-P8-017-1,./product_images/AF-P8-017-1.jpg,1,,b_combined.pdf,primary,photo_39_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,573,1280,JPEG
-AF-P8-018,Cream Button-Front Cardigan,AF-P8-018-1,./product_images/AF-P8-018-1.jpg,1,,b_combined.pdf,primary,photo_40_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1170,1280,JPEG
-AF-P8-019,Mint Bunny-Print Sweater,AF-P8-019-1,./product_images/AF-P8-019-1.jpg,1,,b_combined.pdf,primary,photo_41_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1170,1280,JPEG
-AF-P8-020,Pink Bunny-Print Sweater,AF-P8-020-1,./product_images/AF-P8-020-1.jpg,1,,b_combined.pdf,primary,photo_42_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1170,1280,JPEG
-AF-P8-021,Sage Floral-Knit Sweater,AF-P8-021-1,./product_images/AF-P8-021-1.jpg,1,,b_combined.pdf,primary,photo_43_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1170,1280,JPEG
-AF-P8-022,Brown Patterned Winter Sweater,AF-P8-022-1,./product_images/AF-P8-022-1.jpg,1,,b_combined.pdf,primary,photo_44_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-023,Purple & White Check Knit Sweater,AF-P8-023-1,./product_images/AF-P8-023-1.jpg,1,,b_combined.pdf,primary,photo_45_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1170,1280,JPEG
-AF-P8-024,Grey Textured Knit Sweater,AF-P8-024-1,./product_images/AF-P8-024-1.jpg,1,,b_combined.pdf,primary,photo_46_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-025,Black & Yellow Patterned Sweater,AF-P8-025-1,./product_images/AF-P8-025-1.jpg,1,,b_combined.pdf,primary,photo_47_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-026,Pink & Grey Colour-Block Cardigan,AF-P8-026-1,./product_images/AF-P8-026-1.jpg,1,,b_combined.pdf,primary,photo_48_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-027,Navy Button-Front Winter Cardigan,AF-P8-027-1,./product_images/AF-P8-027-1.jpg,1,,b_combined.pdf,primary,photo_49_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-028,Beige Button-Front Cardigan,AF-P8-028-1,./product_images/AF-P8-028-1.jpg,1,,b_combined.pdf,primary,photo_50_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-029,Burgundy Button-Front Cardigan,AF-P8-029-1,./product_images/AF-P8-029-1.jpg,1,,b_combined.pdf,primary,photo_51_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-030,Blue & Red Patterned Winter Sweater,AF-P8-030-1,./product_images/AF-P8-030-1.jpg,1,,b_combined.pdf,primary,photo_52_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,960,1280,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-1,./product_images/AF-P8-031-1.jpg,1,,b_combined.pdf,primary,photo_53_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-2,./product_images/AF-P8-031-2.jpg,2,,b_combined.pdf,gallery,photo_54_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,323,491,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-3,./product_images/AF-P8-031-3.jpg,3,,b_combined.pdf,gallery,photo_55_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-4,./product_images/AF-P8-031-4.jpg,4,,b_combined.pdf,gallery,photo_56_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1191,1191,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-5,./product_images/AF-P8-031-5.jpg,5,,b_combined.pdf,gallery,photo_57_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-6,./product_images/AF-P8-031-6.jpg,6,,b_combined.pdf,gallery,photo_58_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1237,1237,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-7,./product_images/AF-P8-031-7.jpg,7,,b_combined.pdf,gallery,photo_59_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,408,435,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-8,./product_images/AF-P8-031-8.jpg,8,,b_combined.pdf,gallery,photo_60_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1232,1232,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-9,./product_images/AF-P8-031-9.jpg,9,,b_combined.pdf,gallery,photo_61_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1280,1280,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-10,./product_images/AF-P8-031-10.jpg,10,,b_combined.pdf,gallery,photo_62_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1280,1280,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-11,./product_images/AF-P8-031-11.jpg,11,,b_combined.pdf,gallery,photo_63_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1234,1234,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-12,./product_images/AF-P8-031-12.jpg,12,,b_combined.pdf,gallery,photo_64_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1280,1280,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-13,./product_images/AF-P8-031-13.jpg,13,,b_combined.pdf,gallery,photo_65_2026-11-10_23-45-05.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1191,1191,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-14,./product_images/AF-P8-031-14.jpg,14,,b_combined.pdf,gallery,photo_66_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1253,1253,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-15,./product_images/AF-P8-031-15.jpg,15,,b_combined.pdf,gallery,photo_67_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,1080,1150,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-16,./product_images/AF-P8-031-16.jpg,16,,b_combined.pdf,gallery,photo_68_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,640,1024,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-17,./product_images/AF-P8-031-17.jpg,17,,b_combined.pdf,gallery,photo_70_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-18,./product_images/AF-P8-031-18.jpg,18,,b_combined.pdf,gallery,photo_71_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-19,./product_images/AF-P8-031-19.jpg,19,,b_combined.pdf,gallery,photo_72_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-20,./product_images/AF-P8-031-20.jpg,20,,b_combined.pdf,gallery,photo_73_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,384,1024,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-21,./product_images/AF-P8-031-21.jpg,21,,b_combined.pdf,gallery,photo_74_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-22,./product_images/AF-P8-031-22.jpg,22,,b_combined.pdf,gallery,photo_75_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-23,./product_images/AF-P8-031-23.jpg,23,,b_combined.pdf,gallery,photo_76_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-24,./product_images/AF-P8-031-24.jpg,24,,b_combined.pdf,gallery,photo_77_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-25,./product_images/AF-P8-031-25.jpg,25,,b_combined.pdf,gallery,photo_78_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-26,./product_images/AF-P8-031-26.jpg,26,,b_combined.pdf,gallery,photo_79_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-27,./product_images/AF-P8-031-27.jpg,27,,b_combined.pdf,gallery,photo_80_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-28,./product_images/AF-P8-031-28.jpg,28,,b_combined.pdf,gallery,photo_81_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-29,./product_images/AF-P8-031-29.jpg,29,,b_combined.pdf,gallery,photo_82_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,395,403,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-30,./product_images/AF-P8-031-30.jpg,30,,b_combined.pdf,gallery,photo_83_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-31,./product_images/AF-P8-031-31.jpg,31,,b_combined.pdf,gallery,photo_84_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,392,433,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-32,./product_images/AF-P8-031-32.jpg,32,,b_combined.pdf,gallery,photo_85_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,512,512,JPEG
-AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-33,./product_images/AF-P8-031-33.jpg,33,,b_combined.pdf,gallery,photo_86_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,269,762,JPEG
-AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-1,./product_images/AF-P8-032-1.jpg,1,,b_combined.pdf,primary,photo_87_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,853,1280,JPEG
-AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-2,./product_images/AF-P8-032-2.jpg,2,,b_combined.pdf,gallery,photo_88_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,853,1280,JPEG
-AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-3,./product_images/AF-P8-032-3.jpg,3,,b_combined.pdf,gallery,photo_89_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,853,1280,JPEG
-AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-4,./product_images/AF-P8-032-4.jpg,4,,b_combined.pdf,gallery,photo_90_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,853,1280,JPEG
-AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-5,./product_images/AF-P8-032-5.jpg,5,,b_combined.pdf,gallery,photo_91_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,853,1280,JPEG
-AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-6,./product_images/AF-P8-032-6.jpg,6,,b_combined.pdf,gallery,photo_92_2026-11-10_23-45-06.jpg,GHARSANSAR_PRODUCT_IMAGES.zip,853,1280,JPEG
-AF-P9-001,Blue Geometric Print Top & Palazzo Set - Design 01,AF-P9-001-1,./product_images/AF-P9-001-1.jpg,1,,c_combined.pdf,product,photo_1_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-002,Yellow Floral Print Top & Palazzo Set - Design 02,AF-P9-002-1,./product_images/AF-P9-002-1.jpg,1,,c_combined.pdf,product,photo_2_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-003,Purple Botanical Print Top & Palazzo Set - Design 03,AF-P9-003-1,./product_images/AF-P9-003-1.jpg,1,,c_combined.pdf,product,photo_3_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-004,Pink Floral Print Top & Palazzo Set - Design 04,AF-P9-004-1,./product_images/AF-P9-004-1.jpg,1,,c_combined.pdf,product,photo_4_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-005,Mustard Motif Print Top & Palazzo Set - Design 05,AF-P9-005-1,./product_images/AF-P9-005-1.jpg,1,,c_combined.pdf,product,photo_5_2026-11-12_22-16-02.jpg,d.zip,896,1200,JPEG
-AF-P9-006,Ivory Micro-Print Top & Palazzo Set - Design 06,AF-P9-006-1,./product_images/AF-P9-006-1.jpg,1,,c_combined.pdf,product,photo_6_2026-11-12_22-16-02.jpg,d.zip,896,1200,JPEG
-AF-P9-007,Navy Floral Print Top & Palazzo Set - Design 07,AF-P9-007-1,./product_images/AF-P9-007-1.jpg,1,,c_combined.pdf,product,photo_7_2026-11-12_22-16-02.jpg,d.zip,896,1200,JPEG
-AF-P9-008,Blue Medallion Print Top & Palazzo Set - Design 08,AF-P9-008-1,./product_images/AF-P9-008-1.jpg,1,,c_combined.pdf,product,photo_8_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-009,Cream & Lilac Motif Top & Palazzo Set - Design 09,AF-P9-009-1,./product_images/AF-P9-009-1.jpg,1,,c_combined.pdf,product,photo_9_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-010,Black Geometric Print Top & Palazzo Set - Design 10,AF-P9-010-1,./product_images/AF-P9-010-1.jpg,1,,c_combined.pdf,product,photo_10_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-011,Black & Rust Floral Top & Palazzo Set - Design 11,AF-P9-011-1,./product_images/AF-P9-011-1.jpg,1,,c_combined.pdf,product,photo_11_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-012,Olive Green Floral Top & Palazzo Set - Design 12,AF-P9-012-1,./product_images/AF-P9-012-1.jpg,1,,c_combined.pdf,product,photo_12_2026-11-12_22-16-02.jpg,d.zip,896,1200,JPEG
-AF-P9-013,Ivory Maroon Floral Top & Palazzo Set - Design 13,AF-P9-013-1,./product_images/AF-P9-013-1.jpg,1,,c_combined.pdf,product,photo_13_2026-11-12_22-16-02.jpg,d.zip,896,1195,JPEG
-AF-P9-014,Ivory Lavender Floral Top & Palazzo Set - Design 14,AF-P9-014-1,./product_images/AF-P9-014-1.jpg,1,,c_combined.pdf,product,photo_14_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-015,Burgundy Geometric Print Top & Palazzo Set - Design 15,AF-P9-015-1,./product_images/AF-P9-015-1.jpg,1,,c_combined.pdf,product,photo_15_2026-11-12_22-16-02.jpg,d.zip,896,1200,JPEG
-AF-P9-016,Pink Graphic Print Top & Palazzo Set - Design 16,AF-P9-016-1,./product_images/AF-P9-016-1.jpg,1,,c_combined.pdf,product,photo_16_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-017,Rust Brown Floral Top & Palazzo Set - Design 17,AF-P9-017-1,./product_images/AF-P9-017-1.jpg,1,,c_combined.pdf,product,photo_17_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-018,Sky Blue Pink Motif Top & Palazzo Set - Design 18,AF-P9-018-1,./product_images/AF-P9-018-1.jpg,1,,c_combined.pdf,product,photo_18_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-019,Teal Tropical Floral Top & Palazzo Set - Design 19,AF-P9-019-1,./product_images/AF-P9-019-1.jpg,1,,c_combined.pdf,product,photo_19_2026-11-12_22-16-02.jpg,d.zip,896,1200,JPEG
-AF-P9-020,Beige Botanical Print Top & Palazzo Set - Design 20,AF-P9-020-1,./product_images/AF-P9-020-1.jpg,1,,c_combined.pdf,product,photo_20_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-021,Navy Blue Floral Top & Palazzo Set - Design 21,AF-P9-021-1,./product_images/AF-P9-021-1.jpg,1,,c_combined.pdf,product,photo_21_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-022,Ivory Multicolour Floral Top & Palazzo Set - Design 22,AF-P9-022-1,./product_images/AF-P9-022-1.jpg,1,,c_combined.pdf,product,photo_22_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-023,Indigo Diamond Print Top & Palazzo Set - Design 23,AF-P9-023-1,./product_images/AF-P9-023-1.jpg,1,,c_combined.pdf,product,photo_23_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-024,Taupe Micro-Print Top & Palazzo Set - Design 24,AF-P9-024-1,./product_images/AF-P9-024-1.jpg,1,,c_combined.pdf,product,photo_24_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-025,Mustard Yellow Floral Top & Palazzo Set - Design 25,AF-P9-025-1,./product_images/AF-P9-025-1.jpg,1,,c_combined.pdf,product,photo_25_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-026,Pink Botanical Print Top & Palazzo Set - Design 26,AF-P9-026-1,./product_images/AF-P9-026-1.jpg,1,,c_combined.pdf,product,photo_26_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-027,Blue Geometric Print Top & Palazzo Set - Design 27,AF-P9-027-1,./product_images/AF-P9-027-1.jpg,1,,c_combined.pdf,product,photo_27_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-028,Deep Teal Floral Top & Palazzo Set - Design 28,AF-P9-028-1,./product_images/AF-P9-028-1.jpg,1,,c_combined.pdf,product,photo_28_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-029,Navy Floral Print Top & Palazzo Set - Design 29,AF-P9-029-1,./product_images/AF-P9-029-1.jpg,1,,c_combined.pdf,product,photo_29_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-030,Rust Red Geometric Top & Palazzo Set - Design 30,AF-P9-030-1,./product_images/AF-P9-030-1.jpg,1,,c_combined.pdf,product,photo_30_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-031,Ivory Elephant Motif Top & Palazzo Set - Design 31,AF-P9-031-1,./product_images/AF-P9-031-1.jpg,1,,c_combined.pdf,product,photo_31_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-032,Olive Green Motif Top & Palazzo Set - Design 32,AF-P9-032-1,./product_images/AF-P9-032-1.jpg,1,,c_combined.pdf,product,photo_32_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-033,Berry Red Motif Top & Palazzo Set - Design 33,AF-P9-033-1,./product_images/AF-P9-033-1.jpg,1,,c_combined.pdf,product,photo_33_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-034,Black & Beige Floral Top & Palazzo Set - Design 34,AF-P9-034-1,./product_images/AF-P9-034-1.jpg,1,,c_combined.pdf,product,photo_34_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-035,Blue Floral Print Top & Palazzo Set - Design 35,AF-P9-035-1,./product_images/AF-P9-035-1.jpg,1,,c_combined.pdf,product,photo_35_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-036,Peach Floral Print Top & Palazzo Set - Design 36,AF-P9-036-1,./product_images/AF-P9-036-1.jpg,1,,c_combined.pdf,product,photo_36_2026-11-12_22-16-02.jpg,d.zip,896,1200,JPEG
-AF-P9-037,Ivory Pink Floral Motif Top & Palazzo Set - Design 37,AF-P9-037-1,./product_images/AF-P9-037-1.jpg,1,,c_combined.pdf,product,photo_37_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-038,Emerald Green Motif Top & Palazzo Set - Design 38,AF-P9-038-1,./product_images/AF-P9-038-1.jpg,1,,c_combined.pdf,product,photo_38_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-039,Pink Floral Print Top & Palazzo Set - Design 39,AF-P9-039-1,./product_images/AF-P9-039-1.jpg,1,,c_combined.pdf,product,photo_39_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-040,Black & Gold Floral Top & Palazzo Set - Design 40,AF-P9-040-1,./product_images/AF-P9-040-1.jpg,1,,c_combined.pdf,product,photo_40_2026-11-12_22-16-02.jpg,d.zip,714,1280,JPEG
-AF-P9-041,Wine Red Leaf Print Top & Palazzo Set - Design 41,AF-P9-041-1,./product_images/AF-P9-041-1.jpg,1,,c_combined.pdf,product,photo_41_2026-11-12_22-16-02.jpg,d.zip,896,1200,JPEG
-AF-P9-042,Red Geometric Print Top & Palazzo Set - Design 42,AF-P9-042-1,./product_images/AF-P9-042-1.jpg,1,,c_combined.pdf,product,photo_42_2026-11-12_22-16-02.jpg,d.zip,848,1264,JPEG
-AF-P9-043,Brown Floral Print Top & Palazzo Set - Design 43,AF-P9-043-1,./product_images/AF-P9-043-1.jpg,1,,c_combined.pdf,product,photo_43_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-044,Ivory Leaf Print Top & Palazzo Set - Design 44,AF-P9-044-1,./product_images/AF-P9-044-1.jpg,1,,c_combined.pdf,product,photo_44_2026-11-12_22-16-03.jpg,d.zip,714,1280,JPEG
-AF-P9-045,Navy Blue Floral Print Top & Palazzo Set - Design 45,AF-P9-045-1,./product_images/AF-P9-045-1.jpg,1,,c_combined.pdf,product,photo_45_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-046,Aqua Tropical Floral Top & Palazzo Set - Design 46,AF-P9-046-1,./product_images/AF-P9-046-1.jpg,1,,c_combined.pdf,product,photo_46_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-047,White & Pink Floral Top & Palazzo Set - Design 47,AF-P9-047-1,./product_images/AF-P9-047-1.jpg,1,,c_combined.pdf,product,photo_47_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-048,Cream Blue Botanical Top & Palazzo Set - Design 48,AF-P9-048-1,./product_images/AF-P9-048-1.jpg,1,,c_combined.pdf,product,photo_48_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-049,Yellow Floral Print Top & Palazzo Set - Design 49,AF-P9-049-1,./product_images/AF-P9-049-1.jpg,1,,c_combined.pdf,product,photo_49_2026-11-12_22-16-03.jpg,d.zip,714,1280,JPEG
-AF-P9-050,Ivory Grey Motif Top & Palazzo Set - Design 50,AF-P9-050-1,./product_images/AF-P9-050-1.jpg,1,,c_combined.pdf,product,photo_50_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-051,Maroon Geometric Print Top & Palazzo Set - Design 51,AF-P9-051-1,./product_images/AF-P9-051-1.jpg,1,,c_combined.pdf,product,photo_51_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-052,Rust Floral Print Top & Palazzo Set - Design 52,AF-P9-052-1,./product_images/AF-P9-052-1.jpg,1,,c_combined.pdf,product,photo_52_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-053,Teal Pink Floral Top & Palazzo Set - Design 53,AF-P9-053-1,./product_images/AF-P9-053-1.jpg,1,,c_combined.pdf,product,photo_53_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-054,Red Ornamental Print Top & Palazzo Set - Design 54,AF-P9-054-1,./product_images/AF-P9-054-1.jpg,1,,c_combined.pdf,product,photo_54_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-055,Navy Floral Print Top & Palazzo Set - Design 55,AF-P9-055-1,./product_images/AF-P9-055-1.jpg,1,,c_combined.pdf,product,photo_55_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-056,Lilac Floral Print Top & Palazzo Set - Design 56,AF-P9-056-1,./product_images/AF-P9-056-1.jpg,1,,c_combined.pdf,product,photo_56_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-057,Navy Medallion Print Top & Palazzo Set - Design 57,AF-P9-057-1,./product_images/AF-P9-057-1.jpg,1,,c_combined.pdf,product,photo_57_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-058,Beige Striped Top & Palazzo Set - Design 58,AF-P9-058-1,./product_images/AF-P9-058-1.jpg,1,,c_combined.pdf,product,photo_58_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-059,Burgundy Leaf Print Top & Palazzo Set - Design 59,AF-P9-059-1,./product_images/AF-P9-059-1.jpg,1,,c_combined.pdf,product,photo_59_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-060,White Tropical Leaf Top & Palazzo Set - Design 60,AF-P9-060-1,./product_images/AF-P9-060-1.jpg,1,,c_combined.pdf,product,photo_61_2026-11-12_22-16-03.jpg,d.zip,714,1280,JPEG
-AF-P9-061,Black & Gold Botanical Top & Palazzo Set - Design 61,AF-P9-061-1,./product_images/AF-P9-061-1.jpg,1,,c_combined.pdf,product,photo_62_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-062,Sky Blue Floral Print Top & Palazzo Set - Design 62,AF-P9-062-1,./product_images/AF-P9-062-1.jpg,1,,c_combined.pdf,product,photo_63_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-063,Mustard Floral Print Top & Palazzo Set - Design 63,AF-P9-063-1,./product_images/AF-P9-063-1.jpg,1,,c_combined.pdf,product,photo_64_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-064,Red Botanical Print Top & Palazzo Set - Design 64,AF-P9-064-1,./product_images/AF-P9-064-1.jpg,1,,c_combined.pdf,product,photo_65_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-065,Yellow-Green Floral Top & Palazzo Set - Design 65,AF-P9-065-1,./product_images/AF-P9-065-1.jpg,1,,c_combined.pdf,product,photo_66_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-066,Indigo Floral Print Top & Palazzo Set - Design 66,AF-P9-066-1,./product_images/AF-P9-066-1.jpg,1,,c_combined.pdf,product,photo_67_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-067,Terracotta Geometric Print Top & Palazzo Set - Design 67,AF-P9-067-1,./product_images/AF-P9-067-1.jpg,1,,c_combined.pdf,product,photo_68_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-068,White & Charcoal Geometric Top & Palazzo Set - Design 68,AF-P9-068-1,./product_images/AF-P9-068-1.jpg,1,,c_combined.pdf,product,photo_69_2026-11-12_22-16-03.jpg,d.zip,714,1280,JPEG
-AF-P9-069,Mustard Botanical Print Top & Palazzo Set - Design 69,AF-P9-069-1,./product_images/AF-P9-069-1.jpg,1,,c_combined.pdf,product,photo_70_2026-11-12_22-16-03.jpg,d.zip,848,1264,JPEG
-AF-P9-070,Berry Red Geometric Top & Palazzo Set - Design 70,AF-P9-070-1,./product_images/AF-P9-070-1.jpg,1,,c_combined.pdf,product,photo_71_2026-11-12_22-16-03.jpg,d.zip,896,1200,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-1,./product_images/AF-P9-071-1.jpg,1,,c_combined.pdf,product,photo_72_2026-11-12_22-16-03.jpg,d.zip,960,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-2,./product_images/AF-P9-071-2.jpg,2,,c_combined.pdf,product,photo_73_2026-11-12_22-16-03.jpg,d.zip,914,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-3,./product_images/AF-P9-071-3.jpg,3,,c_combined.pdf,product,photo_74_2026-11-12_22-16-03.jpg,d.zip,925,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-4,./product_images/AF-P9-071-4.jpg,4,,c_combined.pdf,product,photo_75_2026-11-12_22-16-03.jpg,d.zip,917,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-5,./product_images/AF-P9-071-5.jpg,5,,c_combined.pdf,product,photo_76_2026-11-12_22-16-03.jpg,d.zip,927,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-6,./product_images/AF-P9-071-6.jpg,6,,c_combined.pdf,product,photo_77_2026-11-12_22-16-03.jpg,d.zip,922,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-7,./product_images/AF-P9-071-7.jpg,7,,c_combined.pdf,product,photo_78_2026-11-12_22-16-03.jpg,d.zip,925,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-8,./product_images/AF-P9-071-8.jpg,8,,c_combined.pdf,product,photo_79_2026-11-12_22-16-03.jpg,d.zip,935,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-9,./product_images/AF-P9-071-9.jpg,9,,c_combined.pdf,product,photo_80_2026-11-12_22-16-03.jpg,d.zip,1280,960,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-10,./product_images/AF-P9-071-10.jpg,10,,c_combined.pdf,product,photo_81_2026-11-12_22-16-03.jpg,d.zip,960,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-11,./product_images/AF-P9-071-11.jpg,11,,c_combined.pdf,product,photo_82_2026-11-12_22-16-03.jpg,d.zip,960,1280,JPEG
-AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-12,./product_images/AF-P9-071-12.jpg,12,,c_combined.pdf,product,photo_83_2026-11-12_22-16-03.jpg,d.zip,960,1280,JPEG
-AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-1,./product_images/AF-P9-072-1.jpg,1,,c_combined.pdf,product,photo_1_2026-11-12_22-15-33.jpg,d.zip,1254,1254,JPEG
-AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-2,./product_images/AF-P9-072-2.jpg,2,,c_combined.pdf,product,photo_2_2026-11-12_22-15-33.jpg,d.zip,1254,1254,JPEG
-AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-3,./product_images/AF-P9-072-3.jpg,3,,c_combined.pdf,product,photo_3_2026-11-12_22-15-33.jpg,d.zip,1254,1254,JPEG
-AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-4,./product_images/AF-P9-072-4.jpg,4,,c_combined.pdf,product,photo_4_2026-11-12_22-15-33.jpg,d.zip,1254,1254,JPEG
-AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-5,./product_images/AF-P9-072-5.jpg,5,,c_combined.pdf,product,photo_5_2026-11-12_22-15-33.jpg,d.zip,1254,1254,JPEG
-AF-P9-073,Black Long-Sleeve Winter Dress (WD22),AF-P9-073-1,./product_images/AF-P9-073-1.jpg,1,,c_combined.pdf,product,photo_6_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-074,Mustard Printed Winter Dress (D-317),AF-P9-074-1,./product_images/AF-P9-074-1.jpg,1,,c_combined.pdf,product,photo_7_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-075,Taupe Belted Winter Dress (WD54),AF-P9-075-1,./product_images/AF-P9-075-1.jpg,1,,c_combined.pdf,product,photo_8_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-076,Black Sleeveless Flared Dress (D109),AF-P9-076-1,./product_images/AF-P9-076-1.jpg,1,,c_combined.pdf,product,photo_9_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-077,Black Cutout-Neck Knit Dress (WD23),AF-P9-077-1,./product_images/AF-P9-077-1.jpg,1,,c_combined.pdf,product,photo_10_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-078,Burgundy Ribbed Winter Dress (WD84),AF-P9-078-1,./product_images/AF-P9-078-1.jpg,1,,c_combined.pdf,product,photo_11_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-079,Grey Colour-Block Knit Dress (WD18),AF-P9-079-1,./product_images/AF-P9-079-1.jpg,1,,c_combined.pdf,product,photo_12_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-080,Black Side-Cut Midi Dress (D111),AF-P9-080-1,./product_images/AF-P9-080-1.jpg,1,,c_combined.pdf,product,photo_13_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-081,Black Hooded Winter Tunic Dress (WD50),AF-P9-081-1,./product_images/AF-P9-081-1.jpg,1,,c_combined.pdf,product,photo_14_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-082,Dark Green Flared Winter Dress (WD82),AF-P9-082-1,./product_images/AF-P9-082-1.jpg,1,,c_combined.pdf,product,photo_15_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-083,Brown Textured Winter Dress (WD56),AF-P9-083-1,./product_images/AF-P9-083-1.jpg,1,,c_combined.pdf,product,photo_16_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-084,Teal Winter Sweater Dress (WD61),AF-P9-084-1,./product_images/AF-P9-084-1.jpg,1,,c_combined.pdf,product,photo_17_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-085,Beige Knit Winter Dress (WD32),AF-P9-085-1,./product_images/AF-P9-085-1.jpg,1,,c_combined.pdf,product,photo_18_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-086,Red Cable-Knit Sweater Dress (WC65),AF-P9-086-1,./product_images/AF-P9-086-1.jpg,1,,c_combined.pdf,product,photo_19_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-087,Grey Piped Winter Dress (WC66),AF-P9-087-1,./product_images/AF-P9-087-1.jpg,1,,c_combined.pdf,product,photo_20_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-088,Blush Pink Draped Winter Dress (WD76),AF-P9-088-1,./product_images/AF-P9-088-1.jpg,1,,c_combined.pdf,product,photo_21_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-089,Black Knit Midi Winter Dress (WD71),AF-P9-089-1,./product_images/AF-P9-089-1.jpg,1,,c_combined.pdf,product,photo_22_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-090,Black Button-Detail Net-Flare Dress (WD74),AF-P9-090-1,./product_images/AF-P9-090-1.jpg,1,,c_combined.pdf,product,photo_23_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-091,Rust Brown Winter Sweater Dress (WD67),AF-P9-091-1,./product_images/AF-P9-091-1.jpg,1,,c_combined.pdf,product,photo_24_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-092,Black Wrap-Detail Winter Dress (WD75),AF-P9-092-1,./product_images/AF-P9-092-1.jpg,1,,c_combined.pdf,product,photo_25_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-093,Multicolour Striped Sweater Dress (WD79),AF-P9-093-1,./product_images/AF-P9-093-1.jpg,1,,c_combined.pdf,product,photo_26_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-094,Black & Gold Hem-Detail Dress (WD78),AF-P9-094-1,./product_images/AF-P9-094-1.jpg,1,,c_combined.pdf,product,photo_27_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-095,Black Ribbed Winter Dress (WD73),AF-P9-095-1,./product_images/AF-P9-095-1.jpg,1,,c_combined.pdf,product,photo_28_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-096,Black Button-Front Knit Dress (WD72),AF-P9-096-1,./product_images/AF-P9-096-1.jpg,1,,c_combined.pdf,product,photo_29_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-097,Burgundy Turtle-Neck Winter Dress (WC64),AF-P9-097-1,./product_images/AF-P9-097-1.jpg,1,,c_combined.pdf,product,photo_30_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-098,Beige Slogan Knit Tunic (WD62),AF-P9-098-1,./product_images/AF-P9-098-1.jpg,1,,c_combined.pdf,product,photo_31_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-099,Red & Black Colour-Block Dress (WD59),AF-P9-099-1,./product_images/AF-P9-099-1.jpg,1,,c_combined.pdf,product,photo_32_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-100,Grey Winter Midi Dress (WD12),AF-P9-100-1,./product_images/AF-P9-100-1.jpg,1,,c_combined.pdf,product,photo_33_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-101,Taupe Knit Midi Dress (WD14),AF-P9-101-1,./product_images/AF-P9-101-1.jpg,1,,c_combined.pdf,product,photo_34_2026-11-12_22-15-33.jpg,d.zip,853,1280,JPEG
-AF-P9-102,Black Tunic with Contrast Hem (WD80),AF-P9-102-1,./product_images/AF-P9-102-1.jpg,1,,c_combined.pdf,product,photo_35_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-103,Beige Ribbed Winter Dress (WD81),AF-P9-103-1,./product_images/AF-P9-103-1.jpg,1,,c_combined.pdf,product,photo_36_2026-11-12_22-15-33.jpg,d.zip,960,1280,JPEG
-AF-P9-104,Black Baggy-Style Midi Dress (D412),AF-P9-104-1,./product_images/AF-P9-104-1.jpg,1,,c_combined.pdf,product,photo_37_2026-11-12_22-15-34.jpg,d.zip,720,1280,JPEG
-AF-P9-105,Black Ribbed Winter Dress (WD20),AF-P9-105-1,./product_images/AF-P9-105-1.jpg,1,,c_combined.pdf,product,photo_38_2026-11-12_22-15-34.jpg,d.zip,853,1280,JPEG
-AF-P9-106,Black Ruffle-Hem Winter Dress (WD83),AF-P9-106-1,./product_images/AF-P9-106-1.jpg,1,,c_combined.pdf,product,photo_39_2026-11-12_22-15-34.jpg,d.zip,1170,1280,JPEG
-AF-P9-107,Black Ribbed Long-Sleeve Dress (WD85),AF-P9-107-1,./product_images/AF-P9-107-1.jpg,1,,c_combined.pdf,product,photo_40_2026-11-12_22-15-34.jpg,d.zip,1170,1280,JPEG
-AF-P9-108,Grey Polka-Dot Winter Dress (WD70),AF-P9-108-1,./product_images/AF-P9-108-1.jpg,1,,c_combined.pdf,product,photo_41_2026-11-12_22-15-34.jpg,d.zip,960,1280,JPEG
-AF-P9-109,Blush Pink Ruffle-Detail Dress (WD69),AF-P9-109-1,./product_images/AF-P9-109-1.jpg,1,,c_combined.pdf,product,photo_42_2026-11-12_22-15-34.jpg,d.zip,960,1280,JPEG
-AF-P9-110,Light Blue Winter Dress (WD68),AF-P9-110-1,./product_images/AF-P9-110-1.jpg,1,,c_combined.pdf,product,photo_43_2026-11-12_22-15-34.jpg,d.zip,960,1280,JPEG
-AF-P9-111,Chocolate Brown Winter Dress (WD30),AF-P9-111-1,./product_images/AF-P9-111-1.jpg,1,,c_combined.pdf,product,photo_44_2026-11-12_22-15-34.jpg,d.zip,853,1280,JPEG
-AF-P9-112,Black & White Striped Maxi Dress (D83),AF-P9-112-1,./product_images/AF-P9-112-1.jpg,1,,c_combined.pdf,product,photo_45_2026-11-12_22-15-34.jpg,d.zip,853,1280,JPEG
-AF-P9-113,Black Lace-Sleeve Winter Dress (D368),AF-P9-113-1,./product_images/AF-P9-113-1.jpg,1,,c_combined.pdf,product,photo_46_2026-11-12_22-15-34.jpg,d.zip,853,1280,JPEG
-AF-P9-114,Red Top with Black Skirt Set (D301),AF-P9-114-1,./product_images/AF-P9-114-1.jpg,1,,c_combined.pdf,product,photo_47_2026-11-12_22-15-34.jpg,d.zip,722,1280,JPEG
-AF-P9-115,Black V-Neck Winter Maxi Dress (D376),AF-P9-115-1,./product_images/AF-P9-115-1.jpg,1,,c_combined.pdf,product,photo_48_2026-11-12_22-15-34.jpg,d.zip,720,1280,JPEG
-AF-P9-116,Black Hooded Winter Tunic (WD53),AF-P9-116-1,./product_images/AF-P9-116-1.jpg,1,,c_combined.pdf,product,photo_49_2026-11-12_22-15-34.jpg,d.zip,960,1280,JPEG
-AF-P9-117,Navy Blue Puff-Sleeve Winter Tunic (WD06),AF-P9-117-1,./product_images/AF-P9-117-1.jpg,1,,c_combined.pdf,product,photo_50_2026-11-12_22-15-34.jpg,d.zip,853,1280,JPEG
-AF-P9-119,Denim Co-ord Set - Fancy Circle Design,AF-P9-119-1,./product_images/AF-P9-119-1.jpg,1,,c_combined.pdf,product,photo_51_2026-11-12_22-15-34.jpg,d.zip,1067,1280,JPEG
-AF-P9-120,Flora Denim Embroidered Co-ord Set (No. 1087),AF-P9-120-1,./product_images/AF-P9-120-1.jpg,1,,c_combined.pdf,product,photo_97_2026-11-12_22-15-34.jpg,d.zip,853,1280,JPEG
+﻿productId,productName,imageId,imagePath,imageOrder,indexPdfPage
+AF-P1-001,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-001-1,./product_images/AF-P1-001-1.jpg,1,1
+AF-P1-001,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-001-2,./product_images/AF-P1-001-2.jpg,2,2
+AF-P1-002,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-002-1,./product_images/AF-P1-002-1.jpg,1,3
+AF-P1-002,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-002-2,./product_images/AF-P1-002-2.jpg,2,4
+AF-P1-003,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-003-1,./product_images/AF-P1-003-1.jpg,1,5
+AF-P1-003,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-003-2,./product_images/AF-P1-003-2.jpg,2,6
+AF-P1-004,"BOGHRA SALES Brass, Metal & Alloy Gold-plated Jewel Set",AF-P1-004-1,./product_images/AF-P1-004-1.jpg,1,7
+AF-P1-004,"BOGHRA SALES Brass, Metal & Alloy Gold-plated Jewel Set",AF-P1-004-2,./product_images/AF-P1-004-2.jpg,2,8
+AF-P1-005,Flaring Brass Gold-plated Gold Jewel Set (Pack of 2),AF-P1-005-1,./product_images/AF-P1-005-1.jpg,1,9
+AF-P1-005,Flaring Brass Gold-plated Gold Jewel Set (Pack of 2),AF-P1-005-2,./product_images/AF-P1-005-2.jpg,2,10
+AF-P1-006,"SVENTS Alloy Gold, White Jewel Set (Pack of 2)",AF-P1-006-1,./product_images/AF-P1-006-1.jpg,1,11
+AF-P1-006,"SVENTS Alloy Gold, White Jewel Set (Pack of 2)",AF-P1-006-2,./product_images/AF-P1-006-2.jpg,2,12
+AF-P1-007,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-007-1,./product_images/AF-P1-007-1.jpg,1,13
+AF-P1-007,BOGHRA SALES Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-007-2,./product_images/AF-P1-007-2.jpg,2,14
+AF-P1-008,Bulsenk Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-008-1,./product_images/AF-P1-008-1.jpg,1,15
+AF-P1-008,Bulsenk Alloy Gold-plated Gold Jewel Set (Pack of 1),AF-P1-008-2,./product_images/AF-P1-008-2.jpg,2,16
+AF-P1-009,Yash Collection Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-009-1,./product_images/AF-P1-009-1.jpg,1,17
+AF-P1-009,Yash Collection Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-009-2,./product_images/AF-P1-009-2.jpg,2,18
+AF-P1-010,TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-010-1,./product_images/AF-P1-010-1.jpg,1,19
+AF-P1-010,TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-010-2,./product_images/AF-P1-010-2.jpg,2,20
+AF-P1-010,TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-010-3,./product_images/AF-P1-010-3.jpg,3,21
+AF-P1-010,TheSanga Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-010-4,./product_images/AF-P1-010-4.jpg,4,22
+AF-P1-011,VISITART JEWELLERY Alloy Gold-plated Gold Jewel Set,AF-P1-011-1,./product_images/AF-P1-011-1.jpg,1,23
+AF-P1-011,VISITART JEWELLERY Alloy Gold-plated Gold Jewel Set,AF-P1-011-2,./product_images/AF-P1-011-2.jpg,2,24
+AF-P1-012,"Zestylo Alloy Gold-plated Gold, Green Jewel Set (Pack of 1)",AF-P1-012-1,./product_images/AF-P1-012-1.jpg,1,25
+AF-P1-012,"Zestylo Alloy Gold-plated Gold, Green Jewel Set (Pack of 1)",AF-P1-012-2,./product_images/AF-P1-012-2.jpg,2,26
+AF-P1-013,Sanchi Alloy Gold Jewel Set (Pack of 3),AF-P1-013-1,./product_images/AF-P1-013-1.jpg,1,27
+AF-P1-013,Sanchi Alloy Gold Jewel Set (Pack of 3),AF-P1-013-2,./product_images/AF-P1-013-2.jpg,2,28
+AF-P1-015,"Savara Jewels Brass, Alloy Brass Multicolor, White Jewel Set",AF-P1-015-1,./product_images/AF-P1-015-1.jpg,1,31
+AF-P1-015,"Savara Jewels Brass, Alloy Brass Multicolor, White Jewel Set",AF-P1-015-2,./product_images/AF-P1-015-2.jpg,2,32
+AF-P1-018,ENTAN Liyer Chain - Silver-plated Layered Necklace,AF-P1-018-1,./product_images/AF-P1-018-1.jpg,1,37
+AF-P1-018,ENTAN Liyer Chain - Silver-plated Layered Necklace,AF-P1-018-2,./product_images/AF-P1-018-2.jpg,2,38
+AF-P1-019,MoonPearl Gold-plated Stainless Steel Necklace,AF-P1-019-1,./product_images/AF-P1-019-1.jpg,1,39
+AF-P1-019,MoonPearl Gold-plated Stainless Steel Necklace,AF-P1-019-2,./product_images/AF-P1-019-2.jpg,2,40
+AF-P1-020,Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set,AF-P1-020-1,./product_images/AF-P1-020-1.jpg,1,41
+AF-P1-020,Dhanasvi Enterprisee 6 PCS Korean-style Pendant Necklace Set,AF-P1-020-2,./product_images/AF-P1-020-2.jpg,2,42
+AF-P1-021,Yash Sales Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-021-1,./product_images/AF-P1-021-1.jpg,1,43
+AF-P1-021,Yash Sales Brass Gold-plated Gold Jewel Set (Pack of 1),AF-P1-021-2,./product_images/AF-P1-021-2.jpg,2,44
+AF-P1-022,Raj And Deb Alloy Gold-plated Gold Jewel Set (Pack of 3),AF-P1-022-1,./product_images/AF-P1-022-1.jpg,1,45
+AF-P1-022,Raj And Deb Alloy Gold-plated Gold Jewel Set (Pack of 3),AF-P1-022-2,./product_images/AF-P1-022-2.jpg,2,46
+AF-P1-026,"Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",AF-P1-026-1,./product_images/AF-P1-026-1.jpg,1,53
+AF-P1-026,"Alucia Bracelet, Jewellery, Keychain, Gift Box Gift Set",AF-P1-026-2,./product_images/AF-P1-026-2.jpg,2,54
+AF-P1-027,Starliven Jewellery Gift Set,AF-P1-027-1,./product_images/AF-P1-027-1.jpg,1,55
+AF-P1-027,Starliven Jewellery Gift Set,AF-P1-027-2,./product_images/AF-P1-027-2.jpg,2,56
+AF-P1-029,Starliven Jewellery Gift Set,AF-P1-029-1,./product_images/AF-P1-029-1.jpg,1,59
+AF-P1-029,Starliven Jewellery Gift Set,AF-P1-029-2,./product_images/AF-P1-029-2.jpg,2,60
+AF-P1-030,Dear 90 Gift Box Gift Set,AF-P1-030-1,./product_images/AF-P1-030-1.jpg,1,61
+AF-P1-030,Dear 90 Gift Box Gift Set,AF-P1-030-2,./product_images/AF-P1-030-2.jpg,2,62
+AF-P1-031,PurePendant Jewellery Gift Box Gift Set,AF-P1-031-1,./product_images/AF-P1-031-1.jpg,1,63
+AF-P1-031,PurePendant Jewellery Gift Box Gift Set,AF-P1-031-2,./product_images/AF-P1-031-2.jpg,2,64
+AF-P1-032,"Alucia Bracelet, Gift Box, Keychain, Jewellery Gift Set",AF-P1-032-1,./product_images/AF-P1-032-1.jpg,1,65
+AF-P1-032,"Alucia Bracelet, Gift Box, Keychain, Jewellery Gift Set",AF-P1-032-2,./product_images/AF-P1-032-2.jpg,2,66
+AF-P1-038,"Floricraft Jewellery, Gift Box Gift Set",AF-P1-038-1,./product_images/AF-P1-038-1.jpg,1,77
+AF-P1-038,"Floricraft Jewellery, Gift Box Gift Set",AF-P1-038-2,./product_images/AF-P1-038-2.jpg,2,78
+AF-P1-040,"Floricraft Greeting Card, Jewellery, Gift Box Gift Set",AF-P1-040-1,./product_images/AF-P1-040-1.jpg,1,81
+AF-P1-040,"Floricraft Greeting Card, Jewellery, Gift Box Gift Set",AF-P1-040-2,./product_images/AF-P1-040-2.jpg,2,82
+AF-P1-041,Starliven Jewellery Gift Set,AF-P1-041-1,./product_images/AF-P1-041-1.jpg,1,83
+AF-P1-041,Starliven Jewellery Gift Set,AF-P1-041-2,./product_images/AF-P1-041-2.jpg,2,84
+AF-P1-043,"Ji Shri Jewellery, Bracelet, Key Ring, Gift Box Gift Set",AF-P1-043-1,./product_images/AF-P1-043-1.jpg,1,87
+AF-P1-043,"Ji Shri Jewellery, Bracelet, Key Ring, Gift Box Gift Set",AF-P1-043-2,./product_images/AF-P1-043-2.jpg,2,88
+AF-P1-044,"Glisha Jewellery, Bracelet, Gift Box Gift Set",AF-P1-044-1,./product_images/AF-P1-044-1.jpg,1,89
+AF-P1-044,"Glisha Jewellery, Bracelet, Gift Box Gift Set",AF-P1-044-2,./product_images/AF-P1-044-2.jpg,2,90
+AF-P1-045,"SFEP Artificial Flower, Gift Box Gift Set",AF-P1-045-1,./product_images/AF-P1-045-1.jpg,1,91
+AF-P1-045,"SFEP Artificial Flower, Gift Box Gift Set",AF-P1-045-2,./product_images/AF-P1-045-2.jpg,2,92
+AF-P1-046,Mycraftcrazy Showpiece Gift Set,AF-P1-046-1,./product_images/AF-P1-046-1.jpg,1,93
+AF-P1-046,Mycraftcrazy Showpiece Gift Set,AF-P1-046-2,./product_images/AF-P1-046-2.jpg,2,94
+AF-P1-047,Mycraftcrazy Showpiece Gift Set,AF-P1-047-1,./product_images/AF-P1-047-1.jpg,1,95
+AF-P1-047,Mycraftcrazy Showpiece Gift Set,AF-P1-047-2,./product_images/AF-P1-047-2.jpg,2,96
+AF-P1-048,Earnam Showpiece Gift Set,AF-P1-048-1,./product_images/AF-P1-048-1.jpg,1,97
+AF-P1-048,Earnam Showpiece Gift Set,AF-P1-048-2,./product_images/AF-P1-048-2.jpg,2,98
+AF-P1-050,Mycraftcrazy Showpiece Gift Set,AF-P1-050-1,./product_images/AF-P1-050-1.jpg,1,101
+AF-P1-050,Mycraftcrazy Showpiece Gift Set,AF-P1-050-2,./product_images/AF-P1-050-2.jpg,2,102
+AF-P1-051,Earnam Showpiece Gift Set,AF-P1-051-1,./product_images/AF-P1-051-1.jpg,1,103
+AF-P1-051,Earnam Showpiece Gift Set,AF-P1-051-2,./product_images/AF-P1-051-2.jpg,2,104
+AF-P1-052,Effete Gift Hamper with Ganesha Idol,AF-P1-052-1,./product_images/AF-P1-052-1.jpg,1,105
+AF-P1-052,Effete Gift Hamper with Ganesha Idol,AF-P1-052-2,./product_images/AF-P1-052-2.jpg,2,106
+AF-P1-053,"PUREHEART Dry Fruits Diwali Gift Hamper - Cashews, Cranberry & Nuts",AF-P1-053-1,./product_images/AF-P1-053-1.jpg,1,107
+AF-P1-053,"PUREHEART Dry Fruits Diwali Gift Hamper - Cashews, Cranberry & Nuts",AF-P1-053-2,./product_images/AF-P1-053-2.jpg,2,108
+AF-P1-054,International Gift Showpiece Gift Set,AF-P1-054-1,./product_images/AF-P1-054-1.jpg,1,109
+AF-P1-054,International Gift Showpiece Gift Set,AF-P1-054-2,./product_images/AF-P1-054-2.jpg,2,110
+AF-P1-055,Yaara Enterprise 36-Grids Clear Plastic Storage Box,AF-P1-055-1,./product_images/AF-P1-055-1.jpg,1,111
+AF-P1-055,Yaara Enterprise 36-Grids Clear Plastic Storage Box,AF-P1-055-2,./product_images/AF-P1-055-2.jpg,2,112
+AF-P1-056,Collectible India Laxmi Ganesh Saraswati Idol Diya Oil Lamp,AF-P1-056-1,./product_images/AF-P1-056-1.jpg,1,113
+AF-P1-056,Collectible India Laxmi Ganesh Saraswati Idol Diya Oil Lamp,AF-P1-056-2,./product_images/AF-P1-056-2.jpg,2,114
+AF-P1-057,FNF Creation Metal Decorative Flower-shaped Diya,AF-P1-057-1,./product_images/AF-P1-057-1.jpg,1,115
+AF-P1-057,FNF Creation Metal Decorative Flower-shaped Diya,AF-P1-057-2,./product_images/AF-P1-057-2.jpg,2,116
+AF-P1-058,FNF Creation Water Sensor Reusable LED Diyas,AF-P1-058-1,./product_images/AF-P1-058-1.jpg,1,117
+AF-P1-058,FNF Creation Water Sensor Reusable LED Diyas,AF-P1-058-2,./product_images/AF-P1-058-2.jpg,2,118
+AF-P1-059,AuraSip LED Tea Light Candles for Diwali & Pooja,AF-P1-059-1,./product_images/AF-P1-059-1.jpg,1,119
+AF-P1-059,AuraSip LED Tea Light Candles for Diwali & Pooja,AF-P1-059-2,./product_images/AF-P1-059-2.jpg,2,120
+AF-P1-060,Viskri Multishape Multicolour 3D Reflection Diya Set,AF-P1-060-1,./product_images/AF-P1-060-1.jpg,1,121
+AF-P1-060,Viskri Multishape Multicolour 3D Reflection Diya Set,AF-P1-060-2,./product_images/AF-P1-060-2.jpg,2,122
+AF-P1-061,Flashkitch 3D Reflection Diwali Diya Combo,AF-P1-061-1,./product_images/AF-P1-061-1.jpg,1,123
+AF-P1-061,Flashkitch 3D Reflection Diwali Diya Combo,AF-P1-061-2,./product_images/AF-P1-061-2.jpg,2,124
+AF-P1-062,Swagata Store Water Sensor LED Electric Diyas,AF-P1-062-1,./product_images/AF-P1-062-1.jpg,1,125
+AF-P1-062,Swagata Store Water Sensor LED Electric Diyas,AF-P1-062-2,./product_images/AF-P1-062-2.jpg,2,126
+AF-P1-063,Zunis Deepak Urli Decorative Showpiece,AF-P1-063-1,./product_images/AF-P1-063-1.jpg,1,127
+AF-P1-063,Zunis Deepak Urli Decorative Showpiece,AF-P1-063-2,./product_images/AF-P1-063-2.jpg,2,128
+AF-P2-001,Ruby Key Necklace,AF-P2-001-1,./product_images/AF-P2-001-1.jpg,1,129
+AF-P2-002,Urban Loop Keychain,AF-P2-002-1,./product_images/AF-P2-002-1.jpg,1,130
+AF-P2-003,Evil Eye Bead Necklace,AF-P2-003-1,./product_images/AF-P2-003-1.jpg,1,131
+AF-P2-004,Metro Clip Keychain,AF-P2-004-1,./product_images/AF-P2-004-1.jpg,1,132
+AF-P2-005,Ivory Blossom Earrings,AF-P2-005-1,./product_images/AF-P2-005-1.jpg,1,133
+AF-P2-006,Pearl Dot Studs,AF-P2-006-1,./product_images/AF-P2-006-1.jpg,1,134
+AF-P2-007,Square Crystal Studs,AF-P2-007-1,./product_images/AF-P2-007-1.jpg,1,135
+AF-P2-008,Golden Bloom Studs,AF-P2-008-1,./product_images/AF-P2-008-1.jpg,1,136
+AF-P2-009,Pearl Bow Earrings,AF-P2-009-1,./product_images/AF-P2-009-1.jpg,1,137
+AF-P2-010,Celeste Pendant Set,AF-P2-010-1,./product_images/AF-P2-010-1.jpg,1,138
+AF-P2-011,Golden Charm Necklace,AF-P2-011-1,./product_images/AF-P2-011-1.jpg,1,139
+AF-P2-012,Classic Snake Chain,AF-P2-012-1,./product_images/AF-P2-012-1.jpg,1,140
+AF-P2-013,Coin Charm Chain,AF-P2-013-1,./product_images/AF-P2-013-1.jpg,1,141
+AF-P2-014,Coastal Shell Bracelet,AF-P2-014-1,./product_images/AF-P2-014-1.jpg,1,142
+AF-P2-015,Cherry Drop Earrings,AF-P2-015-1,./product_images/AF-P2-015-1.jpg,1,143
+AF-P2-016,Pearl Halo Studs,AF-P2-016-1,./product_images/AF-P2-016-1.jpg,1,144
+AF-P2-017,Golden Crest Mangalsutra,AF-P2-017-1,./product_images/AF-P2-017-1.jpg,1,145
+AF-P2-018,Heartline Mangalsutra,AF-P2-018-1,./product_images/AF-P2-018-1.jpg,1,146
+AF-P2-019,Crystal Teardrop Mangalsutra,AF-P2-019-1,./product_images/AF-P2-019-1.jpg,1,147
+AF-P2-020,Square Radiance Mangalsutra,AF-P2-020-1,./product_images/AF-P2-020-1.jpg,1,148
+AF-P2-021,Floral Medallion Mangalsutra,AF-P2-021-1,./product_images/AF-P2-021-1.jpg,1,149
+AF-P2-022,Classic Crystal Pendant Set,AF-P2-022-1,./product_images/AF-P2-022-1.jpg,1,150
+AF-P2-023,Ornate Circle Mangalsutra,AF-P2-023-1,./product_images/AF-P2-023-1.jpg,1,151
+AF-P2-024,Regal Crystal Jewellery Set,AF-P2-024-1,./product_images/AF-P2-024-1.jpg,1,152
+AF-P2-025,Traditional Gold-Tone Jewellery Set,AF-P2-025-1,./product_images/AF-P2-025-1.jpg,1,153
+AF-P2-026,Ruby Medallion Mangalsutra,AF-P2-026-1,./product_images/AF-P2-026-1.jpg,1,154
+AF-P2-027,Crystal Arc Mangalsutra,AF-P2-027-1,./product_images/AF-P2-027-1.jpg,1,155
+AF-P2-028,Minimal Bead Mangalsutra,AF-P2-028-1,./product_images/AF-P2-028-1.jpg,1,156
+AF-P2-029,Diamond Fan Mangalsutra,AF-P2-029-1,./product_images/AF-P2-029-1.jpg,1,157
+AF-P2-030,Graceful Curve Mangalsutra,AF-P2-030-1,./product_images/AF-P2-030-1.jpg,1,158
+AF-P2-031,Heritage Ruby Mangalsutra,AF-P2-031-1,./product_images/AF-P2-031-1.jpg,1,159
+AF-P2-032,Crystal Fan Mangalsutra,AF-P2-032-1,./product_images/AF-P2-032-1.jpg,1,160
+AF-P2-033,Butterfly Charm Mangalsutra,AF-P2-033-1,./product_images/AF-P2-033-1.jpg,1,161
+AF-P2-034,Bloom Curve Mangalsutra,AF-P2-034-1,./product_images/AF-P2-034-1.jpg,1,162
+AF-P2-035,Heart Glow Studs,AF-P2-035-1,./product_images/AF-P2-035-1.jpg,1,163
+AF-P2-036,Pearl Cascade Earrings,AF-P2-036-1,./product_images/AF-P2-036-1.jpg,1,164
+AF-P2-037,Peacock Drop Earrings,AF-P2-037-1,./product_images/AF-P2-037-1.jpg,1,165
+AF-P2-038,Petal Cascade Earrings,AF-P2-038-1,./product_images/AF-P2-038-1.jpg,1,166
+AF-P2-039,Rose Gold Square Dangles,AF-P2-039-1,./product_images/AF-P2-039-1.jpg,1,167
+AF-P2-040,Golden Frame Drop Earrings,AF-P2-040-1,./product_images/AF-P2-040-1.jpg,1,168
+AF-P2-041,Starlight Bloom Earrings,AF-P2-041-1,./product_images/AF-P2-041-1.jpg,1,169
+AF-P2-042,Regal Frame Drop Earrings,AF-P2-042-1,./product_images/AF-P2-042-1.jpg,1,170
+AF-P2-043,Petal Glow Drop Earrings,AF-P2-043-1,./product_images/AF-P2-043-1.jpg,1,171
+AF-P2-044,Triad Crystal Cascade Earrings,AF-P2-044-1,./product_images/AF-P2-044-1.jpg,1,172
+AF-P2-045,Pearl Teardrop Earrings,AF-P2-045-1,./product_images/AF-P2-045-1.jpg,1,173
+AF-P2-046,Golden Leaf Chain Earrings,AF-P2-046-1,./product_images/AF-P2-046-1.jpg,1,174
+AF-P2-047,Lattice Bloom Studs,AF-P2-047-1,./product_images/AF-P2-047-1.jpg,1,175
+AF-P2-048,Halo Petal Drop Earrings,AF-P2-048-1,./product_images/AF-P2-048-1.jpg,1,176
+AF-P2-049,Crystal Frame Cascade Earrings,AF-P2-049-1,./product_images/AF-P2-049-1.jpg,1,177
+AF-P2-050,Silver Bloom Dangle Earrings,AF-P2-050-1,./product_images/AF-P2-050-1.jpg,1,178
+AF-P2-051,Geometric Bloom Studs,AF-P2-051-1,./product_images/AF-P2-051-1.jpg,1,179
+AF-P2-052,Ruby Blossom Studs,AF-P2-052-1,./product_images/AF-P2-052-1.jpg,1,180
+AF-P2-053,Rose Halo Cascade Earrings,AF-P2-053-1,./product_images/AF-P2-053-1.jpg,1,181
+AF-P3-001,Lace & Bloom Jute Tote,AF-P3-001-1,./product_images/AF-P3-001-1.jpg,1,1
+AF-P3-002,Verdant Floral Bottle Bag,AF-P3-002-1,./product_images/AF-P3-002-1.jpg,1,2
+AF-P3-003,Celestial Cascade Earrings,AF-P3-003-1,./product_images/AF-P3-003-1.jpg,1,3
+AF-P3-004,Pearl & Crystal Drop Earrings,AF-P3-004-1,./product_images/AF-P3-004-1.jpg,1,4
+AF-P3-005,Heartlight Stud Earrings,AF-P3-005-1,./product_images/AF-P3-005-1.jpg,1,5
+AF-P3-006,Celestial Bell Drop Earrings,AF-P3-006-1,./product_images/AF-P3-006-1.jpg,1,6
+AF-P3-007,Crystal Square Jhumka Drops,AF-P3-007-1,./product_images/AF-P3-007-1.jpg,1,7
+AF-P3-008,Golden Petal Cascade Earrings,AF-P3-008-1,./product_images/AF-P3-008-1.jpg,1,8
+AF-P3-009,Peacock Grace Drop Earrings,AF-P3-009-1,./product_images/AF-P3-009-1.jpg,1,9
+AF-P3-010,Golden Chain Cascade Earrings,AF-P3-010-1,./product_images/AF-P3-010-1.jpg,1,10
+AF-P3-011,Crystal Leaf Tassel Earrings,AF-P3-011-1,./product_images/AF-P3-011-1.jpg,1,11
+AF-P3-012,Floral Bloom Cascade Earrings,AF-P3-012-1,./product_images/AF-P3-012-1.jpg,1,12
+AF-P3-013,Pearl Halo Drop Earrings,AF-P3-013-1,./product_images/AF-P3-013-1.jpg,1,13
+AF-P3-014,Geometric Crystal Cascade Earrings,AF-P3-014-1,./product_images/AF-P3-014-1.jpg,1,14
+AF-P3-015,Triangular Crystal Drop Earrings,AF-P3-015-1,./product_images/AF-P3-015-1.jpg,1,15
+AF-P3-016,Radiant Bloom Drop Earrings,AF-P3-016-1,./product_images/AF-P3-016-1.jpg,1,16
+AF-P3-017,Ruby Bloom Stud Earrings,AF-P3-017-1,./product_images/AF-P3-017-1.jpg,1,17
+AF-P3-018,Golden Halo Drop Earrings,AF-P3-018-1,./product_images/AF-P3-018-1.jpg,1,18
+AF-P3-019,Golden Lattice Stud Earrings,AF-P3-019-1,./product_images/AF-P3-019-1.jpg,1,19
+AF-P3-020,Crystal Vine Dangle Earrings,AF-P3-020-1,./product_images/AF-P3-020-1.jpg,1,20
+AF-P3-021,Rose Gold Cascade Earrings,AF-P3-021-1,./product_images/AF-P3-021-1.jpg,1,21
+AF-P3-022,Tribal Bell Jhumkas,AF-P3-022-1,./product_images/AF-P3-022-1.jpg,1,22
+AF-P3-023,Rangoli Stone Drop Earrings,AF-P3-023-1,./product_images/AF-P3-023-1.jpg,1,23
+AF-P3-024,Peacock Heritage Jhumkas,AF-P3-024-1,./product_images/AF-P3-024-1.jpg,1,24
+AF-P3-025,Ruby Peacock Drop Earrings,AF-P3-025-1,./product_images/AF-P3-025-1.jpg,1,25
+AF-P3-026,Emerald Pearl Jhumkas,AF-P3-026-1,./product_images/AF-P3-026-1.jpg,1,26
+AF-P3-027,Birdsong Pearl Jhumkas,AF-P3-027-1,./product_images/AF-P3-027-1.jpg,1,27
+AF-P3-028,Moonstone Peacock Drop Earrings,AF-P3-028-1,./product_images/AF-P3-028-1.jpg,1,28
+AF-P3-029,Golden Filigree Butterfly,AF-P3-029-1,./product_images/AF-P3-029-1.jpg,1,29
+AF-P3-030,Heritage Coin Jhumkas,AF-P3-030-1,./product_images/AF-P3-030-1.jpg,1,30
+AF-P3-031,Pearl Heritage Jhumkas,AF-P3-031-1,./product_images/AF-P3-031-1.jpg,1,31
+AF-P3-032,Ruby Mandala Jhumkas,AF-P3-032-1,./product_images/AF-P3-032-1.jpg,1,32
+AF-P3-033,Heartline Charm Necklace,AF-P3-033-1,./product_images/AF-P3-033-1.jpg,1,33
+AF-P3-034,Meadow Bloom Necklace,AF-P3-034-1,./product_images/AF-P3-034-1.jpg,1,34
+AF-P3-035,Golden Butterfly Necklace,AF-P3-035-1,./product_images/AF-P3-035-1.jpg,1,35
+AF-P3-036,Tulip Bloom Necklace,AF-P3-036-1,./product_images/AF-P3-036-1.jpg,1,36
+AF-P3-037,Midnight Bloom Jewellery Set,AF-P3-037-1,./product_images/AF-P3-037-1.jpg,1,37
+AF-P3-038,Ruby Blossom Jewellery Set,AF-P3-038-1,./product_images/AF-P3-038-1.jpg,1,38
+AF-P3-039,Emerald Bloom Jewellery Set,AF-P3-039-1,./product_images/AF-P3-039-1.jpg,1,39
+AF-P3-040,Ruby Petal Jewellery Set,AF-P3-040-1,./product_images/AF-P3-040-1.jpg,1,40
+AF-P3-041,Ruby Drop Jewellery Set,AF-P3-041-1,./product_images/AF-P3-041-1.jpg,1,41
+AF-P3-042,Emerald Drop Jewellery Set,AF-P3-042-1,./product_images/AF-P3-042-1.jpg,1,42
+AF-P3-043,Sapphire Peacock Jewellery Set,AF-P3-043-1,./product_images/AF-P3-043-1.jpg,1,43
+AF-P3-044,Silver Blossom Anklet,AF-P3-044-1,./product_images/AF-P3-044-1.jpg,1,44
+AF-P3-045,Evil Eye Charm Anklet,AF-P3-045-1,./product_images/AF-P3-045-1.jpg,1,45
+AF-P3-046,Classic Silver Crescent Nose Ring,AF-P3-046-1,./product_images/AF-P3-046-1.jpg,1,46
+AF-P3-047,Crystal Crescent Nose Ring,AF-P3-047-1,./product_images/AF-P3-047-1.jpg,1,47
+AF-P3-048,Moonstone Peacock Drop Earrings,AF-P3-048-1,./product_images/AF-P3-048-1.jpg,1,48
+AF-P3-049,Silver Peacock Jhumkas,AF-P3-049-1,./product_images/AF-P3-049-1.jpg,1,49
+AF-P4-001,Blackstone Shimmring Beautiful Necklace Combo for Women and Girls,AF-P4-001-1,./product_images/AF-P4-001-1.jpg,1,1
+AF-P4-002,Hand Made Cotton Wick 1000pcs,AF-P4-002-1,./product_images/AF-P4-002-1.jpg,1,2
+AF-P4-002,Hand Made Cotton Wick 1000pcs,AF-P4-002-2,./product_images/AF-P4-002-2.jpg,2,2
+AF-P4-003,Elegant Everyday Necklace Set - Combo of 5 Necklaces,AF-P4-003-1,./product_images/AF-P4-003-1.jpg,1,3
+AF-P4-004,"Shreeji Imitation Brass, Alloy Bangle Set (Pack of 6)",AF-P4-004-1,./product_images/AF-P4-004-1.jpg,1,4
+AF-P4-005,HouseOfCommon Premium Transparent Printed Floral Cosmetic Pouch,AF-P4-005-1,./product_images/AF-P4-005-1.jpg,1,5
+AF-P4-005,HouseOfCommon Premium Transparent Printed Floral Cosmetic Pouch,AF-P4-005-2,./product_images/AF-P4-005-2.jpg,2,5
+AF-P5-001,Celestial Star & Heart Layered Bracelet,AF-P5-001-1,./product_images/AF-P5-001-1.jpg,1,1
+AF-P5-002,Daisy Bloom Pearl Charm Bracelet,AF-P5-002-1,./product_images/AF-P5-002-1.jpg,1,2
+AF-P5-003,Blue Eye & Pearl Charm Bracelet,AF-P5-003-1,./product_images/AF-P5-003-1.jpg,1,3
+AF-P5-004,Golden Lock & Coin Charm Bracelet,AF-P5-004-1,./product_images/AF-P5-004-1.jpg,1,4
+AF-P5-005,Crimson Daisy Pearl Charm Bracelet,AF-P5-005-1,./product_images/AF-P5-005-1.jpg,1,5
+AF-P5-006,Coastal Butterfly & Shell Bracelet,AF-P5-006-1,./product_images/AF-P5-006-1.jpg,1,6
+AF-P5-007,Golden Heritage Medallion Bracelet,AF-P5-007-1,./product_images/AF-P5-007-1.jpg,1,7
+AF-P5-008,Pastel Butterfly & Shell Charm Bracelet,AF-P5-008-1,./product_images/AF-P5-008-1.jpg,1,8
+AF-P5-009,The Ministry of Utmost Happiness,AF-P5-009-1,./product_images/AF-P5-009-1.jpg,1,1
+AF-P5-009,The Ministry of Utmost Happiness,AF-P5-009-2,./product_images/AF-P5-009-2.jpg,2,1
+AF-P5-010,The Ticking Lances,AF-P5-010-1,./product_images/AF-P5-010-1.jpg,1,2
+AF-P5-010,The Ticking Lances,AF-P5-010-2,./product_images/AF-P5-010-2.jpg,2,2
+AF-P5-011,"Pride, Prejudice & Punditry",AF-P5-011-1,./product_images/AF-P5-011-1.jpg,1,3
+AF-P5-011,"Pride, Prejudice & Punditry",AF-P5-011-2,./product_images/AF-P5-011-2.jpg,2,3
+AF-P5-012,Kuch Woh Pal,AF-P5-012-1,./product_images/AF-P5-012-1.jpg,1,4
+AF-P5-012,Kuch Woh Pal,AF-P5-012-2,./product_images/AF-P5-012-2.jpg,2,4
+AF-P5-013,Emma,AF-P5-013-1,./product_images/AF-P5-013-1.jpg,1,5
+AF-P5-013,Emma,AF-P5-013-2,./product_images/AF-P5-013-2.jpg,2,5
+AF-P5-014,An Era of Darkness,AF-P5-014-1,./product_images/AF-P5-014-1.jpg,1,6
+AF-P5-015,Northanger Abbey,AF-P5-015-1,./product_images/AF-P5-015-1.jpg,1,7
+AF-P5-015,Northanger Abbey,AF-P5-015-2,./product_images/AF-P5-015-2.jpg,2,7
+AF-P5-016,Pride and Prejudice,AF-P5-016-1,./product_images/AF-P5-016-1.jpg,1,8
+AF-P5-016,Pride and Prejudice,AF-P5-016-2,./product_images/AF-P5-016-2.jpg,2,8
+AF-P5-017,Persuasion,AF-P5-017-1,./product_images/AF-P5-017-1.jpg,1,9
+AF-P5-018,Mansfield Park,AF-P5-018-1,./product_images/AF-P5-018-1.jpg,1,10
+AF-P5-018,Mansfield Park,AF-P5-018-2,./product_images/AF-P5-018-2.jpg,2,10
+AF-P5-019,Sense and Sensibility,AF-P5-019-1,./product_images/AF-P5-019-1.jpg,1,11
+AF-P5-019,Sense and Sensibility,AF-P5-019-2,./product_images/AF-P5-019-2.jpg,2,11
+AF-P6-001,Sewing Organizer,AF-P6-001-1,./product_images/AF-P6-001-1.jpg,1,1
+AF-P6-001,Sewing Organizer,AF-P6-001-2,./product_images/AF-P6-001-2.jpg,2,1
+AF-P6-002,Trendy Tulip Hair Claws,AF-P6-002-1,./product_images/AF-P6-002-1.jpg,1,2
+AF-P6-003,Clover Charm Bracelet,AF-P6-003-1,./product_images/AF-P6-003-1.jpg,1,3
+AF-P6-004,Lotus Coin Jhumka Earrings,AF-P6-004-1,./product_images/AF-P6-004-1.jpg,1,4
+AF-P6-005,Personalised Pencil Topper,AF-P6-005-1,./product_images/AF-P6-005-1.jpg,1,5
+AF-P6-005,Personalised Pencil Topper,AF-P6-005-2,./product_images/AF-P6-005-2.jpg,2,5
+AF-P6-006,Princess Coloring Set,AF-P6-006-1,./product_images/AF-P6-006-1.jpg,1,6
+AF-P6-006,Princess Coloring Set,AF-P6-006-2,./product_images/AF-P6-006-2.jpg,2,6
+AF-P6-006,Princess Coloring Set,AF-P6-006-3,./product_images/AF-P6-006-3.jpg,3,6
+AF-P6-007,Ashq Bane Alfaz,AF-P6-007-1,./product_images/AF-P6-007-1.jpg,1,7
+AF-P6-007,Ashq Bane Alfaz,AF-P6-007-2,./product_images/AF-P6-007-2.jpg,2,7
+AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-1,./product_images/AF-P8-001-1.jpg,1,
+AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-2,./product_images/AF-P8-001-2.jpg,2,
+AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-3,./product_images/AF-P8-001-3.jpg,3,
+AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-4,./product_images/AF-P8-001-4.jpg,4,
+AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-5,./product_images/AF-P8-001-5.jpg,5,
+AF-P8-001,La-Fairy Embroidered Rayon & Khadi Linen Co-ord Set,AF-P8-001-6,./product_images/AF-P8-001-6.jpg,6,
+AF-P8-002,Soft Faux Georgette Gown with Embellished Net Dupatta,AF-P8-002-1,./product_images/AF-P8-002-1.jpg,1,
+AF-P8-003,Pearl Necklace Set - Design 01,AF-P8-003-1,./product_images/AF-P8-003-1.png,1,
+AF-P8-004,Pearl Necklace Set - Design 02,AF-P8-004-1,./product_images/AF-P8-004-1.png,1,
+AF-P8-005,Pearl Necklace Set - Design 03,AF-P8-005-1,./product_images/AF-P8-005-1.jpg,1,
+AF-P8-006,Layered Pearl Necklace Set - Design 04,AF-P8-006-1,./product_images/AF-P8-006-1.jpg,1,
+AF-P8-007,Pearl Necklace Set - Design 05,AF-P8-007-1,./product_images/AF-P8-007-1.jpg,1,
+AF-P8-008,House of Avika Pearl Necklace Set - Design 06,AF-P8-008-1,./product_images/AF-P8-008-1.jpg,1,
+AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-1,./product_images/AF-P8-009-1.jpg,1,
+AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-2,./product_images/AF-P8-009-2.jpg,2,
+AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-3,./product_images/AF-P8-009-3.jpg,3,
+AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-4,./product_images/AF-P8-009-4.jpg,4,
+AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-5,./product_images/AF-P8-009-5.jpg,5,
+AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-6,./product_images/AF-P8-009-6.jpg,6,
+AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-7,./product_images/AF-P8-009-7.jpg,7,
+AF-P8-009,Printed 5-Piece Handbag & Accessories Combo,AF-P8-009-8,./product_images/AF-P8-009-8.jpg,8,
+AF-P8-010,Textured Black Winter Sweater,AF-P8-010-1,./product_images/AF-P8-010-1.jpg,1,
+AF-P8-011,Burgundy Reindeer-Print Sweatshirt,AF-P8-011-1,./product_images/AF-P8-011-1.jpg,1,
+AF-P8-012,Grey Button-Front Winter Cardigan,AF-P8-012-1,./product_images/AF-P8-012-1.jpg,1,
+AF-P8-013,Navy Zip-Up Winter Jacket,AF-P8-013-1,./product_images/AF-P8-013-1.jpg,1,
+AF-P8-014,Blue Striped Knit Sweater,AF-P8-014-1,./product_images/AF-P8-014-1.jpg,1,
+AF-P8-015,Pink & Orange Check Knit Sweater,AF-P8-015-1,./product_images/AF-P8-015-1.jpg,1,
+AF-P8-016,Pink Textured Winter Sweater,AF-P8-016-1,./product_images/AF-P8-016-1.jpg,1,
+AF-P8-017,Black Winterwear Design - Design 08,AF-P8-017-1,./product_images/AF-P8-017-1.jpg,1,
+AF-P8-018,Cream Button-Front Cardigan,AF-P8-018-1,./product_images/AF-P8-018-1.jpg,1,
+AF-P8-019,Mint Bunny-Print Sweater,AF-P8-019-1,./product_images/AF-P8-019-1.jpg,1,
+AF-P8-020,Pink Bunny-Print Sweater,AF-P8-020-1,./product_images/AF-P8-020-1.jpg,1,
+AF-P8-021,Sage Floral-Knit Sweater,AF-P8-021-1,./product_images/AF-P8-021-1.jpg,1,
+AF-P8-022,Brown Patterned Winter Sweater,AF-P8-022-1,./product_images/AF-P8-022-1.jpg,1,
+AF-P8-023,Purple & White Check Knit Sweater,AF-P8-023-1,./product_images/AF-P8-023-1.jpg,1,
+AF-P8-024,Grey Textured Knit Sweater,AF-P8-024-1,./product_images/AF-P8-024-1.jpg,1,
+AF-P8-025,Black & Yellow Patterned Sweater,AF-P8-025-1,./product_images/AF-P8-025-1.jpg,1,
+AF-P8-026,Pink & Grey Colour-Block Cardigan,AF-P8-026-1,./product_images/AF-P8-026-1.jpg,1,
+AF-P8-027,Navy Button-Front Winter Cardigan,AF-P8-027-1,./product_images/AF-P8-027-1.jpg,1,
+AF-P8-028,Beige Button-Front Cardigan,AF-P8-028-1,./product_images/AF-P8-028-1.jpg,1,
+AF-P8-029,Burgundy Button-Front Cardigan,AF-P8-029-1,./product_images/AF-P8-029-1.jpg,1,
+AF-P8-030,Blue & Red Patterned Winter Sweater,AF-P8-030-1,./product_images/AF-P8-030-1.jpg,1,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-1,./product_images/AF-P8-031-1.jpg,1,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-2,./product_images/AF-P8-031-2.jpg,2,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-3,./product_images/AF-P8-031-3.jpg,3,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-4,./product_images/AF-P8-031-4.jpg,4,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-5,./product_images/AF-P8-031-5.jpg,5,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-6,./product_images/AF-P8-031-6.jpg,6,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-7,./product_images/AF-P8-031-7.jpg,7,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-8,./product_images/AF-P8-031-8.jpg,8,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-9,./product_images/AF-P8-031-9.jpg,9,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-10,./product_images/AF-P8-031-10.jpg,10,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-11,./product_images/AF-P8-031-11.jpg,11,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-12,./product_images/AF-P8-031-12.jpg,12,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-13,./product_images/AF-P8-031-13.jpg,13,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-14,./product_images/AF-P8-031-14.jpg,14,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-15,./product_images/AF-P8-031-15.jpg,15,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-16,./product_images/AF-P8-031-16.jpg,16,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-17,./product_images/AF-P8-031-17.jpg,17,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-18,./product_images/AF-P8-031-18.jpg,18,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-19,./product_images/AF-P8-031-19.jpg,19,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-20,./product_images/AF-P8-031-20.jpg,20,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-21,./product_images/AF-P8-031-21.jpg,21,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-22,./product_images/AF-P8-031-22.jpg,22,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-23,./product_images/AF-P8-031-23.jpg,23,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-24,./product_images/AF-P8-031-24.jpg,24,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-25,./product_images/AF-P8-031-25.jpg,25,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-26,./product_images/AF-P8-031-26.jpg,26,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-27,./product_images/AF-P8-031-27.jpg,27,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-28,./product_images/AF-P8-031-28.jpg,28,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-29,./product_images/AF-P8-031-29.jpg,29,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-30,./product_images/AF-P8-031-30.jpg,30,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-31,./product_images/AF-P8-031-31.jpg,31,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-32,./product_images/AF-P8-031-32.jpg,32,
+AF-P8-031,Maheshwari Cotton Silk Saree - Assorted Pallu Colours,AF-P8-031-33,./product_images/AF-P8-031-33.jpg,33,
+AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-1,./product_images/AF-P8-032-1.jpg,1,
+AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-2,./product_images/AF-P8-032-2.jpg,2,
+AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-3,./product_images/AF-P8-032-3.jpg,3,
+AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-4,./product_images/AF-P8-032-4.jpg,4,
+AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-5,./product_images/AF-P8-032-5.jpg,5,
+AF-P8-032,Classical Foil-Printed Koti Lehenga Set,AF-P8-032-6,./product_images/AF-P8-032-6.jpg,6,
+AF-P9-001,Blue Geometric Print Top & Palazzo Set - Design 01,AF-P9-001-1,./product_images/AF-P9-001-1.jpg,1,
+AF-P9-002,Yellow Floral Print Top & Palazzo Set - Design 02,AF-P9-002-1,./product_images/AF-P9-002-1.jpg,1,
+AF-P9-003,Purple Botanical Print Top & Palazzo Set - Design 03,AF-P9-003-1,./product_images/AF-P9-003-1.jpg,1,
+AF-P9-004,Pink Floral Print Top & Palazzo Set - Design 04,AF-P9-004-1,./product_images/AF-P9-004-1.jpg,1,
+AF-P9-005,Mustard Motif Print Top & Palazzo Set - Design 05,AF-P9-005-1,./product_images/AF-P9-005-1.jpg,1,
+AF-P9-006,Ivory Micro-Print Top & Palazzo Set - Design 06,AF-P9-006-1,./product_images/AF-P9-006-1.jpg,1,
+AF-P9-007,Navy Floral Print Top & Palazzo Set - Design 07,AF-P9-007-1,./product_images/AF-P9-007-1.jpg,1,
+AF-P9-008,Blue Medallion Print Top & Palazzo Set - Design 08,AF-P9-008-1,./product_images/AF-P9-008-1.jpg,1,
+AF-P9-009,Cream & Lilac Motif Top & Palazzo Set - Design 09,AF-P9-009-1,./product_images/AF-P9-009-1.jpg,1,
+AF-P9-010,Black Geometric Print Top & Palazzo Set - Design 10,AF-P9-010-1,./product_images/AF-P9-010-1.jpg,1,
+AF-P9-011,Black & Rust Floral Top & Palazzo Set - Design 11,AF-P9-011-1,./product_images/AF-P9-011-1.jpg,1,
+AF-P9-012,Olive Green Floral Top & Palazzo Set - Design 12,AF-P9-012-1,./product_images/AF-P9-012-1.jpg,1,
+AF-P9-013,Ivory Maroon Floral Top & Palazzo Set - Design 13,AF-P9-013-1,./product_images/AF-P9-013-1.jpg,1,
+AF-P9-014,Ivory Lavender Floral Top & Palazzo Set - Design 14,AF-P9-014-1,./product_images/AF-P9-014-1.jpg,1,
+AF-P9-015,Burgundy Geometric Print Top & Palazzo Set - Design 15,AF-P9-015-1,./product_images/AF-P9-015-1.jpg,1,
+AF-P9-016,Pink Graphic Print Top & Palazzo Set - Design 16,AF-P9-016-1,./product_images/AF-P9-016-1.jpg,1,
+AF-P9-017,Rust Brown Floral Top & Palazzo Set - Design 17,AF-P9-017-1,./product_images/AF-P9-017-1.jpg,1,
+AF-P9-018,Sky Blue Pink Motif Top & Palazzo Set - Design 18,AF-P9-018-1,./product_images/AF-P9-018-1.jpg,1,
+AF-P9-019,Teal Tropical Floral Top & Palazzo Set - Design 19,AF-P9-019-1,./product_images/AF-P9-019-1.jpg,1,
+AF-P9-020,Beige Botanical Print Top & Palazzo Set - Design 20,AF-P9-020-1,./product_images/AF-P9-020-1.jpg,1,
+AF-P9-021,Navy Blue Floral Top & Palazzo Set - Design 21,AF-P9-021-1,./product_images/AF-P9-021-1.jpg,1,
+AF-P9-022,Ivory Multicolour Floral Top & Palazzo Set - Design 22,AF-P9-022-1,./product_images/AF-P9-022-1.jpg,1,
+AF-P9-023,Indigo Diamond Print Top & Palazzo Set - Design 23,AF-P9-023-1,./product_images/AF-P9-023-1.jpg,1,
+AF-P9-024,Taupe Micro-Print Top & Palazzo Set - Design 24,AF-P9-024-1,./product_images/AF-P9-024-1.jpg,1,
+AF-P9-025,Mustard Yellow Floral Top & Palazzo Set - Design 25,AF-P9-025-1,./product_images/AF-P9-025-1.jpg,1,
+AF-P9-026,Pink Botanical Print Top & Palazzo Set - Design 26,AF-P9-026-1,./product_images/AF-P9-026-1.jpg,1,
+AF-P9-027,Blue Geometric Print Top & Palazzo Set - Design 27,AF-P9-027-1,./product_images/AF-P9-027-1.jpg,1,
+AF-P9-028,Deep Teal Floral Top & Palazzo Set - Design 28,AF-P9-028-1,./product_images/AF-P9-028-1.jpg,1,
+AF-P9-029,Navy Floral Print Top & Palazzo Set - Design 29,AF-P9-029-1,./product_images/AF-P9-029-1.jpg,1,
+AF-P9-030,Rust Red Geometric Top & Palazzo Set - Design 30,AF-P9-030-1,./product_images/AF-P9-030-1.jpg,1,
+AF-P9-031,Ivory Elephant Motif Top & Palazzo Set - Design 31,AF-P9-031-1,./product_images/AF-P9-031-1.jpg,1,
+AF-P9-032,Olive Green Motif Top & Palazzo Set - Design 32,AF-P9-032-1,./product_images/AF-P9-032-1.jpg,1,
+AF-P9-033,Berry Red Motif Top & Palazzo Set - Design 33,AF-P9-033-1,./product_images/AF-P9-033-1.jpg,1,
+AF-P9-034,Black & Beige Floral Top & Palazzo Set - Design 34,AF-P9-034-1,./product_images/AF-P9-034-1.jpg,1,
+AF-P9-035,Blue Floral Print Top & Palazzo Set - Design 35,AF-P9-035-1,./product_images/AF-P9-035-1.jpg,1,
+AF-P9-036,Peach Floral Print Top & Palazzo Set - Design 36,AF-P9-036-1,./product_images/AF-P9-036-1.jpg,1,
+AF-P9-037,Ivory Pink Floral Motif Top & Palazzo Set - Design 37,AF-P9-037-1,./product_images/AF-P9-037-1.jpg,1,
+AF-P9-038,Emerald Green Motif Top & Palazzo Set - Design 38,AF-P9-038-1,./product_images/AF-P9-038-1.jpg,1,
+AF-P9-039,Pink Floral Print Top & Palazzo Set - Design 39,AF-P9-039-1,./product_images/AF-P9-039-1.jpg,1,
+AF-P9-040,Black & Gold Floral Top & Palazzo Set - Design 40,AF-P9-040-1,./product_images/AF-P9-040-1.jpg,1,
+AF-P9-041,Wine Red Leaf Print Top & Palazzo Set - Design 41,AF-P9-041-1,./product_images/AF-P9-041-1.jpg,1,
+AF-P9-042,Red Geometric Print Top & Palazzo Set - Design 42,AF-P9-042-1,./product_images/AF-P9-042-1.jpg,1,
+AF-P9-043,Brown Floral Print Top & Palazzo Set - Design 43,AF-P9-043-1,./product_images/AF-P9-043-1.jpg,1,
+AF-P9-044,Ivory Leaf Print Top & Palazzo Set - Design 44,AF-P9-044-1,./product_images/AF-P9-044-1.jpg,1,
+AF-P9-045,Navy Blue Floral Print Top & Palazzo Set - Design 45,AF-P9-045-1,./product_images/AF-P9-045-1.jpg,1,
+AF-P9-046,Aqua Tropical Floral Top & Palazzo Set - Design 46,AF-P9-046-1,./product_images/AF-P9-046-1.jpg,1,
+AF-P9-047,White & Pink Floral Top & Palazzo Set - Design 47,AF-P9-047-1,./product_images/AF-P9-047-1.jpg,1,
+AF-P9-048,Cream Blue Botanical Top & Palazzo Set - Design 48,AF-P9-048-1,./product_images/AF-P9-048-1.jpg,1,
+AF-P9-049,Yellow Floral Print Top & Palazzo Set - Design 49,AF-P9-049-1,./product_images/AF-P9-049-1.jpg,1,
+AF-P9-050,Ivory Grey Motif Top & Palazzo Set - Design 50,AF-P9-050-1,./product_images/AF-P9-050-1.jpg,1,
+AF-P9-051,Maroon Geometric Print Top & Palazzo Set - Design 51,AF-P9-051-1,./product_images/AF-P9-051-1.jpg,1,
+AF-P9-052,Rust Floral Print Top & Palazzo Set - Design 52,AF-P9-052-1,./product_images/AF-P9-052-1.jpg,1,
+AF-P9-053,Teal Pink Floral Top & Palazzo Set - Design 53,AF-P9-053-1,./product_images/AF-P9-053-1.jpg,1,
+AF-P9-054,Red Ornamental Print Top & Palazzo Set - Design 54,AF-P9-054-1,./product_images/AF-P9-054-1.jpg,1,
+AF-P9-055,Navy Floral Print Top & Palazzo Set - Design 55,AF-P9-055-1,./product_images/AF-P9-055-1.jpg,1,
+AF-P9-056,Lilac Floral Print Top & Palazzo Set - Design 56,AF-P9-056-1,./product_images/AF-P9-056-1.jpg,1,
+AF-P9-057,Navy Medallion Print Top & Palazzo Set - Design 57,AF-P9-057-1,./product_images/AF-P9-057-1.jpg,1,
+AF-P9-058,Beige Striped Top & Palazzo Set - Design 58,AF-P9-058-1,./product_images/AF-P9-058-1.jpg,1,
+AF-P9-059,Burgundy Leaf Print Top & Palazzo Set - Design 59,AF-P9-059-1,./product_images/AF-P9-059-1.jpg,1,
+AF-P9-060,White Tropical Leaf Top & Palazzo Set - Design 60,AF-P9-060-1,./product_images/AF-P9-060-1.jpg,1,
+AF-P9-061,Black & Gold Botanical Top & Palazzo Set - Design 61,AF-P9-061-1,./product_images/AF-P9-061-1.jpg,1,
+AF-P9-062,Sky Blue Floral Print Top & Palazzo Set - Design 62,AF-P9-062-1,./product_images/AF-P9-062-1.jpg,1,
+AF-P9-063,Mustard Floral Print Top & Palazzo Set - Design 63,AF-P9-063-1,./product_images/AF-P9-063-1.jpg,1,
+AF-P9-064,Red Botanical Print Top & Palazzo Set - Design 64,AF-P9-064-1,./product_images/AF-P9-064-1.jpg,1,
+AF-P9-065,Yellow-Green Floral Top & Palazzo Set - Design 65,AF-P9-065-1,./product_images/AF-P9-065-1.jpg,1,
+AF-P9-066,Indigo Floral Print Top & Palazzo Set - Design 66,AF-P9-066-1,./product_images/AF-P9-066-1.jpg,1,
+AF-P9-067,Terracotta Geometric Print Top & Palazzo Set - Design 67,AF-P9-067-1,./product_images/AF-P9-067-1.jpg,1,
+AF-P9-068,White & Charcoal Geometric Top & Palazzo Set - Design 68,AF-P9-068-1,./product_images/AF-P9-068-1.jpg,1,
+AF-P9-069,Mustard Botanical Print Top & Palazzo Set - Design 69,AF-P9-069-1,./product_images/AF-P9-069-1.jpg,1,
+AF-P9-070,Berry Red Geometric Top & Palazzo Set - Design 70,AF-P9-070-1,./product_images/AF-P9-070-1.jpg,1,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-1,./product_images/AF-P9-071-1.jpg,1,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-2,./product_images/AF-P9-071-2.jpg,2,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-3,./product_images/AF-P9-071-3.jpg,3,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-4,./product_images/AF-P9-071-4.jpg,4,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-5,./product_images/AF-P9-071-5.jpg,5,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-6,./product_images/AF-P9-071-6.jpg,6,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-7,./product_images/AF-P9-071-7.jpg,7,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-8,./product_images/AF-P9-071-8.jpg,8,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-9,./product_images/AF-P9-071-9.jpg,9,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-10,./product_images/AF-P9-071-10.jpg,10,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-11,./product_images/AF-P9-071-11.jpg,11,
+AF-P9-071,Straight Embroidered Cotton 3-Piece Suit Set,AF-P9-071-12,./product_images/AF-P9-071-12.jpg,12,
+AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-1,./product_images/AF-P9-072-1.jpg,1,
+AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-2,./product_images/AF-P9-072-2.jpg,2,
+AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-3,./product_images/AF-P9-072-3.jpg,3,
+AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-4,./product_images/AF-P9-072-4.jpg,4,
+AF-P9-072,Quilted Hand-Block Print Tote & Pouch Combo,AF-P9-072-5,./product_images/AF-P9-072-5.jpg,5,
+AF-P9-073,Black Long-Sleeve Winter Dress (WD22),AF-P9-073-1,./product_images/AF-P9-073-1.jpg,1,
+AF-P9-074,Mustard Printed Winter Dress (D-317),AF-P9-074-1,./product_images/AF-P9-074-1.jpg,1,
+AF-P9-075,Taupe Belted Winter Dress (WD54),AF-P9-075-1,./product_images/AF-P9-075-1.jpg,1,
+AF-P9-076,Black Sleeveless Flared Dress (D109),AF-P9-076-1,./product_images/AF-P9-076-1.jpg,1,
+AF-P9-077,Black Cutout-Neck Knit Dress (WD23),AF-P9-077-1,./product_images/AF-P9-077-1.jpg,1,
+AF-P9-078,Burgundy Ribbed Winter Dress (WD84),AF-P9-078-1,./product_images/AF-P9-078-1.jpg,1,
+AF-P9-079,Grey Colour-Block Knit Dress (WD18),AF-P9-079-1,./product_images/AF-P9-079-1.jpg,1,
+AF-P9-080,Black Side-Cut Midi Dress (D111),AF-P9-080-1,./product_images/AF-P9-080-1.jpg,1,
+AF-P9-081,Black Hooded Winter Tunic Dress (WD50),AF-P9-081-1,./product_images/AF-P9-081-1.jpg,1,
+AF-P9-082,Dark Green Flared Winter Dress (WD82),AF-P9-082-1,./product_images/AF-P9-082-1.jpg,1,
+AF-P9-083,Brown Textured Winter Dress (WD56),AF-P9-083-1,./product_images/AF-P9-083-1.jpg,1,
+AF-P9-084,Teal Winter Sweater Dress (WD61),AF-P9-084-1,./product_images/AF-P9-084-1.jpg,1,
+AF-P9-085,Beige Knit Winter Dress (WD32),AF-P9-085-1,./product_images/AF-P9-085-1.jpg,1,
+AF-P9-086,Red Cable-Knit Sweater Dress (WC65),AF-P9-086-1,./product_images/AF-P9-086-1.jpg,1,
+AF-P9-087,Grey Piped Winter Dress (WC66),AF-P9-087-1,./product_images/AF-P9-087-1.jpg,1,
+AF-P9-088,Blush Pink Draped Winter Dress (WD76),AF-P9-088-1,./product_images/AF-P9-088-1.jpg,1,
+AF-P9-089,Black Knit Midi Winter Dress (WD71),AF-P9-089-1,./product_images/AF-P9-089-1.jpg,1,
+AF-P9-090,Black Button-Detail Net-Flare Dress (WD74),AF-P9-090-1,./product_images/AF-P9-090-1.jpg,1,
+AF-P9-091,Rust Brown Winter Sweater Dress (WD67),AF-P9-091-1,./product_images/AF-P9-091-1.jpg,1,
+AF-P9-092,Black Wrap-Detail Winter Dress (WD75),AF-P9-092-1,./product_images/AF-P9-092-1.jpg,1,
+AF-P9-093,Multicolour Striped Sweater Dress (WD79),AF-P9-093-1,./product_images/AF-P9-093-1.jpg,1,
+AF-P9-094,Black & Gold Hem-Detail Dress (WD78),AF-P9-094-1,./product_images/AF-P9-094-1.jpg,1,
+AF-P9-095,Black Ribbed Winter Dress (WD73),AF-P9-095-1,./product_images/AF-P9-095-1.jpg,1,
+AF-P9-096,Black Button-Front Knit Dress (WD72),AF-P9-096-1,./product_images/AF-P9-096-1.jpg,1,
+AF-P9-097,Burgundy Turtle-Neck Winter Dress (WC64),AF-P9-097-1,./product_images/AF-P9-097-1.jpg,1,
+AF-P9-098,Beige Slogan Knit Tunic (WD62),AF-P9-098-1,./product_images/AF-P9-098-1.jpg,1,
+AF-P9-099,Red & Black Colour-Block Dress (WD59),AF-P9-099-1,./product_images/AF-P9-099-1.jpg,1,
+AF-P9-100,Grey Winter Midi Dress (WD12),AF-P9-100-1,./product_images/AF-P9-100-1.jpg,1,
+AF-P9-101,Taupe Knit Midi Dress (WD14),AF-P9-101-1,./product_images/AF-P9-101-1.jpg,1,
+AF-P9-102,Black Tunic with Contrast Hem (WD80),AF-P9-102-1,./product_images/AF-P9-102-1.jpg,1,
+AF-P9-103,Beige Ribbed Winter Dress (WD81),AF-P9-103-1,./product_images/AF-P9-103-1.jpg,1,
+AF-P9-104,Black Baggy-Style Midi Dress (D412),AF-P9-104-1,./product_images/AF-P9-104-1.jpg,1,
+AF-P9-105,Black Ribbed Winter Dress (WD20),AF-P9-105-1,./product_images/AF-P9-105-1.jpg,1,
+AF-P9-106,Black Ruffle-Hem Winter Dress (WD83),AF-P9-106-1,./product_images/AF-P9-106-1.jpg,1,
+AF-P9-107,Black Ribbed Long-Sleeve Dress (WD85),AF-P9-107-1,./product_images/AF-P9-107-1.jpg,1,
+AF-P9-108,Grey Polka-Dot Winter Dress (WD70),AF-P9-108-1,./product_images/AF-P9-108-1.jpg,1,
+AF-P9-109,Blush Pink Ruffle-Detail Dress (WD69),AF-P9-109-1,./product_images/AF-P9-109-1.jpg,1,
+AF-P9-110,Light Blue Winter Dress (WD68),AF-P9-110-1,./product_images/AF-P9-110-1.jpg,1,
+AF-P9-111,Chocolate Brown Winter Dress (WD30),AF-P9-111-1,./product_images/AF-P9-111-1.jpg,1,
+AF-P9-112,Black & White Striped Maxi Dress (D83),AF-P9-112-1,./product_images/AF-P9-112-1.jpg,1,
+AF-P9-113,Black Lace-Sleeve Winter Dress (D368),AF-P9-113-1,./product_images/AF-P9-113-1.jpg,1,
+AF-P9-114,Red Top with Black Skirt Set (D301),AF-P9-114-1,./product_images/AF-P9-114-1.jpg,1,
+AF-P9-115,Black V-Neck Winter Maxi Dress (D376),AF-P9-115-1,./product_images/AF-P9-115-1.jpg,1,
+AF-P9-116,Black Hooded Winter Tunic (WD53),AF-P9-116-1,./product_images/AF-P9-116-1.jpg,1,
+AF-P9-117,Navy Blue Puff-Sleeve Winter Tunic (WD06),AF-P9-117-1,./product_images/AF-P9-117-1.jpg,1,
+AF-P9-119,Denim Co-ord Set - Fancy Circle Design,AF-P9-119-1,./product_images/AF-P9-119-1.jpg,1,
+AF-P9-120,Flora Denim Embroidered Co-ord Set (No. 1087),AF-P9-120-1,./product_images/AF-P9-120-1.jpg,1,
+AF-P10-001,Mustard Cat-Graphic Winter Sweater,AF-P10-001-1,./product_images/AF-P10-001-1.jpg,1,
+AF-P10-002,Beige High-Neck Winter Sweater,AF-P10-002-1,./product_images/AF-P10-002-1.jpg,1,
+AF-P10-003,Green Graphic Winter Sweater,AF-P10-003-1,./product_images/AF-P10-003-1.jpg,1,
+AF-P10-004,Blue Textured Winter Sweater,AF-P10-004-1,./product_images/AF-P10-004-1.jpg,1,
+AF-P10-005,Dark Green Textured Winter Sweater,AF-P10-005-1,./product_images/AF-P10-005-1.jpg,1,
+AF-P10-006,Navy Graphic Winter Sweater,AF-P10-006-1,./product_images/AF-P10-006-1.jpg,1,
+AF-P10-007,Olive V-Neck Winter Sweater,AF-P10-007-1,./product_images/AF-P10-007-1.jpg,1,
+AF-P10-008,Magenta Winter Sweater,AF-P10-008-1,./product_images/AF-P10-008-1.jpg,1,
+AF-P10-009,Red Striped Winter Sweater,AF-P10-009-1,./product_images/AF-P10-009-1.jpg,1,
+AF-P10-010,Maroon Patterned Winter Sweater,AF-P10-010-1,./product_images/AF-P10-010-1.jpg,1,
+AF-P10-011,Maroon Fuzzy Winter Tunic,AF-P10-011-1,./product_images/AF-P10-011-1.jpg,1,
+AF-P10-012,Navy Floral-Graphic Winter Tunic,AF-P10-012-1,./product_images/AF-P10-012-1.jpg,1,
+AF-P10-013,Red Heart-Pattern Winter Sweater,AF-P10-013-1,./product_images/AF-P10-013-1.jpg,1,
+AF-P10-014,Black Winter Sweater,AF-P10-014-1,./product_images/AF-P10-014-1.jpg,1,
+AF-P10-015,Light Grey Cable-Knit Winter Sweater,AF-P10-015-1,./product_images/AF-P10-015-1.jpg,1,
+AF-P10-016,Imported Stretchable Wide-Leg Trousers (LC500852),AF-P10-016-1,./product_images/AF-P10-016-1.jpg,1,
+AF-P10-016,Imported Stretchable Wide-Leg Trousers (LC500852),AF-P10-016-2,./product_images/AF-P10-016-2.jpg,2,
+AF-P10-016,Imported Stretchable Wide-Leg Trousers (LC500852),AF-P10-016-3,./product_images/AF-P10-016-3.jpg,3,
+AF-P10-016,Imported Stretchable Wide-Leg Trousers (LC500852),AF-P10-016-4,./product_images/AF-P10-016-4.jpg,4,
+AF-P10-016,Imported Stretchable Wide-Leg Trousers (LC500852),AF-P10-016-5,./product_images/AF-P10-016-5.jpg,5,
+AF-P10-017,Black Universal & Plus-Size Lower,AF-P10-017-1,./product_images/AF-P10-017-1.jpg,1,
+AF-P10-018,Elephant-Print Canvas Shopping Bag,AF-P10-018-1,./product_images/AF-P10-018-1.jpg,1,
+AF-P10-018,Elephant-Print Canvas Shopping Bag,AF-P10-018-2,./product_images/AF-P10-018-2.jpg,2,
+AF-P10-018,Elephant-Print Canvas Shopping Bag,AF-P10-018-3,./product_images/AF-P10-018-3.jpg,3,
+AF-P10-018,Elephant-Print Canvas Shopping Bag,AF-P10-018-4,./product_images/AF-P10-018-4.jpg,4,
+AF-P10-018,Elephant-Print Canvas Shopping Bag,AF-P10-018-5,./product_images/AF-P10-018-5.jpg,5,
+AF-P10-019,Cat-Print Tote Bag,AF-P10-019-1,./product_images/AF-P10-019-1.jpg,1,
+AF-P10-019,Cat-Print Tote Bag,AF-P10-019-2,./product_images/AF-P10-019-2.jpg,2,
+AF-P10-019,Cat-Print Tote Bag,AF-P10-019-3,./product_images/AF-P10-019-3.jpg,3,
+AF-P10-020,Owl-Print Tote Bag,AF-P10-020-1,./product_images/AF-P10-020-1.jpg,1,
+AF-P10-021,Floral Butterfly Tote Bag,AF-P10-021-1,./product_images/AF-P10-021-1.jpg,1,
+AF-P10-021,Floral Butterfly Tote Bag,AF-P10-021-2,./product_images/AF-P10-021-2.jpg,2,
+AF-P10-022,Black Printed Cotton A-Line Set,AF-P10-022-1,./product_images/AF-P10-022-1.jpg,1,
+AF-P10-022,Black Printed Cotton A-Line Set,AF-P10-022-2,./product_images/AF-P10-022-2.jpg,2,
+AF-P10-022,Black Printed Cotton A-Line Set,AF-P10-022-3,./product_images/AF-P10-022-3.jpg,3,
+AF-P10-023,Taupe Button-Front Cotton A-Line Set,AF-P10-023-1,./product_images/AF-P10-023-1.jpg,1,
+AF-P10-023,Taupe Button-Front Cotton A-Line Set,AF-P10-023-2,./product_images/AF-P10-023-2.jpg,2,
+AF-P10-023,Taupe Button-Front Cotton A-Line Set,AF-P10-023-3,./product_images/AF-P10-023-3.jpg,3,
+AF-P10-023,Taupe Button-Front Cotton A-Line Set,AF-P10-023-4,./product_images/AF-P10-023-4.jpg,4,
+AF-P10-024,Navy Blue Motif-Print Cotton A-Line Set,AF-P10-024-1,./product_images/AF-P10-024-1.jpg,1,
+AF-P10-024,Navy Blue Motif-Print Cotton A-Line Set,AF-P10-024-2,./product_images/AF-P10-024-2.jpg,2,
+AF-P10-024,Navy Blue Motif-Print Cotton A-Line Set,AF-P10-024-3,./product_images/AF-P10-024-3.jpg,3,
+AF-P10-024,Navy Blue Motif-Print Cotton A-Line Set,AF-P10-024-4,./product_images/AF-P10-024-4.jpg,4,
+AF-P10-024,Navy Blue Motif-Print Cotton A-Line Set,AF-P10-024-5,./product_images/AF-P10-024-5.jpg,5,
+AF-P10-025,Blue Polka-Dot Cotton A-Line Set,AF-P10-025-1,./product_images/AF-P10-025-1.jpg,1,
+AF-P10-025,Blue Polka-Dot Cotton A-Line Set,AF-P10-025-2,./product_images/AF-P10-025-2.jpg,2,
+AF-P10-025,Blue Polka-Dot Cotton A-Line Set,AF-P10-025-3,./product_images/AF-P10-025-3.jpg,3,
+AF-P10-026,Teal Button-Front Cotton A-Line Set,AF-P10-026-1,./product_images/AF-P10-026-1.jpg,1,
+AF-P10-026,Teal Button-Front Cotton A-Line Set,AF-P10-026-2,./product_images/AF-P10-026-2.jpg,2,
+AF-P10-026,Teal Button-Front Cotton A-Line Set,AF-P10-026-3,./product_images/AF-P10-026-3.jpg,3,
+AF-P10-026,Teal Button-Front Cotton A-Line Set,AF-P10-026-4,./product_images/AF-P10-026-4.jpg,4,
+AF-P10-027,Pink Printed Cotton A-Line Set,AF-P10-027-1,./product_images/AF-P10-027-1.jpg,1,
+AF-P10-027,Pink Printed Cotton A-Line Set,AF-P10-027-2,./product_images/AF-P10-027-2.jpg,2,
+AF-P10-028,White Floral-Print Cotton A-Line Set,AF-P10-028-1,./product_images/AF-P10-028-1.jpg,1,
+AF-P10-028,White Floral-Print Cotton A-Line Set,AF-P10-028-2,./product_images/AF-P10-028-2.jpg,2,
+AF-P10-028,White Floral-Print Cotton A-Line Set,AF-P10-028-3,./product_images/AF-P10-028-3.jpg,3,
+AF-P10-028,White Floral-Print Cotton A-Line Set,AF-P10-028-4,./product_images/AF-P10-028-4.jpg,4,
+AF-P10-029,Navy Check-Print Cotton A-Line Set,AF-P10-029-1,./product_images/AF-P10-029-1.jpg,1,
+AF-P10-029,Navy Check-Print Cotton A-Line Set,AF-P10-029-2,./product_images/AF-P10-029-2.jpg,2,
+AF-P10-029,Navy Check-Print Cotton A-Line Set,AF-P10-029-3,./product_images/AF-P10-029-3.jpg,3,
+AF-P10-029,Navy Check-Print Cotton A-Line Set,AF-P10-029-4,./product_images/AF-P10-029-4.jpg,4,
+AF-P10-030,Red & Cream Floral Cotton A-Line Set,AF-P10-030-1,./product_images/AF-P10-030-1.jpg,1,
+AF-P10-030,Red & Cream Floral Cotton A-Line Set,AF-P10-030-2,./product_images/AF-P10-030-2.jpg,2,
+AF-P10-030,Red & Cream Floral Cotton A-Line Set,AF-P10-030-3,./product_images/AF-P10-030-3.jpg,3,
+AF-P10-030,Red & Cream Floral Cotton A-Line Set,AF-P10-030-4,./product_images/AF-P10-030-4.jpg,4,
+AF-P10-030,Red & Cream Floral Cotton A-Line Set,AF-P10-030-5,./product_images/AF-P10-030-5.jpg,5,
+AF-P10-031,Blue Floral Cotton A-Line Set,AF-P10-031-1,./product_images/AF-P10-031-1.jpg,1,
+AF-P10-031,Blue Floral Cotton A-Line Set,AF-P10-031-2,./product_images/AF-P10-031-2.jpg,2,
+AF-P10-032,Red & White Gingham Cotton A-Line Set,AF-P10-032-1,./product_images/AF-P10-032-1.jpg,1,
+AF-P10-032,Red & White Gingham Cotton A-Line Set,AF-P10-032-2,./product_images/AF-P10-032-2.jpg,2,
+AF-P10-033,Navy & Beige Button-Detail Cotton A-Line Set,AF-P10-033-1,./product_images/AF-P10-033-1.jpg,1,
+AF-P10-033,Navy & Beige Button-Detail Cotton A-Line Set,AF-P10-033-2,./product_images/AF-P10-033-2.jpg,2,
+AF-P10-034,White & Blue Geometric Cotton A-Line Set,AF-P10-034-1,./product_images/AF-P10-034-1.jpg,1,
+AF-P10-034,White & Blue Geometric Cotton A-Line Set,AF-P10-034-2,./product_images/AF-P10-034-2.jpg,2,
+AF-P10-035,Imported Stretchable Stone-Work Dress (LC500738),AF-P10-035-1,./product_images/AF-P10-035-1.jpg,1,
+AF-P10-035,Imported Stretchable Stone-Work Dress (LC500738),AF-P10-035-2,./product_images/AF-P10-035-2.jpg,2,
+AF-P10-035,Imported Stretchable Stone-Work Dress (LC500738),AF-P10-035-3,./product_images/AF-P10-035-3.jpg,3,
+AF-P10-035,Imported Stretchable Stone-Work Dress (LC500738),AF-P10-035-4,./product_images/AF-P10-035-4.jpg,4,
+AF-P10-036,Imported Shimmer Dress with Belt & Rhinestone Work (LC500304),AF-P10-036-1,./product_images/AF-P10-036-1.jpg,1,
+AF-P10-036,Imported Shimmer Dress with Belt & Rhinestone Work (LC500304),AF-P10-036-2,./product_images/AF-P10-036-2.jpg,2,
+AF-P10-037,Imported Net-Sequin Gown (LC500796),AF-P10-037-1,./product_images/AF-P10-037-1.jpg,1,
+AF-P10-037,Imported Net-Sequin Gown (LC500796),AF-P10-037-2,./product_images/AF-P10-037-2.jpg,2,
+AF-P10-037,Imported Net-Sequin Gown (LC500796),AF-P10-037-3,./product_images/AF-P10-037-3.jpg,3,
+AF-P10-037,Imported Net-Sequin Gown (LC500796),AF-P10-037-4,./product_images/AF-P10-037-4.jpg,4,
+AF-P10-038,Imported Stone-Work Dress (LC40092),AF-P10-038-1,./product_images/AF-P10-038-1.jpg,1,

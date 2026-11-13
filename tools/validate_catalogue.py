@@ -16,7 +16,9 @@ def main():
     for p in products:
         if p.get('category') not in category_ids: errors.append(f"{p.get('id')}: unknown category {p.get('category')}")
         if p.get('price') is not None and (not isinstance(p.get('price'),(int,float)) or p['price']<0): errors.append(f"{p.get('id')}: invalid price")
-        if not p.get('images'): errors.append(f"{p.get('id')}: no image filename mapped")
+        image_pending = p.get('imagePending') is True and p.get('active') is False
+        if not p.get('images') and not image_pending: errors.append(f"{p.get('id')}: no image filename mapped")
+        if image_pending and (p.get('images') or p.get('imageIds')): errors.append(f"{p.get('id')}: imagePending record must not contain image mappings")
         ids=p.get('imageIds') or []
         if ids and len(ids)!=len(p.get('images',[])): errors.append(f"{p.get('id')}: imageIds length differs from images length")
         for n,path in enumerate(p.get('images',[]),1):
@@ -53,6 +55,8 @@ def main():
     if missing: warnings.append(f'{len(missing)} mapped photo file(s) are not present yet (they show the branded placeholder until added).')
     else: print('All mapped image files exist.')
     for warning in warnings: print('WARNING: '+warning)
-    print('Run with --require-images after adding all existing and P8 photos to require every path to exist.')
+    pending=sum(1 for p in products if p.get('imagePending') and p.get('active') is False)
+    if pending: print(f'Unpublished image-pending products: {pending}. They are excluded from the storefront and public share pages.')
+    print('Run with --require-images after adding the separate product-image ZIP to require every mapped path to exist.')
     return 0
 if __name__=='__main__': raise SystemExit(main())

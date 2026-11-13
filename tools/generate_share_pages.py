@@ -46,6 +46,7 @@ def main() -> int:
     seen=set(); product_paths=[]
     for p in products:
         if not isinstance(p,dict) or not p.get('id'): continue
+        if p.get('active') is False or (p.get('imagePending') and not p.get('images')): continue
         pid=str(p['id']); slug=safe_slug(p.get('slug') or pid)
         if slug in seen: slug=f"{slug}-{re.sub(r'[^a-zA-Z0-9]+','',pid).lower()}"
         seen.add(slug)

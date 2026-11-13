@@ -121,3 +121,10 @@ py tools/generate_share_pages.py
 - Recommendations use product views, settled search queries, category visits, wishlist additions and cart additions stored only in this browser's localStorage. No server-side tracking or cross-device profile is used.
 - Friendly visit greetings and new-release notices are shown when the storefront is opened. Browser notifications are optional and require the visitor's permission; this static site can show visit-time notifications, but cannot send true background push while the app is closed without a push service/backend.
 - No random interruptive popups are scheduled.
+
+## Product Batch P9 (12 November 2026)
+
+- The website ZIP includes an empty `product_images/` directory by design.
+- Extract `GHARSANSAR_P9_PRODUCT_IMAGES.zip` into the project root so the files land in `product_images/`.
+- This batch adds 120 product records and 134 new image files. `AF-P9-118` is retained as an unpublished image-pending record; supply its photo before activating it. `AF-P9-120` is price-on-enquiry because the source did not provide a price.
+- After adding the image ZIP, run `py tools/generate_share_pages.py` and `py tools/validate_catalogue.py --require-images`.
